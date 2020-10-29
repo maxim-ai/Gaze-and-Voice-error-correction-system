@@ -24,16 +24,20 @@ s.connect(ADDRESS)
 s.send(str.encode('<SET ID="ENABLE_SEND_POG_BEST" STATE="1" />\r\n'))
 s.send(str.encode('<SET ID="ENABLE_SEND_DATA" STATE="1" />\r\n'))
 
-GUI = pointGUI()
+AP = pointGUI()
 
 while 1:
     rxdat = s.recv(1024)
     records = bytes.decode(rxdat).split("<")
     for el in records:
         if ('REC' in el):
+            # print(el)
             coords = el.split("\"")
-            print("X:" + coords[1] + "  Y:" + coords[3])
-            GUI.clearCanvas()
-            GUI.draw(float(coords[1]), float(coords[3]))
+            try:
+                # print("X:" + coords[1] + "  Y:" + coords[3])
+                AP.clearCanvas()
+                AP.draw(float(coords[1]), float(coords[3]))
+            except:
+                x = 0
 
 s.close()

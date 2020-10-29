@@ -1,17 +1,26 @@
 from tkinter import Tk, Canvas, Frame, BOTH
+from PIL import Image, ImageTk
 import time
 class pointGUI:
-    def __init__(self):
 
+    def __init__(self):
         self.root = Tk()
         self.width = self.root.winfo_screenwidth()
-        self.height =  self.root.winfo_screenheight()
+        self.height = self.root.winfo_screenheight()
         self.root.attributes('-fullscreen', True)  # make main window full-screen
+        self.root.overrideredirect(True)
+        self.root.geometry("+250+250")
+        self.root.lift()
+        self.root.wm_attributes("-topmost", True)
+        self.root.wm_attributes("-disabled", True)
+        self.root.wm_attributes("-transparentcolor", "white")
         self.canvas = Canvas(self.root, bg='white', highlightthickness=0)
         self.canvas.pack(fill=BOTH, expand=True)  # configure canvas to occupy the whole main window
         diapason = 0
+
+
     def point(self,x,y):
-        return self.canvas.create_oval(x, y, x+3, y+3)
+        return self.canvas.create_oval(x, y, x+50, y+50, outline="#2541f4",width=10)
 
 
 
@@ -27,15 +36,4 @@ class pointGUI:
 
 #### make tranparent: replace in INIT ####
 
-# self.root = Tk()
-# self.width = self.root.winfo_screenwidth()
-# self.height =  self.root.winfo_screenheight()
-# self.root.attributes('-fullscreen', True)  # make main window full-screen
-# self.root.overrideredirect(True)
-# self.root.geometry("+250+250")
-# self.root.lift()
-# self.root.wm_attributes("-topmost", True)
-# self.root.wm_attributes("-disabled", True)
-# self.root.wm_attributes("-transparentcolor", "white")
-# self.canvas = Canvas(self.root, bg='white', highlightthickness=0)
-# self.canvas.pack(fill=BOTH, expand=True)  # configure canvas to occupy the whole main window
+
