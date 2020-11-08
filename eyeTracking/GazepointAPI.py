@@ -12,6 +12,8 @@
 
 import socket
 from pointGUI import pointGUI
+import time
+import math
 
 # Host machine IP
 HOST = '127.0.0.1'
@@ -21,23 +23,40 @@ ADDRESS = (HOST, PORT)
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect(ADDRESS)
-s.send(str.encode('<SET ID="ENABLE_SEND_POG_BEST" STATE="1" />\r\n'))
+s.send(str.encode('<SET ID="ENABLE_SEND_POG_FIX" STATE="1" />\r\n'))
+s.send(str.encode('<SET ID="ENABLE_SEND_TIME" STATE="1" />\r\n'))
 s.send(str.encode('<SET ID="ENABLE_SEND_DATA" STATE="1" />\r\n'))
+s.send(str.encode('<SET ID="CALIBRATE_START" STATE="1" />\r\n'))
+s.send(str.encode('<SET ID="CALIBRATE_SHOW" STATE="1" />\r\n'))
 
 AP = pointGUI()
-
+prevX = 1000
+prevY = 1000
+prevT = 0.0
+coordinate_list = []
 while 1:
     rxdat = s.recv(1024)
     records = bytes.decode(rxdat).split("<")
     for el in records:
         if ('REC' in el):
-            # print(el)
+            print(el)
             coords = el.split("\"")
+
             try:
-                # print("X:" + coords[1] + "  Y:" + coords[3])
-                AP.clearCanvas()
-                AP.draw(float(coords[1]), float(coords[3]))
+                oclidDis = math.sqrt(math.pow(float(coords[3]) - prevX, 2) + math.pow(float(coords[5]) - prevY, 2))
+                timeThresh = float(coords[1]) - prevT
+                # print(oclidDis)
+                # print(coords[1])
+                # if  abs(prevX - float(coords[3])) > 0.01 and abs(prevY - float(coords[5]) > 0.01):
+                # print("TIME: " + coords[1] + " X:" + coords[3] + "  Y:" + coords[5])
+                # if oclidDis > 0.5:
+                if timeThresh > 0.008:
+                    AP.clearCanvas()
+                    AP.draw(float(coords[3]), float(coords[5]))
+                    prevX = float(coords[3])
+                    prevY = float(coords[5])
+                    prevT = float(coords[1])
             except:
-                x = 0
+                pass
 
 s.close()

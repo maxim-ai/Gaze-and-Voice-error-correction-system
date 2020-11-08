@@ -1,0 +1,499 @@
+2020-06-12 14:36:26,835 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-12 15:09:01,709 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-12 15:26:01,439 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-12 15:27:02,669 ERROR ErrorLog: microsoft speech to text - connection to Internet faild
+2020-06-12 15:33:17,589 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-12 15:34:13,070 ERROR ErrorLog: microsoft speech to text - connection to Internet faild
+2020-06-12 15:40:55,419 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-12 15:41:37,510 ERROR ErrorLog: microsoft speech to text - connection to Internet faild
+2020-06-12 15:49:18,667 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-12 15:53:55,076 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 09:36:33,287 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 09:51:12,542 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 09:53:21,030 ERROR ErrorLog: microsoft speech to text - connection to Internet faild
+2020-06-13 09:54:31,297 ERROR ErrorLog: microsoft speech to text - connection to Internet faild
+2020-06-13 09:58:21,720 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 10:15:26,179 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 10:25:19,072 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 10:31:25,826 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 10:48:31,747 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 11:34:30,985 ERROR ErrorLog: microsoft speech to text - connection to Internet faild
+2020-06-13 12:08:00,042 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 12:24:18,791 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 12:27:44,876 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 12:30:04,046 ERROR ErrorLog: Microsoft Speech to Text - connection to Internet failed
+2020-06-13 12:33:19,414 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 12:36:57,716 ERROR ErrorLog: Microsoft Speech to Text - connection to Internet failed
+2020-06-13 12:41:30,127 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 12:44:00,771 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 12:47:04,564 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 12:51:49,370 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 12:58:47,274 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 12:59:52,905 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 13:09:15,290 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 13:20:11,367 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 13:24:13,361 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 13:38:11,687 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 13:41:09,965 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 13:42:10,500 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 13:43:53,653 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 13:49:22,601 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 13:52:19,876 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 13:53:01,216 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 13:55:10,465 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 14:15:38,282 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 14:20:33,875 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 14:21:57,471 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 14:23:44,196 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 14:25:38,268 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 14:28:22,337 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 14:34:38,484 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 14:35:59,912 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 14:38:01,049 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 14:39:58,187 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 14:47:29,764 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 14:52:34,616 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 14:57:20,318 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 15:06:28,121 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 15:08:42,939 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 15:10:40,312 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 15:12:51,736 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 15:20:06,184 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 15:21:50,512 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 15:24:04,613 INFO ErrorLog: Trying to replace all, there are not enough words in the command
+2020-06-13 15:25:30,254 INFO ErrorLog: Trying to replace all, there are not enough words in the command
+2020-06-13 15:29:18,212 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 15:31:32,141 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 16:05:15,645 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:15,703 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:15,755 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:15,811 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:15,871 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:15,926 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:15,980 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:16,038 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:16,102 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:16,185 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:16,237 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:21,670 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:21,728 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:21,799 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:21,907 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:21,961 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:22,006 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:22,066 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:22,136 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:22,189 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:22,243 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:22,295 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:24,987 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:25,035 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:25,079 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:25,126 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:25,180 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:25,236 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:25,283 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:25,330 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:25,381 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:25,440 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:25,494 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:35,821 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:35,870 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:35,919 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:35,968 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:36,019 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:36,073 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:36,129 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:36,178 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:36,225 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:36,280 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:05:36,336 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:07:11,767 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:07:11,814 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:07:11,869 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:07:11,941 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:07:12,033 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:07:12,097 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:07:12,153 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:07:12,212 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:07:12,270 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:07:12,323 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:07:12,366 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:16,416 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:16,470 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:16,527 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:16,583 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:16,660 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:16,721 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:16,773 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:16,841 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:16,927 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:17,039 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:17,130 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:17,289 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:53,646 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:53,695 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:53,740 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:53,792 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:53,847 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:53,901 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:53,953 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:54,002 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:54,068 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:54,127 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:54,172 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:54,225 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:54,281 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:58,571 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:58,620 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:58,677 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:58,733 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:58,790 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:58,843 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:58,898 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:58,955 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:59,019 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:59,068 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:59,132 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:59,191 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:08:59,242 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:24,449 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:24,524 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:24,583 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:24,641 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:24,698 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:24,755 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:24,818 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:24,876 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:24,931 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:24,989 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:25,045 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:25,120 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:25,182 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:31,512 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:31,561 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:31,619 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:31,677 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:31,736 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:31,799 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:31,857 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:31,917 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:31,971 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:32,025 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:32,085 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:32,137 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:45,408 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:45,457 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:45,508 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:45,559 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:45,604 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:45,650 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:45,699 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:45,757 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:45,805 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:45,850 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:48,942 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:49,009 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:49,068 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:49,122 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:49,168 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:49,226 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:49,283 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:49,335 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:49,408 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:49,469 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:53,241 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:53,301 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:53,349 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:53,400 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:53,464 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:53,526 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:53,589 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:53,636 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:53,686 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:53,734 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:53,786 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:09:53,850 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:10:52,133 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:10:52,191 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:10:52,248 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:10:52,305 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:10:52,378 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:10:52,442 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:10:52,492 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:10:52,548 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:10:52,605 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:10:52,660 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:10:52,709 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:10:52,767 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:10:52,826 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:12:09,438 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:12:09,518 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:12:09,582 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:12:09,659 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:12:09,718 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:12:09,778 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:12:09,841 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:12:09,902 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:12:09,955 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:12:10,002 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:12:10,062 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:12:10,122 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:13:01,439 ERROR ErrorLog: The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2020-06-13 16:14:09,245 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 16:37:42,133 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 17:09:30,330 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 17:13:47,485 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 17:17:21,582 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 17:24:15,255 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 17:25:08,744 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 17:26:40,786 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 17:31:14,278 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 17:32:56,856 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 17:42:34,538 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 17:46:57,077 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 17:49:43,609 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 17:52:13,891 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 17:54:17,599 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 17:55:49,489 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 17:58:29,405 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 18:07:06,184 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 18:10:20,998 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 18:19:18,949 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 18:25:07,396 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 18:33:45,108 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 18:40:32,642 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 18:44:49,162 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 18:47:42,559 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 18:48:45,651 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 18:53:32,173 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 18:56:05,653 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 18:57:43,335 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 18:59:52,790 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 19:04:32,243 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 19:06:32,235 ERROR ErrorLog: Word text editor did not open successfully Command failed
+2020-06-13 19:06:58,471 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-13 19:17:11,234 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-14 15:39:55,310 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-14 16:43:47,399 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-14 16:44:36,708 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-14 16:51:23,485 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-14 17:12:45,702 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-14 17:19:33,403 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-14 17:21:11,715 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-14 17:22:10,383 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-14 17:23:02,524 INFO ErrorLog: אינך רשאי לערוך בחירה זו מאחר שהיא מוגנת.
+2020-06-14 17:23:23,705 INFO ErrorLog: אינך רשאי לערוך בחירה זו מאחר שהיא מוגנת.
+2020-06-14 17:23:42,783 INFO ErrorLog: אינך רשאי לערוך בחירה זו מאחר שהיא מוגנת.
+2020-06-14 17:25:24,757 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-14 17:25:52,036 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-14 17:26:37,095 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-14 17:29:21,825 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-14 17:34:42,327 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-14 18:01:26,895 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-14 18:02:54,469 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-14 18:03:23,803 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-14 18:04:09,664 ERROR ErrorLog: לא ניתן לשמור קובץ זה מאחר שהוא מוגדר לקריאה בלבד.
+כדי לשמור את השינויים, יהיה עליך לשמור את המסמך בשם חדש או במיקום אחר. (C:\Users\bmami\Desktop\בסיסי נתונים.docx)
+2020-06-14 18:05:24,491 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-14 18:06:58,395 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-14 18:11:36,908 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-14 18:30:46,474 INFO ErrorLog: ----------------------Starting System-------------------------
+<<<<<<< HEAD
+2020-06-14 18:39:49,470 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-14 18:40:41,543 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-14 18:41:44,471 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-14 18:44:34,934 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-14 19:31:45,674 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-14 19:32:39,033 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-14 19:32:59,245 ERROR ErrorLog: Word text editor did not open successfully פקודה זו אינה זמינה מפני שאין מסמך פתוח.
+2020-06-14 21:07:07,878 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-14 21:07:20,519 ERROR ErrorLog: Word text editor did not open successfully פקודה זו אינה זמינה מפני שאין מסמך פתוח.
+2020-06-14 21:08:56,894 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 10:57:40,237 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 10:58:04,160 ERROR ErrorLog: Word text editor did not open successfully פעולת שירות או מאפיין אלה אינם זמינים כי פקודה זו אינה זמינה לקריאה.
+2020-06-15 10:59:12,790 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 11:07:36,481 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 11:09:24,407 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 11:10:51,306 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 11:12:51,617 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 11:13:31,881 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 11:17:14,070 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 11:26:33,530 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 11:34:38,241 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 11:35:01,835 ERROR ErrorLog: Microsoft cloud Authentication is Wrong
+2020-06-15 11:36:44,001 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 11:37:02,532 ERROR ErrorLog: Microsoft cloud Authentication is Wrong
+2020-06-15 11:38:36,285 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 11:39:11,270 ERROR ErrorLog: Microsoft cloud Authentication is Wrong
+2020-06-15 11:40:53,707 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 11:41:14,172 ERROR ErrorLog: Microsoft cloud Authentication is Wrong
+2020-06-15 11:41:53,984 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 11:48:36,788 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 11:50:12,203 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 11:50:32,012 ERROR ErrorLog: Microsoft cloud Authentication is Wrong
+2020-06-15 11:58:02,686 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 11:58:22,265 ERROR ErrorLog: Microsoft cloud Authentication is Wrong
+2020-06-15 11:59:45,486 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 12:00:27,770 ERROR ErrorLog: Microsoft cloud Authentication is Wrong
+2020-06-15 12:02:56,720 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 12:03:18,107 ERROR ErrorLog: Microsoft cloud Authentication is Wrong
+2020-06-15 12:04:02,872 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 12:04:21,484 ERROR ErrorLog: Microsoft cloud Authentication is Wrong
+2020-06-15 12:06:15,075 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 12:06:34,927 ERROR ErrorLog: Microsoft cloud Authentication is Wrong
+2020-06-15 12:07:43,656 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 12:08:06,072 ERROR ErrorLog: Microsoft cloud Authentication is Wrong
+2020-06-15 12:08:34,159 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 12:08:53,327 ERROR ErrorLog: Microsoft cloud Authentication is Wrong
+2020-06-15 12:10:10,001 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 12:10:27,279 ERROR ErrorLog: Microsoft cloud Authentication is Wrong
+2020-06-15 12:11:39,345 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 12:11:57,888 ERROR ErrorLog: Microsoft cloud Authentication is Wrong
+2020-06-15 12:14:11,618 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 12:14:58,967 ERROR ErrorLog: Microsoft cloud Authentication is Wrong
+2020-06-15 12:16:28,608 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 12:16:46,939 ERROR ErrorLog: Microsoft cloud Authentication is Wrong
+2020-06-15 12:21:29,779 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 12:22:01,840 ERROR ErrorLog: Microsoft cloud Authentication is Wrong
+2020-06-15 12:22:13,752 ERROR ErrorLog: לא ניתן לשמור קובץ זה מאחר שהוא מוגדר לקריאה בלבד.
+כדי לשמור את השינויים, יהיה עליך לשמור את המסמך בשם חדש או במיקום אחר. (C:\Users\bmami\Desktop\בסיסי נתונים.docx)
+2020-06-15 12:22:29,591 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 12:22:49,070 ERROR ErrorLog: Microsoft cloud Authentication is Wrong
+2020-06-15 12:27:07,968 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 12:27:22,925 ERROR ErrorLog: Microsoft cloud Authentication is Wrong
+2020-06-15 12:27:38,934 ERROR ErrorLog: Microsoft cloud Authentication is Wrong
+=======
+2020-06-14 20:04:20,095 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-14 20:22:05,342 INFO ErrorLog: ----------------------Starting System-------------------------
+>>>>>>> a129d066c6ccdf7b35d645e74723a80905e8b0d0
+2020-06-15 12:35:20,523 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 17:40:03,720 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 17:43:19,144 INFO ErrorLog: לא ניתן לבצע cast של אובייקט COM מסוג 'System.__ComObject' לסוג ממשק 'Microsoft.Office.Interop.Word.Range'. פעולה זו נכשלה מכיוון שקריאת ה- QueryInterface לרכיב ה- COM עבור הממשק עם IID ‏'{0002095E-0000-0000-C000-000000000046}' נכשלה עקב השגיאה הבאה: No such interface supported (חריג מ-  HRESULT: 0x80004002 (E_NOINTERFACE)).
+2020-06-15 17:46:55,845 INFO ErrorLog: המחרוזת ארוכה מדי
+2020-06-15 17:47:19,836 INFO ErrorLog: המחרוזת ארוכה מדי
+2020-06-15 17:53:01,482 INFO ErrorLog: לא ניתן לבצע cast של אובייקט COM מסוג 'System.__ComObject' לסוג ממשק 'Microsoft.Office.Interop.Word.Range'. פעולה זו נכשלה מכיוון שקריאת ה- QueryInterface לרכיב ה- COM עבור הממשק עם IID ‏'{0002095E-0000-0000-C000-000000000046}' נכשלה עקב השגיאה הבאה: No such interface supported (חריג מ-  HRESULT: 0x80004002 (E_NOINTERFACE)).
+2020-06-15 17:57:38,934 INFO ErrorLog: המחרוזת ארוכה מדי
+2020-06-15 18:09:53,013 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 18:13:47,473 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 18:23:30,555 INFO ErrorLog: לא ניתן לבצע cast של אובייקט COM מסוג 'System.__ComObject' לסוג ממשק 'Microsoft.Office.Interop.Word.Range'. פעולה זו נכשלה מכיוון שקריאת ה- QueryInterface לרכיב ה- COM עבור הממשק עם IID ‏'{0002095E-0000-0000-C000-000000000046}' נכשלה עקב השגיאה הבאה: No such interface supported (חריג מ-  HRESULT: 0x80004002 (E_NOINTERFACE)).
+2020-06-15 18:52:16,363 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 18:52:54,632 ERROR ErrorLog: WordSpell exceptiontmp
+2020-06-15 18:54:32,208 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 18:54:55,745 INFO ErrorLog: לא ניתן לבצע cast של אובייקט COM מסוג 'System.__ComObject' לסוג ממשק 'Microsoft.Office.Interop.Word.Range'. פעולה זו נכשלה מכיוון שקריאת ה- QueryInterface לרכיב ה- COM עבור הממשק עם IID ‏'{0002095E-0000-0000-C000-000000000046}' נכשלה עקב השגיאה הבאה: No such interface supported (חריג מ-  HRESULT: 0x80004002 (E_NOINTERFACE)).
+2020-06-15 18:55:02,935 ERROR ErrorLog: WordSpell exceptiontmp
+2020-06-15 18:57:07,765 ERROR ErrorLog: WordSpell exceptiontmp
+2020-06-15 19:05:28,959 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 19:07:17,426 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 19:18:29,090 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 19:42:51,262 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 19:44:58,301 ERROR ErrorLog: WordSpell exceptiontmp
+2020-06-15 19:46:02,103 INFO ErrorLog: ----------------------Starting System-------------------------
+<<<<<<< HEAD
+2020-06-16 11:31:58,562 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-16 12:07:39,405 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-16 12:08:24,883 ERROR ErrorLog: Microsoft Speech to Text - connection to Internet failed
+2020-06-16 12:08:28,292 ERROR ErrorLog: Microsoft Speech to Text - connection to Internet failed
+2020-06-16 12:11:38,264 ERROR ErrorLog: Microsoft Speech to Text - connection to Internet failed
+2020-06-16 12:11:45,555 ERROR ErrorLog: Microsoft Speech to Text - connection to Internet failed
+2020-06-16 12:11:48,687 ERROR ErrorLog: Microsoft Speech to Text - connection to Internet failed
+2020-06-16 12:11:52,723 ERROR ErrorLog: Microsoft Speech to Text - connection to Internet failed
+2020-06-16 12:11:58,536 ERROR ErrorLog: Microsoft Speech to Text - connection to Internet failed
+2020-06-16 12:12:00,674 ERROR ErrorLog: Microsoft Speech to Text - connection to Internet failed
+2020-06-16 12:12:02,228 ERROR ErrorLog: Microsoft Speech to Text - connection to Internet failed
+2020-06-16 12:12:07,629 ERROR ErrorLog: Microsoft Speech to Text - connection to Internet failed
+2020-06-16 12:12:08,615 ERROR ErrorLog: Microsoft Speech to Text - connection to Internet failed
+2020-06-16 12:12:14,713 ERROR ErrorLog: Microsoft Speech to Text - connection to Internet failed
+2020-06-16 12:14:29,249 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-16 12:14:52,792 ERROR ErrorLog: Microsoft cloud region is Wrong
+2020-06-16 12:15:09,445 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-16 12:16:04,160 ERROR ErrorLog: IBM cloud authentication is wrong
+2020-06-16 12:16:28,240 ERROR ErrorLog: IBM cloud authentication is wrong
+2020-06-16 12:17:24,258 ERROR ErrorLog: IBM speech to text - connection to Internet faild
+2020-06-16 12:17:28,090 ERROR ErrorLog: IBM speech to text - connection to Internet faild
+2020-06-16 12:17:30,265 ERROR ErrorLog: IBM speech to text - connection to Internet faild
+2020-06-16 12:17:34,096 ERROR ErrorLog: IBM speech to text - connection to Internet faild
+2020-06-16 12:17:35,467 ERROR ErrorLog: IBM speech to text - connection to Internet faild
+2020-06-16 12:17:37,110 ERROR ErrorLog: IBM speech to text - connection to Internet faild
+2020-06-16 12:17:38,788 ERROR ErrorLog: IBM speech to text - connection to Internet faild
+2020-06-16 12:17:40,342 ERROR ErrorLog: IBM speech to text - connection to Internet faild
+2020-06-16 12:17:42,293 ERROR ErrorLog: IBM speech to text - connection to Internet faild
+2020-06-16 12:17:43,720 ERROR ErrorLog: IBM speech to text - connection to Internet faild
+2020-06-16 12:17:45,763 ERROR ErrorLog: IBM speech to text - connection to Internet faild
+2020-06-16 12:17:59,781 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-16 12:24:16,853 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-16 12:26:44,506 ERROR ErrorLog: IBM speech to text - connection to Internet faild
+2020-06-16 12:28:07,516 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-16 12:37:30,336 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-16 12:37:44,326 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-16 12:39:00,065 ERROR ErrorLog: IBM speech to text - connection to Internet faild
+2020-06-16 12:39:53,131 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-16 12:44:46,023 ERROR ErrorLog: Microsoft cloud Authentication is Wrong
+2020-06-16 12:45:17,313 ERROR ErrorLog: IBM cloud authentication is wrong
+2020-06-16 12:45:41,561 ERROR ErrorLog: IBM cloud authentication is wrong
+2020-06-16 12:46:57,799 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-16 12:47:19,941 ERROR ErrorLog: Microsoft Speech to Text - connection to Internet failed
+2020-06-16 12:48:46,326 ERROR ErrorLog: Microsoft cloud Authentication is Wrong
+2020-06-16 12:49:22,400 ERROR ErrorLog: IBM speech to text - connection to Internet faild
+2020-06-16 12:50:12,364 ERROR ErrorLog: IBM cloud authentication is wrong
+=======
+2020-06-15 20:01:54,044 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 20:13:55,394 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 20:17:24,785 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 20:53:13,999 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 20:54:59,115 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-15 20:56:58,745 INFO ErrorLog: ----------------------Starting System-------------------------
+>>>>>>> 189a8987c3c5e1ace13bb52f404652ddc4b87655
+2020-06-16 12:55:06,897 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-16 15:45:31,019 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-16 16:14:16,831 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-16 20:47:01,128 ERROR ErrorLog: Hunspell spell checker did not open successfully: AFF File not found: D:\year4\project\EyeGazeProject\EyeGaze\WindowsFormsApp1\bin\x64\Debug\en_us.aff
+2020-06-16 20:47:09,445 ERROR ErrorLog: Hunspell spell checker did not open successfully: AFF File not found: D:\year4\project\EyeGazeProject\EyeGaze\WindowsFormsApp1\bin\x64\Debug\en_us.aff
+2020-06-16 20:47:10,376 INFO ErrorLog: ההפניה לאובייקט לא הוגדרה למופע של אובייקט.
+2020-06-16 20:47:11,340 INFO ErrorLog: ההפניה לאובייקט לא הוגדרה למופע של אובייקט.
+2020-06-16 20:47:12,077 INFO ErrorLog: ההפניה לאובייקט לא הוגדרה למופע של אובייקט.
+2020-06-16 20:47:15,626 ERROR ErrorLog: Hunspell spell checker did not open successfully: AFF File not found: D:\year4\project\EyeGazeProject\EyeGaze\WindowsFormsApp1\bin\x64\Debug\en_us.aff
+2020-06-16 20:47:16,979 INFO ErrorLog: ההפניה לאובייקט לא הוגדרה למופע של אובייקט.
+2020-06-16 20:47:17,755 INFO ErrorLog: ההפניה לאובייקט לא הוגדרה למופע של אובייקט.
+2020-06-16 20:47:19,529 INFO ErrorLog: ההפניה לאובייקט לא הוגדרה למופע של אובייקט.
+2020-06-16 20:47:21,085 INFO ErrorLog: ההפניה לאובייקט לא הוגדרה למופע של אובייקט.
+2020-06-16 20:47:21,615 INFO ErrorLog: ההפניה לאובייקט לא הוגדרה למופע של אובייקט.
+2020-06-16 20:47:22,043 INFO ErrorLog: ההפניה לאובייקט לא הוגדרה למופע של אובייקט.
+2020-06-16 20:47:23,424 INFO ErrorLog: ההפניה לאובייקט לא הוגדרה למופע של אובייקט.
+2020-06-16 20:47:23,880 INFO ErrorLog: ההפניה לאובייקט לא הוגדרה למופע של אובייקט.
+2020-06-16 20:47:25,576 INFO ErrorLog: ההפניה לאובייקט לא הוגדרה למופע של אובייקט.
+2020-06-16 20:47:26,158 INFO ErrorLog: ההפניה לאובייקט לא הוגדרה למופע של אובייקט.
+2020-06-16 20:47:27,920 INFO ErrorLog: ההפניה לאובייקט לא הוגדרה למופע של אובייקט.
+2020-06-16 20:47:29,409 INFO ErrorLog: ההפניה לאובייקט לא הוגדרה למופע של אובייקט.
+2020-06-16 20:47:36,301 ERROR ErrorLog: Hunspell spell checker did not open successfully: AFF File not found: D:\year4\project\EyeGazeProject\EyeGaze\WindowsFormsApp1\bin\x64\Debug\en_us.aff
+2020-06-16 20:47:59,973 ERROR ErrorLog: Hunspell spell checker did not open successfully: AFF File not found: D:\year4\project\EyeGazeProject\EyeGaze\WindowsFormsApp1\bin\x64\Debug\en_us.aff
+2020-06-16 20:48:08,747 ERROR ErrorLog: Hunspell spell checker did not open successfully: AFF File not found: D:\year4\project\EyeGazeProject\EyeGaze\WindowsFormsApp1\bin\x64\Debug\en_us.aff
+2020-06-16 20:50:06,320 ERROR ErrorLog: Hunspell spell checker did not open successfully: AFF File not found: D:\year4\project\EyeGazeProject\EyeGaze\WindowsFormsApp1\bin\x64\Debug\en_us.aff
+2020-06-16 20:59:11,484 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-17 13:34:05,145 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-17 15:31:10,102 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-17 18:42:54,744 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-17 18:45:46,317 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-17 18:52:53,085 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-17 18:57:30,018 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-17 18:59:43,731 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-17 19:06:41,328 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-17 19:10:40,869 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-17 19:12:07,354 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-17 19:16:19,666 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-17 21:06:42,323 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-17 21:15:10,158 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-06-17 21:15:36,838 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-10-09 11:08:45,777 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-11-02 11:41:51,518 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-11-02 11:58:28,279 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-11-02 12:02:57,182 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-11-02 12:06:59,622 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-11-02 12:10:17,023 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-11-02 12:10:34,834 ERROR ErrorLog: Word text editor did not open successfully ביצוע הפקודה נכשל
+2020-11-02 12:12:27,455 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-11-07 21:55:13,810 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-11-07 22:00:05,384 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-11-08 11:38:36,048 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-11-08 11:47:26,559 INFO ErrorLog: ----------------------Starting System-------------------------
+2020-11-08 13:03:46,384 INFO ErrorLog: ----------------------Starting System-------------------------
