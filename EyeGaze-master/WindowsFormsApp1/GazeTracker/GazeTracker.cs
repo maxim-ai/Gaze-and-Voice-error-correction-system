@@ -22,6 +22,9 @@ namespace EyeGaze.GazeTracker
 {
     class GazeTracker : InterfaceGazeToCoords
     {
+
+        EyeGaze.EyeTracking.MousePoint m = new MousePoint();
+
         static GazeTracker GT;
 
         public (double,double) position;
@@ -104,7 +107,7 @@ namespace EyeGaze.GazeTracker
 
             while (true)
             {
-                if(timeSum >= 0.8 && xlist.Count > 0 && (char)ch=='>')
+                if(timeSum >= 0.8 && xlist.Count > 0)
                 {
 
                     xAvg = xlist.Average();
@@ -125,11 +128,15 @@ namespace EyeGaze.GazeTracker
                 //start= DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
                 start = DateTime.UtcNow;
 
-
-                ch = data_feed.ReadByte();
+                while((char)ch!='\n')
+                {
+                    ch = data_feed.ReadByte();
+                    incoming_data += (char)ch;
+                }
+                ch = 0;
                 if (ch != -1)
                 {
-                    incoming_data += (char)ch;
+                    //incoming_data += (char)ch;
 
                     // find string terminator ("\r\n") 
                     if (incoming_data.IndexOf("\r\n") != -1)
@@ -157,9 +164,11 @@ namespace EyeGaze.GazeTracker
                             ylist.Add(fpogy);
 
                             //------ paint ----------
-                            Point screen = ScreenSize();
-                            float scale = getWindowScale();
-                            l.MoveCircle((int)((screen.X * fpogx) / scale), (int)((screen.Y * fpogy) / scale));
+                            //Point screen = ScreenSize();
+                            //float scale = getWindowScale();
+                            //Console.WriteLine("X: " + (int)((screen.X * fpogx)) + "Y: " + (int)((screen.Y * fpogy)));
+                            //Console.WriteLine("MouseX: " + m.GetEyeGazePosition().X + " mouseY: " + m.GetEyeGazePosition().Y);
+                            //l.MoveCircle((int)((screen.X * fpogx)), (int)((screen.Y * fpogy)));
 
 
                             //position = currPos;

@@ -41,14 +41,14 @@ namespace EyeGaze.Engine
         static public void Main(String[] args)
         {
 
-            GazeTracker.GazeTracker gt = GazeTracker.GazeTracker.getInstance();
-            gt.connect();
-            gt.listen();
+            //GazeTracker.GazeTracker gt = GazeTracker.GazeTracker.getInstance();
+            //gt.connect();
+            //gt.listen();
 
-            //EngineMain engine = new EngineMain();
-            //SystemLogger.getEventLog().Info("----------------------Starting System-------------------------");
-            //SystemLogger.getErrorLog().Info("----------------------Starting System-------------------------");
-            //Application.Run(new Form1(engine));
+            EngineMain engine = new EngineMain();
+            SystemLogger.getEventLog().Info("----------------------Starting System-------------------------");
+            SystemLogger.getErrorLog().Info("----------------------Starting System-------------------------");
+            Application.Run(new Form1(engine));
         }
 
         public EngineMain()
