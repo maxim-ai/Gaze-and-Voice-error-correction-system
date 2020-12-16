@@ -35,6 +35,22 @@ namespace EyeAPI
         static void Main(string[] args)
         {
 
+            debugger l = new debugger();
+            l.Show();
+            l.Refresh();
+
+            for (int i = 1; i < 10; i++)
+            {
+                Thread.Sleep(1000);
+                l.MoveCircle(l.x + 50, l.y + 50);
+
+            }
+
+            Thread.Sleep(3000);
+            l.MoveCircle(500, 500);
+            Thread.Sleep(5000);
+
+
             bool exit_state = false;
             int startindex, endindex;
             TcpClient gp3_client;

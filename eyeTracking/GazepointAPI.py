@@ -26,8 +26,8 @@ s.connect(ADDRESS)
 s.send(str.encode('<SET ID="ENABLE_SEND_POG_FIX" STATE="1" />\r\n'))
 s.send(str.encode('<SET ID="ENABLE_SEND_TIME" STATE="1" />\r\n'))
 s.send(str.encode('<SET ID="ENABLE_SEND_DATA" STATE="1" />\r\n'))
-s.send(str.encode('<SET ID="CALIBRATE_START" STATE="1" />\r\n'))
-s.send(str.encode('<SET ID="CALIBRATE_SHOW" STATE="1" />\r\n'))
+# s.send(str.encode('<SET ID="CALIBRATE_START" STATE="1" />\r\n'))
+# s.send(str.encode('<SET ID="CALIBRATE_SHOW" STATE="1" />\r\n'))
 
 AP = pointGUI()
 prevX = 1000

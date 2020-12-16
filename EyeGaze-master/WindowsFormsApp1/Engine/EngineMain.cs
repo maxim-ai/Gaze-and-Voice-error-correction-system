@@ -7,7 +7,7 @@ using System.Windows.Forms;
 using WindowsFormsApp1;
 using TriggerWordEvent = EyeGaze.SpeechToText.TriggerWordEvent;
 using System.Drawing;
-using eyeGaze = EyeGaze.EyeTracking.MousePoint;
+using eyeGaze = EyeGaze.EyeTracking.GazePoint;
 using EyeGaze.TextEditor;
 using EyeGaze.SpellChecker;
 using EyeGaze.Logger;
@@ -15,6 +15,7 @@ using System.Threading;
 using EyeGaze.EyeTracking;
 using System.IO;
 using Microsoft.Win32;
+using EyeGaze.GazeTracker;
 
 namespace EyeGaze.Engine
 {
@@ -39,20 +40,15 @@ namespace EyeGaze.Engine
         [STAThread]
         static public void Main(String[] args)
         {
-            //PrintDpiInfo();
-            //float dpiX, dpiY;
-            //Graphics graphics = DisplayInformation.GetForCurrentView().RawPixelsPerViewPixel;
-            //dpiX = graphics.DpiX;
-            //dpiY = graphics.DpiY;
-            var screen = Screen.PrimaryScreen.WorkingArea;
-            float currentDPI = (int)Registry.GetValue("HKEY_CURRENT_USER\\Control Panel\\Desktop\\WindowMetrics", "AppliedDPI",96);
-            var scale = currentDPI / 96;
-            //var screenHeight = Screen.PrimaryScreen.Bounds.Height;
-            //var screenSize = Screen.PrimaryScreen.Bounds.Size;
-            EngineMain engine = new EngineMain();
-            SystemLogger.getEventLog().Info("----------------------Starting System-------------------------");
-            SystemLogger.getErrorLog().Info("----------------------Starting System-------------------------");
-            Application.Run(new Form1(engine));
+
+            GazeTracker.GazeTracker gt = GazeTracker.GazeTracker.getInstance();
+            gt.connect();
+            gt.listen();
+
+            //EngineMain engine = new EngineMain();
+            //SystemLogger.getEventLog().Info("----------------------Starting System-------------------------");
+            //SystemLogger.getErrorLog().Info("----------------------Starting System-------------------------");
+            //Application.Run(new Form1(engine));
         }
 
         public EngineMain()
@@ -71,6 +67,11 @@ namespace EyeGaze.Engine
         }
         public void Start(string textEditorPath, string speechToTextNamespace, string key, string keyInfo, string eyeGazeNamespace, string spellChecker)
         {
+            GazeTracker.GazeTracker GT = GazeTracker.GazeTracker.getInstance();
+            GT.connect();
+            GT.listen();
+
+
             completedEvent = new ManualResetEvent(false);
             SystemLogger.getEventLog().Info("Starting initialization of the system");
             Type eyeGazeType = Type.GetType(eyeGazeNamespace);

@@ -10267,3 +10267,481 @@
 2020-11-08 11:47:42,714 INFO EventLog: Microsoft cloud found : 
 2020-11-08 11:47:49,534 INFO EventLog: Microsoft cloud found : Fix
 2020-11-08 13:03:46,368 INFO EventLog: ----------------------Starting System-------------------------
+2020-11-18 11:49:56,291 INFO EventLog: ----------------------Starting System-------------------------
+2020-12-16 12:24:00,505 INFO EventLog: ----------------------Starting System-------------------------
+2020-12-16 12:27:34,012 INFO EventLog: ----------------------Starting System-------------------------
+2020-12-16 13:56:15,389 INFO EventLog: ----------------------Starting System-------------------------
+2020-12-16 14:30:47,373 INFO EventLog: ----------------------Starting System-------------------------
+2020-12-16 14:31:42,139 INFO EventLog: ----------------------Starting System-------------------------
+2020-12-16 14:38:07,837 INFO EventLog: ----------------------Starting System-------------------------
+2020-12-16 14:38:57,936 INFO EventLog: Starting initialization of the system
+2020-12-16 14:39:02,051 INFO EventLog: Trying to open documtent
+2020-12-16 14:39:02,922 INFO EventLog: Word text editor has been initialized and document is open
+2020-12-16 14:39:04,446 INFO EventLog: Connect to Microsoft cloud
+2020-12-16 14:39:10,493 INFO EventLog: Microsoft cloud found : 
+2020-12-16 14:39:16,918 INFO EventLog: Microsoft cloud found : Microsoft Points
+2020-12-16 14:39:22,874 INFO EventLog: Microsoft cloud found : The Hunter pointed down by action into float your photographer
+2020-12-16 14:39:27,084 INFO EventLog: Microsoft cloud found : The topics and involves after the point
+2020-12-16 14:39:31,783 INFO EventLog: Microsoft cloud found : There is a mirror
+2020-12-16 14:39:37,235 INFO EventLog: Microsoft cloud found : Uh-hu
+2020-12-16 14:39:41,456 INFO EventLog: Microsoft cloud found : Cortana
+2020-12-16 14:39:44,328 INFO EventLog: Microsoft cloud found : Shut up
+2020-12-16 14:39:48,548 INFO EventLog: Microsoft cloud found : Fix mother father
+2020-12-16 14:39:48,593 INFO EventLog: Trigger word Fix + Word
+2020-12-16 14:39:55,065 INFO EventLog: Microsoft cloud found : There are some other father
+2020-12-16 14:39:59,192 INFO EventLog: Microsoft cloud found : Bye
+2020-12-16 14:40:04,656 INFO EventLog: Microsoft cloud found : The translator has agreement
+2020-12-16 14:40:08,685 INFO EventLog: Microsoft cloud found : Limoncello
+2020-12-16 14:40:13,516 INFO EventLog: Microsoft cloud found : Wicker outdoor viny
+2020-12-16 14:40:19,746 INFO EventLog: Microsoft cloud found : Stoppin
+2020-12-16 14:40:22,359 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 14:40:22,386 INFO EventLog: Trigger word Fix
+2020-12-16 14:40:27,851 INFO EventLog: Microsoft cloud found : OK, don't worry
+2020-12-16 14:40:29,771 INFO EventLog: Microsoft cloud found : Change the color
+2020-12-16 14:40:29,797 INFO EventLog: Trigger word Change
+2020-12-16 14:40:38,047 INFO EventLog: Microsoft cloud found : Change change change change
+2020-12-16 14:40:38,071 INFO EventLog: Trigger word Change
+2020-12-16 14:40:42,808 INFO EventLog: Microsoft cloud found : Yeah, sure, no load in the money that came with it
+2020-12-16 14:40:48,445 INFO EventLog: Microsoft cloud found : You're there. I know you're there in English for spelling shifts. Tug software
+2020-12-16 14:40:50,667 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 14:40:50,692 INFO EventLog: Trigger word Fix
+2020-12-16 14:40:50,820 INFO EventLog: No misspelled word found close to eye gaze
+2020-12-16 14:40:56,813 INFO EventLog: Microsoft cloud found : 
+2020-12-16 14:41:00,158 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 14:41:00,185 INFO EventLog: Trigger word Fix
+2020-12-16 14:41:05,972 INFO EventLog: Microsoft cloud found : Turn
+2020-12-16 14:41:10,962 INFO EventLog: Microsoft cloud found : Searc
+2020-12-16 14:41:14,283 INFO EventLog: Microsoft cloud found : Debug
+2020-12-16 14:41:17,933 INFO EventLog: Microsoft cloud found : Yeah my phone
+2020-12-16 14:41:22,859 INFO EventLog: Microsoft cloud found : Yes
+2020-12-16 14:41:30,326 INFO EventLog: Microsoft cloud found : Correct
+2020-12-16 14:41:36,012 INFO EventLog: Microsoft cloud found : Bonus
+2020-12-16 14:41:36,131 INFO EventLog: Disconnect from Microsoft cloud
+2020-12-16 14:41:36,317 INFO EventLog: Spell checker closed successfully
+2020-12-16 14:54:48,218 INFO EventLog: ----------------------Starting System-------------------------
+2020-12-16 14:54:54,007 INFO EventLog: Starting initialization of the system
+2020-12-16 14:54:57,923 INFO EventLog: Trying to open documtent
+2020-12-16 14:54:58,706 INFO EventLog: Word text editor has been initialized and document is open
+2020-12-16 14:55:00,110 INFO EventLog: Connect to Microsoft cloud
+2020-12-16 14:55:04,473 INFO EventLog: Microsoft cloud found : What color
+2020-12-16 14:55:10,475 INFO EventLog: Microsoft cloud found : 
+2020-12-16 14:55:12,707 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 14:55:12,748 INFO EventLog: Trigger word Fix
+2020-12-16 14:55:12,945 INFO EventLog: No misspelled word found close to eye gaze
+2020-12-16 14:55:19,065 INFO EventLog: Microsoft cloud found : Search a song
+2020-12-16 14:55:23,162 INFO EventLog: Microsoft cloud found : OK
+2020-12-16 14:55:26,545 INFO EventLog: Microsoft cloud found : It's not fixed
+2020-12-16 14:55:28,573 INFO EventLog: Microsoft cloud found : Steve
+2020-12-16 14:55:34,421 INFO EventLog: Microsoft cloud found : 
+2020-12-16 14:55:41,752 INFO EventLog: Microsoft cloud found : Cobur
+2020-12-16 14:55:51,381 INFO EventLog: ----------------------Starting System-------------------------
+2020-12-16 14:55:56,406 INFO EventLog: Starting initialization of the system
+2020-12-16 14:56:00,234 INFO EventLog: Trying to open documtent
+2020-12-16 14:56:04,051 INFO EventLog: Word text editor has been initialized and document is open
+2020-12-16 14:56:05,443 INFO EventLog: Connect to Microsoft cloud
+2020-12-16 14:56:05,451 INFO EventLog: Disconnect from Microsoft cloud
+2020-12-16 14:56:05,569 INFO EventLog: Spell checker closed successfully
+2020-12-16 14:56:10,329 INFO EventLog: Starting initialization of the system
+2020-12-16 14:56:14,065 INFO EventLog: Trying to open documtent
+2020-12-16 14:56:14,452 INFO EventLog: Word text editor has been initialized and document is open
+2020-12-16 14:56:14,533 INFO EventLog: Connect to Microsoft cloud
+2020-12-16 14:56:20,552 INFO EventLog: Microsoft cloud found : 
+2020-12-16 14:56:26,693 INFO EventLog: Microsoft cloud found : 
+2020-12-16 14:56:31,324 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 14:57:33,191 INFO EventLog: ----------------------Starting System-------------------------
+2020-12-16 14:58:13,727 INFO EventLog: Starting initialization of the system
+2020-12-16 14:58:17,509 INFO EventLog: Trying to open documtent
+2020-12-16 14:58:18,095 INFO EventLog: Word text editor has been initialized and document is open
+2020-12-16 14:58:19,502 INFO EventLog: Connect to Microsoft cloud
+2020-12-16 14:58:21,746 INFO EventLog: Microsoft cloud found : But the problem
+2020-12-16 14:58:25,696 INFO EventLog: Microsoft cloud found : Donna Summers actual Babadook banter
+2020-12-16 14:58:28,424 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 14:59:49,342 INFO EventLog: ----------------------Starting System-------------------------
+2020-12-16 15:00:15,274 INFO EventLog: Starting initialization of the system
+2020-12-16 15:00:19,054 INFO EventLog: Trying to open documtent
+2020-12-16 15:00:19,506 INFO EventLog: Word text editor has been initialized and document is open
+2020-12-16 15:00:20,928 INFO EventLog: Connect to Microsoft cloud
+2020-12-16 15:00:27,070 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:00:29,200 INFO EventLog: Microsoft cloud found : I don't know right now
+2020-12-16 15:00:30,699 INFO EventLog: Microsoft cloud found : Lots of
+2020-12-16 15:00:34,537 INFO EventLog: Microsoft cloud found : And maybe debuggers
+2020-12-16 15:00:37,361 INFO EventLog: Microsoft cloud found : Instead of an Apple joke
+2020-12-16 15:00:42,888 INFO EventLog: Microsoft cloud found : The killer
+2020-12-16 15:00:47,789 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 15:01:31,957 INFO EventLog: ----------------------Starting System-------------------------
+2020-12-16 15:01:37,651 INFO EventLog: Starting initialization of the system
+2020-12-16 15:01:41,434 INFO EventLog: Trying to open documtent
+2020-12-16 15:01:42,013 INFO EventLog: Word text editor has been initialized and document is open
+2020-12-16 15:01:43,425 INFO EventLog: Connect to Microsoft cloud
+2020-12-16 15:01:49,400 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:01:53,606 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 15:03:12,256 INFO EventLog: ----------------------Starting System-------------------------
+2020-12-16 15:03:17,902 INFO EventLog: Starting initialization of the system
+2020-12-16 15:03:21,734 INFO EventLog: Trying to open documtent
+2020-12-16 15:03:22,403 INFO EventLog: Word text editor has been initialized and document is open
+2020-12-16 15:03:23,813 INFO EventLog: Connect to Microsoft cloud
+2020-12-16 15:03:29,790 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:03:31,718 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 15:03:40,677 INFO EventLog: Trigger word Fix
+2020-12-16 15:03:40,876 INFO EventLog: No misspelled word found close to eye gaze
+2020-12-16 15:03:46,880 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:03:49,521 INFO EventLog: Microsoft cloud found : Open
+2020-12-16 15:03:51,880 INFO EventLog: Microsoft cloud found : Yeah
+2020-12-16 15:03:57,025 INFO EventLog: Microsoft cloud found : Lesbian
+2020-12-16 15:03:58,845 INFO EventLog: Microsoft cloud found : Along with that
+2020-12-16 15:04:04,852 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:04:11,781 INFO EventLog: Microsoft cloud found : As
+2020-12-16 15:04:14,605 INFO EventLog: Microsoft cloud found : I don't know when I get up and come
+2020-12-16 15:04:18,553 INFO EventLog: Microsoft cloud found : Show me show move into position
+2020-12-16 15:04:24,488 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:04:29,903 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:04:34,453 INFO EventLog: Microsoft cloud found : Right
+2020-12-16 15:05:53,027 INFO EventLog: ----------------------Starting System-------------------------
+2020-12-16 15:05:57,172 INFO EventLog: Starting initialization of the system
+2020-12-16 15:06:00,985 INFO EventLog: Trying to open documtent
+2020-12-16 15:06:01,862 INFO EventLog: Word text editor has been initialized and document is open
+2020-12-16 15:06:03,268 INFO EventLog: Connect to Microsoft cloud
+2020-12-16 15:06:08,366 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 15:08:00,968 INFO EventLog: ----------------------Starting System-------------------------
+2020-12-16 15:08:06,430 INFO EventLog: Starting initialization of the system
+2020-12-16 15:08:10,299 INFO EventLog: Trying to open documtent
+2020-12-16 15:08:11,171 INFO EventLog: Word text editor has been initialized and document is open
+2020-12-16 15:08:12,577 INFO EventLog: Connect to Microsoft cloud
+2020-12-16 15:08:18,693 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:08:24,595 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:08:32,330 INFO EventLog: Microsoft cloud found : Fix fix
+2020-12-16 15:08:32,380 INFO EventLog: Trigger word Fix + Word
+2020-12-16 15:08:35,972 INFO EventLog: Microsoft cloud found : The
+2020-12-16 15:08:41,997 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 15:09:17,099 INFO EventLog: ----------------------Starting System-------------------------
+2020-12-16 15:09:21,411 INFO EventLog: Starting initialization of the system
+2020-12-16 15:09:25,198 INFO EventLog: Trying to open documtent
+2020-12-16 15:09:25,858 INFO EventLog: Word text editor has been initialized and document is open
+2020-12-16 15:09:27,292 INFO EventLog: Connect to Microsoft cloud
+2020-12-16 15:09:30,858 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 15:11:47,855 INFO EventLog: ----------------------Starting System-------------------------
+2020-12-16 15:11:53,191 INFO EventLog: Starting initialization of the system
+2020-12-16 15:11:57,073 INFO EventLog: Trying to open documtent
+2020-12-16 15:11:57,957 INFO EventLog: Word text editor has been initialized and document is open
+2020-12-16 15:11:59,352 INFO EventLog: Connect to Microsoft cloud
+2020-12-16 15:12:05,577 INFO EventLog: Microsoft cloud found : System
+2020-12-16 15:12:11,573 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:12:13,794 INFO EventLog: Microsoft cloud found : Boat
+2020-12-16 15:12:15,513 INFO EventLog: Microsoft cloud found : 6
+2020-12-16 15:12:22,457 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:12:25,781 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 15:12:36,992 INFO EventLog: Trigger word Fix
+2020-12-16 15:12:37,176 INFO EventLog: No misspelled word found close to eye gaze
+2020-12-16 15:12:43,916 INFO EventLog: Microsoft cloud found : Is the camera so
+2020-12-16 15:12:46,829 INFO EventLog: Microsoft cloud found : No
+2020-12-16 15:12:49,865 INFO EventLog: Microsoft cloud found : Hello
+2020-12-16 15:12:50,051 INFO EventLog: Disconnect from Microsoft cloud
+2020-12-16 15:12:50,115 INFO EventLog: Spell checker closed successfully
+2020-12-16 15:13:13,282 INFO EventLog: ----------------------Starting System-------------------------
+2020-12-16 15:13:18,586 INFO EventLog: Starting initialization of the system
+2020-12-16 15:13:22,348 INFO EventLog: Trying to open documtent
+2020-12-16 15:13:22,889 INFO EventLog: Word text editor has been initialized and document is open
+2020-12-16 15:13:24,300 INFO EventLog: Connect to Microsoft cloud
+2020-12-16 15:13:30,344 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:13:37,280 INFO EventLog: Microsoft cloud found : Who is Spencer
+2020-12-16 15:13:41,505 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 15:13:41,549 INFO EventLog: Trigger word Fix
+2020-12-16 15:13:41,713 INFO EventLog: No misspelled word found close to eye gaze
+2020-12-16 15:13:47,698 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:13:49,436 INFO EventLog: Microsoft cloud found : 6
+2020-12-16 15:13:54,277 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 15:13:54,306 INFO EventLog: Trigger word Fix
+2020-12-16 15:13:54,426 INFO EventLog: No misspelled word found close to eye gaze
+2020-12-16 15:14:00,438 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:14:04,089 INFO EventLog: Microsoft cloud found : Hey
+2020-12-16 15:14:09,729 INFO EventLog: Microsoft cloud found : Yeah
+2020-12-16 15:14:15,202 INFO EventLog: Microsoft cloud found : My cell phone is going to die hard members it again
+2020-12-16 15:14:18,855 INFO EventLog: Microsoft cloud found : Hey there sugar Mccomas
+2020-12-16 15:14:22,632 INFO EventLog: Microsoft cloud found : Convert 3
+2020-12-16 15:14:28,698 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:14:30,181 INFO EventLog: Microsoft cloud found : Cancel
+2020-12-16 15:14:32,517 INFO EventLog: Microsoft cloud found : I understand
+2020-12-16 15:14:35,370 INFO EventLog: Microsoft cloud found : That's at least the killers
+2020-12-16 15:14:37,297 INFO EventLog: Microsoft cloud found : The council answer
+2020-12-16 15:14:40,019 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 15:14:40,049 INFO EventLog: Trigger word Fix
+2020-12-16 15:14:40,167 INFO EventLog: No misspelled word found close to eye gaze
+2020-12-16 15:14:46,763 INFO EventLog: Microsoft cloud found : Learning
+2020-12-16 15:14:49,618 INFO EventLog: Microsoft cloud found : ****
+2020-12-16 15:14:51,949 INFO EventLog: Microsoft cloud found : My video card
+2020-12-16 15:14:53,999 INFO EventLog: Microsoft cloud found : State
+2020-12-16 15:14:55,738 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 15:14:55,764 INFO EventLog: Trigger word Fix
+2020-12-16 15:14:55,882 INFO EventLog: No misspelled word found close to eye gaze
+2020-12-16 15:15:03,188 INFO EventLog: Microsoft cloud found : Mother to be smaller
+2020-12-16 15:15:06,324 INFO EventLog: Microsoft cloud found : Bama have space for similar
+2020-12-16 15:15:08,072 INFO EventLog: Microsoft cloud found : For sal
+2020-12-16 15:15:14,067 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:15:17,414 INFO EventLog: Microsoft cloud found : Dragon for sale
+2020-12-16 15:15:20,286 INFO EventLog: Microsoft cloud found : That was not physical similar
+2020-12-16 15:15:23,398 INFO EventLog: Microsoft cloud found : No no
+2020-12-16 15:15:28,150 INFO EventLog: Microsoft cloud found : How much how much my air fix
+2020-12-16 15:15:34,157 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:15:37,840 INFO EventLog: Microsoft cloud found : No
+2020-12-16 15:15:42,559 INFO EventLog: Microsoft cloud found : Do not setting
+2020-12-16 15:15:45,705 INFO EventLog: Microsoft cloud found : You know nothing
+2020-12-16 15:15:51,572 INFO EventLog: Microsoft cloud found : Honey
+2020-12-16 15:15:54,425 INFO EventLog: Microsoft cloud found : Yahoo
+2020-12-16 15:16:00,278 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:16:06,964 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:16:10,507 INFO EventLog: Microsoft cloud found : The
+2020-12-16 15:16:15,077 INFO EventLog: Microsoft cloud found : Beautiful Monday 7 as much so
+2020-12-16 15:16:18,224 INFO EventLog: Microsoft cloud found : Locationa
+2020-12-16 15:16:24,037 INFO EventLog: Microsoft cloud found : As well as functional performance summarizer
+2020-12-16 15:16:27,170 INFO EventLog: Microsoft cloud found : Feel about
+2020-12-16 15:16:31,459 INFO EventLog: Microsoft cloud found : Brother
+2020-12-16 15:16:34,327 INFO EventLog: Microsoft cloud found : No
+2020-12-16 15:16:37,648 INFO EventLog: Microsoft cloud found : The harbor
+2020-12-16 15:16:41,272 INFO EventLog: Microsoft cloud found : OK
+2020-12-16 15:16:47,269 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:16:53,304 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:16:59,249 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:17:05,281 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:17:07,582 INFO EventLog: Microsoft cloud found : Ha ha ha
+2020-12-16 15:17:13,588 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:17:16,395 INFO EventLog: Microsoft cloud found : No book
+2020-12-16 15:17:21,037 INFO EventLog: Microsoft cloud found : Not busy
+2020-12-16 15:17:27,061 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:17:33,082 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:17:39,019 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:17:45,040 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:17:50,878 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:17:56,879 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:18:00,204 INFO EventLog: Microsoft cloud found : Michael singe
+2020-12-16 15:18:03,517 INFO EventLog: Microsoft cloud found : Cortana
+2020-12-16 15:18:09,452 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:18:15,474 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:18:21,474 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:18:27,473 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:18:31,129 INFO EventLog: Microsoft cloud found : Things about code then
+2020-12-16 15:18:34,564 INFO EventLog: Microsoft cloud found : Wow
+2020-12-16 15:18:38,814 INFO EventLog: Microsoft cloud found : It is not, yeah
+2020-12-16 15:18:41,648 INFO EventLog: Microsoft cloud found : The weathe
+2020-12-16 15:18:44,979 INFO EventLog: Microsoft cloud found : There isn't
+2020-12-16 15:18:51,013 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:18:55,243 INFO EventLog: Microsoft cloud found : Videos
+2020-12-16 15:19:01,368 INFO EventLog: Microsoft cloud found : Muscle
+2020-12-16 15:19:07,198 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:19:10,333 INFO EventLog: Microsoft cloud found : Mother
+2020-12-16 15:19:13,446 INFO EventLog: Microsoft cloud found : Leonardo's Russi
+2020-12-16 15:19:17,383 INFO EventLog: Microsoft cloud found : Unit
+2020-12-16 15:19:23,334 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:19:27,895 INFO EventLog: Microsoft cloud found : Shaun of Oceania
+2020-12-16 15:19:33,885 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:19:38,210 INFO EventLog: Microsoft cloud found : What is the problem
+2020-12-16 15:19:41,425 INFO EventLog: Microsoft cloud found : Alexa
+2020-12-16 15:19:44,270 INFO EventLog: Microsoft cloud found : Huh
+2020-12-16 15:19:51,630 INFO EventLog: Microsoft cloud found : Yes
+2020-12-16 15:19:53,492 INFO EventLog: Microsoft cloud found : Even there
+2020-12-16 15:19:56,875 INFO EventLog: Microsoft cloud found : Pick up buddy
+2020-12-16 15:19:59,018 INFO EventLog: Microsoft cloud found : It's also getting one
+2020-12-16 15:20:04,989 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:20:08,343 INFO EventLog: Microsoft cloud found : Note this machine
+2020-12-16 15:20:11,502 INFO EventLog: Microsoft cloud found : Custom
+2020-12-16 15:20:15,559 INFO EventLog: Microsoft cloud found : That'll show me
+2020-12-16 15:20:18,915 INFO EventLog: Microsoft cloud found : And it is account
+2020-12-16 15:20:21,752 INFO EventLog: Microsoft cloud found : Hello
+2020-12-16 15:20:26,040 INFO EventLog: Microsoft cloud found : Only about getting someone shorter
+2020-12-16 15:20:29,384 INFO EventLog: Microsoft cloud found : Eat beef dish
+2020-12-16 15:20:35,532 INFO EventLog: Microsoft cloud found : So you actually causes a writing there. Sometimes a particle is never perfect
+2020-12-16 15:20:38,861 INFO EventLog: Microsoft cloud found : WWW
+2020-12-16 15:20:44,812 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:20:48,874 INFO EventLog: Microsoft cloud found : Albin
+2020-12-16 15:20:52,158 INFO EventLog: Microsoft cloud found : How was your day
+2020-12-16 15:20:54,584 INFO EventLog: Microsoft cloud found : Doing my
+2020-12-16 15:21:00,510 INFO EventLog: Microsoft cloud found : Roosevelt collaborated with initial share sale comma regardless overtime
+2020-12-16 15:21:03,658 INFO EventLog: Microsoft cloud found : So once
+2020-12-16 15:21:06,472 INFO EventLog: Microsoft cloud found : Bye bye
+2020-12-16 15:21:13,580 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:21:21,533 INFO EventLog: Microsoft cloud found : OK
+2020-12-16 15:21:25,472 INFO EventLog: Microsoft cloud found : If ever you should put him in what
+2020-12-16 15:21:31,409 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:21:38,653 INFO EventLog: Microsoft cloud found : Launched
+2020-12-16 15:21:42,001 INFO EventLog: Microsoft cloud found : Yeah
+2020-12-16 15:21:48,001 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:21:51,437 INFO EventLog: Microsoft cloud found : EBay
+2020-12-16 15:21:53,057 INFO EventLog: Microsoft cloud found : Cancel
+2020-12-16 15:21:56,222 INFO EventLog: Microsoft cloud found : Loga
+2020-12-16 15:22:00,656 INFO EventLog: Microsoft cloud found : Leah venomous snake
+2020-12-16 15:22:08,114 INFO EventLog: Microsoft cloud found : Sho
+2020-12-16 15:22:12,381 INFO EventLog: Microsoft cloud found : Thank you
+2020-12-16 15:22:16,651 INFO EventLog: Microsoft cloud found : My game issue shareholder
+2020-12-16 15:22:22,087 INFO EventLog: Microsoft cloud found : No
+2020-12-16 15:22:26,170 INFO EventLog: Microsoft cloud found : Hello
+2020-12-16 15:22:34,043 INFO EventLog: Microsoft cloud found : Can Russia key
+2020-12-16 15:22:39,477 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:22:44,942 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:22:50,346 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:22:54,608 INFO EventLog: Microsoft cloud found : Minutes
+2020-12-16 15:22:57,989 INFO EventLog: Microsoft cloud found : My
+2020-12-16 15:23:00,891 INFO EventLog: Microsoft cloud found : Read
+2020-12-16 15:23:13,518 INFO EventLog: Microsoft cloud found : Why are my muscles even water this on my little server differently definition or they are on the horn horn as extroverted
+2020-12-16 15:23:16,944 INFO EventLog: Microsoft cloud found : Can you message
+2020-12-16 15:23:40,276 INFO EventLog: ----------------------Starting System-------------------------
+2020-12-16 15:24:06,495 INFO EventLog: Starting initialization of the system
+2020-12-16 15:24:10,332 INFO EventLog: Trying to open documtent
+2020-12-16 15:24:14,215 INFO EventLog: Connect to Microsoft cloud
+2020-12-16 15:27:41,271 INFO EventLog: ----------------------Starting System-------------------------
+2020-12-16 15:28:08,044 INFO EventLog: Starting initialization of the system
+2020-12-16 15:28:11,856 INFO EventLog: Trying to open documtent
+2020-12-16 15:28:12,703 INFO EventLog: Word text editor has been initialized and document is open
+2020-12-16 15:28:14,100 INFO EventLog: Connect to Microsoft cloud
+2020-12-16 15:28:20,171 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:28:26,416 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 15:28:26,462 INFO EventLog: Trigger word Fix
+2020-12-16 15:28:26,631 INFO EventLog: No misspelled word found close to eye gaze
+2020-12-16 15:28:30,175 INFO EventLog: Microsoft cloud found : So let's
+2020-12-16 15:28:36,706 INFO EventLog: Microsoft cloud found : My name
+2020-12-16 15:28:41,646 INFO EventLog: Microsoft cloud found : Ke
+2020-12-16 15:28:47,701 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:28:51,264 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 15:28:51,293 INFO EventLog: Trigger word Fix
+2020-12-16 15:28:51,410 INFO EventLog: No misspelled word found close to eye gaze
+2020-12-16 15:28:56,424 INFO EventLog: Microsoft cloud found : Clom
+2020-12-16 15:29:02,327 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:29:08,393 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:29:12,428 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 15:29:12,456 INFO EventLog: Trigger word Fix
+2020-12-16 15:29:12,572 INFO EventLog: No misspelled word found close to eye gaze
+2020-12-16 15:29:16,648 INFO EventLog: Microsoft cloud found : You should try my shotgun
+2020-12-16 15:29:21,076 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 15:29:21,103 INFO EventLog: Trigger word Fix
+2020-12-16 15:29:21,222 INFO EventLog: No misspelled word found close to eye gaze
+2020-12-16 15:29:25,146 INFO EventLog: Microsoft cloud found : One fix
+2020-12-16 15:29:27,674 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 15:29:27,704 INFO EventLog: Trigger word Fix
+2020-12-16 15:29:27,825 INFO EventLog: No misspelled word found close to eye gaze
+2020-12-16 15:29:32,835 INFO EventLog: Microsoft cloud found : Summer
+2020-12-16 15:29:35,656 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 15:29:35,683 INFO EventLog: Trigger word Fix
+2020-12-16 15:29:35,801 INFO EventLog: No misspelled word found close to eye gaze
+2020-12-16 15:29:42,154 INFO EventLog: Microsoft cloud found : Order net
+2020-12-16 15:29:42,294 INFO EventLog: Disconnect from Microsoft cloud
+2020-12-16 15:29:42,377 INFO EventLog: Spell checker closed successfully
+2020-12-16 15:32:54,740 INFO EventLog: ----------------------Starting System-------------------------
+2020-12-16 15:40:51,967 INFO EventLog: ----------------------Starting System-------------------------
+2020-12-16 15:42:43,078 INFO EventLog: ----------------------Starting System-------------------------
+2020-12-16 15:42:59,593 INFO EventLog: Starting initialization of the system
+2020-12-16 15:43:03,484 INFO EventLog: Trying to open documtent
+2020-12-16 15:43:03,969 INFO EventLog: Word text editor has been initialized and document is open
+2020-12-16 15:43:05,397 INFO EventLog: Connect to Microsoft cloud
+2020-12-16 15:43:11,289 INFO EventLog: Microsoft cloud found : Sounds familiar
+2020-12-16 15:43:13,500 INFO EventLog: Microsoft cloud found : Give me a call
+2020-12-16 15:43:17,537 INFO EventLog: Microsoft cloud found : Search for some in the call
+2020-12-16 15:43:19,257 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 15:43:19,301 INFO EventLog: Trigger word Fix
+2020-12-16 15:43:19,775 INFO EventLog: Changed sdfg to sift in point x=723 y=543 range start=375 end=379
+2020-12-16 15:43:23,840 INFO EventLog: Microsoft cloud found : Unemployment
+2020-12-16 15:43:32,337 INFO EventLog: Microsoft cloud found : No, no, no. The other lockers are hooking unless the country and say I am at Easter cultures
+2020-12-16 15:43:35,656 INFO EventLog: Microsoft cloud found : Bonus about mushroom
+2020-12-16 15:43:39,976 INFO EventLog: Microsoft cloud found : Then assess it correctly
+2020-12-16 15:43:40,185 INFO EventLog: Disconnect from Microsoft cloud
+2020-12-16 15:43:40,353 INFO EventLog: Spell checker closed successfully
+2020-12-16 15:45:19,430 INFO EventLog: ----------------------Starting System-------------------------
+2020-12-16 15:45:25,849 INFO EventLog: Starting initialization of the system
+2020-12-16 15:45:29,706 INFO EventLog: Trying to open documtent
+2020-12-16 15:45:30,336 INFO EventLog: Word text editor has been initialized and document is open
+2020-12-16 15:45:31,748 INFO EventLog: Connect to Microsoft cloud
+2020-12-16 15:45:36,085 INFO EventLog: Microsoft cloud found : In a sense of this time
+2020-12-16 15:45:41,502 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 15:45:41,549 INFO EventLog: Trigger word Fix
+2020-12-16 15:45:41,999 INFO EventLog: Changed sdfg to sift in point x=723 y=330 range start=135 end=139
+2020-12-16 15:45:47,854 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:45:53,873 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:45:56,283 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 15:45:56,312 INFO EventLog: Trigger word Fix
+2020-12-16 15:45:56,673 INFO EventLog: Changed sdfg to sift in point x=878 y=383 range start=205 end=209
+2020-12-16 15:46:01,347 INFO EventLog: Microsoft cloud found : OK
+2020-12-16 15:46:04,734 INFO EventLog: Microsoft cloud found : Does she have shoot pool
+2020-12-16 15:46:06,654 INFO EventLog: Microsoft cloud found : Hello
+2020-12-16 15:46:09,547 INFO EventLog: Microsoft cloud found : Yahoo
+2020-12-16 15:46:12,882 INFO EventLog: Microsoft cloud found : My love
+2020-12-16 15:46:17,110 INFO EventLog: Microsoft cloud found : Kids there
+2020-12-16 15:46:22,271 INFO EventLog: Microsoft cloud found : Can you really learn
+2020-12-16 15:46:23,997 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 15:46:24,024 INFO EventLog: Trigger word Fix
+2020-12-16 15:46:24,387 INFO EventLog: Changed sdfg to sift in point x=957 y=610 range start=510 end=514
+2020-12-16 15:46:30,311 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:46:36,242 INFO EventLog: Microsoft cloud found : So Tom Izzo, Tokyo, Kibana, Sababa situation, report falsehoods
+2020-12-16 15:46:40,851 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 15:46:40,882 INFO EventLog: Trigger word Fix
+2020-12-16 15:46:41,238 INFO EventLog: Changed sdfg to sift in point x=605 y=321 range start=125 end=129
+2020-12-16 15:46:47,257 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:46:53,265 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:46:58,205 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 15:46:58,237 INFO EventLog: Trigger word Fix
+2020-12-16 15:46:58,594 INFO EventLog: Changed sdfg to sift in point x=816 y=369 range start=200 end=204
+2020-12-16 15:47:00,918 INFO EventLog: Microsoft cloud found : Nothing
+2020-12-16 15:47:12,017 INFO EventLog: Microsoft cloud found : Kilo Baker commotion heroes additional secure. The home key running CUDA here is a bit of it. The honking social overhead can actually timber ocean registration
+2020-12-16 15:47:17,956 INFO EventLog: Microsoft cloud found : 
+2020-12-16 15:47:21,621 INFO EventLog: Microsoft cloud found : Shut up
+2020-12-16 15:47:28,196 INFO EventLog: Microsoft cloud found : Set my status
+2020-12-16 15:47:31,453 INFO EventLog: Microsoft cloud found : What's the
+2020-12-16 15:47:38,336 INFO EventLog: Microsoft cloud found : Can you show me
+2020-12-16 15:47:44,777 INFO EventLog: Microsoft cloud found : What up items in my stove smart here? Mr Kelly Miller. So they fix fix
+2020-12-16 15:47:48,521 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 15:47:48,550 INFO EventLog: Trigger word Fix
+2020-12-16 15:47:48,917 INFO EventLog: Changed sdfg to sift in point x=746 y=369 range start=195 end=199
+2020-12-16 15:47:54,760 INFO EventLog: Microsoft cloud found : OK
+2020-12-16 15:48:00,261 INFO EventLog: Microsoft cloud found : So there's a positive
+2020-12-16 15:48:05,294 INFO EventLog: Microsoft cloud found : Smash heroes
+2020-12-16 15:48:11,313 INFO EventLog: Microsoft cloud found : There is a circle event that we should talk coordinate local toward
+2020-12-16 15:48:17,282 INFO EventLog: Microsoft cloud found : Vanessa Show warrior Python. Is it much more my stuff
+2020-12-16 15:48:20,628 INFO EventLog: Microsoft cloud found : Yeah, I mean I don't know about
+2020-12-16 15:48:22,866 INFO EventLog: Microsoft cloud found : Yeah
+2020-12-16 15:48:26,169 INFO EventLog: Microsoft cloud found : How much to fix
+2020-12-16 15:48:30,195 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 15:48:30,222 INFO EventLog: Trigger word Fix
+2020-12-16 15:48:30,593 INFO EventLog: Changed sdfg to sift in point x=746 y=466 range start=320 end=324
+2020-12-16 15:48:34,638 INFO EventLog: Microsoft cloud found : Netflix
+2020-12-16 15:48:43,209 INFO EventLog: Microsoft cloud found : Citizenship processor, Bruce Commission or mean as much as a lot of these responsibilities according to KIRO
+2020-12-16 15:48:46,056 INFO EventLog: Microsoft cloud found : And in the middle
+2020-12-16 15:48:49,682 INFO EventLog: Microsoft cloud found : Google, turn it on
+2020-12-16 15:48:49,891 INFO EventLog: Disconnect from Microsoft cloud
+2020-12-16 15:48:50,085 INFO EventLog: Spell checker closed successfully
+2020-12-16 16:46:11,150 INFO EventLog: ----------------------Starting System-------------------------
+2020-12-16 16:46:20,033 INFO EventLog: Starting initialization of the system
+2020-12-16 16:46:24,299 INFO EventLog: Trying to open documtent
+2020-12-16 16:46:25,196 INFO EventLog: Word text editor has been initialized and document is open
+2020-12-16 16:46:26,623 INFO EventLog: Connect to Microsoft cloud
+2020-12-16 16:46:30,206 INFO EventLog: Microsoft cloud found : How
+2020-12-16 16:46:36,142 INFO EventLog: Microsoft cloud found : 
+2020-12-16 16:46:41,127 INFO EventLog: Microsoft cloud found : OK zone
+2020-12-16 16:46:47,708 INFO EventLog: Microsoft cloud found : Canada is a Roman certo
+2020-12-16 16:46:50,337 INFO EventLog: Microsoft cloud found : My last longer
+2020-12-16 16:46:53,477 INFO EventLog: Microsoft cloud found : Spiritual
+2020-12-16 16:46:57,310 INFO EventLog: Microsoft cloud found : That's about people behind
+2020-12-16 16:47:03,157 INFO EventLog: Microsoft cloud found : 
+2020-12-16 16:47:09,116 INFO EventLog: Microsoft cloud found : Stop
+2020-12-16 16:47:15,124 INFO EventLog: Microsoft cloud found : 
+2020-12-16 16:47:19,285 INFO EventLog: Microsoft cloud found : So Mr. Count the cash, allow Cover 12
+2020-12-16 16:47:22,161 INFO EventLog: Microsoft cloud found : Abla loz
+2020-12-16 16:47:28,525 INFO EventLog: Microsoft cloud found : Sensitive
+2020-12-16 16:47:31,461 INFO EventLog: Microsoft cloud found : Hello
+2020-12-16 16:47:37,381 INFO EventLog: Microsoft cloud found : 
+2020-12-16 16:47:40,506 INFO EventLog: Microsoft cloud found : The
+2020-12-16 16:47:43,959 INFO EventLog: Microsoft cloud found : You know that
+2020-12-16 16:47:46,340 INFO EventLog: Microsoft cloud found : Is the Cadillac available
+2020-12-16 16:47:50,013 INFO EventLog: Microsoft cloud found : Kansas
+2020-12-16 16:47:56,034 INFO EventLog: Microsoft cloud found : 
+2020-12-16 16:48:02,069 INFO EventLog: Microsoft cloud found : My gate
+2020-12-16 16:48:07,980 INFO EventLog: Microsoft cloud found : 
+2020-12-16 16:48:12,198 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 16:48:12,256 INFO EventLog: Trigger word Fix
+2020-12-16 16:48:12,587 INFO EventLog: Changed sdfg to sift in point x=87 y=457 range start=5 end=9
+2020-12-16 16:48:18,502 INFO EventLog: Microsoft cloud found : 
+2020-12-16 16:48:23,428 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 16:48:23,461 INFO EventLog: Trigger word Fix
+2020-12-16 16:48:23,883 INFO EventLog: Changed sdfg to sift in point x=10 y=563 range start=120 end=124
+2020-12-16 16:48:29,004 INFO EventLog: Microsoft cloud found : Fix
+2020-12-16 16:48:29,053 INFO EventLog: Trigger word Fix
+2020-12-16 16:48:29,261 INFO EventLog: Changed sdfg to sift in point x=10 y=457 range start=0 end=4
+2020-12-16 16:48:35,285 INFO EventLog: Microsoft cloud found : 
+2020-12-16 16:48:39,566 INFO EventLog: Microsoft cloud found : OK, I'm on my laptop
+2020-12-16 16:48:39,689 INFO EventLog: Disconnect from Microsoft cloud
+2020-12-16 16:48:39,872 INFO EventLog: Spell checker closed successfully

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sshho\\OneDrive\\Desktop\\Projects\\Visual Studio\\EyeGaze-master\\EyeAPI\\EyeAPI.csproj": {}
+    "C:\\Users\\sshho\\PycharmProjects\\final_project\\EyeGaze-master\\EyeAPI\\EyeAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sshho\\OneDrive\\Desktop\\Projects\\Visual Studio\\EyeGaze-master\\EyeAPI\\EyeAPI.csproj": {
+    "C:\\Users\\sshho\\PycharmProjects\\final_project\\EyeGaze-master\\EyeAPI\\EyeAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sshho\\OneDrive\\Desktop\\Projects\\Visual Studio\\EyeGaze-master\\EyeAPI\\EyeAPI.csproj",
+        "projectUniqueName": "C:\\Users\\sshho\\PycharmProjects\\final_project\\EyeGaze-master\\EyeAPI\\EyeAPI.csproj",
         "projectName": "EyeAPI",
-        "projectPath": "C:\\Users\\sshho\\OneDrive\\Desktop\\Projects\\Visual Studio\\EyeGaze-master\\EyeAPI\\EyeAPI.csproj",
+        "projectPath": "C:\\Users\\sshho\\PycharmProjects\\final_project\\EyeGaze-master\\EyeAPI\\EyeAPI.csproj",
         "packagesPath": "C:\\Users\\sshho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sshho\\OneDrive\\Desktop\\Projects\\Visual Studio\\EyeGaze-master\\EyeAPI\\obj\\",
+        "outputPath": "C:\\Users\\sshho\\PycharmProjects\\final_project\\EyeGaze-master\\EyeAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sshho\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

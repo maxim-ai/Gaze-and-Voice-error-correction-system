@@ -55,14 +55,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fixover.exe" size="414176">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fixover.exe" size="418272">
       <assemblyIdentity name="Fixover" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>VPyeNX0gmPijAQe8L4xttW3035KkIqwKXIKtJb6Wnrg=</dsig:DigestValue>
+        <dsig:DigestValue>rifrsplDXTAj+UqxSHwgEX+giq1pJSfxMwP775xQqpc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

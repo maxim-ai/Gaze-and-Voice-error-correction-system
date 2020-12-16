@@ -15,15 +15,15 @@ namespace EyeGaze.EyeTracking
     {
         public override Point GetEyeGazePosition()
         {
-            Point returnPoint = new Point();
-            Point gazePoint = getGaze();
+            //Point gazePoint = getGaze();
             Point screen = ScreenSize();
             float scale = getWindowScale();
-
-            //Console.WriteLine(lpPoint);
-
-            returnPoint.X = (int)((screen.X * gazePoint.X) / scale);
-            returnPoint.Y = (int)((screen.Y * gazePoint.Y) / scale);
+            GazeTracker.GazeTracker gt = GazeTracker.GazeTracker.getInstance();
+            (double, double) position = gt.position;
+            Console.WriteLine("first "+position.Item1+" "+position.Item2);
+            Point returnPoint = new Point((int)((screen.X * position.Item1) / scale), (int)((screen.Y * position.Item2) / scale));
+            Console.WriteLine("second " + returnPoint.X + " " + returnPoint.Y);
+            Console.WriteLine(returnPoint);
             return returnPoint;
         }
 

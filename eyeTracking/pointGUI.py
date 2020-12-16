@@ -20,7 +20,7 @@ class pointGUI:
 
 
     def point(self,x,y):
-        return self.canvas.create_oval(x-15, y-15, x, y, outline="#2541f4",width=5)
+        return self.canvas.create_oval(x-25, y-25, x+25, y+25, outline="#2541f4",width=20)
 
 
 

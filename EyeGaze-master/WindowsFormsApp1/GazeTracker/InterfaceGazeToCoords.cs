@@ -3,8 +3,8 @@ namespace EyeGaze.GazeTracker
 {
     interface InterfaceGazeToCoords
     {
-        void connect(string key, string keyInfo);
-        string listen();
+        void connect();
+        void listen();
         void disconnect();
     }
 }

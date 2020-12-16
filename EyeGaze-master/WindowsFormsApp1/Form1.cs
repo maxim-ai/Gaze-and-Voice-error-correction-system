@@ -110,7 +110,7 @@ namespace WindowsFormsApp1
                 this.TopMost = false;
                 string spellChecker = getSpellChecker();
                 this.thread = new Thread(() =>
-                this.engineMain.Start(path, this.speechToText, keyText.Text, keyInfoText.Text, "EyeGaze.EyeTracking.MousePoint", spellChecker));
+                this.engineMain.Start(path, this.speechToText, keyText.Text, keyInfoText.Text, "EyeGaze.EyeTracking.GazePoint", spellChecker));
                 this.thread.Start();
             }
         }
