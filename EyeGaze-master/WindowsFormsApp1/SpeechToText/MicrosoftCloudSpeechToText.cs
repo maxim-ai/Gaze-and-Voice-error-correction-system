@@ -15,6 +15,7 @@ namespace EyeGaze.SpeechToText
         public void connect(string key, string keyInfo)
         {
             keyinfo = keyInfo;
+            //keyinfo = "eastus";
             var config = SpeechConfig.FromSubscription(key, keyInfo);
             recognizer = new SpeechRecognizer(config);
             SystemLogger.getEventLog().Info("Connect to Microsoft cloud");

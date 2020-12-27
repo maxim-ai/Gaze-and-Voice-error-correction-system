@@ -56,9 +56,9 @@ namespace EyeGaze.TextEditor
 
 
             }
-            catch(Exception e)
+            catch (Exception e)
             {
-                SystemLogger.getErrorLog().Error(String.Format("Word text editor did not open successfully {0}",e.Message));
+                SystemLogger.getErrorLog().Error(String.Format("Word text editor did not open successfully {0}", e.Message));
             }
         }
 
@@ -89,13 +89,25 @@ namespace EyeGaze.TextEditor
         /// </summary>
         /// <param name="cursorPosition"></param>
         /// <returns></returns>
-        public Range getRangeFromPoint(System.Drawing.Point cursorPosition)
+        public List<Range> getRangeFromPoint(System.Drawing.Point cursorPosition)
         {
-            Range rangeFromPoint = (Range)window.RangeFromPoint(cursorPosition.X, cursorPosition.Y);
-            int start = rangeFromPoint.Start;
-            rangeFromPoint.Start = start - 40;
-            rangeFromPoint.MoveEnd(WdUnits.wdWord, 5);
-            return rangeFromPoint;
+            Range rangeOrg = (Range)window.RangeFromPoint(cursorPosition.X, cursorPosition.Y);
+            Range rangeDown = (Range)window.RangeFromPoint(cursorPosition.X, cursorPosition.Y + 30);
+            Range rangeUp = (Range)window.RangeFromPoint(cursorPosition.X, cursorPosition.Y - 30);
+            List<Range> ranges = new List<Range>();
+            ranges.Add(rangeOrg);
+            ranges.Add(rangeDown);
+            ranges.Add(rangeUp);
+
+            foreach (Range r in ranges)
+            {
+                r.Start = r.Start - 10;
+                r.End = r.End + 10;
+            }
+            //int start = rangeFromPoint.Start;
+            //rangeFromPoint.Start = start - 40;
+            //rangeFromPoint.MoveEnd(WdUnits.wdWord, 5);
+            return ranges;
         }
 
         public Range getRangeFromCursor(System.Drawing.Point cursorPosition)
@@ -112,7 +124,7 @@ namespace EyeGaze.TextEditor
             int start = cursorPositionExpanded.Start;
             cursorPositionExpanded.Start = start - 170;
             List<CoordinateRange> wordsInRange = GetAllWordsInRange(cursorPositionExpanded);
-            if (wordsInRange[wordsInRange.Count-1].range.End == cursorPositionExpanded.End)
+            if (wordsInRange[wordsInRange.Count - 1].range.End == cursorPositionExpanded.End)
                 wordsInRange.RemoveAt(wordsInRange.Count - 1);
             return wordsInRange;
         }
@@ -223,16 +235,31 @@ namespace EyeGaze.TextEditor
                     fileIsOpen = false;
                 }
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 SystemLogger.getErrorLog().Error(e.Message);
             }
         }
-        
+
         public override List<CoordinateRange> GetAllWordsInArea(System.Drawing.Point position)
         {
-            Range range = getRangeFromPoint(position);
-            return GetAllWordsInRange(range);
+            List<Range> ranges = getRangeFromPoint(position);
+            List<CoordinateRange> cr = new List<CoordinateRange>();
+            Dictionary<(int, int), CoordinateRange> dict = new Dictionary<(int, int), CoordinateRange>();
+            foreach (Range r in ranges)
+            {
+                List<CoordinateRange> currRange = GetAllWordsInRange(r);
+                //cr.AddRange(currRange);
+                foreach (CoordinateRange coor in currRange)
+                {
+                    if (!dict.ContainsKey((coor.X, coor.Y)))
+                    {
+                        dict.Add((coor.X, coor.Y), coor);
+                    }
+                }
+            }
+            List<CoordinateRange> result = new List<CoordinateRange>(dict.Values);
+            return result;
         }
 
         public override List<CoordinateRange> GetAllWordsInRange(Range range)
@@ -252,13 +279,13 @@ namespace EyeGaze.TextEditor
                     if (!Char.IsPunctuation(c))
                     {
                         window.GetPoint(out left, out top, out width, out height, wordRange);
-                        result.Add(new CoordinateRange(left, top, wordRange, word));
+                        result.Add(new CoordinateRange(left + width / 2, top, wordRange, word));
                     }
                 }
                 catch (FormatException)
                 {
                     window.GetPoint(out left, out top, out width, out height, wordRange);
-                    result.Add(new CoordinateRange(left, top, wordRange, word));
+                    result.Add(new CoordinateRange(left + width / 2, top, wordRange, word));
                 }
                 catch (Exception) { }
             }
@@ -273,13 +300,14 @@ namespace EyeGaze.TextEditor
                 SystemLogger.getEventLog().Info(String.Format("Cursor has successfully moved to point: x={0} y={1} range: {2}",
                     position.X, position.Y, rangeFromPoint));
             }
-            catch (Exception e) {
+            catch (Exception e)
+            {
                 SystemLogger.getErrorLog().Info(e.Message);
             }
         }
         private bool IsUpper(string str)
         {
-            foreach(Char c in str)
+            foreach (Char c in str)
             {
                 if (c <= 'A' || c >= 'Z')
                     return false;
@@ -303,7 +331,7 @@ namespace EyeGaze.TextEditor
             Range rangeToHighlight = wordToChange.range.Duplicate;
             Thread thread = new Thread(() => HighlightWord(rangeToHighlight));
             thread.Start();
-            SystemLogger.getEventLog().Info(String.Format("Changed {0} to {1} in point x={2} y={3} range start={4} end={5}", 
+            SystemLogger.getEventLog().Info(String.Format("Changed {0} to {1} in point x={2} y={3} range start={4} end={5}",
                 wordToChange.word, newWord, wordToChange.X, wordToChange.Y, wordToChange.range.Start, wordToChange.range.End));
         }
         private void word_DocumentBeforeClose(Document Doc, ref bool Cancel)
@@ -345,12 +373,12 @@ namespace EyeGaze.TextEditor
                 return;
             foreach (CoordinateRange wordToChange in replaceAllWordsToChange)
             {
-                if(wordToChange.range.Start == range.Start && wordToChange.range.End == range.End)
+                if (wordToChange.range.Start == range.Start && wordToChange.range.End == range.End)
                 {
                     string str = replaceAllOldWord;
                     if (wordToChange.word[0] >= 'A' && wordToChange.word[0] <= 'Z') // first letter is upper case
                     {
-                       str = str[0].ToString().ToUpper() + str.Substring(1);
+                        str = str[0].ToString().ToUpper() + str.Substring(1);
                     }
                     wordToChange.range.Text = str;
                     wordToChange.range.End = wordToChange.range.Start + str.Length;
@@ -378,7 +406,7 @@ namespace EyeGaze.TextEditor
                 string str = newWord;
                 if (IsUpper(wordToChange.word))
                 {
-                    newWord =newWord.ToUpper();
+                    newWord = newWord.ToUpper();
                 }
                 else if (wordToChange.word[0] >= 'A' && wordToChange.word[0] <= 'Z') // first letter is upper case
                 {
@@ -398,7 +426,7 @@ namespace EyeGaze.TextEditor
             WdColorIndex prevColor = rangeToHighlight.HighlightColorIndex;
             rangeToHighlight.HighlightColorIndex = WdColorIndex.wdYellow;
             Thread.Sleep(4000);
-            if(fileIsOpen)
+            if (fileIsOpen)
                 rangeToHighlight.HighlightColorIndex = prevColor;
         }
 
@@ -414,7 +442,7 @@ namespace EyeGaze.TextEditor
         //using the replace all trigger word
         //if the system is not in replace all mode then return;
         public override void ReplaceAllDone()
-        {    
+        {
             if (!isReplaceAll)
                 return;
             UnHighlightWord(this.replaceAllWordsToChange);

@@ -64,7 +64,7 @@ namespace EyeGaze
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "PopUpDisappear";
-           // this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            // this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.ResumeLayout(false);
 
         }

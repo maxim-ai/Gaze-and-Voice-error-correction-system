@@ -157,7 +157,7 @@ namespace WindowsFormsApp1
                     isAuthenticationVisible(true);
                     keyLabel.Text = "Subscription Key :";
                     keyInfoLabel.Text = "Region :";
-                    keyText.Text = "4ed9a9d9ba4741f68c455b160ae0d57c";
+                    keyText.Text = "69a12462814f4df1a7b1d38c67963adf";
                     keyInfoText.Text = "westeurope";
                     this.speechToText = "EyeGaze.SpeechToText.MicrosoftCloudSpeechToText";
                     this.crerdentialsButton.Enabled = true;

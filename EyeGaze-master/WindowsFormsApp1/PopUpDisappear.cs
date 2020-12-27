@@ -17,15 +17,20 @@ namespace EyeGaze
             InitializeComponent();
             this.label1.Text = message;
         }
-
+    
         private void popUpmessageLable_TextChanged(object sender, EventArgs e)
         {
-
+    
         }
-
+    
         private void label1_Click(object sender, EventArgs e)
         {
-
+    
+        }
+    
+        private void PopUpDisappear_Load(object sender, EventArgs e)
+        {
+    
         }
     }
 }

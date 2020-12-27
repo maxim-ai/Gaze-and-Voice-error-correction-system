@@ -117,7 +117,7 @@ namespace EyeGaze.GazeTracker
                     xStd = GetStandardDeviation(xlist);
                     yStd = GetStandardDeviation(ylist);
                     double std_avarage = (xStd + yStd) / 2;
-                    if (std_avarage < 0.1)
+                    if (std_avarage < 0.05)
                     {
                         position = (xAvg, yAvg);
                     }
@@ -164,8 +164,8 @@ namespace EyeGaze.GazeTracker
                             ylist.Add(fpogy);
 
                             //------ paint ----------
-                            //Point screen = ScreenSize();
-                            //float scale = getWindowScale();
+                            Point screen = ScreenSize();
+                            float scale = getWindowScale();
                             //Console.WriteLine("X: " + (int)((screen.X * fpogx)) + "Y: " + (int)((screen.Y * fpogy)));
                             //Console.WriteLine("MouseX: " + m.GetEyeGazePosition().X + " mouseY: " + m.GetEyeGazePosition().Y);
                             //l.MoveCircle((int)((screen.X * fpogx)), (int)((screen.Y * fpogy)));

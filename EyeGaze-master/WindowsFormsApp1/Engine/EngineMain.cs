@@ -21,6 +21,9 @@ namespace EyeGaze.Engine
 {
     public class EngineMain
     {
+        //private List<String> fixing = null;
+        private (List<String> list,int x,int y) fixing = (null,0,0);
+
         private AbstractTextEditor<CoordinateRange> textEditor;
         private SpellCheckerAbstract spellChecker;
         public event TriggerHandlerMessage messageToForm;
@@ -40,11 +43,18 @@ namespace EyeGaze.Engine
         [STAThread]
         static public void Main(String[] args)
         {
+            //List<String> words = new List<string>();
+            //words.Add("word one");
+            //words.Add("word two");
+            //words.Add("word three");
+            //words.Add("word four");
+            //words.Add("word five");
+            //suggestionPopup sugg = new suggestionPopup(900,500,words);
+            //sugg.Show();
+            //sugg.TopMost = true;
+            //Application.Run(sugg);
 
-            //GazeTracker.GazeTracker gt = GazeTracker.GazeTracker.getInstance();
-            //gt.connect();
-            //gt.listen();
-
+            
             EngineMain engine = new EngineMain();
             SystemLogger.getEventLog().Info("----------------------Starting System-------------------------");
             SystemLogger.getErrorLog().Info("----------------------Starting System-------------------------");
@@ -67,11 +77,13 @@ namespace EyeGaze.Engine
         }
         public void Start(string textEditorPath, string speechToTextNamespace, string key, string keyInfo, string eyeGazeNamespace, string spellChecker)
         {
-            GazeTracker.GazeTracker GT = GazeTracker.GazeTracker.getInstance();
-            GT.connect();
-            GT.listen();
-
-
+            if(eyeGazeNamespace== "EyeGaze.EyeTracking.GazePoint")
+            {
+                GazeTracker.GazeTracker GT = GazeTracker.GazeTracker.getInstance();
+                GT.connect();
+                GT.listen();
+            }
+            
             completedEvent = new ManualResetEvent(false);
             SystemLogger.getEventLog().Info("Starting initialization of the system");
             Type eyeGazeType = Type.GetType(eyeGazeNamespace);
@@ -187,6 +199,8 @@ namespace EyeGaze.Engine
 
             else if (e.triggerWord.Equals("done"))
                 ReplaceAllDone();
+            else if (e.triggerWord.Equals("more"))
+                MoreSuggestions();
 
         }
 
@@ -344,6 +358,18 @@ namespace EyeGaze.Engine
             }
         }
 
+        public void MoreSuggestions()
+        {
+            if (fixing.list != null && fixing.list.Count>0)
+            {
+                suggestionPopup sp = new suggestionPopup(fixing.x - 90, fixing.y - 50, fixing.list);
+                sp.Refresh();
+                sp.Show();
+                sp.TopMost = true;
+                Application.DoEvents();
+            }
+        }
+
         private string[] GetSenteceWithoutPunctuation(string[] sentence)
         {
             for(int i=0; i < sentence.Length; i++)
@@ -374,7 +400,10 @@ namespace EyeGaze.Engine
                 CoordinateRange wordToFix = sortedMisspelledWordsByDistance.First().Key;
                 List<string> suggestions = spellChecker.GetSpellingSuggestions(wordToFix.word);
                 if (suggestions.Count > 0)
+                {
+                    fixing = (suggestions, wordToFix.X, wordToFix.Y);
                     textEditor.ReplaceWord(wordToFix, suggestions.First().Trim());
+                }
                 return;
             }
             SystemLogger.getEventLog().Info("No misspelled word found close to eye gaze");
