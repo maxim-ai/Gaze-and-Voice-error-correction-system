@@ -110,7 +110,7 @@ namespace WindowsFormsApp1
                 this.TopMost = false;
                 string spellChecker = getSpellChecker();
                 this.thread = new Thread(() =>
-                this.engineMain.Start(path, this.speechToText, keyText.Text, keyInfoText.Text, "EyeGaze.EyeTracking.GazePoint", spellChecker));
+                    this.engineMain.Start(path, this.speechToText, keyText.Text, keyInfoText.Text, "EyeGaze.EyeTracking.MousePoint", spellChecker));
                 this.thread.Start();
             }
         }
@@ -139,7 +139,6 @@ namespace WindowsFormsApp1
             {
                 this.path = ofd.FileName;
                 WorkspaceText.Text = path;
-
             }
         }
 
@@ -242,6 +241,11 @@ namespace WindowsFormsApp1
                 System.Diagnostics.Process.Start("https://zoharmoneta8.wixsite.com/mysite-fixer1/user-s-guide");
             }
             catch { }
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

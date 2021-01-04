@@ -37,10 +37,10 @@ namespace EyeGaze.EyeTracking
                 StringFormat drawFormat = new StringFormat();
                 drawFormat.LineAlignment = StringAlignment.Center;
                 drawFormat.Alignment = StringAlignment.Center;
-                pen.Width = 8.0F;
+                pen.Width = 2.0F;
                 //g.DrawString("1", new Font("Arial", 250), new SolidBrush(Color.FromArgb(255, 0, 0, 255)), screen.Width / 2, screen.Height / 2, drawFormat);
                 //g.DrawEllipse(pen, screen.Width * 3 / 8, screen.Height * 2 / 8, 400, 400);
-                g.DrawEllipse(pen, new Rectangle(this.x, this.y, 15, 15));
+                g.DrawEllipse(pen, new Rectangle(this.x, this.y, 30, 30));
             }
         }
 

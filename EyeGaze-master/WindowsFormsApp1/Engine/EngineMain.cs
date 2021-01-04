@@ -16,6 +16,7 @@ using EyeGaze.EyeTracking;
 using System.IO;
 using Microsoft.Win32;
 using EyeGaze.GazeTracker;
+using System.Timers;
 
 namespace EyeGaze.Engine
 {
@@ -58,7 +59,8 @@ namespace EyeGaze.Engine
             EngineMain engine = new EngineMain();
             SystemLogger.getEventLog().Info("----------------------Starting System-------------------------");
             SystemLogger.getErrorLog().Info("----------------------Starting System-------------------------");
-            Application.Run(new Form1(engine));
+            //Application.Run(new Form1(engine));
+            Controller c = new Controller(engine);
         }
 
         public EngineMain()
@@ -179,7 +181,7 @@ namespace EyeGaze.Engine
                 Fix(eyeGaze.GetEyeGazePosition());
 
             else if (e.triggerWord.Equals("fix word"))
-                FixWord(e.content[0], eyeGaze.GetEyeGazePosition());
+                FixWord(e.content[1], eyeGaze.GetEyeGazePosition());
 
             //Meirav's will
             else if (e.triggerWord.Equals("change"))
@@ -201,6 +203,8 @@ namespace EyeGaze.Engine
                 ReplaceAllDone();
             else if (e.triggerWord.Equals("more"))
                 MoreSuggestions();
+            else if (e.triggerWord.Equals("1") || e.triggerWord.Equals("2") || e.triggerWord.Equals("3") || e.triggerWord.Equals("4") || e.triggerWord.Equals("5"))
+                FixFromSuggestions(e.triggerWord);
 
         }
 
@@ -299,7 +303,7 @@ namespace EyeGaze.Engine
             {
                 sentence = GetSenteceWithoutPunctuation(sentence);
                 string wordToReplace = sentence[0];
-                string replaceToWord = sentence[1];
+                string replaceToWord = sentence[2];
                 SystemLogger.getEventLog().Info("Trigger word Replace");
                 List<CoordinateRange> wordsInSight = textEditor.GetAllWordsInArea(position);
                 List<KeyValuePair<CoordinateRange, double>> distanceFromCoordinate = FindDistanceFromCoordinate(wordsInSight, position).ToList();
@@ -360,14 +364,42 @@ namespace EyeGaze.Engine
 
         public void MoreSuggestions()
         {
-            if (fixing.list != null && fixing.list.Count>0)
+            try
             {
-                suggestionPopup sp = new suggestionPopup(fixing.x - 90, fixing.y - 50, fixing.list);
-                sp.Refresh();
-                sp.Show();
-                sp.TopMost = true;
-                Application.DoEvents();
+                textEditor.ShowMoreSuggestions();
+                textEditor.choosingSuggestion = true;
             }
+            catch (Exception e)
+            {
+                SystemLogger.getErrorLog().Info(e.Message);
+            }
+            //if (fixing.list != null && fixing.list.Count>0)
+            //{
+            //    suggestionPopup sp = new suggestionPopup(fixing.x - 90, fixing.y - 50, fixing.list);
+            //    sp.Refresh();
+            //    sp.Show();
+            //    sp.TopMost = true;
+            //    Application.DoEvents();
+            //}
+        }
+
+        public void FixFromSuggestions(String trigger)
+        {
+            if (!textEditor.choosingSuggestion) return;
+            //List<string> numbers = new List<string>();
+            //numbers.Add("zero");
+            //numbers.Add("one");
+            //numbers.Add("two");
+            //numbers.Add("three");
+            //numbers.Add("four");
+            //numbers.Add("five");
+            //int index = numbers.IndexOf(trigger);
+            int index= Int32.Parse(trigger)-1;
+            String fixedWord = textEditor.fixedWord.list[index];
+            textEditor.ReplaceWord(textEditor.fixedWord.coord, fixedWord.Trim());
+            textEditor.HideMoreSuggestions();
+            //textEditor.FixFromSuggestions(index);
+
         }
 
         private string[] GetSenteceWithoutPunctuation(string[] sentence)
@@ -401,8 +433,10 @@ namespace EyeGaze.Engine
                 List<string> suggestions = spellChecker.GetSpellingSuggestions(wordToFix.word);
                 if (suggestions.Count > 0)
                 {
-                    fixing = (suggestions, wordToFix.X, wordToFix.Y);
                     textEditor.ReplaceWord(wordToFix, suggestions.First().Trim());
+                    suggestions.RemoveAt(0);
+                    //fixing = (suggestions, wordToFix.X, wordToFix.Y);
+                    textEditor.fixedWord= (suggestions, wordToFix);
                 }
                 return;
             }

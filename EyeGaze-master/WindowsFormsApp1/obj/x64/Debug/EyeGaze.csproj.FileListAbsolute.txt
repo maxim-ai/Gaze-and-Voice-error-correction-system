@@ -255,7 +255,6 @@ C:\Users\sshho\OneDrive\Desktop\Projects\Visual Studio\EyeGaze-master\WindowsFor
 C:\Users\sshho\OneDrive\Desktop\Projects\Visual Studio\EyeGaze-master\WindowsFormsApp1\obj\x64\Debug\Fixover.exe.manifest
 C:\Users\sshho\OneDrive\Desktop\Projects\Visual Studio\EyeGaze-master\WindowsFormsApp1\obj\x64\Debug\Fixover.application
 C:\Users\sshho\OneDrive\Desktop\Projects\Visual Studio\EyeGaze-master\WindowsFormsApp1\obj\x64\Debug\EyeGaze.csproj.CopyComplete
-C:\Users\sshho\PycharmProjects\final_project\EyeGaze-master\WindowsFormsApp1\obj\x64\Debug\EyeGaze.csprojAssemblyReference.cache
 C:\Users\sshho\PycharmProjects\final_project\EyeGaze-master\WindowsFormsApp1\obj\x64\Debug\WindowsFormsApp1.Form1.resources
 C:\Users\sshho\PycharmProjects\final_project\EyeGaze-master\WindowsFormsApp1\obj\x64\Debug\EyeGaze.PopUp.resources
 C:\Users\sshho\PycharmProjects\final_project\EyeGaze-master\WindowsFormsApp1\obj\x64\Debug\EyeGaze.PopUpDisappear.resources
@@ -358,3 +357,9 @@ C:\Users\sshho\PycharmProjects\final_project\EyeGaze-master\WindowsFormsApp1\bin
 C:\Users\sshho\PycharmProjects\final_project\EyeGaze-master\WindowsFormsApp1\bin\x64\Debug\System.Memory.xml
 C:\Users\sshho\PycharmProjects\final_project\EyeGaze-master\WindowsFormsApp1\bin\x64\Debug\System.Numerics.Vectors.xml
 C:\Users\sshho\PycharmProjects\final_project\EyeGaze-master\WindowsFormsApp1\obj\x64\Debug\EyeGaze.suggestionPopup.resources
+C:\Users\sshho\PycharmProjects\final_project\EyeGaze-master\WindowsFormsApp1\obj\x64\Debug\EyeGaze.MainGUI.resources
+C:\Users\sshho\PycharmProjects\final_project\EyeGaze-master\WindowsFormsApp1\obj\x64\Debug\EyeGaze.Frontend.resources
+C:\Users\sshho\PycharmProjects\final_project\EyeGaze-master\WindowsFormsApp1\bin\x64\Debug\Bunifu_UI_v1.52.dll
+C:\Users\sshho\PycharmProjects\final_project\EyeGaze-master\WindowsFormsApp1\obj\x64\Debug\EyeGaze.GUI.calibration.resources
+C:\Users\sshho\PycharmProjects\final_project\EyeGaze-master\WindowsFormsApp1\obj\x64\Debug\EyeGaze.GUI.chooseFile.resources
+C:\Users\sshho\PycharmProjects\final_project\EyeGaze-master\WindowsFormsApp1\obj\x64\Debug\EyeGaze.csprojAssemblyReference.cache

@@ -13,7 +13,7 @@ using System.Drawing.Drawing2D;
 
 namespace EyeGaze
 {
-    public partial class suggestionPopup : Form
+    partial class suggestionPopup : Form
     {
         List<Label> labels;
          String chosenWord;

@@ -24,7 +24,7 @@ namespace EyeGaze.SpeechToText
             this.className = className;
             Type speechToTextType = Type.GetType(className);
             speechToText = (InterfaceSpeechToText)Activator.CreateInstance(speechToTextType);
-            actions = new string[] { "fix", "change", "add", "move", "replace", "done","more"};
+            actions = new string[] { "fix", "change", "add", "move", "replace", "done","more","1","2","3","4","5"};
             this.terminate = false;
         }
         public void FindActionFromSpeech(string key, string keyInfo)
@@ -39,6 +39,7 @@ namespace EyeGaze.SpeechToText
                     if (result != "")
                     {
                         result = result.Trim().ToLower();
+                        Console.WriteLine(result);
                         string[] text = result.Split(' ');
                         TriggerWordEvent message = parseResult(text);
                         if (triggerHandler != null && message != null)
