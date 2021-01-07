@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
   <asmv1:assemblyIdentity name="Fixover.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="amd64" type="win32" />
-  <description asmv2:iconFile="Fixover-logo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
     <assemblyIdentity name="Fixover" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
@@ -67,14 +66,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fixover.exe" size="913888">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fixover.exe" size="654816">
       <assemblyIdentity name="Fixover" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>jXpech1WHAStfI7aJMPYY5l7vZeGoavLBqQ+jWbUNGE=</dsig:DigestValue>
+        <dsig:DigestValue>9lHREO7F4JkcIKNW558UQNCoThzAMKYjVhFxsYt6It8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -438,22 +437,22 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="en_US.aff" size="3090">
+  <file name="en_US.aff" size="3295">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>x6jE0Iwp0jeICESxYjCZ9ZCSYC8Ym+OM45EuRX/zi8E=</dsig:DigestValue>
+      <dsig:DigestValue>ubHAZ41BfNr17RkFYcV8eDto7Y0aS2S6Lj1+j/X/xdQ=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="en_US.dic" size="548380">
+  <file name="en_US.dic" size="597651">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>nrUs3qtsh6SYjffShFyqo5zZvck7RbwuPCKPgHCAd2c=</dsig:DigestValue>
+      <dsig:DigestValue>/xs/f+J2LvYgOysp4jsOsmSkgw+8nMKdX/dWqH59cDg=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Error_Log.txt" size="48948">
@@ -465,13 +464,13 @@
       <dsig:DigestValue>v14dLFJecckhiFJkJHkOSmI+lkgSJGNvGm5o01w/wF0=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Event_Log.txt" size="627439">
+  <file name="Event_Log.txt" size="635262">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>JCnFWSPAs+6dcZxslApxtXTnZWK/BFNdhwIYfigQock=</dsig:DigestValue>
+      <dsig:DigestValue>qv7CfrEwZYKIn2UHEMuCIPP5RDf/54vIJJRro5by59w=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Fixover.exe.config" size="782">
@@ -481,15 +480,6 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>1/KhfSAVzuMmI9dOC1UMpfgsDKbqY1JXG0GFbzB8FYM=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="Fixover-logo.ico" size="106433">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>OZXSSKrhIscCCiZSHoQ9iaxcgtWg8cvYz23NDFlOtKM=</dsig:DigestValue>
     </hash>
   </file>
   <file name="grpc_csharp_ext.x64.dll" size="8084464">
@@ -607,51 +597,6 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>JR6NW0dvy+D6TE8pDsRUfiw0lBk4e2vCWhXyXbAYkYo=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="Utils\TextEditorReplaceAll.txt" size="674">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>je2Tm/69BK9ebmUH84826l0rvvtfAAWgSM9Ci03Ut1A=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="Utils\TextEditorReplaneAToAn.txt" size="683">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>i5D7F6q3kLwdhxRZ03ZPBD5bV6MXI6UJk8JnUXdQFtM=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="Utils\TextEditorReplateWithToWithout.txt" size="680">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>CBqxuOg/esaOwZjN9MXAbAQ8+/RqV78Q7/mx8i+/cvg=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="Utils\TextEditorText.txt" size="898">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>+02gh3DmoFAWANaTv3VRD1+nbWAf25MU3y5qtchG9x4=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="Utils\TextEditorTextReplaceTheToThat.txt" size="687">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>TbwIH9b482nyOGf9hHtey1J3sVEq2s80PWdi3OYOTvg=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

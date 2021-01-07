@@ -90,7 +90,8 @@
     <SignManifests>true</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Fixover-logo.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Bunifu_UI_v1.52">
@@ -207,130 +208,76 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller.cs" />
-    <Compile Include="Engine\EngineMain.cs" />
-    <Compile Include="EyeTracking\debugger.cs">
+    <Compile Include="Model\Engine\EngineMain.cs" />
+    <Compile Include="Model\EyeTracking\debugger.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="EyeTracking\EyeGazeInterface.cs" />
-    <Compile Include="EyeTracking\GazePoint.cs" />
-    <Compile Include="Frontend.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Frontend.Designer.cs">
-      <DependentUpon>Frontend.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GazeTracker\GazeTracker.cs" />
-    <Compile Include="GazeTracker\InterfaceGazeToCoords.cs" />
-    <Compile Include="GUI\calibration.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="GUI\calibration.Designer.cs">
-      <DependentUpon>calibration.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\chooseFile.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="GUI\chooseFile.Designer.cs">
-      <DependentUpon>chooseFile.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\settings.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="GUI\settings.Designer.cs">
-      <DependentUpon>settings.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MainGUI.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MainGUI.Designer.cs">
-      <DependentUpon>MainGUI.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PopTimer.cs" />
-    <Compile Include="PopUp.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PopUp.Designer.cs">
-      <DependentUpon>PopUp.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PopUpDisappear.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PopUpDisappear.Designer.cs">
-      <DependentUpon>PopUpDisappear.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Model\EyeTracking\EyeGazeInterface.cs" />
+    <Compile Include="Model\EyeTracking\GazePoint.cs" />
+    <Compile Include="Model\GazeTracker\GazeTracker.cs" />
+    <Compile Include="Model\GazeTracker\InterfaceGazeToCoords.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="SpeechToText\AudioRecorder.cs" />
-    <Compile Include="SpeechToText\GoogleCloudSpeachToText.cs" />
-    <Compile Include="SpeechToText\IAudioRecorder.cs" />
-    <Compile Include="SpeechToText\RecordingState.cs" />
-    <Compile Include="SpeechToText\SampleAggregator.cs" />
-    <Compile Include="SpellChecker\SpellCheckerAbstract.cs" />
-    <Compile Include="SpellChecker\WordSpell.cs" />
-    <Compile Include="suggestionPopup.cs">
+    <Compile Include="View\Frontend.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="suggestionPopup.Designer.cs">
+    <Compile Include="View\Frontend.Designer.cs">
+      <DependentUpon>Frontend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\PopTimer.cs" />
+    <Compile Include="View\PopUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\PopUp.Designer.cs">
+      <DependentUpon>PopUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\PopUpDisappear.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\PopUpDisappear.Designer.cs">
+      <DependentUpon>PopUpDisappear.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\suggestionPopup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\suggestionPopup.Designer.cs">
       <DependentUpon>suggestionPopup.cs</DependentUpon>
     </Compile>
-    <Compile Include="Tests\InegrationTests\AddWordTest.cs" />
-    <Compile Include="Tests\InegrationTests\ChangeTest.cs" />
-    <Compile Include="Tests\InegrationTests\FixTest.cs" />
-    <Compile Include="Tests\InegrationTests\FixWordTest.cs" />
-    <Compile Include="Tests\InegrationTests\IntegrationTest.cs" />
-    <Compile Include="Tests\InegrationTests\ReplaceAllTest.cs" />
-    <Compile Include="Tests\InegrationTests\ReplaceTest.cs" />
-    <Compile Include="Tests\Mocks\mockMouseAdd.cs" />
-    <Compile Include="Tests\Mocks\mockMouseFix.cs" />
-    <Compile Include="Tests\Mocks\mockMouseFixWord.cs" />
-    <Compile Include="Tests\Mocks\mockMouseMove.cs" />
-    <Compile Include="Tests\Mocks\mockMouseReplace.cs" />
-    <Compile Include="Tests\Mocks\mockMouseReplaceAll.cs" />
-    <Compile Include="Tests\SystemTests\SystemTest.cs" />
-    <Compile Include="Tests\UnitTests\EngineTests.cs" />
-    <Compile Include="EyeTracking\MousePoint.cs" />
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Model\SpeechToText\AudioRecorder.cs" />
+    <Compile Include="Model\SpeechToText\GoogleCloudSpeachToText.cs" />
+    <Compile Include="Model\SpeechToText\IAudioRecorder.cs" />
+    <Compile Include="Model\SpeechToText\RecordingState.cs" />
+    <Compile Include="Model\SpeechToText\SampleAggregator.cs" />
+    <Compile Include="Model\SpellChecker\SpellCheckerAbstract.cs" />
+    <Compile Include="Model\SpellChecker\WordSpell.cs" />
+    <Compile Include="Model\EyeTracking\MousePoint.cs" />
     <Compile Include="Logger\SystemLogger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SpeechToText\ConnectionFailedException.cs" />
-    <Compile Include="Engine\MessageEvent.cs" />
-    <Compile Include="SpeechToText\IBMCloudSpeechToText.cs" />
-    <Compile Include="SpeechToText\InterfaceSpeechToText.cs" />
-    <Compile Include="SpeechToText\TriggerWordEvent.cs" />
-    <Compile Include="SpeechToText\MicrosoftCloudSpeechToText.cs" />
-    <Compile Include="SpeechToText\SpeechToText.cs" />
-    <Compile Include="SpeechToText\SystemLibSpeechToText.cs" />
-    <Compile Include="Tests\Mocks\mockSpeechToText.cs" />
-    <Compile Include="Tests\Mocks\mocMainSpeechToText.cs" />
-    <Compile Include="Tests\UnitTests\speechToTextUnitTest.cs" />
-    <Compile Include="SpeechToText\WrongAuthenticationException.cs" />
-    <Compile Include="SpellChecker\NHunspellSpellChecker.cs" />
-    <Compile Include="Tests\UnitTests\SpellCheckerTests.cs" />
-    <Compile Include="Tests\UnitTests\TextEditorTests.cs" />
-    <Compile Include="TextEditor\AbstractTextEditor.cs" />
-    <Compile Include="TextEditor\WordTextEditor.cs" />
-    <Content Include="Fixover-logo.ico" />
-    <EmbeddedResource Include="Frontend.resx">
+    <Compile Include="Model\SpeechToText\ConnectionFailedException.cs" />
+    <Compile Include="Model\Engine\MessageEvent.cs" />
+    <Compile Include="Model\SpeechToText\IBMCloudSpeechToText.cs" />
+    <Compile Include="Model\SpeechToText\InterfaceSpeechToText.cs" />
+    <Compile Include="Model\SpeechToText\TriggerWordEvent.cs" />
+    <Compile Include="Model\SpeechToText\MicrosoftCloudSpeechToText.cs" />
+    <Compile Include="Model\SpeechToText\SpeechToText.cs" />
+    <Compile Include="Model\SpeechToText\SystemLibSpeechToText.cs" />
+    <Compile Include="Model\SpeechToText\WrongAuthenticationException.cs" />
+    <Compile Include="Model\SpellChecker\NHunspellSpellChecker.cs" />
+    <Compile Include="Model\TextEditor\AbstractTextEditor.cs" />
+    <Compile Include="Model\TextEditor\WordTextEditor.cs" />
+    <EmbeddedResource Include="View\Frontend.resx">
       <DependentUpon>Frontend.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\calibration.resx">
-      <DependentUpon>calibration.cs</DependentUpon>
+    <EmbeddedResource Include="View\PopUp.resx">
+      <DependentUpon>PopUp.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\chooseFile.resx">
-      <DependentUpon>chooseFile.cs</DependentUpon>
+    <EmbeddedResource Include="View\PopUpDisappear.resx">
+      <DependentUpon>PopUpDisappear.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainGUI.resx">
-      <DependentUpon>MainGUI.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="suggestionPopup.resx">
+    <EmbeddedResource Include="View\suggestionPopup.resx">
       <DependentUpon>suggestionPopup.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="icons\question.jpeg" />
@@ -340,16 +287,6 @@
     <None Include="icons\file.png" />
     <Content Include="Microsoft.CognitiveServices.Speech.core.dll" />
     <None Include="Resources\gazepic.png" />
-    <Content Include="Utils\TextEditorReplateWithToWithout.txt" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PopUp.resx">
-      <DependentUpon>PopUp.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PopUpDisappear.resx">
-      <DependentUpon>PopUpDisappear.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
@@ -373,7 +310,7 @@
     <Content Include="en_US.dic">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <None Include="SpellChecker\wordSpell.docx" />
+    <None Include="Model\SpellChecker\wordSpell.docx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -393,9 +330,6 @@
   <ItemGroup>
     <Content Include="Error_Log.txt" />
     <Content Include="Event_Log.txt" />
-    <Content Include="Utils\TextEditorReplaceAll.txt" />
-    <Content Include="Utils\TextEditorReplaneAToAn.txt" />
-    <Content Include="Utils\TextEditorTextReplaceTheToThat.txt" />
     <None Include="Resources\LogoMakr_9XVHfe.png" />
     <None Include="icons\logo.png" />
     <None Include="icons\browse.png" />
@@ -410,11 +344,8 @@
     <None Include="icons\icons8-search-24.png" />
     <None Include="icons\WhatsApp Image 2020-05-27 at 16.06.46.jpeg" />
     <None Include="icons\logo4.PNG" />
-    <Content Include="Utils\TextEditorText.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Tests\WordTextEditorInstances\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.CognitiveServices.Speech.1.9.0\build\net461\Microsoft.CognitiveServices.Speech.targets" Condition="Exists('..\packages\Microsoft.CognitiveServices.Speech.1.9.0\build\net461\Microsoft.CognitiveServices.Speech.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
