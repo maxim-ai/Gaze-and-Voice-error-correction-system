@@ -17,49 +17,30 @@
 
 ## Use Cases -
 
-## 1. Fix –
+## 1. Fix non-word –
 
-- Place the mouse on the misspelled word with a red underline you would like to fix.
-- Say "fix".
+- Place your gaze on the misspelled word with a red underline you would like to fix.
+- Say "Fix".
 - The word will be corrected and highlighted.
 
-## 2. Fix Word -
-- Use case for fixing a word without a spelling error to a similar lexicographic word. For example: In the text, there's a      line "I am a father". The user says "Fix mother" and the sentence will change to: "I am a mother".
-- Place the mouse on the word without a red underline that you would like to fix.
-- Say "fix" and the correct word.
+## 2. Fix real-word -
+
+- Use case for fixing a word without a spelling error to a similar lexicographic word. For example: "hello father". The user says "Fix to mother" and the sentence will change to: "hello mother".
+- Place your gaze on the word without a red underline that you would like to fix.
+- Say "Fix to" + the correct word.
 - The word closest lexicographic to the word spoken will be corrected and highlighted.
 
-## 3. Add Words - 
+## 3. More - 
 
-- Place the mouse on the word after which you would like to add words.
-- Say "add", the word you are pointing at and the words to add.
-- The added words will be corrected and highlighted.
+- In case the user was not satisfied with the correction or the selection options. Specific to the last word corrected.   
+- Say "More".
+- A window with a numbered list of additional suggested words is displayed.
+- Say the number of the wanted word.
+- The word will be corrected to the chosen word and highlighted.
 
-## 4. Move -
+## 4. Replace -
 
-- Place the mouse on the place you would like to move the cursor to.
-- Say "move".
-- The cursor will be positioned in the mouse position.
-
-## 5. Change –
-
-- Note: This feature is intended for use while typing (the cursor is at the writing location).
-- Say "change".
-- The closet misspelled word to the cursor position will be changed.
-- The misspelled word will be corrected and highlighted.
-
-## 6. Replace -
-
-- Place the mouse on the word you would like to replace.
-- Say "replace", the word to replace and the new word you would like to replace to.
+- Place your gaze on the word you would like to replace.
+- Say "Replace" + the word to replace + "to" + the new word you would like to replace to.
 - The word will be replaced with the new word and highlighted.
-
-## 7. Replace All -
-
-- Say "replace all", the word you would like to replace and the new word you would like to replace to.
-- All the occurrences of the word you would like to replace will be replaced and highlighted.
-- If there is an occurrence you don't want to replace, double click on the highlighted word and the word will return to be the original word.
-- When finished, say "done" to approve the changes and all highlighted words will fade out.
-- Note: before the "done" command, the program will not allow further actions.
-
 
