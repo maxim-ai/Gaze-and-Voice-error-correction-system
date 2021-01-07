@@ -1,5 +1,7 @@
 # NatuFixer - Instruction Guide
 
+- Demonstration of system usage: https://drive.google.com/file/d/1sftKhrfGvArZFSsLwUeKRIa3VV_RW5S1/view
+
 ## Notes:
 - Work with NatuFixer in a silent environment only.
 - In case the user mispronounces the command, NatuFixer may not accurately identify the user commands.
