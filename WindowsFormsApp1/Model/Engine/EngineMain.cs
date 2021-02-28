@@ -366,7 +366,12 @@ namespace EyeGaze.Engine
         {
             try
             {
-                textEditor.ShowMoreSuggestions();
+                new Thread(() =>
+                {
+                    textEditor.ShowMoreSuggestions();
+
+                }).Start();
+                //textEditor.ShowMoreSuggestions();
                 textEditor.choosingSuggestion = true;
             }
             catch (Exception e)

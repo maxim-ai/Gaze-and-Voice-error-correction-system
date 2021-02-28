@@ -16127,3 +16127,408 @@
 2021-01-07 16:43:45,275 INFO EventLog: Microsoft cloud found : 
 2021-01-07 16:43:45,425 INFO EventLog: Disconnect from Microsoft cloud
 2021-01-07 16:43:45,681 INFO EventLog: Spell checker closed successfully
+2021-02-28 11:26:26,782 INFO EventLog: ----------------------Starting System-------------------------
+2021-02-28 11:26:36,199 INFO EventLog: Starting initialization of the system
+2021-02-28 11:26:40,543 INFO EventLog: Trying to open documtent
+2021-02-28 11:26:41,181 INFO EventLog: Word text editor has been initialized and document is open
+2021-02-28 11:26:41,365 INFO EventLog: Connect to Microsoft cloud
+2021-02-28 11:26:47,360 INFO EventLog: Microsoft cloud found : Nearest accounted for
+2021-02-28 11:26:51,041 INFO EventLog: Microsoft cloud found : Loan shark look
+2021-02-28 11:26:53,571 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 11:26:53,670 INFO EventLog: Trigger word Fix
+2021-02-28 11:26:54,674 INFO EventLog: Changed waay to way in point x=735 y=383 range start=299 end=302
+2021-02-28 11:26:56,906 INFO EventLog: Microsoft cloud found : More
+2021-02-28 11:27:03,003 INFO EventLog: Microsoft cloud found : Info
+2021-02-28 11:27:09,103 INFO EventLog: Microsoft cloud found : 
+2021-02-28 11:27:15,183 INFO EventLog: Microsoft cloud found : Are there massage and learn in the book
+2021-02-28 11:27:18,319 INFO EventLog: Microsoft cloud found : Except
+2021-02-28 11:27:22,066 INFO EventLog: Microsoft cloud found : Daniel
+2021-02-28 11:27:26,596 INFO EventLog: Microsoft cloud found : Zip
+2021-02-28 11:27:30,251 INFO EventLog: Microsoft cloud found : No, she's a loser
+2021-02-28 11:27:35,100 INFO EventLog: Microsoft cloud found : Yes, it's true
+2021-02-28 11:27:39,116 INFO EventLog: Microsoft cloud found : QR code OK
+2021-02-28 11:27:44,083 INFO EventLog: Microsoft cloud found : Activity with Russian exception no. She's a loser more
+2021-02-28 11:27:48,102 INFO EventLog: Microsoft cloud found : O
+2021-02-28 11:40:18,023 INFO EventLog: ----------------------Starting System-------------------------
+2021-02-28 11:40:26,095 INFO EventLog: Starting initialization of the system
+2021-02-28 11:40:29,768 INFO EventLog: Trying to open documtent
+2021-02-28 11:40:30,238 INFO EventLog: Word text editor has been initialized and document is open
+2021-02-28 11:40:30,473 INFO EventLog: Connect to Microsoft cloud
+2021-02-28 11:40:36,432 INFO EventLog: Microsoft cloud found : 
+2021-02-28 11:40:39,799 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 11:40:39,893 INFO EventLog: Trigger word Fix
+2021-02-28 11:40:40,661 INFO EventLog: Changed waay to way in point x=735 y=503 range start=299 end=302
+2021-02-28 11:40:43,066 INFO EventLog: Microsoft cloud found : More
+2021-02-28 11:40:48,614 INFO EventLog: Microsoft cloud found : 
+2021-02-28 11:40:51,464 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 11:40:51,546 INFO EventLog: Trigger word Fix
+2021-02-28 11:40:51,962 INFO EventLog: Changed waay to way in point x=735 y=559 range start=355 end=358
+2021-02-28 11:40:54,196 INFO EventLog: Microsoft cloud found : More
+2021-02-28 11:40:56,877 INFO EventLog: Microsoft cloud found : 1
+2021-02-28 11:40:56,976 INFO EventLog: Changed waay to away in point x=735 y=559 range start=355 end=359
+2021-02-28 11:42:01,895 INFO EventLog: ----------------------Starting System-------------------------
+2021-02-28 11:42:12,109 INFO EventLog: Starting initialization of the system
+2021-02-28 11:42:15,821 INFO EventLog: Trying to open documtent
+2021-02-28 11:42:16,291 INFO EventLog: Word text editor has been initialized and document is open
+2021-02-28 11:42:16,374 INFO EventLog: Connect to Microsoft cloud
+2021-02-28 11:42:18,242 INFO EventLog: Microsoft cloud found : Study
+2021-02-28 11:42:22,016 INFO EventLog: Microsoft cloud found : Image of the current conversion
+2021-02-28 11:42:27,199 INFO EventLog: Microsoft cloud found : But soft
+2021-02-28 11:42:28,651 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 11:42:28,757 INFO EventLog: Trigger word Fix
+2021-02-28 11:42:29,542 INFO EventLog: Changed waay to way in point x=735 y=443 range start=299 end=302
+2021-02-28 11:42:31,885 INFO EventLog: Microsoft cloud found : More
+2021-02-28 11:42:34,698 INFO EventLog: Microsoft cloud found : 1
+2021-02-28 11:42:34,751 INFO EventLog: Changed waay to away in point x=735 y=443 range start=299 end=303
+2021-02-28 11:45:17,663 INFO EventLog: ----------------------Starting System-------------------------
+2021-02-28 11:45:27,754 INFO EventLog: Starting initialization of the system
+2021-02-28 11:45:31,473 INFO EventLog: Trying to open documtent
+2021-02-28 11:45:31,932 INFO EventLog: Word text editor has been initialized and document is open
+2021-02-28 11:45:32,020 INFO EventLog: Connect to Microsoft cloud
+2021-02-28 11:45:37,459 INFO EventLog: Microsoft cloud found : 
+2021-02-28 11:45:39,198 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 11:45:39,268 INFO EventLog: Trigger word Fix
+2021-02-28 11:45:40,306 INFO EventLog: Changed waay to way in point x=735 y=619 range start=356 end=359
+2021-02-28 11:45:42,679 INFO EventLog: Microsoft cloud found : More
+2021-02-28 11:45:45,540 INFO EventLog: Microsoft cloud found : 1
+2021-02-28 11:45:45,669 INFO EventLog: Changed waay to away in point x=735 y=619 range start=356 end=360
+2021-02-28 11:46:32,182 INFO EventLog: ----------------------Starting System-------------------------
+2021-02-28 11:46:41,881 INFO EventLog: Starting initialization of the system
+2021-02-28 11:46:45,601 INFO EventLog: Trying to open documtent
+2021-02-28 11:46:45,942 INFO EventLog: Word text editor has been initialized and document is open
+2021-02-28 11:46:46,031 INFO EventLog: Connect to Microsoft cloud
+2021-02-28 11:46:51,986 INFO EventLog: Microsoft cloud found : 
+2021-02-28 11:46:56,033 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 11:46:56,086 INFO EventLog: Trigger word Fix
+2021-02-28 11:46:56,787 INFO EventLog: Changed waay to way in point x=735 y=683 range start=299 end=302
+2021-02-28 11:46:58,981 INFO EventLog: Microsoft cloud found : More
+2021-02-28 11:47:02,281 INFO EventLog: Microsoft cloud found : 1
+2021-02-28 11:47:02,345 INFO EventLog: Changed waay to away in point x=735 y=683 range start=299 end=303
+2021-02-28 11:47:06,098 INFO EventLog: Microsoft cloud found : Technical
+2021-02-28 11:47:08,751 INFO EventLog: Microsoft cloud found : Technical
+2021-02-28 11:47:12,492 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 11:47:12,544 INFO EventLog: Trigger word Fix
+2021-02-28 11:47:13,132 INFO EventLog: Changed waay to way in point x=735 y=679 range start=356 end=359
+2021-02-28 11:47:15,377 INFO EventLog: Microsoft cloud found : More
+2021-02-28 11:47:22,980 INFO EventLog: Microsoft cloud found : Talk sho
+2021-02-28 11:47:27,425 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 11:47:27,505 INFO EventLog: Trigger word Fix
+2021-02-28 11:47:28,047 INFO EventLog: Changed waay to way in point x=735 y=735 range start=413 end=416
+2021-02-28 11:47:30,758 INFO EventLog: Microsoft cloud found : More
+2021-02-28 11:47:33,557 INFO EventLog: Microsoft cloud found : Do
+2021-02-28 11:47:39,505 INFO EventLog: Microsoft cloud found : W
+2021-02-28 11:47:45,135 INFO EventLog: Microsoft cloud found : 
+2021-02-28 11:47:47,285 INFO EventLog: Microsoft cloud found : Nope. Should Russian author
+2021-02-28 11:47:51,555 INFO EventLog: Microsoft cloud found : No
+2021-02-28 11:47:56,138 INFO EventLog: Microsoft cloud found : Doc
+2021-02-28 11:48:02,509 INFO EventLog: Microsoft cloud found : You might get the error story fix
+2021-02-28 11:48:07,370 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 11:48:07,445 INFO EventLog: Trigger word Fix
+2021-02-28 11:48:07,890 INFO EventLog: Changed Alla to Allah in point x=911 y=791 range start=490 end=495
+2021-02-28 11:48:10,626 INFO EventLog: Microsoft cloud found : More
+2021-02-28 11:48:13,830 INFO EventLog: Microsoft cloud found : 4
+2021-02-28 11:48:13,972 INFO EventLog: Changed Alla to Alli in point x=911 y=791 range start=490 end=494
+2021-02-28 11:48:16,751 INFO EventLog: Microsoft cloud found : Ductio
+2021-02-28 11:48:24,147 INFO EventLog: Microsoft cloud found : Sure
+2021-02-28 11:48:29,208 INFO EventLog: Microsoft cloud found : Ahead of psych evaluation commended walking
+2021-02-28 11:48:32,136 INFO EventLog: Microsoft cloud found : Technica fix
+2021-02-28 11:48:36,388 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 11:48:36,441 INFO EventLog: Trigger word Fix
+2021-02-28 11:48:37,200 INFO EventLog: Changed geometryy to geometry in point x=894 y=859 range start=688 end=696
+2021-02-28 11:48:40,423 INFO EventLog: Microsoft cloud found : More
+2021-02-28 11:48:45,861 INFO EventLog: Microsoft cloud found : 
+2021-02-28 11:48:49,325 INFO EventLog: Microsoft cloud found : Show my apps
+2021-02-28 11:48:53,966 INFO EventLog: Microsoft cloud found : After trigger
+2021-02-28 11:48:57,428 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 11:48:57,495 INFO EventLog: Trigger word Fix
+2021-02-28 11:48:57,950 INFO EventLog: Changed physiccs to physics in point x=772 y=859 range start=676 end=683
+2021-02-28 11:49:00,282 INFO EventLog: Microsoft cloud found : More
+2021-02-28 11:49:03,057 INFO EventLog: Microsoft cloud found : Do
+2021-02-28 11:49:07,613 INFO EventLog: Microsoft cloud found : Like any point, multiple
+2021-02-28 11:49:11,666 INFO EventLog: Microsoft cloud found : Oh yeah
+2021-02-28 11:49:14,807 INFO EventLog: Microsoft cloud found : Delivered
+2021-02-28 11:49:22,241 INFO EventLog: Microsoft cloud found : How to store Morel Matilda? She wrote Llama turnabout, him away in the home care long
+2021-02-28 11:49:26,377 INFO EventLog: Microsoft cloud found : Don't speak
+2021-02-28 11:50:05,000 INFO EventLog: ----------------------Starting System-------------------------
+2021-02-28 11:50:13,371 INFO EventLog: Starting initialization of the system
+2021-02-28 11:50:17,041 INFO EventLog: Trying to open documtent
+2021-02-28 11:50:17,488 INFO EventLog: Word text editor has been initialized and document is open
+2021-02-28 11:50:17,571 INFO EventLog: Connect to Microsoft cloud
+2021-02-28 11:50:23,618 INFO EventLog: Microsoft cloud found : 
+2021-02-28 11:50:25,756 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 11:50:25,830 INFO EventLog: Trigger word Fix
+2021-02-28 11:50:26,653 INFO EventLog: Changed waay to way in point x=735 y=619 range start=356 end=359
+2021-02-28 11:50:29,220 INFO EventLog: Microsoft cloud found : More
+2021-02-28 11:50:31,642 INFO EventLog: Microsoft cloud found : Do
+2021-02-28 11:50:34,678 INFO EventLog: Microsoft cloud found : Do
+2021-02-28 11:50:40,610 INFO EventLog: Microsoft cloud found : 
+2021-02-28 11:50:45,689 INFO EventLog: Microsoft cloud found : We would like to give you a different version of Windows
+2021-02-28 11:50:50,539 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 11:50:50,606 INFO EventLog: Trigger word Fix
+2021-02-28 11:50:51,157 INFO EventLog: Changed sometthing to something in point x=997 y=774 range start=567 end=576
+2021-02-28 11:50:53,717 INFO EventLog: Microsoft cloud found : More
+2021-02-28 11:50:59,152 INFO EventLog: Microsoft cloud found : 
+2021-02-28 11:51:06,256 INFO EventLog: Microsoft cloud found : 
+2021-02-28 11:51:10,169 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 11:51:10,237 INFO EventLog: Trigger word Fix
+2021-02-28 11:51:10,606 INFO EventLog: Changed geometryy to geometry in point x=784 y=859 range start=688 end=696
+2021-02-28 11:51:13,230 INFO EventLog: Microsoft cloud found : More
+2021-02-28 11:51:17,687 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 11:51:17,711 INFO EventLog: Trigger word Fix
+2021-02-28 11:51:18,178 INFO EventLog: Changed tthink to think in point x=1072 y=915 range start=742 end=747
+2021-02-28 11:51:21,890 INFO EventLog: Microsoft cloud found : More
+2021-02-28 11:51:24,778 INFO EventLog: Microsoft cloud found : 1
+2021-02-28 11:51:24,854 INFO EventLog: Changed tthink to thank in point x=1072 y=915 range start=742 end=747
+2021-02-28 11:51:29,388 INFO EventLog: Microsoft cloud found : After duck
+2021-02-28 11:51:35,455 INFO EventLog: Microsoft cloud found : 
+2021-02-28 11:51:54,960 INFO EventLog: ----------------------Starting System-------------------------
+2021-02-28 11:52:34,441 INFO EventLog: Starting initialization of the system
+2021-02-28 11:52:38,130 INFO EventLog: Trying to open documtent
+2021-02-28 11:52:38,532 INFO EventLog: Word text editor has been initialized and document is open
+2021-02-28 11:52:38,628 INFO EventLog: Connect to Microsoft cloud
+2021-02-28 11:52:42,991 INFO EventLog: Microsoft cloud found : OK
+2021-02-28 11:52:45,821 INFO EventLog: Microsoft cloud found : Lik
+2021-02-28 11:52:51,050 INFO EventLog: Microsoft cloud found : Lamar Jackson, shirtless iron hot fix
+2021-02-28 11:52:54,780 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 11:52:54,803 INFO EventLog: Trigger word Fix
+2021-02-28 11:52:55,471 INFO EventLog: Changed waay to way in point x=735 y=679 range start=356 end=359
+2021-02-28 11:52:57,698 INFO EventLog: Microsoft cloud found : More
+2021-02-28 11:53:00,902 INFO EventLog: Microsoft cloud found : 1
+2021-02-28 11:53:00,994 INFO EventLog: Changed waay to away in point x=735 y=679 range start=356 end=360
+2021-02-28 11:53:07,334 INFO EventLog: Microsoft cloud found : Help
+2021-02-28 11:53:12,759 INFO EventLog: Microsoft cloud found : 
+2021-02-28 11:53:18,708 INFO EventLog: Microsoft cloud found : 
+2021-02-28 11:53:24,638 INFO EventLog: Microsoft cloud found : 
+2021-02-28 11:53:30,468 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 11:53:30,513 INFO EventLog: Trigger word Fix
+2021-02-28 11:53:31,234 INFO EventLog: Changed waay to way in point x=735 y=675 range start=414 end=417
+2021-02-28 11:53:33,351 INFO EventLog: Microsoft cloud found : More
+2021-02-28 11:53:35,671 INFO EventLog: Microsoft cloud found : 1
+2021-02-28 11:53:35,742 INFO EventLog: Changed waay to away in point x=735 y=675 range start=414 end=418
+2021-02-28 11:53:41,154 INFO EventLog: Microsoft cloud found : 
+2021-02-28 11:53:46,566 INFO EventLog: Microsoft cloud found : 
+2021-02-28 11:53:52,403 INFO EventLog: Microsoft cloud found : Ca
+2021-02-28 11:53:57,832 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 11:53:57,846 INFO EventLog: Trigger word Fix
+2021-02-28 11:53:58,173 INFO EventLog: Changed geometryy to geometry in point x=894 y=859 range start=690 end=698
+2021-02-28 11:54:00,486 INFO EventLog: Microsoft cloud found : More
+2021-02-28 11:54:05,063 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 11:54:05,128 INFO EventLog: Trigger word Fix
+2021-02-28 11:54:05,929 INFO EventLog: Changed physiccs to physics in point x=772 y=859 range start=678 end=685
+2021-02-28 11:54:08,552 INFO EventLog: Microsoft cloud found : More
+2021-02-28 11:54:12,219 INFO EventLog: Microsoft cloud found : Stressed word
+2021-02-28 12:06:39,862 INFO EventLog: ----------------------Starting System-------------------------
+2021-02-28 12:06:52,135 INFO EventLog: ----------------------Starting System-------------------------
+2021-02-28 12:07:01,857 INFO EventLog: Starting initialization of the system
+2021-02-28 12:07:05,515 INFO EventLog: Trying to open documtent
+2021-02-28 12:07:05,951 INFO EventLog: Word text editor has been initialized and document is open
+2021-02-28 12:07:06,168 INFO EventLog: Connect to Microsoft cloud
+2021-02-28 12:07:12,135 INFO EventLog: Microsoft cloud found : 
+2021-02-28 12:07:15,711 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 12:07:15,822 INFO EventLog: Trigger word Fix
+2021-02-28 12:07:16,511 INFO EventLog: Changed waay to way in point x=735 y=383 range start=299 end=302
+2021-02-28 12:07:19,245 INFO EventLog: Microsoft cloud found : More
+2021-02-28 12:07:22,146 INFO EventLog: Microsoft cloud found : 1
+2021-02-28 12:07:22,271 INFO EventLog: Changed waay to away in point x=735 y=383 range start=299 end=303
+2021-02-28 12:07:28,228 INFO EventLog: Microsoft cloud found : 
+2021-02-28 12:07:29,982 INFO EventLog: Microsoft cloud found : Customer called
+2021-02-28 12:07:35,422 INFO EventLog: Microsoft cloud found : Should be fine
+2021-02-28 12:08:31,679 INFO EventLog: ----------------------Starting System-------------------------
+2021-02-28 12:08:53,812 INFO EventLog: ----------------------Starting System-------------------------
+2021-02-28 12:09:01,360 INFO EventLog: Starting initialization of the system
+2021-02-28 12:09:05,066 INFO EventLog: Trying to open documtent
+2021-02-28 12:09:05,631 INFO EventLog: Word text editor has been initialized and document is open
+2021-02-28 12:09:05,712 INFO EventLog: Connect to Microsoft cloud
+2021-02-28 12:09:11,582 INFO EventLog: Microsoft cloud found : 
+2021-02-28 12:09:17,515 INFO EventLog: Microsoft cloud found : 
+2021-02-28 12:09:21,750 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 12:09:21,834 INFO EventLog: Trigger word Fix
+2021-02-28 12:09:22,540 INFO EventLog: Changed waay to way in point x=735 y=383 range start=299 end=302
+2021-02-28 12:09:25,235 INFO EventLog: Microsoft cloud found : More
+2021-02-28 12:09:27,977 INFO EventLog: Microsoft cloud found : 1
+2021-02-28 12:09:28,003 INFO EventLog: Changed waay to away in point x=735 y=383 range start=299 end=303
+2021-02-28 12:09:34,038 INFO EventLog: Microsoft cloud found : 
+2021-02-28 12:09:38,489 INFO EventLog: Microsoft cloud found : Hello
+2021-02-28 12:09:44,518 INFO EventLog: Microsoft cloud found : 
+2021-02-28 12:09:50,556 INFO EventLog: Microsoft cloud found : 
+2021-02-28 12:09:56,224 INFO EventLog: Microsoft cloud found : Comma
+2021-02-28 12:10:02,175 INFO EventLog: Microsoft cloud found : 
+2021-02-28 12:10:05,834 INFO EventLog: Microsoft cloud found : Sport car
+2021-02-28 12:10:10,582 INFO EventLog: Microsoft cloud found : No
+2021-02-28 12:10:15,800 INFO EventLog: Microsoft cloud found : Hotmail
+2021-02-28 12:10:21,820 INFO EventLog: Microsoft cloud found : 
+2021-02-28 12:10:29,629 INFO EventLog: Microsoft cloud found : Hid
+2021-02-28 12:10:35,694 INFO EventLog: Microsoft cloud found : It says we don't have other
+2021-02-28 12:10:39,771 INFO EventLog: Microsoft cloud found : Comma she deserves in Hong Kong
+2021-02-28 12:10:45,724 INFO EventLog: Microsoft cloud found : 
+2021-02-28 12:10:51,183 INFO EventLog: Microsoft cloud found : Ca
+2021-02-28 12:10:53,812 INFO EventLog: Microsoft cloud found : Weathe
+2021-02-28 12:10:59,654 INFO EventLog: Microsoft cloud found : Chicago Bull
+2021-02-28 12:11:05,738 INFO EventLog: Microsoft cloud found : 
+2021-02-28 12:11:11,683 INFO EventLog: Microsoft cloud found : 
+2021-02-28 12:11:17,480 INFO EventLog: Microsoft cloud found : Kill us along
+2021-02-28 12:11:23,508 INFO EventLog: Microsoft cloud found : 
+2021-02-28 12:11:27,260 INFO EventLog: Microsoft cloud found : No
+2021-02-28 12:11:29,626 INFO EventLog: Microsoft cloud found : Santa Ros
+2021-02-28 12:11:35,654 INFO EventLog: Microsoft cloud found : 
+2021-02-28 12:11:35,826 INFO EventLog: Disconnect from Microsoft cloud
+2021-02-28 12:11:35,933 INFO EventLog: Spell checker closed successfully
+2021-02-28 12:11:46,278 INFO EventLog: ----------------------Starting System-------------------------
+2021-02-28 12:11:54,026 INFO EventLog: Starting initialization of the system
+2021-02-28 12:11:57,751 INFO EventLog: Trying to open documtent
+2021-02-28 12:11:58,618 INFO EventLog: Word text editor has been initialized and document is open
+2021-02-28 12:11:58,759 INFO EventLog: Connect to Microsoft cloud
+2021-02-28 12:12:04,194 INFO EventLog: Microsoft cloud found : 
+2021-02-28 12:12:06,437 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 12:12:06,536 INFO EventLog: Trigger word Fix
+2021-02-28 12:12:06,940 INFO EventLog: Changed waay to way in point x=735 y=439 range start=356 end=359
+2021-02-28 12:12:09,542 INFO EventLog: Microsoft cloud found : More
+2021-02-28 12:12:11,778 INFO EventLog: Microsoft cloud found : 1
+2021-02-28 12:12:11,806 INFO EventLog: Changed waay to away in point x=735 y=439 range start=356 end=360
+2021-02-28 12:14:01,390 INFO EventLog: ----------------------Starting System-------------------------
+2021-02-28 12:14:15,541 INFO EventLog: ----------------------Starting System-------------------------
+2021-02-28 12:14:23,055 INFO EventLog: Starting initialization of the system
+2021-02-28 12:14:26,785 INFO EventLog: Trying to open documtent
+2021-02-28 12:14:27,333 INFO EventLog: Word text editor has been initialized and document is open
+2021-02-28 12:14:27,418 INFO EventLog: Connect to Microsoft cloud
+2021-02-28 12:14:33,387 INFO EventLog: Microsoft cloud found : 
+2021-02-28 12:14:35,209 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 12:14:35,262 INFO EventLog: Trigger word Fix
+2021-02-28 12:14:35,899 INFO EventLog: Changed waay to way in point x=735 y=379 range start=356 end=359
+2021-02-28 12:14:38,698 INFO EventLog: Microsoft cloud found : More
+2021-02-28 12:14:41,121 INFO EventLog: Microsoft cloud found : 1
+2021-02-28 12:14:41,180 INFO EventLog: Changed waay to away in point x=735 y=379 range start=356 end=360
+2021-02-28 12:18:58,868 INFO EventLog: ----------------------Starting System-------------------------
+2021-02-28 12:19:07,156 INFO EventLog: Starting initialization of the system
+2021-02-28 12:19:10,933 INFO EventLog: Trying to open documtent
+2021-02-28 12:19:11,551 INFO EventLog: Word text editor has been initialized and document is open
+2021-02-28 12:19:11,633 INFO EventLog: Connect to Microsoft cloud
+2021-02-28 12:19:16,418 INFO EventLog: Microsoft cloud found : Give you
+2021-02-28 12:19:21,450 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 12:19:21,477 INFO EventLog: Trigger word Fix
+2021-02-28 12:19:21,968 INFO EventLog: Changed waay to way in point x=735 y=555 range start=414 end=417
+2021-02-28 12:19:24,180 INFO EventLog: Microsoft cloud found : More
+2021-02-28 12:19:27,305 INFO EventLog: Microsoft cloud found : 1
+2021-02-28 12:19:27,395 INFO EventLog: Changed waay to away in point x=735 y=555 range start=414 end=418
+2021-02-28 12:19:31,338 INFO EventLog: Microsoft cloud found : Technic
+2021-02-28 12:19:34,486 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 12:19:34,567 INFO EventLog: Trigger word Fix
+2021-02-28 12:19:35,088 INFO EventLog: Changed matthematics to mathematics in point x=909 y=555 range start=428 end=439
+2021-02-28 12:19:37,695 INFO EventLog: Microsoft cloud found : More
+2021-02-28 12:19:40,880 INFO EventLog: Microsoft cloud found : 1
+2021-02-28 12:19:40,981 INFO EventLog: Changed matthematics to mathematics' in point x=909 y=555 range start=428 end=440
+2021-02-28 12:19:45,876 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 12:19:45,927 INFO EventLog: Trigger word Fix
+2021-02-28 12:19:46,482 INFO EventLog: Changed sometthing to something in point x=997 y=654 range start=568 end=577
+2021-02-28 12:19:51,403 INFO EventLog: Microsoft cloud found : Moral
+2021-02-28 12:19:56,428 INFO EventLog: Microsoft cloud found : More
+2021-02-28 12:19:58,206 INFO EventLog: Microsoft cloud found : More
+2021-02-28 12:20:04,256 INFO EventLog: Microsoft cloud found : 
+2021-02-28 12:20:10,185 INFO EventLog: Microsoft cloud found : 
+2021-02-28 12:21:09,150 INFO EventLog: ----------------------Starting System-------------------------
+2021-02-28 12:21:20,086 INFO EventLog: Starting initialization of the system
+2021-02-28 12:21:23,853 INFO EventLog: Trying to open documtent
+2021-02-28 12:21:24,275 INFO EventLog: Word text editor has been initialized and document is open
+2021-02-28 12:21:24,367 INFO EventLog: Connect to Microsoft cloud
+2021-02-28 12:21:30,321 INFO EventLog: Microsoft cloud found : 
+2021-02-28 12:21:32,066 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 12:21:32,193 INFO EventLog: Trigger word Fix
+2021-02-28 12:21:32,908 INFO EventLog: Changed waay to way in point x=735 y=679 range start=356 end=359
+2021-02-28 12:21:35,133 INFO EventLog: Microsoft cloud found : More
+2021-02-28 12:21:37,828 INFO EventLog: Microsoft cloud found : Do
+2021-02-28 12:21:41,442 INFO EventLog: Microsoft cloud found : Do
+2021-02-28 12:21:44,068 INFO EventLog: Microsoft cloud found : Do
+2021-02-28 12:21:50,456 INFO EventLog: Microsoft cloud found : Regards
+2021-02-28 12:21:53,905 INFO EventLog: Microsoft cloud found : Can't fix
+2021-02-28 12:21:57,046 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 12:21:57,109 INFO EventLog: Trigger word Fix
+2021-02-28 12:21:57,543 INFO EventLog: Changed matthematics to mathematics in point x=909 y=735 range start=427 end=438
+2021-02-28 12:22:00,061 INFO EventLog: Microsoft cloud found : More
+2021-02-28 12:22:02,713 INFO EventLog: Microsoft cloud found : 1
+2021-02-28 12:22:02,826 INFO EventLog: Changed matthematics to mathematics' in point x=909 y=735 range start=427 end=439
+2021-02-28 12:22:12,610 INFO EventLog: Microsoft cloud found : I got the key rollout casello or she selected merely kilo is an aluminium opacity
+2021-02-28 12:22:16,260 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 12:22:16,322 INFO EventLog: Trigger word Fix
+2021-02-28 12:22:16,867 INFO EventLog: Changed Alla to Allah in point x=911 y=791 range start=491 end=496
+2021-02-28 12:22:19,088 INFO EventLog: Microsoft cloud found : More
+2021-02-28 12:22:24,550 INFO EventLog: Microsoft cloud found : 
+2021-02-28 12:22:30,323 INFO EventLog: Microsoft cloud found : She was so gorgeous
+2021-02-28 12:22:36,348 INFO EventLog: Microsoft cloud found : 
+2021-02-28 12:22:43,534 INFO EventLog: Microsoft cloud found : Good morning and they said that the mother hunt you, but then like it fixed kilukkam shahara Sophia can fix
+2021-02-28 12:22:47,258 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 12:22:47,322 INFO EventLog: Trigger word Fix
+2021-02-28 12:22:47,842 INFO EventLog: Changed sometthing to something in point x=997 y=834 range start=568 end=577
+2021-02-28 12:22:50,076 INFO EventLog: Microsoft cloud found : More
+2021-02-28 12:22:53,863 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 12:22:53,923 INFO EventLog: Trigger word Fix
+2021-02-28 12:22:54,580 INFO EventLog: Changed geometryy to geometry in point x=784 y=919 range start=689 end=697
+2021-02-28 12:23:00,560 INFO EventLog: Microsoft cloud found : 
+2021-02-28 12:23:03,947 INFO EventLog: Microsoft cloud found : Is still working with coloured water board though
+2021-02-28 12:23:07,072 INFO EventLog: Microsoft cloud found : Don't kill
+2021-02-28 12:23:10,440 INFO EventLog: Microsoft cloud found : The killer
+2021-02-28 12:23:15,012 INFO EventLog: Microsoft cloud found : No baby, I don't know
+2021-02-28 12:23:17,848 INFO EventLog: Microsoft cloud found : OK
+2021-02-28 12:23:23,527 INFO EventLog: Microsoft cloud found : Facebook also have accrued Marsh Romanian
+2021-02-28 12:23:29,607 INFO EventLog: Microsoft cloud found : 
+2021-02-28 12:23:33,974 INFO EventLog: Microsoft cloud found : Do
+2021-02-28 12:23:36,925 INFO EventLog: Microsoft cloud found : I'm not immortal color bite
+2021-02-28 12:23:41,145 INFO EventLog: Microsoft cloud found : Commercial umbrell
+2021-02-28 12:23:44,260 INFO EventLog: Microsoft cloud found : Social if your mom or should you love this model
+2021-02-28 12:23:47,397 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 12:23:47,412 INFO EventLog: Trigger word Fix
+2021-02-28 12:23:48,003 INFO EventLog: Changed waay to way in point x=735 y=735 range start=413 end=416
+2021-02-28 12:23:50,212 INFO EventLog: Microsoft cloud found : More
+2021-02-28 12:23:56,266 INFO EventLog: Microsoft cloud found : 
+2021-02-28 12:24:00,893 INFO EventLog: Microsoft cloud found : No
+2021-02-28 12:24:03,241 INFO EventLog: Microsoft cloud found : No
+2021-02-28 12:24:06,682 INFO EventLog: Microsoft cloud found : There OK
+2021-02-28 12:24:10,849 INFO EventLog: Microsoft cloud found : Double click on the shelf
+2021-02-28 12:24:14,901 INFO EventLog: Microsoft cloud found : Cortana
+2021-02-28 12:24:27,703 INFO EventLog: Microsoft cloud found : Shallow Stamm at E as a tradition that you were polyphony that autumn is man a commercially rules that color is another column, Hawk
+2021-02-28 12:24:31,061 INFO EventLog: Microsoft cloud found : Those centric without border on here
+2021-02-28 12:24:34,202 INFO EventLog: Microsoft cloud found : Kindle
+2021-02-28 12:24:39,716 INFO EventLog: Microsoft cloud found : So they were the children of the functional hikers. There should be called the clinic without boat
+2021-02-28 12:24:42,099 INFO EventLog: Microsoft cloud found : Can't move forward together
+2021-02-28 12:24:47,054 INFO EventLog: Microsoft cloud found : I don't know how you grab my engine
+2021-02-28 12:24:52,631 INFO EventLog: Microsoft cloud found : Can can this option is open source too
+2021-02-28 12:24:54,571 INFO EventLog: Microsoft cloud found : Comma quote
+2021-02-28 12:24:57,908 INFO EventLog: Microsoft cloud found : Go to hub
+2021-02-28 12:25:00,749 INFO EventLog: Microsoft cloud found : Hey
+2021-02-28 12:25:04,508 INFO EventLog: Microsoft cloud found : Both numbers are bending
+2021-02-28 13:18:24,527 INFO EventLog: ----------------------Starting System-------------------------
+2021-02-28 13:18:35,894 INFO EventLog: Starting initialization of the system
+2021-02-28 13:18:39,613 INFO EventLog: Trying to open documtent
+2021-02-28 13:18:40,059 INFO EventLog: Word text editor has been initialized and document is open
+2021-02-28 13:18:40,152 INFO EventLog: Connect to Microsoft cloud
+2021-02-28 13:18:46,196 INFO EventLog: Microsoft cloud found : 
+2021-02-28 13:18:49,353 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 13:18:49,443 INFO EventLog: Trigger word Fix
+2021-02-28 13:18:50,160 INFO EventLog: Changed waay to way in point x=735 y=499 range start=356 end=359
+2021-02-28 13:18:53,488 INFO EventLog: Microsoft cloud found : More
+2021-02-28 13:18:56,608 INFO EventLog: Microsoft cloud found : 2
+2021-02-28 13:18:56,656 INFO EventLog: Changed waay to waxy in point x=735 y=499 range start=356 end=360
+2021-02-28 13:18:59,980 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 13:19:00,049 INFO EventLog: Trigger word Fix
+2021-02-28 13:19:00,491 INFO EventLog: Changed waay to way in point x=735 y=555 range start=414 end=417
+2021-02-28 13:19:03,121 INFO EventLog: Microsoft cloud found : More
+2021-02-28 13:19:09,261 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 13:19:09,341 INFO EventLog: Trigger word Fix
+2021-02-28 13:19:09,990 INFO EventLog: Changed Alla to Allah in point x=911 y=611 range start=491 end=496
+2021-02-28 13:19:12,621 INFO EventLog: Microsoft cloud found : More
+2021-02-28 13:19:15,832 INFO EventLog: Microsoft cloud found : 3
+2021-02-28 13:19:15,956 INFO EventLog: Changed Alla to Allan in point x=911 y=611 range start=491 end=496
+2021-02-28 13:19:20,196 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 13:19:20,293 INFO EventLog: Trigger word Fix
+2021-02-28 13:19:20,728 INFO EventLog: Changed sometthing to something in point x=997 y=654 range start=568 end=577
+2021-02-28 13:19:23,346 INFO EventLog: Microsoft cloud found : More
+2021-02-28 13:19:25,692 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 13:19:25,775 INFO EventLog: Trigger word Fix
+2021-02-28 13:19:26,445 INFO EventLog: Changed physiccs to physics in point x=663 y=739 range start=677 end=684
+2021-02-28 13:19:28,566 INFO EventLog: Microsoft cloud found : More
+2021-02-28 13:19:31,656 INFO EventLog: Microsoft cloud found : Fix
+2021-02-28 13:19:31,761 INFO EventLog: Trigger word Fix
+2021-02-28 13:19:32,482 INFO EventLog: Changed uUniverse to universe in point x=824 y=795 range start=716 end=724
+2021-02-28 13:19:34,483 INFO EventLog: Microsoft cloud found : More
+2021-02-28 13:19:40,413 INFO EventLog: Microsoft cloud found : 
+2021-02-28 13:19:40,581 INFO EventLog: Disconnect from Microsoft cloud
+2021-02-28 13:19:40,727 INFO EventLog: Spell checker closed successfully
