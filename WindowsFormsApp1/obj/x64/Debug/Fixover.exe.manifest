@@ -66,14 +66,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fixover.exe" size="653792">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fixover.exe" size="655328">
       <assemblyIdentity name="Fixover" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>W8LRpq6AJUSqPbNoY5k+L4yMb2THzwRXptcp7d4bguA=</dsig:DigestValue>
+        <dsig:DigestValue>2z7/tCQIAsfLCDqGkkviwXaFPFAgpTtPv3OavYyFXPc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -437,22 +437,22 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="en_US.aff" size="3090">
+  <file name="en_US.aff" size="3295">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>x6jE0Iwp0jeICESxYjCZ9ZCSYC8Ym+OM45EuRX/zi8E=</dsig:DigestValue>
+      <dsig:DigestValue>ubHAZ41BfNr17RkFYcV8eDto7Y0aS2S6Lj1+j/X/xdQ=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="en_US.dic" size="548380">
+  <file name="en_US.dic" size="597651">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>nrUs3qtsh6SYjffShFyqo5zZvck7RbwuPCKPgHCAd2c=</dsig:DigestValue>
+      <dsig:DigestValue>/xs/f+J2LvYgOysp4jsOsmSkgw+8nMKdX/dWqH59cDg=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Error_Log.txt" size="48948">
@@ -464,40 +464,22 @@
       <dsig:DigestValue>v14dLFJecckhiFJkJHkOSmI+lkgSJGNvGm5o01w/wF0=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Event_Log.txt" size="627439">
+  <file name="Event_Log.txt" size="635262">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>JCnFWSPAs+6dcZxslApxtXTnZWK/BFNdhwIYfigQock=</dsig:DigestValue>
+      <dsig:DigestValue>qv7CfrEwZYKIn2UHEMuCIPP5RDf/54vIJJRro5by59w=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Fixover.exe.config" size="765">
+  <file name="Fixover.exe.config" size="782">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>RROaw/OVR7UZ/Is33/+nQvZyQG1is7he867e0IN28ow=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="grpc_csharp_ext.x64.dll" size="8084464">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>TDhvVvg2od3y5PIad/ndVoTX1XKiIRlMHwN/o6GfKsk=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="grpc_csharp_ext.x86.dll" size="6204912">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>jdmlKUS6pJHdq0kEiN2LKchSs8Sk1irZZsoqAd6mqtU=</dsig:DigestValue>
+      <dsig:DigestValue>1/KhfSAVzuMmI9dOC1UMpfgsDKbqY1JXG0GFbzB8FYM=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Hunspellx64.dll" size="524288">
@@ -518,42 +500,6 @@
       <dsig:DigestValue>5G5PdoLVJfkoPeKyVPPLhtBtJLXRqR7F1sPlIB8WG9U=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="libgrpc_csharp_ext.x64.dylib" size="6944632">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>w2wuuKFg/jiwiz3dTw3St0PvqvYfVxzT/cvUFGnPPiQ=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="libgrpc_csharp_ext.x64.so" size="82018840">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>9ntwBC0tC0KuGsVRkivo3nxnme/DtFMEaySASq+Aqpc=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="libgrpc_csharp_ext.x86.dylib" size="6333976">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Snoj1kYOCZGjbiiHoJXNVhMBne1r/4dnLC4oaIi67vk=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="libgrpc_csharp_ext.x86.so" size="68798956">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>3WZib0c/zw3is6UZ+RJa3FJP9gtESdDGqNbHBhquA04=</dsig:DigestValue>
-    </hash>
-  </file>
   <file name="Microsoft.CognitiveServices.Speech.core.dll" size="2649960">
     <hash>
       <dsig:Transforms>
@@ -561,42 +507,6 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>RamqR8zGTTWn8R0aYcA7bvkTEepTGF47hAfxx78reQ4=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="nunit.engine.api.dll" size="18944">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>mPedgRFRAvGfE0WqTb0ycge++PwM8znXlZY4eqvAsE8=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="nunit.engine.dll" size="130560">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>jZRSZ0RuwB1thMZ8fDENCYNRlZZmDcudXxpj13UHC7k=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="NUnit3.TestAdapter.dll" size="357888">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>6CPQzi/vOupEuXKI3tRQjNPbQMjbm5CjMFnFqcbXmAc=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="NUnit3.TestAdapter.pdb" size="22676">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>JR6NW0dvy+D6TE8pDsRUfiw0lBk4e2vCWhXyXbAYkYo=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

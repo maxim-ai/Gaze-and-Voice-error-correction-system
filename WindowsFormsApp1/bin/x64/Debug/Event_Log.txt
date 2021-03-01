@@ -16532,3 +16532,218 @@
 2021-02-28 13:19:40,413 INFO EventLog: Microsoft cloud found : 
 2021-02-28 13:19:40,581 INFO EventLog: Disconnect from Microsoft cloud
 2021-02-28 13:19:40,727 INFO EventLog: Spell checker closed successfully
+2021-03-01 13:30:47,533 INFO EventLog: ----------------------Starting System-------------------------
+2021-03-01 13:30:59,436 INFO EventLog: Starting initialization of the system
+2021-03-01 13:31:04,665 INFO EventLog: Trying to open documtent
+2021-03-01 13:31:06,041 INFO EventLog: Word text editor has been initialized and document is open
+2021-03-01 13:31:06,473 INFO EventLog: Connect to Microsoft cloud
+2021-03-01 13:31:10,884 INFO EventLog: Microsoft cloud found : Alright then
+2021-03-01 13:31:14,645 INFO EventLog: Microsoft cloud found : Given
+2021-03-01 13:31:22,576 INFO EventLog: Microsoft cloud found : He thinks that I'm under their fix
+2021-03-01 13:31:27,237 INFO EventLog: Microsoft cloud found : Fix
+2021-03-01 13:31:27,389 INFO EventLog: Trigger word Fix
+2021-03-01 13:31:28,184 INFO EventLog: Changed feear to fear in point x=732 y=468 range start=1266 end=1270
+2021-03-01 13:31:33,131 INFO EventLog: Microsoft cloud found : Turn down more
+2021-03-01 13:31:36,455 INFO EventLog: Microsoft cloud found : Mo
+2021-03-01 13:31:43,516 INFO EventLog: Microsoft cloud found : The vinegar Ella over the fake over the fixed
+2021-03-01 13:31:43,682 INFO EventLog: Disconnect from Microsoft cloud
+2021-03-01 13:31:43,900 INFO EventLog: Spell checker closed successfully
+2021-03-01 13:33:25,291 INFO EventLog: ----------------------Starting System-------------------------
+2021-03-01 13:33:36,811 INFO EventLog: Starting initialization of the system
+2021-03-01 13:33:40,753 INFO EventLog: Trying to open documtent
+2021-03-01 13:33:42,273 INFO EventLog: Word text editor has been initialized and document is open
+2021-03-01 13:33:42,509 INFO EventLog: Connect to Microsoft cloud
+2021-03-01 13:33:47,932 INFO EventLog: Microsoft cloud found : Controlle
+2021-03-01 13:33:54,032 INFO EventLog: Microsoft cloud found : Mohammad's Stanley course lotion within
+2021-03-01 13:33:58,392 INFO EventLog: Microsoft cloud found : Is there a sequel
+2021-03-01 13:34:02,058 INFO EventLog: Microsoft cloud found : And the colour talking
+2021-03-01 13:34:12,621 INFO EventLog: Microsoft cloud found : Warm air is a shallow thievy McDermott Marvin all over him and see like landing on Mars as a kilo after Salita, Mexico
+2021-03-01 13:34:17,186 INFO EventLog: Microsoft cloud found : My Talking Tom, but I follow
+2021-03-01 13:34:20,053 INFO EventLog: Microsoft cloud found : Are you there
+2021-03-01 13:34:27,120 INFO EventLog: Microsoft cloud found : As a kid, whatever, let's Mexican customers, original cover, commercial commercial right near you
+2021-03-01 13:34:30,889 INFO EventLog: Microsoft cloud found : They
+2021-03-01 13:34:34,972 INFO EventLog: Microsoft cloud found : I want to rest
+2021-03-01 13:34:38,346 INFO EventLog: Microsoft cloud found : Last yea
+2021-03-01 13:34:40,605 INFO EventLog: Microsoft cloud found : Almost for sure
+2021-03-01 13:34:46,065 INFO EventLog: Microsoft cloud found : Very killa
+2021-03-01 13:34:49,765 INFO EventLog: Microsoft cloud found : Is it coming from
+2021-03-01 13:34:54,268 INFO EventLog: Microsoft cloud found : Media
+2021-03-01 13:35:00,439 INFO EventLog: Microsoft cloud found : Yeah, delete
+2021-03-01 13:35:06,219 INFO EventLog: Microsoft cloud found : Delete
+2021-03-01 13:45:12,044 INFO EventLog: ----------------------Starting System-------------------------
+2021-03-01 13:45:22,611 INFO EventLog: Starting initialization of the system
+2021-03-01 13:45:27,736 INFO EventLog: Trying to open documtent
+2021-03-01 13:45:29,563 INFO EventLog: Word text editor has been initialized and document is open
+2021-03-01 13:45:29,911 INFO EventLog: Connect to Microsoft cloud
+2021-03-01 13:45:35,851 INFO EventLog: Microsoft cloud found : This is Urban Air
+2021-03-01 13:45:38,497 INFO EventLog: Microsoft cloud found : Delete
+2021-03-01 13:45:38,583 INFO EventLog: Trigger word Delete One Word
+2021-03-01 13:45:45,260 INFO EventLog: Microsoft cloud found : 
+2021-03-01 13:45:47,952 INFO EventLog: Microsoft cloud found : Delete cream
+2021-03-01 13:45:48,029 INFO EventLog: Trigger word Delete One Word
+2021-03-01 13:45:52,598 INFO EventLog: Microsoft cloud found : Exceptio
+2021-03-01 13:45:56,782 INFO EventLog: Microsoft cloud found : Under the seller is out again
+2021-03-01 13:46:02,915 INFO EventLog: Microsoft cloud found : Until it immediately
+2021-03-01 13:46:05,057 INFO EventLog: Microsoft cloud found : 2nd
+2021-03-01 13:46:11,731 INFO EventLog: Microsoft cloud found : Hey Bob and a bi
+2021-03-01 13:46:14,116 INFO EventLog: Microsoft cloud found : So much
+2021-03-01 13:46:20,081 INFO EventLog: Microsoft cloud found : 
+2021-03-01 13:46:20,361 INFO EventLog: Disconnect from Microsoft cloud
+2021-03-01 13:46:20,878 INFO EventLog: Spell checker closed successfully
+2021-03-01 13:46:28,794 INFO EventLog: ----------------------Starting System-------------------------
+2021-03-01 13:46:41,447 INFO EventLog: Starting initialization of the system
+2021-03-01 13:46:46,451 INFO EventLog: Trying to open documtent
+2021-03-01 13:46:47,782 INFO EventLog: Word text editor has been initialized and document is open
+2021-03-01 13:46:48,038 INFO EventLog: Connect to Microsoft cloud
+2021-03-01 13:46:51,632 INFO EventLog: Microsoft cloud found : TuneI
+2021-03-01 13:46:57,660 INFO EventLog: Microsoft cloud found : 
+2021-03-01 13:47:00,824 INFO EventLog: Microsoft cloud found : Lego Lady got recognized him
+2021-03-01 13:47:03,580 INFO EventLog: Microsoft cloud found : Let me delete
+2021-03-01 13:47:07,825 INFO EventLog: Microsoft cloud found : Delete
+2021-03-01 13:47:07,932 INFO EventLog: Trigger word Delete One Word
+2021-03-01 13:48:16,698 INFO EventLog: Changed eeither to  in point x=783 y=374 range start=509 end=509
+2021-03-01 13:48:53,237 INFO EventLog: Microsoft cloud found : Yeah
+2021-03-01 13:48:56,375 INFO EventLog: Microsoft cloud found : But as I mentioned above
+2021-03-01 13:49:01,360 INFO EventLog: Microsoft cloud found : Mahat
+2021-03-01 13:49:05,401 INFO EventLog: Microsoft cloud found : Black, Ken so marchett
+2021-03-01 13:49:10,465 INFO EventLog: Microsoft cloud found : Do an ethical contrasted the way
+2021-03-01 13:49:13,834 INFO EventLog: Microsoft cloud found : She's real if necessary. Machine Horner
+2021-03-01 13:49:19,362 INFO EventLog: Microsoft cloud found : There is a lot more local media
+2021-03-01 13:49:21,734 INFO EventLog: Microsoft cloud found : Hello
+2021-03-01 13:49:25,325 INFO EventLog: Microsoft cloud found : Get on the point before you get something
+2021-03-01 13:49:28,033 INFO EventLog: Microsoft cloud found : Running it for
+2021-03-01 13:49:32,080 INFO EventLog: Microsoft cloud found : Delete
+2021-03-01 13:49:32,128 INFO EventLog: Trigger word Delete One Word
+2021-03-01 13:49:32,863 INFO EventLog: Changed do to  in point x=737 y=233 range start=446 end=446
+2021-03-01 13:49:37,023 INFO EventLog: Microsoft cloud found : Nothing
+2021-03-01 13:49:41,062 INFO EventLog: Microsoft cloud found : Meant to delete
+2021-03-01 13:49:45,005 INFO EventLog: Microsoft cloud found : Delete
+2021-03-01 13:49:45,078 INFO EventLog: Trigger word Delete One Word
+2021-03-01 13:49:45,776 INFO EventLog: Changed stamp to  in point x=917 y=278 range start=528 end=528
+2021-03-01 13:49:48,389 INFO EventLog: Microsoft cloud found : Well
+2021-03-01 13:49:51,226 INFO EventLog: Microsoft cloud found : Delete
+2021-03-01 13:49:51,297 INFO EventLog: Trigger word Delete One Word
+2021-03-01 13:49:52,106 INFO EventLog: Changed eeither to  in point x=783 y=278 range start=509 end=509
+2021-03-01 13:49:57,993 INFO EventLog: Microsoft cloud found : I already got it covered
+2021-03-01 14:12:06,452 INFO EventLog: ----------------------Starting System-------------------------
+2021-03-01 14:12:18,471 INFO EventLog: Starting initialization of the system
+2021-03-01 14:12:23,888 INFO EventLog: Trying to open documtent
+2021-03-01 14:12:25,381 INFO EventLog: Word text editor has been initialized and document is open
+2021-03-01 14:12:25,796 INFO EventLog: Connect to Microsoft cloud
+2021-03-01 14:12:31,020 INFO EventLog: Microsoft cloud found : Proposition
+2021-03-01 14:12:33,892 INFO EventLog: Microsoft cloud found : Then how much for him
+2021-03-01 14:12:37,638 INFO EventLog: Microsoft cloud found : When you get a minute or two
+2021-03-01 14:12:43,470 INFO EventLog: Microsoft cloud found : 2
+2021-03-01 14:12:47,289 INFO EventLog: Microsoft cloud found : UP
+2021-03-01 14:12:50,882 INFO EventLog: Microsoft cloud found : Cops, man
+2021-03-01 14:12:53,721 INFO EventLog: Microsoft cloud found : Delete form
+2021-03-01 14:12:53,768 INFO EventLog: Trigger word Delete One Word
+2021-03-01 14:12:54,767 INFO EventLog: Changed happpy to  in point x=717 y=317 range start=873 end=873
+2021-03-01 14:12:57,433 INFO EventLog: Microsoft cloud found : The seller
+2021-03-01 14:13:02,164 INFO EventLog: Microsoft cloud found : The additional mash Barrett in it
+2021-03-01 14:13:02,342 INFO EventLog: Disconnect from Microsoft cloud
+2021-03-01 14:13:02,964 INFO EventLog: Spell checker closed successfully
+2021-03-01 14:23:06,321 INFO EventLog: ----------------------Starting System-------------------------
+2021-03-01 14:23:28,254 INFO EventLog: Starting initialization of the system
+2021-03-01 14:23:33,503 INFO EventLog: Trying to open documtent
+2021-03-01 14:23:35,306 INFO EventLog: Word text editor has been initialized and document is open
+2021-03-01 14:23:35,671 INFO EventLog: Connect to Microsoft cloud
+2021-03-01 14:23:41,670 INFO EventLog: Microsoft cloud found : Yeah
+2021-03-01 14:23:47,729 INFO EventLog: Microsoft cloud found : Delete form dear dream
+2021-03-01 14:23:47,826 INFO EventLog: Trigger word Delete One Word
+2021-03-01 14:23:48,860 INFO EventLog: Changed can to  in point x=700 y=296 range start=24 end=24
+2021-03-01 14:23:52,021 INFO EventLog: Microsoft cloud found : Wala
+2021-03-01 14:23:54,645 INFO EventLog: Microsoft cloud found : However, comma phone
+2021-03-01 14:23:59,384 INFO EventLog: Microsoft cloud found : They lead form if
+2021-03-01 14:24:05,410 INFO EventLog: Microsoft cloud found : 
+2021-03-01 14:24:10,652 INFO EventLog: Microsoft cloud found : Delete form if
+2021-03-01 14:24:10,710 INFO EventLog: Trigger word Delete One Word
+2021-03-01 14:24:20,988 INFO EventLog: Microsoft cloud found : Set up the phone, can anyone is around homeless near Samatar
+2021-03-01 14:28:05,797 INFO EventLog: ----------------------Starting System-------------------------
+2021-03-01 14:28:17,714 INFO EventLog: Starting initialization of the system
+2021-03-01 14:28:23,043 INFO EventLog: Trying to open documtent
+2021-03-01 14:28:24,859 INFO EventLog: Word text editor has been initialized and document is open
+2021-03-01 14:28:25,123 INFO EventLog: Connect to Microsoft cloud
+2021-03-01 14:28:28,486 INFO EventLog: Microsoft cloud found : Talk
+2021-03-01 14:28:39,325 INFO EventLog: Microsoft cloud found : So
+2021-03-01 14:28:47,403 INFO EventLog: Microsoft cloud found : Delete form
+2021-03-01 14:29:20,469 INFO EventLog: Trigger word Delete One Word
+2021-03-01 14:29:27,366 INFO EventLog: Microsoft cloud found : 
+2021-03-01 14:29:30,222 INFO EventLog: Microsoft cloud found : Delete form call
+2021-03-01 14:42:05,405 INFO EventLog: ----------------------Starting System-------------------------
+2021-03-01 14:42:21,141 INFO EventLog: Starting initialization of the system
+2021-03-01 14:42:26,602 INFO EventLog: Trying to open documtent
+2021-03-01 14:42:28,467 INFO EventLog: Word text editor has been initialized and document is open
+2021-03-01 14:42:28,862 INFO EventLog: Connect to Microsoft cloud
+2021-03-01 14:42:34,722 INFO EventLog: Microsoft cloud found : A condition that reciprocity, buddy, buddy
+2021-03-01 14:42:53,834 INFO EventLog: Microsoft cloud found : Shuffle
+2021-03-01 14:43:00,385 INFO EventLog: Microsoft cloud found : Delete form
+2021-03-01 14:43:55,615 INFO EventLog: Microsoft cloud found : Delete phone call
+2021-03-01 14:44:00,870 INFO EventLog: Trigger word Delete One Word
+2021-03-01 14:44:07,959 INFO EventLog: Microsoft cloud found : Delete from cow
+2021-03-01 15:03:30,984 INFO EventLog: ----------------------Starting System-------------------------
+2021-03-01 15:03:43,737 INFO EventLog: Starting initialization of the system
+2021-03-01 15:03:49,043 INFO EventLog: Trying to open documtent
+2021-03-01 15:03:51,147 INFO EventLog: Word text editor has been initialized and document is open
+2021-03-01 15:03:51,554 INFO EventLog: Connect to Microsoft cloud
+2021-03-01 15:03:56,579 INFO EventLog: Microsoft cloud found : Yeah
+2021-03-01 15:04:08,435 INFO EventLog: Microsoft cloud found : Delete form U2 banana
+2021-03-01 15:05:24,474 INFO EventLog: Microsoft cloud found : Do banan
+2021-03-01 15:12:29,204 INFO EventLog: ----------------------Starting System-------------------------
+2021-03-01 15:12:42,637 INFO EventLog: Starting initialization of the system
+2021-03-01 15:12:46,882 INFO EventLog: Trying to open documtent
+2021-03-01 15:12:48,394 INFO EventLog: Word text editor has been initialized and document is open
+2021-03-01 15:12:48,883 INFO EventLog: Connect to Microsoft cloud
+2021-03-01 15:12:55,015 INFO EventLog: Microsoft cloud found : Issue
+2021-03-01 15:13:04,049 INFO EventLog: Microsoft cloud found : Delete form dream
+2021-03-01 15:13:40,444 INFO EventLog: Disconnect from Microsoft cloud
+2021-03-01 15:13:40,447 INFO EventLog: connect to system lib speech to text
+2021-03-01 15:13:40,600 INFO EventLog: connect to system lib
+2021-03-01 15:13:41,919 INFO EventLog: disconnect from system lib
+2021-03-01 15:13:42,764 INFO EventLog: Connect to Microsoft cloud
+2021-03-01 15:13:48,142 INFO EventLog: Microsoft cloud found : Do cheap
+2021-03-01 15:31:50,726 INFO EventLog: ----------------------Starting System-------------------------
+2021-03-01 15:32:01,955 INFO EventLog: Starting initialization of the system
+2021-03-01 15:32:06,250 INFO EventLog: Trying to open documtent
+2021-03-01 15:32:07,978 INFO EventLog: Word text editor has been initialized and document is open
+2021-03-01 15:32:08,267 INFO EventLog: Connect to Microsoft cloud
+2021-03-01 15:32:15,553 INFO EventLog: Microsoft cloud found : Delete form dream
+2021-03-01 15:32:25,102 INFO EventLog: Trigger word Delete From
+2021-03-01 15:32:31,732 INFO EventLog: Microsoft cloud found : 
+2021-03-01 15:32:33,479 INFO EventLog: Microsoft cloud found : Friendship
+2021-03-01 15:32:45,071 INFO EventLog: Microsoft cloud found : 
+2021-03-01 15:32:47,015 INFO EventLog: Microsoft cloud found : Championshi
+2021-03-01 15:33:04,143 INFO EventLog: Microsoft cloud found : Do we
+2021-03-01 15:33:13,000 INFO EventLog: Trigger word Delete From To
+2021-03-01 15:34:03,402 INFO EventLog: Microsoft cloud found : Hello
+2021-03-01 15:34:21,949 INFO EventLog: Microsoft cloud found : 
+2021-03-01 15:34:28,005 INFO EventLog: Microsoft cloud found : 
+2021-03-01 15:34:35,798 INFO EventLog: Microsoft cloud found : Delete from dream
+2021-03-01 15:34:59,652 INFO EventLog: Trigger word Delete From
+2021-03-01 15:35:06,945 INFO EventLog: Microsoft cloud found : Do Kim
+2021-03-01 15:35:36,058 INFO EventLog: Trigger word Delete From To
+2021-03-01 15:35:44,125 INFO EventLog: Microsoft cloud found : Negative
+2021-03-01 15:35:46,981 INFO EventLog: Microsoft cloud found : Such as order it from picking
+2021-03-01 15:35:53,025 INFO EventLog: Microsoft cloud found : 
+2021-03-01 15:36:00,039 INFO EventLog: Microsoft cloud found : So
+2021-03-01 15:36:03,283 INFO EventLog: Microsoft cloud found : Delete form dream
+2021-03-01 15:36:03,329 INFO EventLog: Trigger word Delete From
+2021-03-01 15:36:10,684 INFO EventLog: Microsoft cloud found : Two eat
+2021-03-01 15:37:12,650 INFO EventLog: Trigger word Delete From To
+2021-03-01 15:38:48,077 INFO EventLog: ----------------------Starting System-------------------------
+2021-03-01 15:38:58,387 INFO EventLog: Starting initialization of the system
+2021-03-01 15:39:02,741 INFO EventLog: Trying to open documtent
+2021-03-01 15:39:04,174 INFO EventLog: Word text editor has been initialized and document is open
+2021-03-01 15:39:04,702 INFO EventLog: Connect to Microsoft cloud
+2021-03-01 15:39:10,772 INFO EventLog: Microsoft cloud found : Delete form Ken
+2021-03-01 15:39:10,878 INFO EventLog: Trigger word Delete From
+2021-03-01 15:39:17,752 INFO EventLog: Microsoft cloud found : 
+2021-03-01 15:39:20,130 INFO EventLog: Microsoft cloud found : Championshi
+2021-03-01 15:39:26,987 INFO EventLog: Microsoft cloud found : 2 championship
+2021-03-01 15:39:49,809 INFO EventLog: Trigger word Delete From To
+2021-03-01 15:42:32,880 INFO EventLog: Microsoft cloud found : From removing
+2021-03-01 15:42:37,717 INFO EventLog: Microsoft cloud found : Talk card
+2021-03-01 15:42:42,073 INFO EventLog: Microsoft cloud found : Can you guys etc
+2021-03-01 15:42:45,293 INFO EventLog: Microsoft cloud found : It is annoying
+2021-03-01 15:42:45,451 INFO EventLog: Disconnect from Microsoft cloud
+2021-03-01 15:42:45,961 INFO EventLog: Spell checker closed successfully

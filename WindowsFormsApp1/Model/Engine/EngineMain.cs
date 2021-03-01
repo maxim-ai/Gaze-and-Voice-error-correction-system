@@ -31,6 +31,7 @@ namespace EyeGaze.Engine
         private SpeechToTextClass speechToText;
         private ManualResetEvent completedEvent;
         private EyeGazeInterface eyeGaze;
+        private CoordinateRange lastCoordinate;
 
         //[System.Runtime.InteropServices.DllImport("DpiHelper.dll")]
         //static public extern void PrintDpiInfo();
@@ -183,7 +184,6 @@ namespace EyeGaze.Engine
             else if (e.triggerWord.Equals("fix word"))
                 FixWord(e.content[1], eyeGaze.GetEyeGazePosition());
 
-            //Meirav's will
             else if (e.triggerWord.Equals("change"))
                 Change();
 
@@ -201,10 +201,22 @@ namespace EyeGaze.Engine
 
             else if (e.triggerWord.Equals("done"))
                 ReplaceAllDone();
+
             else if (e.triggerWord.Equals("more"))
                 MoreSuggestions();
+
             else if (e.triggerWord.Equals("1") || e.triggerWord.Equals("2") || e.triggerWord.Equals("3") || e.triggerWord.Equals("4") || e.triggerWord.Equals("5"))
                 FixFromSuggestions(e.triggerWord);
+
+            else if (e.triggerWord.Equals("delete"))
+                DeleteOneWord(eyeGaze.GetEyeGazePosition());
+
+            else if (e.triggerWord.Equals("delete from"))
+                DeleteFrom(e.content, eyeGaze.GetEyeGazePosition());
+
+            else if (e.triggerWord.Equals("delete from to"))
+                DeleteFromTo(e.content, eyeGaze.GetEyeGazePosition());
+
 
         }
 
@@ -219,6 +231,23 @@ namespace EyeGaze.Engine
                 List<KeyValuePair<CoordinateRange, double>> sortedPoints = SortByDistance(distanceFromCoordinate);
                 FixClosestMisspelledWord(sortedPoints);
             }
+            catch (Exception e)
+            {
+                SystemLogger.getErrorLog().Info(e.Message);
+            }
+        }
+
+        public void DeleteOneWord(Point position)
+        {
+            try
+            {
+                SystemLogger.getEventLog().Info("Trigger word Delete One Word");
+                List<CoordinateRange> wordsInSight = textEditor.GetAllWordsInArea(position);
+                List<KeyValuePair<CoordinateRange, double>> distanceFromCoordinate = FindDistanceFromCoordinate(wordsInSight, position).ToList();
+                List<KeyValuePair<CoordinateRange, double>> sortedPoints = SortByDistance(distanceFromCoordinate);
+                textEditor.ReplaceWord(sortedPoints.First().Key,"");
+            }
+
             catch (Exception e)
             {
                 SystemLogger.getErrorLog().Info(e.Message);
@@ -316,6 +345,68 @@ namespace EyeGaze.Engine
                         if (wordToReplaceCoordinateRange.word.ToLower().Equals(wordToReplace.ToLower()))
                         {
                             textEditor.ReplaceWord(wordToReplaceCoordinateRange, replaceToWord);
+                            return;
+                        }
+                        sortedPoints.RemoveAt(0);
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                SystemLogger.getErrorLog().Info(e.Message);
+            }
+        }
+        private void DeleteFrom(string[] sentence, Point position)
+        {
+            try
+            {
+                sentence = GetSenteceWithoutPunctuation(sentence);
+                string startWord = sentence[0];
+                SystemLogger.getEventLog().Info("Trigger word Delete From");
+                List<CoordinateRange> wordsInSight = textEditor.GetAllWordsInArea(position);
+                List<KeyValuePair<CoordinateRange, double>> distanceFromCoordinate = FindDistanceFromCoordinate(wordsInSight, position).ToList();
+                List<KeyValuePair<CoordinateRange, double>> sortedPoints = SortByDistance(distanceFromCoordinate);
+                if (sortedPoints.Count > 0)
+                {
+                    while (sortedPoints.Count > 0)
+                    {
+                        CoordinateRange wordToReplaceCoordinateRange = sortedPoints.First().Key;
+                        if (wordToReplaceCoordinateRange.word.ToLower().Equals(startWord.ToLower()))
+                        {
+                            lastCoordinate = wordToReplaceCoordinateRange;
+                            return;
+                        }
+                        sortedPoints.RemoveAt(0);
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                SystemLogger.getErrorLog().Info(e.Message);
+            }
+        }
+
+        private void DeleteFromTo(string[] sentence, Point position)
+        {
+            try
+            {
+                sentence = GetSenteceWithoutPunctuation(sentence);
+                string stopWord = sentence[0];
+                SystemLogger.getEventLog().Info("Trigger word Delete From To");
+                List<CoordinateRange> wordsInSight = textEditor.GetAllWordsInArea(position);
+                List<KeyValuePair<CoordinateRange, double>> distanceFromCoordinate = FindDistanceFromCoordinate(wordsInSight, position).ToList();
+                List<KeyValuePair<CoordinateRange, double>> sortedPoints = SortByDistance(distanceFromCoordinate);
+                if (sortedPoints.Count > 0)
+                {
+                    while (sortedPoints.Count > 0)
+                    {
+                        CoordinateRange wordToReplaceCoordinateRange = sortedPoints.First().Key;
+                        if (wordToReplaceCoordinateRange.word.ToLower().Equals(stopWord.ToLower()))
+                        {
+                            //wordToReplaceCoordinateRange;
+                            //lastCoordinate;
+                            Console.WriteLine("lastCoordinate");
+                            Console.WriteLine("wordToReplaceCoordinateRange");
                             return;
                         }
                         sortedPoints.RemoveAt(0);

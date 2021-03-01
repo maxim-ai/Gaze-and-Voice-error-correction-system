@@ -18,13 +18,16 @@ namespace EyeGaze.SpeechToText
         private bool stopToSwitchCloud = false;
         string[] actions;
         private bool isReplaceAll = false;
+        private string lastTriggerWord;
 
         public SpeechToText(string className)
         {
             this.className = className;
             Type speechToTextType = Type.GetType(className);
             speechToText = (InterfaceSpeechToText)Activator.CreateInstance(speechToTextType);
-            actions = new string[] { "fix", "change", "add", "move", "replace", "done","more","1","2","3","4","5"};
+            actions = new string[] { "fix", "change", "add", "move", "replace", "done", "more", "delete", "delete from", "to","too","two","do", "1", "2", "3", "4", "5" };
+
+
             this.terminate = false;
         }
         public void FindActionFromSpeech(string key, string keyInfo)
@@ -106,11 +109,28 @@ namespace EyeGaze.SpeechToText
                     }
                     if (triggerWord == "fix" && text.Length > 1)
                         triggerWord = "fix word";
+                    if(triggerWord=="delete" && (text[1] == "form" || text[1] == "from"))
+                    {
+                        triggerWord = "delete from";
+                    }
+
+                    //in case of "delete from word1 to word2"
+                    string[] toOptionsArray ={ "to", "2", "two", "do", "too" };
+                    if(toOptionsArray.Contains(triggerWord) && lastTriggerWord == "delete from")
+                        triggerWord = "delete from to";
+
+                    lastTriggerWord = triggerWord;
 
                     TriggerWordEvent message = new TriggerWordEvent();
                     message.triggerWord = triggerWord;
                     string[] content = new string[text.Length - 1];
                     Array.Copy(text, 1, content, 0, text.Length - 1);
+                    if (triggerWord == "delete from")
+                    {
+                        string[] tmpContent = new string[content.Length - 1];
+                        Array.Copy(content, 1, tmpContent, 0, content.Length - 1);
+                        content = tmpContent;
+                    }
                     message.content = content;
                     if (!(triggerWord == "done" && !prevReplaceAll))
                         sendMessage(triggerWord, content);
