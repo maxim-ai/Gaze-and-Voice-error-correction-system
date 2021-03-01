@@ -44,6 +44,8 @@ namespace EyeGaze.TextEditor
         public abstract void ReplaceAllDone();
         public abstract bool fileReadOnly();
 
+        public abstract void DeleteSentence(CoordinateRange startRange, CoordinateRange endRange);
+
          public void ShowMoreSuggestions()
         {
             List<string> emptyList = new List<string>();

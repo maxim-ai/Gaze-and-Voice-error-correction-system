@@ -117,7 +117,7 @@ namespace EyeGaze.SpeechToText
                     //in case of "delete from word1 to word2"
                     string[] toOptionsArray ={ "to", "2", "two", "do", "too" };
                     if(toOptionsArray.Contains(triggerWord) && lastTriggerWord == "delete from")
-                        triggerWord = "delete from to";
+                        triggerWord = "to (delete)";
 
                     lastTriggerWord = triggerWord;
 

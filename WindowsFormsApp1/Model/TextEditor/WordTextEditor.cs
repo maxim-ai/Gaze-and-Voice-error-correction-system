@@ -454,5 +454,15 @@ namespace EyeGaze.TextEditor
             return document.ReadOnly;
         }
 
+        public override void DeleteSentence(CoordinateRange startRange, CoordinateRange endRange)
+        {
+            startRange.range.End = endRange.range.End;
+            startRange.range.Text = "";
+            //lastCoordinate.range.End = wordToChange.range.Start + newWord.Length;
+            SystemLogger.getEventLog().Info(String.Format("Changed {0} to {1} in point x={2} y={3} range start={4} end={5}",
+                startRange.word, "", startRange.X, startRange.Y, startRange.range.Start, startRange.range.End));
+
+        }
+
     }
 }

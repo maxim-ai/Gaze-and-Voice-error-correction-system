@@ -16747,3 +16747,264 @@
 2021-03-01 15:42:45,293 INFO EventLog: Microsoft cloud found : It is annoying
 2021-03-01 15:42:45,451 INFO EventLog: Disconnect from Microsoft cloud
 2021-03-01 15:42:45,961 INFO EventLog: Spell checker closed successfully
+2021-03-01 15:45:36,564 INFO EventLog: ----------------------Starting System-------------------------
+2021-03-01 15:45:45,272 INFO EventLog: Starting initialization of the system
+2021-03-01 15:45:49,030 INFO EventLog: Trying to open documtent
+2021-03-01 15:45:49,448 INFO EventLog: Word text editor has been initialized and document is open
+2021-03-01 15:45:49,735 INFO EventLog: Connect to Microsoft cloud
+2021-03-01 15:45:55,711 INFO EventLog: Microsoft cloud found : 
+2021-03-01 15:45:58,859 INFO EventLog: Microsoft cloud found : Delete from debugging
+2021-03-01 15:45:58,921 INFO EventLog: Trigger word Delete From
+2021-03-01 15:46:03,818 INFO EventLog: Microsoft cloud found : Two card
+2021-03-01 15:46:03,839 INFO EventLog: Trigger word Delete From To
+2021-03-01 15:46:06,223 INFO EventLog: Microsoft cloud found : Saba
+2021-03-01 15:46:10,971 INFO EventLog: Microsoft cloud found : Delete two boot
+2021-03-01 15:46:11,010 INFO EventLog: Trigger word Delete One Word
+2021-03-01 15:46:11,327 INFO EventLog: Changed boot to  in point x=803 y=596 range start=249 end=249
+2021-03-01 15:46:15,868 INFO EventLog: Microsoft cloud found : Mamati stubble
+2021-03-01 15:46:17,815 INFO EventLog: Microsoft cloud found : From magi
+2021-03-01 15:46:22,780 INFO EventLog: Microsoft cloud found : Delete from magic
+2021-03-01 15:46:22,834 INFO EventLog: Trigger word Delete From
+2021-03-01 15:46:28,159 INFO EventLog: Microsoft cloud found : Two physics
+2021-03-01 15:46:28,226 INFO EventLog: Trigger word Delete From To
+2021-03-01 15:46:32,785 INFO EventLog: Microsoft cloud found : Newly Sab
+2021-03-01 15:48:33,134 INFO EventLog: ----------------------Starting System-------------------------
+2021-03-01 15:48:41,371 INFO EventLog: Starting initialization of the system
+2021-03-01 15:48:45,157 INFO EventLog: Trying to open documtent
+2021-03-01 15:48:45,712 INFO EventLog: Word text editor has been initialized and document is open
+2021-03-01 15:48:45,767 INFO EventLog: Connect to Microsoft cloud
+2021-03-01 15:48:51,635 INFO EventLog: Microsoft cloud found : Delete from removing
+2021-03-01 15:48:51,681 INFO EventLog: Trigger word Delete From
+2021-03-01 15:48:57,382 INFO EventLog: Microsoft cloud found : 2 putting
+2021-03-01 15:48:57,420 INFO EventLog: Trigger word Delete From To
+2021-03-01 15:49:01,421 INFO EventLog: Microsoft cloud found : No there
+2021-03-01 16:01:43,236 INFO EventLog: ----------------------Starting System-------------------------
+2021-03-01 16:01:51,459 INFO EventLog: Starting initialization of the system
+2021-03-01 16:01:55,191 INFO EventLog: Trying to open documtent
+2021-03-01 16:01:55,775 INFO EventLog: Word text editor has been initialized and document is open
+2021-03-01 16:01:55,832 INFO EventLog: Connect to Microsoft cloud
+2021-03-01 16:01:59,931 INFO EventLog: Microsoft cloud found : Message
+2021-03-01 16:02:04,188 INFO EventLog: Microsoft cloud found : Delete from removing
+2021-03-01 16:02:04,272 INFO EventLog: Trigger word Delete From
+2021-03-01 16:02:09,090 INFO EventLog: Microsoft cloud found : Two card
+2021-03-01 16:02:09,151 INFO EventLog: Trigger word Delete From To
+2021-03-01 16:02:09,573 INFO EventLog: Changed removing to  in point x=907 y=497 range start=173 end=204
+2021-03-01 16:02:13,818 INFO EventLog: Microsoft cloud found : He lost in a long
+2021-03-01 16:02:17,094 INFO EventLog: Microsoft cloud found : If I felt like it
+2021-03-01 16:02:23,619 INFO EventLog: Microsoft cloud found : Right
+2021-03-01 16:02:25,893 INFO EventLog: Microsoft cloud found : From championshi
+2021-03-01 16:02:32,828 INFO EventLog: Microsoft cloud found : Delete from championship
+2021-03-01 16:02:32,905 INFO EventLog: Trigger word Delete From
+2021-03-01 16:02:37,114 INFO EventLog: Microsoft cloud found : Two swor
+2021-03-01 16:02:37,163 INFO EventLog: Trigger word Delete From To
+2021-03-01 16:02:44,759 INFO EventLog: Microsoft cloud found : Delete from removing
+2021-03-01 16:02:44,818 INFO EventLog: Trigger word Delete From
+2021-03-01 16:02:49,023 INFO EventLog: Microsoft cloud found : 2 putting
+2021-03-01 16:02:49,073 INFO EventLog: Trigger word Delete From To
+2021-03-01 16:02:49,433 INFO EventLog: Changed removing to  in point x=907 y=497 range start=173 end=216
+2021-03-01 16:02:56,363 INFO EventLog: Microsoft cloud found : Hello guys
+2021-03-01 16:03:00,914 INFO EventLog: Microsoft cloud found : Dirty exit after removing Salem
+2021-03-01 16:03:40,592 INFO EventLog: Microsoft cloud found : Delete from removing
+2021-03-01 16:03:40,650 INFO EventLog: Trigger word Delete From
+2021-03-01 16:03:45,086 INFO EventLog: Microsoft cloud found : Your feet under
+2021-03-01 16:03:48,235 INFO EventLog: Microsoft cloud found : Show Hershey chocolat
+2021-03-01 16:03:48,461 INFO EventLog: Disconnect from Microsoft cloud
+2021-03-01 16:03:48,550 INFO EventLog: Spell checker closed successfully
+2021-03-01 16:03:52,552 INFO EventLog: ----------------------Starting System-------------------------
+2021-03-01 16:04:00,468 INFO EventLog: Starting initialization of the system
+2021-03-01 16:04:04,238 INFO EventLog: Trying to open documtent
+2021-03-01 16:04:04,786 INFO EventLog: Word text editor has been initialized and document is open
+2021-03-01 16:04:04,837 INFO EventLog: Connect to Microsoft cloud
+2021-03-01 16:04:10,920 INFO EventLog: Microsoft cloud found : 
+2021-03-01 16:04:13,269 INFO EventLog: Microsoft cloud found : Fix
+2021-03-01 16:04:13,352 INFO EventLog: Trigger word Fix
+2021-03-01 16:04:13,799 INFO EventLog: Changed geometryy to geometry in point x=774 y=679 range start=688 end=696
+2021-03-01 16:04:18,459 INFO EventLog: Microsoft cloud found : Delete from magic
+2021-03-01 16:04:18,507 INFO EventLog: Trigger word Delete From
+2021-03-01 16:04:22,840 INFO EventLog: Microsoft cloud found : Two science
+2021-03-01 16:04:22,891 INFO EventLog: Trigger word Delete From To
+2021-03-01 16:04:23,202 INFO EventLog: Changed magic to  in point x=748 y=551 range start=473 end=499
+2021-03-01 16:04:28,126 INFO EventLog: Microsoft cloud found : Maharashtra magical
+2021-03-01 16:04:33,548 INFO EventLog: Microsoft cloud found : 
+2021-03-01 16:05:17,872 INFO EventLog: ----------------------Starting System-------------------------
+2021-03-01 16:05:25,652 INFO EventLog: Starting initialization of the system
+2021-03-01 16:05:29,437 INFO EventLog: Trying to open documtent
+2021-03-01 16:05:29,965 INFO EventLog: Word text editor has been initialized and document is open
+2021-03-01 16:05:30,013 INFO EventLog: Connect to Microsoft cloud
+2021-03-01 16:05:34,580 INFO EventLog: Microsoft cloud found : Delete from cheap
+2021-03-01 16:05:34,629 INFO EventLog: Trigger word Delete From
+2021-03-01 16:05:38,717 INFO EventLog: Microsoft cloud found : Two Java
+2021-03-01 16:05:38,743 INFO EventLog: Trigger word Delete From To
+2021-03-01 16:05:39,195 INFO EventLog: Changed cheap to  in point x=716 y=441 range start=121 end=135
+2021-03-01 16:05:45,299 INFO EventLog: Microsoft cloud found : 
+2021-03-01 16:05:47,135 INFO EventLog: Microsoft cloud found : Removin
+2021-03-01 16:05:53,272 INFO EventLog: Microsoft cloud found : Delete from removing
+2021-03-01 16:05:53,307 INFO EventLog: Trigger word Delete From
+2021-03-01 16:05:57,807 INFO EventLog: Microsoft cloud found : 2 bugs
+2021-03-01 16:05:57,865 INFO EventLog: Trigger word Delete From To
+2021-03-01 16:05:58,299 INFO EventLog: Changed removing to  in point x=907 y=497 range start=168 end=169
+2021-03-01 16:06:04,208 INFO EventLog: Microsoft cloud found : Fix
+2021-03-01 16:06:04,235 INFO EventLog: Trigger word Fix
+2021-03-01 16:06:04,572 INFO EventLog: Changed geometryy to geometry in point x=774 y=859 range start=675 end=683
+2021-03-01 16:06:56,533 INFO EventLog: ----------------------Starting System-------------------------
+2021-03-01 16:07:04,390 INFO EventLog: Starting initialization of the system
+2021-03-01 16:07:08,074 INFO EventLog: Trying to open documtent
+2021-03-01 16:07:08,628 INFO EventLog: Word text editor has been initialized and document is open
+2021-03-01 16:07:08,684 INFO EventLog: Connect to Microsoft cloud
+2021-03-01 16:07:14,158 INFO EventLog: Microsoft cloud found : Delete from car
+2021-03-01 16:07:14,205 INFO EventLog: Trigger word Delete From
+2021-03-01 16:07:19,728 INFO EventLog: Microsoft cloud found : Two, removing
+2021-03-01 16:07:22,958 INFO EventLog: Microsoft cloud found : 2
+2021-03-01 16:07:28,924 INFO EventLog: Microsoft cloud found : 
+2021-03-01 16:07:33,524 INFO EventLog: Microsoft cloud found : Fix
+2021-03-01 16:07:33,574 INFO EventLog: Trigger word Fix
+2021-03-01 16:07:33,995 INFO EventLog: Changed geometryy to geometry in point x=774 y=559 range start=688 end=696
+2021-03-01 16:07:38,123 INFO EventLog: Microsoft cloud found : Delete from universe
+2021-03-01 16:07:38,142 INFO EventLog: Trigger word Delete From
+2021-03-01 16:07:42,655 INFO EventLog: Microsoft cloud found : Do we
+2021-03-01 16:07:42,694 INFO EventLog: Trigger word Delete From To
+2021-03-01 16:11:33,021 INFO EventLog: ----------------------Starting System-------------------------
+2021-03-01 16:11:41,485 INFO EventLog: Starting initialization of the system
+2021-03-01 16:11:45,258 INFO EventLog: Trying to open documtent
+2021-03-01 16:11:45,850 INFO EventLog: Word text editor has been initialized and document is open
+2021-03-01 16:11:45,907 INFO EventLog: Connect to Microsoft cloud
+2021-03-01 16:11:52,498 INFO EventLog: Microsoft cloud found : I miss you
+2021-03-01 16:11:55,962 INFO EventLog: Microsoft cloud found : This mornin
+2021-03-01 16:11:58,843 INFO EventLog: Microsoft cloud found : Far as a new hotel, very much time
+2021-03-01 16:12:02,882 INFO EventLog: Microsoft cloud found : Delete from magic
+2021-03-01 16:12:02,941 INFO EventLog: Trigger word Delete From
+2021-03-01 16:12:09,346 INFO EventLog: Microsoft cloud found : 
+2021-03-01 16:12:14,068 INFO EventLog: Microsoft cloud found : Two works
+2021-03-01 16:12:14,125 INFO EventLog: Trigger word Delete From To
+2021-03-01 16:13:41,077 INFO EventLog: ----------------------Starting System-------------------------
+2021-03-01 16:13:53,773 INFO EventLog: Starting initialization of the system
+2021-03-01 16:13:57,530 INFO EventLog: Trying to open documtent
+2021-03-01 16:13:58,124 INFO EventLog: Word text editor has been initialized and document is open
+2021-03-01 16:13:58,173 INFO EventLog: Connect to Microsoft cloud
+2021-03-01 16:14:00,052 INFO EventLog: Microsoft cloud found : Would I
+2021-03-01 16:14:04,737 INFO EventLog: Microsoft cloud found : Give us
+2021-03-01 16:14:08,983 INFO EventLog: Microsoft cloud found : Delete from only
+2021-03-01 16:14:09,047 INFO EventLog: Trigger word Delete From
+2021-03-01 16:14:13,450 INFO EventLog: Microsoft cloud found : To learn
+2021-03-01 16:14:13,500 INFO EventLog: Trigger word Delete From To
+2021-03-01 16:14:13,853 INFO EventLog: Changed only to  in point x=684 y=555 range start=422 end=422
+2021-03-01 16:14:19,859 INFO EventLog: Microsoft cloud found : 
+2021-03-01 16:14:22,529 INFO EventLog: Microsoft cloud found : Knock, knock the only known
+2021-03-01 16:21:30,990 INFO EventLog: ----------------------Starting System-------------------------
+2021-03-01 16:21:39,044 INFO EventLog: Starting initialization of the system
+2021-03-01 16:21:42,791 INFO EventLog: Trying to open documtent
+2021-03-01 16:21:43,175 INFO EventLog: Word text editor has been initialized and document is open
+2021-03-01 16:21:43,228 INFO EventLog: Connect to Microsoft cloud
+2021-03-01 16:21:48,794 INFO EventLog: Microsoft cloud found : Delete from car
+2021-03-01 16:21:48,894 INFO EventLog: Trigger word Delete From
+2021-03-01 16:21:55,561 INFO EventLog: Microsoft cloud found : Do end
+2021-03-01 16:21:55,620 INFO EventLog: Trigger word Delete From To
+2021-03-01 16:21:56,121 INFO EventLog: Changed car to  in point x=817 y=497 range start=166 end=166
+2021-03-01 16:22:02,134 INFO EventLog: Microsoft cloud found : 
+2021-03-01 16:22:07,550 INFO EventLog: Microsoft cloud found : Delete from championship
+2021-03-01 16:22:07,591 INFO EventLog: Trigger word Delete From
+2021-03-01 16:22:11,361 INFO EventLog: Microsoft cloud found : Do sword
+2021-03-01 16:22:11,421 INFO EventLog: Trigger word Delete From To
+2021-03-01 16:22:11,719 INFO EventLog: Changed championship to  in point x=952 y=342 range start=28 end=28
+2021-03-01 16:22:17,738 INFO EventLog: Microsoft cloud found : 
+2021-03-01 16:22:17,956 INFO EventLog: Disconnect from Microsoft cloud
+2021-03-01 16:22:18,105 INFO EventLog: Spell checker closed successfully
+2021-03-01 16:59:05,778 INFO EventLog: ----------------------Starting System-------------------------
+2021-03-01 16:59:13,811 INFO EventLog: Starting initialization of the system
+2021-03-01 16:59:17,654 INFO EventLog: Trying to open documtent
+2021-03-01 16:59:18,168 INFO EventLog: Word text editor has been initialized and document is open
+2021-03-01 16:59:18,308 INFO EventLog: Connect to Microsoft cloud
+2021-03-01 16:59:23,778 INFO EventLog: Microsoft cloud found : Delete from cheap
+2021-03-01 16:59:23,859 INFO EventLog: Trigger word Delete From
+2021-03-01 16:59:27,621 INFO EventLog: Microsoft cloud found : Two Java
+2021-03-01 16:59:27,684 INFO EventLog: Trigger word Delete From To
+2021-03-01 16:59:28,377 INFO EventLog: Changed cheap to  in point x=716 y=398 range start=38 end=38
+2021-03-01 16:59:34,406 INFO EventLog: Microsoft cloud found : 
+2021-03-01 16:59:40,469 INFO EventLog: Microsoft cloud found : 
+2021-03-01 16:59:40,629 INFO EventLog: Disconnect from Microsoft cloud
+2021-03-01 16:59:40,699 INFO EventLog: Spell checker closed successfully
+2021-03-01 16:59:53,967 INFO EventLog: ----------------------Starting System-------------------------
+2021-03-01 17:00:02,174 INFO EventLog: Starting initialization of the system
+2021-03-01 17:00:05,928 INFO EventLog: Trying to open documtent
+2021-03-01 17:00:06,338 INFO EventLog: Word text editor has been initialized and document is open
+2021-03-01 17:00:06,454 INFO EventLog: Connect to Microsoft cloud
+2021-03-01 17:00:12,256 INFO EventLog: Microsoft cloud found : Delete from programming
+2021-03-01 17:00:12,338 INFO EventLog: Trigger word Delete From
+2021-03-01 17:00:15,864 INFO EventLog: Microsoft cloud found : Too close
+2021-03-01 17:00:15,956 INFO EventLog: Trigger word Delete From To
+2021-03-01 17:00:21,881 INFO EventLog: Microsoft cloud found : Delete from programming
+2021-03-01 17:00:21,963 INFO EventLog: Trigger word Delete From
+2021-03-01 17:00:25,877 INFO EventLog: Microsoft cloud found : Two magician
+2021-03-01 17:00:25,954 INFO EventLog: Trigger word Delete From To
+2021-03-01 17:00:26,337 INFO EventLog: Changed Programming to  in point x=688 y=510 range start=94 end=122
+2021-03-01 17:00:32,392 INFO EventLog: Microsoft cloud found : 
+2021-03-01 17:00:38,411 INFO EventLog: Microsoft cloud found : 
+2021-03-01 17:01:00,295 INFO EventLog: ----------------------Starting System-------------------------
+2021-03-01 17:01:09,220 INFO EventLog: Starting initialization of the system
+2021-03-01 17:01:12,925 INFO EventLog: Trying to open documtent
+2021-03-01 17:01:13,298 INFO EventLog: Word text editor has been initialized and document is open
+2021-03-01 17:01:13,411 INFO EventLog: Connect to Microsoft cloud
+2021-03-01 17:01:18,610 INFO EventLog: Microsoft cloud found : Delete from programming
+2021-03-01 17:01:18,714 INFO EventLog: Trigger word Delete From
+2021-03-01 17:01:23,289 INFO EventLog: Microsoft cloud found : Do magician
+2021-03-01 17:01:23,363 INFO EventLog: Trigger word Delete From To
+2021-03-01 17:01:23,714 INFO EventLog: Changed Programming to  in point x=688 y=510 range start=133 end=133
+2021-03-01 17:01:29,687 INFO EventLog: Microsoft cloud found : 
+2021-03-01 17:01:42,301 INFO EventLog: ----------------------Starting System-------------------------
+2021-03-01 17:01:50,600 INFO EventLog: Starting initialization of the system
+2021-03-01 17:01:54,547 INFO EventLog: Trying to open documtent
+2021-03-01 17:01:54,953 INFO EventLog: Word text editor has been initialized and document is open
+2021-03-01 17:01:55,068 INFO EventLog: Connect to Microsoft cloud
+2021-03-01 17:02:00,575 INFO EventLog: Microsoft cloud found : Delete from programming
+2021-03-01 17:02:00,608 INFO EventLog: Trigger word Delete From
+2021-03-01 17:02:04,684 INFO EventLog: Microsoft cloud found : Two magician
+2021-03-01 17:02:04,756 INFO EventLog: Trigger word Delete From To
+2021-03-01 17:02:05,029 INFO EventLog: Changed Programming to  in point x=688 y=510 range start=133 end=133
+2021-03-01 17:02:18,743 INFO EventLog: ----------------------Starting System-------------------------
+2021-03-01 17:02:27,682 INFO EventLog: Starting initialization of the system
+2021-03-01 17:02:31,432 INFO EventLog: Trying to open documtent
+2021-03-01 17:02:31,904 INFO EventLog: Word text editor has been initialized and document is open
+2021-03-01 17:02:32,021 INFO EventLog: Connect to Microsoft cloud
+2021-03-01 17:02:36,778 INFO EventLog: Microsoft cloud found : Delete from programming
+2021-03-01 17:02:36,819 INFO EventLog: Trigger word Delete From
+2021-03-01 17:02:40,097 INFO EventLog: Microsoft cloud found : Two magician
+2021-03-01 17:02:40,168 INFO EventLog: Trigger word Delete From To
+2021-03-01 17:02:40,719 INFO EventLog: Changed Programming to  in point x=688 y=510 range start=94 end=94
+2021-03-01 17:02:45,379 INFO EventLog: Microsoft cloud found : Delete from debugging
+2021-03-01 17:02:45,465 INFO EventLog: Trigger word Delete From
+2021-03-01 17:02:49,461 INFO EventLog: Microsoft cloud found : Two of
+2021-03-01 17:02:49,523 INFO EventLog: Trigger word Delete From To
+2021-03-01 17:02:56,243 INFO EventLog: Microsoft cloud found : Delete from debugging
+2021-03-01 17:02:56,305 INFO EventLog: Trigger word Delete From
+2021-03-01 17:02:59,972 INFO EventLog: Microsoft cloud found : Do them
+2021-03-01 17:03:00,016 INFO EventLog: Trigger word Delete From To
+2021-03-01 17:03:00,334 INFO EventLog: Changed debugging to  in point x=691 y=454 range start=43 end=43
+2021-03-01 17:03:06,092 INFO EventLog: Microsoft cloud found : Fix
+2021-03-01 17:03:06,165 INFO EventLog: Trigger word Fix
+2021-03-01 17:03:06,671 INFO EventLog: Changed geometryy to geometry in point x=774 y=747 range start=463 end=471
+2021-03-01 17:03:11,222 INFO EventLog: Microsoft cloud found : Replace works physics
+2021-03-01 17:03:17,336 INFO EventLog: Microsoft cloud found : 
+2021-03-01 17:03:22,623 INFO EventLog: Microsoft cloud found : Poly
+2021-03-01 17:03:25,269 INFO EventLog: Microsoft cloud found : Or two Olympic
+2021-03-01 17:03:31,221 INFO EventLog: Microsoft cloud found : Replace more 2 Olympic
+2021-03-01 17:03:31,313 INFO EventLog: Trigger word Replace
+2021-03-01 17:03:31,604 INFO EventLog: Changed more to olympic in point x=1081 y=704 range start=426 end=433
+2021-03-01 17:03:37,628 INFO EventLog: Microsoft cloud found : 
+2021-03-01 17:03:44,050 INFO EventLog: Microsoft cloud found : Replace stranger to alien
+2021-03-01 17:03:44,112 INFO EventLog: Trigger word Replace
+2021-03-01 17:03:44,399 INFO EventLog: Changed stranger to alien in point x=901 y=803 range start=502 end=507
+2021-03-01 17:03:50,347 INFO EventLog: Microsoft cloud found : 
+2021-03-01 17:03:57,883 INFO EventLog: Microsoft cloud found : Replace religious two opinion
+2021-03-01 17:03:57,955 INFO EventLog: Trigger word Replace
+2021-03-01 17:03:58,381 INFO EventLog: Changed religious to opinion in point x=884 y=704 range start=403 end=410
+2021-03-01 17:04:04,517 INFO EventLog: Microsoft cloud found : 
+2021-03-01 17:04:10,558 INFO EventLog: Microsoft cloud found : 
+2021-03-01 17:04:13,899 INFO EventLog: Microsoft cloud found : Fix
+2021-03-01 17:04:13,974 INFO EventLog: Trigger word Fix
+2021-03-01 17:04:14,730 INFO EventLog: Changed thinnk to think in point x=692 y=846 range start=550 end=555
+2021-03-01 17:04:18,582 INFO EventLog: Microsoft cloud found : Delete from nothing
+2021-03-01 17:04:18,650 INFO EventLog: Trigger word Delete From
+2021-03-01 17:04:21,831 INFO EventLog: Microsoft cloud found : Do something
+2021-03-01 17:04:21,896 INFO EventLog: Trigger word Delete From To
+2021-03-01 17:04:22,328 INFO EventLog: Changed Nothing to  in point x=765 y=662 range start=321 end=321
+2021-03-01 17:04:28,366 INFO EventLog: Microsoft cloud found : 

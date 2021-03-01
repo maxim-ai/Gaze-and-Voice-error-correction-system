@@ -214,7 +214,7 @@ namespace EyeGaze.Engine
             else if (e.triggerWord.Equals("delete from"))
                 DeleteFrom(e.content, eyeGaze.GetEyeGazePosition());
 
-            else if (e.triggerWord.Equals("delete from to"))
+            else if (e.triggerWord.Equals("to (delete)"))
                 DeleteFromTo(e.content, eyeGaze.GetEyeGazePosition());
 
 
@@ -405,8 +405,8 @@ namespace EyeGaze.Engine
                         {
                             //wordToReplaceCoordinateRange;
                             //lastCoordinate;
-                            Console.WriteLine("lastCoordinate");
-                            Console.WriteLine("wordToReplaceCoordinateRange");
+
+                            textEditor.DeleteSentence(lastCoordinate, wordToReplaceCoordinateRange);
                             return;
                         }
                         sortedPoints.RemoveAt(0);
