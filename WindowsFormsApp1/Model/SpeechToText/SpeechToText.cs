@@ -25,7 +25,10 @@ namespace EyeGaze.SpeechToText
             this.className = className;
             Type speechToTextType = Type.GetType(className);
             speechToText = (InterfaceSpeechToText)Activator.CreateInstance(speechToTextType);
-            actions = new string[] { "fix", "change", "add", "move", "replace", "done", "more", "delete", "delete from", "to","too","two","do", "1", "2", "3", "4", "5" };
+            actions = new string[] { "fix", "change", "add", "move", "replace", "done", "more", 
+                "delete", "delete from", "copy" ,"copy from" ,"paste","paste before","paste after",
+                "to","too","two","do", 
+                "1", "2", "3", "4", "5" };
 
 
             this.terminate = false;
@@ -109,15 +112,21 @@ namespace EyeGaze.SpeechToText
                     }
                     if (triggerWord == "fix" && text.Length > 1)
                         triggerWord = "fix word";
-                    if(triggerWord=="delete" && (text[1] == "form" || text[1] == "from"))
-                    {
+                    if (triggerWord == "delete" && (text[1] == "form" || text[1] == "from"))
                         triggerWord = "delete from";
-                    }
+                    else if (triggerWord == "copy" && (text[1] == "form" || text[1] == "from"))
+                        triggerWord = "copy from";
+                    else if ((triggerWord == "paste"||triggerWord == "best") && text[1] == "before")
+                        triggerWord = "paste before";
+                    else if ((triggerWord == "paste" || triggerWord == "best") && text[1] == "after")
+                        triggerWord = "paste after";
 
                     //in case of "delete from word1 to word2"
                     string[] toOptionsArray ={ "to", "2", "two", "do", "too" };
                     if(toOptionsArray.Contains(triggerWord) && lastTriggerWord == "delete from")
                         triggerWord = "to (delete)";
+                    else if(toOptionsArray.Contains(triggerWord) && lastTriggerWord == "copy from")
+                        triggerWord = "to (copy)";
 
                     lastTriggerWord = triggerWord;
 
@@ -125,7 +134,8 @@ namespace EyeGaze.SpeechToText
                     message.triggerWord = triggerWord;
                     string[] content = new string[text.Length - 1];
                     Array.Copy(text, 1, content, 0, text.Length - 1);
-                    if (triggerWord == "delete from")
+                    if (triggerWord == "delete from" || triggerWord == "copy from" 
+                        || triggerWord == "paste before" || triggerWord == "paste after")
                     {
                         string[] tmpContent = new string[content.Length - 1];
                         Array.Copy(content, 1, tmpContent, 0, content.Length - 1);
@@ -134,6 +144,22 @@ namespace EyeGaze.SpeechToText
                     message.content = content;
                     if (!(triggerWord == "done" && !prevReplaceAll))
                         sendMessage(triggerWord, content);
+                    return message;
+                }
+                else if (text.Length > 0 && (text[1] == "before" || text[1] == "after"))
+                {
+                    string triggerWord = "paste " + text[1];
+                    lastTriggerWord = triggerWord;
+
+                    TriggerWordEvent message = new TriggerWordEvent();
+                    message.triggerWord = triggerWord;
+                    string[] content = new string[text.Length - 1];
+                    Array.Copy(text, 1, content, 0, text.Length - 1);
+                    string[] tmpContent = new string[content.Length - 1];
+                    Array.Copy(content, 1, tmpContent, 0, content.Length - 1);
+                    content = tmpContent;
+                    message.content = content;
+                    sendMessage(triggerWord, content);
                     return message;
                 }
                 return null;

@@ -36,6 +36,7 @@ namespace EyeGaze.TextEditor
         private string replaceAllNewWord;
         private List<CoordinateRange> replaceAllWordsToChange;
         private bool isReplaceAll;
+        private string lastCopiedSentence;
 
         public WordTextEditor(string path)
         {
@@ -53,6 +54,7 @@ namespace EyeGaze.TextEditor
                 SystemLogger.getEventLog().Info("Word text editor has been initialized and document is open");
                 fileIsOpen = true;
                 isReplaceAll = false;
+                lastCopiedSentence = "";
 
 
             }
@@ -462,6 +464,45 @@ namespace EyeGaze.TextEditor
             SystemLogger.getEventLog().Info(String.Format("Changed {0} to {1} in point x={2} y={3} range start={4} end={5}",
                 startRange.word, "", startRange.X, startRange.Y, startRange.range.Start, startRange.range.End));
 
+        }
+
+        public override void SaveSentence(CoordinateRange startRange, CoordinateRange endRange)
+        {
+            startRange.range.End = endRange.range.End;
+            lastCopiedSentence = startRange.range.Text;
+            SystemLogger.getEventLog().Info(String.Format("Changed {0} to {1} in point x={2} y={3} range start={4} end={5}",
+                startRange.word, "", startRange.X, startRange.Y, startRange.range.Start, startRange.range.End));
+        }
+
+        public override void PasteSentence(CoordinateRange startRange, string pastePlacement)
+        {
+            Console.WriteLine(pastePlacement);
+            if(pastePlacement == "after")
+            {
+                startRange.range.Text = startRange.range.Text + " " + lastCopiedSentence;
+                HighlightWordForSpecificTime(startRange, 3000);
+                startRange.range.End = startRange.range.End + lastCopiedSentence.Length;
+            }
+            else if (pastePlacement == "before")
+            {
+                startRange.range.Text = lastCopiedSentence + " " + startRange.range.Text;
+                HighlightWordForSpecificTime(startRange, 3000);
+                startRange.range.Start = startRange.range.Start - lastCopiedSentence.Length;
+            }
+        }
+
+        public override void HighlightWordForSpecificTime(CoordinateRange startRange, int milSecs)
+        {
+            Range rangeToHighlight = startRange.range.Duplicate;
+            Thread thread = new Thread(() => {
+                WdColorIndex prevColor = rangeToHighlight.HighlightColorIndex;
+                rangeToHighlight.HighlightColorIndex = WdColorIndex.wdYellow;
+                Thread.Sleep(milSecs);
+                if (fileIsOpen)
+                    rangeToHighlight.HighlightColorIndex = prevColor;
+            });
+            thread.Start();
+ 
         }
 
     }

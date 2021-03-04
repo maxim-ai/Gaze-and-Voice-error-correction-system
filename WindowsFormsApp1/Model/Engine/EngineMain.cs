@@ -31,7 +31,8 @@ namespace EyeGaze.Engine
         private SpeechToTextClass speechToText;
         private ManualResetEvent completedEvent;
         private EyeGazeInterface eyeGaze;
-        private CoordinateRange lastCoordinate;
+        private CoordinateRange deleteLastCoordinate;
+        private CoordinateRange copyLastCoordinate;
 
         //[System.Runtime.InteropServices.DllImport("DpiHelper.dll")]
         //static public extern void PrintDpiInfo();
@@ -217,6 +218,14 @@ namespace EyeGaze.Engine
             else if (e.triggerWord.Equals("to (delete)"))
                 DeleteFromTo(e.content, eyeGaze.GetEyeGazePosition());
 
+            else if (e.triggerWord.Equals("copy from"))
+                CopyFrom(e.content, eyeGaze.GetEyeGazePosition());
+
+            else if (e.triggerWord.Equals("to (copy)"))
+                CopyFromTo(e.content, eyeGaze.GetEyeGazePosition());
+
+            else if (e.triggerWord.Contains("paste"))
+                Paste(e.content, e.triggerWord.Substring(e.triggerWord.IndexOf(' ')+1), eyeGaze.GetEyeGazePosition());
 
         }
 
@@ -373,7 +382,8 @@ namespace EyeGaze.Engine
                         CoordinateRange wordToReplaceCoordinateRange = sortedPoints.First().Key;
                         if (wordToReplaceCoordinateRange.word.ToLower().Equals(startWord.ToLower()))
                         {
-                            lastCoordinate = wordToReplaceCoordinateRange;
+                            deleteLastCoordinate = wordToReplaceCoordinateRange;
+                            textEditor.HighlightWordForSpecificTime(wordToReplaceCoordinateRange,3000);
                             return;
                         }
                         sortedPoints.RemoveAt(0);
@@ -405,8 +415,106 @@ namespace EyeGaze.Engine
                         {
                             //wordToReplaceCoordinateRange;
                             //lastCoordinate;
+                            textEditor.HighlightWordForSpecificTime(wordToReplaceCoordinateRange, 1000);
+                            Thread.Sleep(1000);
+                            textEditor.DeleteSentence(deleteLastCoordinate, wordToReplaceCoordinateRange);
+                            return;
+                        }
+                        sortedPoints.RemoveAt(0);
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                SystemLogger.getErrorLog().Info(e.Message);
+            }
+        }
 
-                            textEditor.DeleteSentence(lastCoordinate, wordToReplaceCoordinateRange);
+        public void CopyFrom(string[] sentence, Point position)
+        {
+            try
+            {
+                sentence = GetSenteceWithoutPunctuation(sentence);
+                string startWord = sentence[0];
+                SystemLogger.getEventLog().Info("Trigger word Copy From");
+                List<CoordinateRange> wordsInSight = textEditor.GetAllWordsInArea(position);
+                List<KeyValuePair<CoordinateRange, double>> distanceFromCoordinate = FindDistanceFromCoordinate(wordsInSight, position).ToList();
+                List<KeyValuePair<CoordinateRange, double>> sortedPoints = SortByDistance(distanceFromCoordinate);
+                if (sortedPoints.Count > 0)
+                {
+                    while (sortedPoints.Count > 0)
+                    {
+                        CoordinateRange wordToReplaceCoordinateRange = sortedPoints.First().Key;
+                        if (wordToReplaceCoordinateRange.word.ToLower().Equals(startWord.ToLower()))
+                        {
+                            copyLastCoordinate = wordToReplaceCoordinateRange;
+                            textEditor.HighlightWordForSpecificTime(wordToReplaceCoordinateRange, 3000);
+                            return;
+                        }
+                        sortedPoints.RemoveAt(0);
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                SystemLogger.getErrorLog().Info(e.Message);
+            }
+
+        }
+
+        private void CopyFromTo(string[] sentence, Point position)
+        {
+            try
+            {
+                sentence = GetSenteceWithoutPunctuation(sentence);
+                string stopWord = sentence[0];
+                SystemLogger.getEventLog().Info("Trigger word Copy From To");
+                List<CoordinateRange> wordsInSight = textEditor.GetAllWordsInArea(position);
+                List<KeyValuePair<CoordinateRange, double>> distanceFromCoordinate = FindDistanceFromCoordinate(wordsInSight, position).ToList();
+                List<KeyValuePair<CoordinateRange, double>> sortedPoints = SortByDistance(distanceFromCoordinate);
+                if (sortedPoints.Count > 0)
+                {
+                    while (sortedPoints.Count > 0)
+                    {
+                        CoordinateRange wordToReplaceCoordinateRange = sortedPoints.First().Key;
+                        if (wordToReplaceCoordinateRange.word.ToLower().Equals(stopWord.ToLower()))
+                        {
+                            textEditor.HighlightWordForSpecificTime(wordToReplaceCoordinateRange, 1000);
+                            textEditor.SaveSentence(copyLastCoordinate, wordToReplaceCoordinateRange);
+                            return;
+                        }
+                        sortedPoints.RemoveAt(0);
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                SystemLogger.getErrorLog().Info(e.Message);
+            }
+        }
+
+        public void Paste(string[] sentence, string pastePlacement ,Point position)
+        {
+            Console.WriteLine(sentence[0]);
+            Console.WriteLine(pastePlacement);
+            try
+            {
+                sentence = GetSenteceWithoutPunctuation(sentence);
+                string stopWord = sentence[0];
+                SystemLogger.getEventLog().Info("Trigger word Paste");
+                List<CoordinateRange> wordsInSight = textEditor.GetAllWordsInArea(position);
+                List<KeyValuePair<CoordinateRange, double>> distanceFromCoordinate = FindDistanceFromCoordinate(wordsInSight, position).ToList();
+                List<KeyValuePair<CoordinateRange, double>> sortedPoints = SortByDistance(distanceFromCoordinate);
+                if (sortedPoints.Count > 0)
+                {
+                    while (sortedPoints.Count > 0)
+                    {
+                        CoordinateRange wordToReplaceCoordinateRange = sortedPoints.First().Key;
+                        if (wordToReplaceCoordinateRange.word.ToLower().Equals(stopWord.ToLower()))
+                        {
+                            //textEditor.HighlightWordForSpecificTime(wordToReplaceCoordinateRange, 1000);
+                            //textEditor.SaveSentence(copyLastCoordinate, wordToReplaceCoordinateRange);
+                            textEditor.PasteSentence(wordToReplaceCoordinateRange, pastePlacement);
                             return;
                         }
                         sortedPoints.RemoveAt(0);
