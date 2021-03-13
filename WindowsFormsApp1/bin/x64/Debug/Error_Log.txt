@@ -1236,3 +1236,135 @@
 2021-03-04 15:20:48,232 INFO ErrorLog: ----------------------Starting System-------------------------
 2021-03-04 15:21:26,726 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
 2021-03-04 15:22:33,966 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-03-06 18:53:46,116 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-03-06 18:54:06,629 INFO ErrorLog: האינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 18:54:11,361 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 18:54:15,687 INFO ErrorLog: האינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 18:54:31,073 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 18:54:35,105 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 18:54:38,028 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 18:54:39,934 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 18:54:43,455 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 18:54:52,659 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 18:54:56,389 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 18:54:59,211 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 18:55:07,845 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 18:55:12,158 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 18:55:15,493 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 18:55:18,710 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 18:55:24,678 INFO ErrorLog: האינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 18:55:27,320 INFO ErrorLog: האינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 18:56:05,577 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 18:56:26,723 ERROR ErrorLog: Microsoft Speech to Text - connection to Internet failed
+2021-03-06 18:56:41,513 ERROR ErrorLog: Microsoft Speech to Text - connection to Internet failed
+2021-03-06 18:56:52,741 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-03-06 18:57:28,575 ERROR ErrorLog: Microsoft Speech to Text - connection to Internet failed
+2021-03-06 18:58:09,493 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 18:59:35,480 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 18:59:40,513 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 18:59:51,686 ERROR ErrorLog: Microsoft Speech to Text - connection to Internet failed
+2021-03-06 19:02:10,316 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-03-06 19:02:37,159 ERROR ErrorLog: Microsoft Speech to Text - connection to Internet failed
+2021-03-06 19:03:45,544 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-03-06 19:06:04,166 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-03-06 19:08:51,879 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-03-06 19:11:25,850 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 19:13:12,356 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 19:13:23,511 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 19:13:40,302 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 19:14:08,293 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 19:14:11,634 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 19:14:14,357 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 19:20:51,793 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 19:21:13,138 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 19:21:15,283 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 19:23:09,571 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 19:23:55,814 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 19:27:18,180 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 19:38:58,292 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-03-06 19:52:04,344 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-03-06 19:52:38,691 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 19:54:22,169 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 19:56:29,636 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 19:58:15,341 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-03-06 19:59:05,924 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 19:59:09,571 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 19:59:58,301 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-03-06 20:01:17,711 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-03-06 20:01:45,646 ERROR ErrorLog: Microsoft Speech to Text - connection to Internet failed
+2021-03-06 20:02:44,421 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:04:21,688 ERROR ErrorLog: Microsoft Speech to Text - connection to Internet failed
+2021-03-06 20:04:58,840 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-03-06 20:08:14,112 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:10:09,509 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-03-06 20:11:34,157 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-03-06 20:12:02,394 ERROR ErrorLog: Microsoft Speech to Text - connection to Internet failed
+2021-03-06 20:12:14,290 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-03-06 20:15:19,132 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:15:53,400 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:16:09,591 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:16:15,423 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:16:20,899 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:16:27,105 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:16:55,401 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:17:06,626 ERROR ErrorLog: Microsoft Speech to Text - connection to Internet failed
+2021-03-06 20:17:25,846 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:17:33,760 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:17:38,754 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:17:40,483 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:17:51,418 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:18:02,241 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:18:14,924 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:18:22,625 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:18:24,454 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:18:44,617 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:18:49,561 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:18:59,550 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:19:01,382 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:19:13,903 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:19:22,238 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:19:30,018 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:19:37,176 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:19:43,514 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:20:16,202 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:28:03,620 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-03-06 20:28:32,372 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:29:52,452 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-03-06 20:31:04,200 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-03-06 20:31:41,390 INFO ErrorLog: ההפניה לאובייקט לא הוגדרה למופע של אובייקט.
+2021-03-06 20:31:49,057 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:33:49,804 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-03-06 20:34:16,372 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:38:20,096 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:41:39,636 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-03-06 20:45:04,714 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:45:16,824 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:57:53,724 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:59:10,575 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:59:16,050 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:59:20,358 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:59:34,329 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:59:44,403 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 20:59:59,918 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 21:00:16,927 ERROR ErrorLog: Microsoft Speech to Text - connection to Internet failed
+2021-03-06 21:00:30,630 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 21:00:37,113 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 21:00:45,481 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 21:01:03,595 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 21:01:48,127 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-03-06 21:02:35,366 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 21:03:00,010 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 21:03:37,712 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 21:03:47,785 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 21:03:50,966 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 21:03:54,111 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 21:05:45,943 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 21:12:03,941 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-03-06 21:14:55,195 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 21:15:29,198 ERROR ErrorLog: Microsoft Speech to Text - connection to Internet failed
+2021-03-06 21:16:27,343 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-06 21:17:15,448 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-13 16:09:50,537 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-03-13 16:10:45,216 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-13 16:11:41,866 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-03-13 16:11:47,022 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.

@@ -320,13 +320,16 @@ namespace EyeGaze.TextEditor
         {
             if (isReplaceAll)
                 return;
-            if (IsUpper(wordToChange.word))
+            if(wordToChange.word.Length > 0)
             {
-                newWord = newWord.ToUpper();
-            }
-            else if (wordToChange.word[0] >= 'A' && wordToChange.word[0] <= 'Z') // first letter is upper case
-            {
-                newWord = newWord[0].ToString().ToUpper() + newWord.Substring(1);
+                if (IsUpper(wordToChange.word))
+                {
+                    newWord = newWord.ToUpper();
+                }
+                else if (wordToChange.word[0] >= 'A' && wordToChange.word[0] <= 'Z') // first letter is upper case
+                {
+                    newWord = newWord[0].ToString().ToUpper() + newWord.Substring(1);
+                }
             }
             wordToChange.range.Text = newWord;
             wordToChange.range.End = wordToChange.range.Start + newWord.Length;
@@ -456,13 +459,17 @@ namespace EyeGaze.TextEditor
             return document.ReadOnly;
         }
 
-        public override void DeleteSentence(CoordinateRange startRange, CoordinateRange endRange)
+        public override CoordinateRange DeleteSentence(CoordinateRange startRange, CoordinateRange endRange)
         {
             startRange.range.End = endRange.range.End;
+            CoordinateRange toReturn = new CoordinateRange(startRange.X,startRange.Y,startRange.range,startRange.range.Text);
             startRange.range.Text = "";
             //lastCoordinate.range.End = wordToChange.range.Start + newWord.Length;
             SystemLogger.getEventLog().Info(String.Format("Changed {0} to {1} in point x={2} y={3} range start={4} end={5}",
                 startRange.word, "", startRange.X, startRange.Y, startRange.range.Start, startRange.range.End));
+
+            //toReturn.word = toReturn.range.Text;
+            return toReturn;
 
         }
 
@@ -474,21 +481,25 @@ namespace EyeGaze.TextEditor
                 startRange.word, "", startRange.X, startRange.Y, startRange.range.Start, startRange.range.End));
         }
 
-        public override void PasteSentence(CoordinateRange startRange, string pastePlacement)
+        public override CoordinateRange PasteSentence(CoordinateRange startRange, string pastePlacement)
         {
             Console.WriteLine(pastePlacement);
-            if(pastePlacement == "after")
+            CoordinateRange toReturn = new CoordinateRange();
+            if (pastePlacement == "after")
             {
+                toReturn = new CoordinateRange(startRange.X, startRange.Y, startRange.range, startRange.range.Text);
                 startRange.range.Text = startRange.range.Text + " " + lastCopiedSentence;
                 HighlightWordForSpecificTime(startRange, 3000);
-                startRange.range.End = startRange.range.End + lastCopiedSentence.Length;
+                //startRange.range.End = startRange.range.End + lastCopiedSentence.Length;
             }
             else if (pastePlacement == "before")
             {
+                toReturn = new CoordinateRange(startRange.X, startRange.Y, startRange.range, startRange.range.Text);
                 startRange.range.Text = lastCopiedSentence + " " + startRange.range.Text;
                 HighlightWordForSpecificTime(startRange, 3000);
-                startRange.range.Start = startRange.range.Start - lastCopiedSentence.Length;
+                //startRange.range.Start = startRange.range.Start - lastCopiedSentence.Length;
             }
+            return toReturn;
         }
 
         public override void HighlightWordForSpecificTime(CoordinateRange startRange, int milSecs)

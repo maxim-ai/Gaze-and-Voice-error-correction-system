@@ -44,9 +44,9 @@ namespace EyeGaze.TextEditor
         public abstract void ReplaceAllDone();
         public abstract bool fileReadOnly();
 
-        public abstract void DeleteSentence(CoordinateRange startRange, CoordinateRange endRange);
+        public abstract CoordinateRange DeleteSentence(CoordinateRange startRange, CoordinateRange endRange);
         public abstract void SaveSentence(CoordinateRange startRange, CoordinateRange endRange);
-        public abstract void PasteSentence(CoordinateRange startRange, string pastePlacement);
+        public abstract CoordinateRange PasteSentence(CoordinateRange startRange, string pastePlacement);
         public abstract void HighlightWordForSpecificTime(CoordinateRange startRange, int milSecs);
 
          public void ShowMoreSuggestions()
