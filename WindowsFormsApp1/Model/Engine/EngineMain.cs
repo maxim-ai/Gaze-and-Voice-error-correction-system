@@ -17,6 +17,7 @@ using System.IO;
 using Microsoft.Win32;
 using EyeGaze.GazeTracker;
 using System.Timers;
+using Experiment;
 
 namespace EyeGaze.Engine
 {
@@ -34,6 +35,7 @@ namespace EyeGaze.Engine
         private CoordinateRange deleteLastCoordinate;
         private CoordinateRange copyLastCoordinate;
         private (String trigger, CoordinateRange prevCoord, String changed) lastOperation;
+        private MainClass mainExperiment;
 
         //[System.Runtime.InteropServices.DllImport("DpiHelper.dll")]
         //static public extern void PrintDpiInfo();
@@ -88,7 +90,7 @@ namespace EyeGaze.Engine
                 GT.connect();
                 GT.listen();
             }
-            
+            this.mainExperiment = new MainClass();
             completedEvent = new ManualResetEvent(false);
             SystemLogger.getEventLog().Info("Starting initialization of the system");
             Type eyeGazeType = Type.GetType(eyeGazeNamespace);
@@ -270,7 +272,8 @@ namespace EyeGaze.Engine
                 textEditor.ReplaceWord(sortedPoints.First().Key,"");
 
                 //for cancel
-                lastOperation = ("fixTo", sortedPoints.First().Key, "");
+                lastOperation = ("delete", sortedPoints.First().Key, "");
+                mainExperiment.command("delete", "", sortedPoints.First().Key, "", true,, DateTime.Now);
             }
 
             catch (Exception e)
@@ -311,6 +314,7 @@ namespace EyeGaze.Engine
 
                     //for cancel
                     lastOperation = ("fixTo", wordToFix, word);
+                    mainExperiment.command("fix to", "fix to " + wordToFix, wordToFix, word,true, ,DateTime.Now);
                 }
             }
             catch (Exception e)
@@ -376,7 +380,7 @@ namespace EyeGaze.Engine
 
                             //for cancel
                             lastOperation = ("replace", wordToReplaceCoordinateRange, replaceToWord);
-
+                            mainExperiment.command("replace", "replace " + wordToReplace + " to " + replaceToWord, wordToReplace, replaceToWord, true,, DateTime.Now);
                             return;
                         }
                         sortedPoints.RemoveAt(0);
@@ -444,6 +448,7 @@ namespace EyeGaze.Engine
 
                             //for cancel
                             lastOperation = ("delete", deleted, "");
+                            mainExperiment.command("delete from to", "delete from "+ deleteLastCoordinate.word + " to "+ stopWord, deleted.word, "", true,, DateTime.Now);
                             return;
                         }
                         sortedPoints.RemoveAt(0);
@@ -507,6 +512,7 @@ namespace EyeGaze.Engine
                         {
                             textEditor.HighlightWordForSpecificTime(wordToReplaceCoordinateRange, 1000);
                             textEditor.SaveSentence(copyLastCoordinate, wordToReplaceCoordinateRange);
+                            mainExperiment.command("copy", "copy from " + copyLastCoordinate.word + " to " + stopWord,);
                             return;
                         }
                         sortedPoints.RemoveAt(0);
@@ -632,6 +638,7 @@ namespace EyeGaze.Engine
             String fixedWord = textEditor.fixedWord.list[index];
             textEditor.ReplaceWord(textEditor.fixedWord.coord, fixedWord.Trim());
             textEditor.HideMoreSuggestions();
+            mainExperiment.command("more", "more " + trigger, lastOperation.changed, fixedWord.Trim(), false,, DateTime.Now);
             //textEditor.FixFromSuggestions(index);
 
         }
@@ -675,6 +682,7 @@ namespace EyeGaze.Engine
 
                     //for cancel
                     lastOperation = ("fix", wordToFix, fixedWord);
+                    mainExperiment.command("fix", "fix", wordToFix, fixedWord,true,, DateTime.Now);
                 }
                 return;
             }
@@ -687,6 +695,7 @@ namespace EyeGaze.Engine
 
             //for cancel
             lastOperation = ("add", firstWordCoordinate, wordsToAdd);
+            mainExperiment.command("add", "add " + wordsToAdd, "", wordsToAdd, true,, DateTime.Now);
         }
 
         private void FixLatestMisspelledWord(List<CoordinateRange> misspelledWords)
