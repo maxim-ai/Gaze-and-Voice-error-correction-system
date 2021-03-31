@@ -241,6 +241,8 @@ namespace EyeGaze.Engine
             {
                 CoordinateRange newCoords = new CoordinateRange(lastOperation.prevCoord.X, lastOperation.prevCoord.Y, lastOperation.prevCoord.range, lastOperation.changed);
                 textEditor.ReplaceWord(newCoords, lastOperation.prevCoord.word);
+                mainExperiment.EventCommand("cancel", "cancel", lastOperation.changed, lastOperation.prevCoord.word,false,
+                    textEditor.getDoc().Content.Text,DateTime.Now);
             }
         }
 
@@ -273,7 +275,8 @@ namespace EyeGaze.Engine
 
                 //for cancel
                 lastOperation = ("delete", sortedPoints.First().Key, "");
-                mainExperiment.command("delete", "", sortedPoints.First().Key, "", true,, DateTime.Now);
+                mainExperiment.EventCommand("delete", "", sortedPoints.First().Key, "", 
+                    true, textEditor.getDoc().Content.Text, DateTime.Now);
             }
 
             catch (Exception e)
@@ -314,7 +317,8 @@ namespace EyeGaze.Engine
 
                     //for cancel
                     lastOperation = ("fixTo", wordToFix, word);
-                    mainExperiment.command("fix to", "fix to " + wordToFix, wordToFix, word,true, ,DateTime.Now);
+                    mainExperiment.EventCommand("fix to", "fix to " + wordToFix, wordToFix, word,
+                        true, textEditor.getDoc().Content.Text, DateTime.Now);
                 }
             }
             catch (Exception e)
@@ -380,7 +384,8 @@ namespace EyeGaze.Engine
 
                             //for cancel
                             lastOperation = ("replace", wordToReplaceCoordinateRange, replaceToWord);
-                            mainExperiment.command("replace", "replace " + wordToReplace + " to " + replaceToWord, wordToReplace, replaceToWord, true,, DateTime.Now);
+                            mainExperiment.EventCommand("replace", "replace " + wordToReplace + " to " + replaceToWord, wordToReplace, replaceToWord,
+                                true, textEditor.getDoc().Content.Text, DateTime.Now);
                             return;
                         }
                         sortedPoints.RemoveAt(0);
@@ -448,7 +453,8 @@ namespace EyeGaze.Engine
 
                             //for cancel
                             lastOperation = ("delete", deleted, "");
-                            mainExperiment.command("delete from to", "delete from "+ deleteLastCoordinate.word + " to "+ stopWord, deleted.word, "", true,, DateTime.Now);
+                            mainExperiment.EventCommand("delete from to", "delete from "+ deleteLastCoordinate.word + " to "+ stopWord, deleted.word, "",
+                                true, textEditor.getDoc().Content.Text, DateTime.Now);
                             return;
                         }
                         sortedPoints.RemoveAt(0);
@@ -511,8 +517,9 @@ namespace EyeGaze.Engine
                         if (wordToReplaceCoordinateRange.word.ToLower().Equals(stopWord.ToLower()))
                         {
                             textEditor.HighlightWordForSpecificTime(wordToReplaceCoordinateRange, 1000);
-                            textEditor.SaveSentence(copyLastCoordinate, wordToReplaceCoordinateRange);
-                            mainExperiment.command("copy", "copy from " + copyLastCoordinate.word + " to " + stopWord,);
+                            CoordinateRange copied = textEditor.SaveSentence(copyLastCoordinate, wordToReplaceCoordinateRange);
+                            mainExperiment.EventCommand("copy", "copy from " + copyLastCoordinate.word + " to " + stopWord, "", copied.word,
+                                true, textEditor.getDoc().Content.Text, DateTime.Now);
                             return;
                         }
                         sortedPoints.RemoveAt(0);
@@ -527,8 +534,6 @@ namespace EyeGaze.Engine
 
         public void Paste(string[] sentence, string pastePlacement ,Point position)
         {
-            Console.WriteLine(sentence[0]);
-            Console.WriteLine(pastePlacement);
             try
             {
                 sentence = GetSenteceWithoutPunctuation(sentence);
@@ -549,7 +554,9 @@ namespace EyeGaze.Engine
                             CoordinateRange pasted= textEditor.PasteSentence(wordToReplaceCoordinateRange, pastePlacement);
 
                             //for cancel
-                            lastOperation = ("fix", pasted, wordToReplaceCoordinateRange.word);
+                            lastOperation = ("paste", pasted, wordToReplaceCoordinateRange.word);
+                            mainExperiment.EventCommand("paste", "paste " + pastePlacement + " " + stopWord, "", pasted.word,
+                                true, textEditor.getDoc().Content.Text, DateTime.Now);
 
                             return;
                         }
@@ -638,7 +645,8 @@ namespace EyeGaze.Engine
             String fixedWord = textEditor.fixedWord.list[index];
             textEditor.ReplaceWord(textEditor.fixedWord.coord, fixedWord.Trim());
             textEditor.HideMoreSuggestions();
-            mainExperiment.command("more", "more " + trigger, lastOperation.changed, fixedWord.Trim(), false,, DateTime.Now);
+            mainExperiment.EventCommand("more", "more " + trigger, lastOperation.changed, fixedWord.Trim(),
+                false, textEditor.getDoc().Content.Text, DateTime.Now);
             //textEditor.FixFromSuggestions(index);
 
         }
@@ -682,7 +690,8 @@ namespace EyeGaze.Engine
 
                     //for cancel
                     lastOperation = ("fix", wordToFix, fixedWord);
-                    mainExperiment.command("fix", "fix", wordToFix, fixedWord,true,, DateTime.Now);
+                    mainExperiment.EventCommand("fix", "fix", wordToFix, fixedWord,
+                        true, textEditor.getDoc().Content.Text, DateTime.Now);
                 }
                 return;
             }
@@ -695,7 +704,8 @@ namespace EyeGaze.Engine
 
             //for cancel
             lastOperation = ("add", firstWordCoordinate, wordsToAdd);
-            mainExperiment.command("add", "add " + wordsToAdd, "", wordsToAdd, true,, DateTime.Now);
+            mainExperiment.EventCommand("add", "add " + wordsToAdd, "", wordsToAdd,
+                true, textEditor.getDoc().Content.Text, DateTime.Now);
         }
 
         private void FixLatestMisspelledWord(List<CoordinateRange> misspelledWords)

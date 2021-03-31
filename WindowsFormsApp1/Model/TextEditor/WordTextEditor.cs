@@ -473,12 +473,14 @@ namespace EyeGaze.TextEditor
 
         }
 
-        public override void SaveSentence(CoordinateRange startRange, CoordinateRange endRange)
+        public override CoordinateRange SaveSentence(CoordinateRange startRange, CoordinateRange endRange)
         {
             startRange.range.End = endRange.range.End;
             lastCopiedSentence = startRange.range.Text;
+            CoordinateRange toReturn = new CoordinateRange(startRange.X, startRange.Y, startRange.range, startRange.range.Text);
             SystemLogger.getEventLog().Info(String.Format("Changed {0} to {1} in point x={2} y={3} range start={4} end={5}",
                 startRange.word, "", startRange.X, startRange.Y, startRange.range.Start, startRange.range.End));
+            return toReturn;
         }
 
         public override CoordinateRange PasteSentence(CoordinateRange startRange, string pastePlacement)
@@ -515,6 +517,10 @@ namespace EyeGaze.TextEditor
             thread.Start();
  
         }
-
+        public override Document getDoc()
+        {
+            return document;
+        }
     }
+
 }

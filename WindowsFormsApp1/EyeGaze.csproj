@@ -335,6 +335,9 @@
     <Compile Include="Model\SpellChecker\NHunspellSpellChecker.cs" />
     <Compile Include="Model\TextEditor\AbstractTextEditor.cs" />
     <Compile Include="Model\TextEditor\WordTextEditor.cs" />
+    <Content Include="Core\Compression\Snappy\lib\win\snappy32.dll" />
+    <Content Include="Core\Compression\Snappy\lib\win\snappy64.dll" />
+    <Content Include="Core\Compression\Zstandard\lib\win\libzstd.dll" />
     <Content Include="libzstd.dll" />
     <Content Include="mongocrypt.dll" />
     <Content Include="snappy32.dll" />
@@ -353,9 +356,6 @@
     </EmbeddedResource>
     <None Include="icons\question.jpeg" />
     <None Include="icons\question2.png" />
-    <Content Include="Core\Compression\Snappy\lib\win\snappy32.dll" />
-    <Content Include="Core\Compression\Snappy\lib\win\snappy64.dll" />
-    <Content Include="Core\Compression\Zstandard\lib\win\libzstd.dll" />
     <Content Include="Hunspellx64.dll" />
     <Content Include="Hunspellx86.dll" />
     <None Include="icons\file.png" />

@@ -45,10 +45,10 @@ namespace EyeGaze.TextEditor
         public abstract bool fileReadOnly();
 
         public abstract CoordinateRange DeleteSentence(CoordinateRange startRange, CoordinateRange endRange);
-        public abstract void SaveSentence(CoordinateRange startRange, CoordinateRange endRange);
+        public abstract CoordinateRange SaveSentence(CoordinateRange startRange, CoordinateRange endRange);
         public abstract CoordinateRange PasteSentence(CoordinateRange startRange, string pastePlacement);
         public abstract void HighlightWordForSpecificTime(CoordinateRange startRange, int milSecs);
-
+        public abstract Document getDoc();
          public void ShowMoreSuggestions()
         {
             List<string> emptyList = new List<string>();
