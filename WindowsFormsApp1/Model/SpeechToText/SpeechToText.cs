@@ -27,7 +27,7 @@ namespace EyeGaze.SpeechToText
             speechToText = (InterfaceSpeechToText)Activator.CreateInstance(speechToTextType);
             actions = new string[] { "fix", "change", "add", "move", "replace", "done", "more", 
                 "delete", "delete from", "copy" ,"copy from" ,"paste","paste before","paste after",
-                "to","too","two","do", "cancel",
+                "to","too","two","do","two,", "cancel",
                 "1", "2", "3", "4", "5" };
 
 
@@ -122,13 +122,14 @@ namespace EyeGaze.SpeechToText
                         triggerWord = "paste after";
 
                     //in case of "delete from word1 to word2"
-                    string[] toOptionsArray ={ "to", "2", "two", "do", "too" };
+                    string[] toOptionsArray ={ "to", "2", "two", "do", "too", "two," };
                     if(toOptionsArray.Contains(triggerWord) && lastTriggerWord == "delete from")
                         triggerWord = "to (delete)";
                     else if(toOptionsArray.Contains(triggerWord) && lastTriggerWord == "copy from")
                         triggerWord = "to (copy)";
 
-                    lastTriggerWord = triggerWord;
+                    if(!triggerWord.Contains("("))
+                        lastTriggerWord = triggerWord;
 
                     TriggerWordEvent message = new TriggerWordEvent();
                     message.triggerWord = triggerWord;
