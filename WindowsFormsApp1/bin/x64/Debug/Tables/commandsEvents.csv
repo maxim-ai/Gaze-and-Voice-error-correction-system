@@ -1,0 +1,26 @@
+CID,ExperimentID,SystemName,UserID,Command,BaseCommand,BaseCID,MissionID,args,before,after,Timestamp
+206b60fd40494e6ba0641694d087e8ef,,,,fix,fix,206b60fd40494e6ba0641694d087e8ef,,fix,mest,mist,202104011805584817
+ee4e8a3dac8d4b6d9cfc3b92d27c2086,,,,cancel,fix,206b60fd40494e6ba0641694d087e8ef,,cancel,mist,mest,202104011806013542
+d93506f9f2464ab1bc277a9f7f4ae2e8,,,,fix,fix,d93506f9f2464ab1bc277a9f7f4ae2e8,,fix,bie,bee,202104011806105527
+79e66b64123c45d2a64c41dcb10f253a,,,,cancel,fix,d93506f9f2464ab1bc277a9f7f4ae2e8,,cancel,bee,bie,202104011806129492
+f5d34b882f89482b9ed4239ed54f7239,,,,replace,replace,f5d34b882f89482b9ed4239ed54f7239,,replace defeated to car,defeated,car,202104011806184491
+7d759fa532a542f08cc91d09cb70f63d,,,,cancel,replace,f5d34b882f89482b9ed4239ed54f7239,,cancel,car,defeated,202104011806211628
+689bb820dccf4b2f85a6aebf3b66abb2,,,,replace,replace,689bb820dccf4b2f85a6aebf3b66abb2,,replace show to computer,show,computer,202104011806439268
+922332015e884f57bdedb5e37e2c746c,,,,cancel,replace,689bb820dccf4b2f85a6aebf3b66abb2,,cancel,computer,show,202104011806470277
+c1a6a0a4162e4454b63b246d9e956655,,,,delete,delete,c1a6a0a4162e4454b63b246d9e956655,,delete paper,paper,,202104011806578958
+081a765f3bb34269909920fcba348452,,,,cancel,delete,c1a6a0a4162e4454b63b246d9e956655,,cancel,,paper,202104011807006281
+186e574c1b3842189b9d8903139232c5,,,,delete from to,delete from to,186e574c1b3842189b9d8903139232c5,,delete from paper to dream,paper pen can dream,,202104011807173749
+8b6b24cef4bb4aacbaa717216d72d77f,,,,cancel,delete from to,186e574c1b3842189b9d8903139232c5,,cancel,,paper pen can dream,202104011807201930
+0f6c33a80af6456ba2dceb32892d9a8d,,,,copy from to,copy from to,0f6c33a80af6456ba2dceb32892d9a8d,,copy from computer to programming,,computer bugs, then programming,202104011807561375
+e2db482d00264029867b7986bb0fb83e,,,,paste,paste,e2db482d00264029867b7986bb0fb83e,,paste after basic,basic,basic computer bugs, then programming,202104011808014302
+7ab8c11f6197402e84ac91224e5b3648,,,,paste,paste,7ab8c11f6197402e84ac91224e5b3648,,paste before cheap,cheap,computer bugs, then programming cheap,202104011808128463
+f0330278b8b14bbdaf5ee1d1cb9bf854,,,,add,add,f0330278b8b14bbdaf5ee1d1cb9bf854,,add paper car boat,paper,paper car boat,202104011808301985
+1b6fdbbb7eed4384a0db8fd7ee7b5cea,,,,cancel,add,f0330278b8b14bbdaf5ee1d1cb9bf854,,cancel,paper car boat,paper,202104011808360615
+d6087fbe17054bc0b654aa6e7a15ba5d,,,,add,add,d6087fbe17054bc0b654aa6e7a15ba5d,,add yourself ourself,yourself,yourself ourself,202104011808569250
+4162a8c4a2b94d70a9742a7de55ca5cc,,,,cancel,add,d6087fbe17054bc0b654aa6e7a15ba5d,,cancel,yourself ourself,yourself,202104011808598321
+8678f5fa14e94157b1d308fbcff27b28,,,,add,add,8678f5fa14e94157b1d308fbcff27b28,,add away money,away,away money,202104011809219384
+4f7ba86d236345d6abf293c8d2a7611b,,,,cancel,add,8678f5fa14e94157b1d308fbcff27b28,,cancel,away money,away,202104011809247256
+5f35549312b44487a2fd3e220c43890d,,,,add,add,5f35549312b44487a2fd3e220c43890d,,add works money,works,works money,202104011809417400
+fd463fe2eb294d86ab6e042b405232d2,,,,add,add,fd463fe2eb294d86ab6e042b405232d2,,add nothing anything something,Nothing,nothing anything something,202104011809496240
+323dc2d86c234487b529e182eee00729,,,,cancel,add,fd463fe2eb294d86ab6e042b405232d2,,cancel,nothing anything something,Nothing,202104011809526068
+a112fa27359a40b9b00749be299e49dd,,,,fix,fix,a112fa27359a40b9b00749be299e49dd,,fix,physiccs,physics,202104011809563693

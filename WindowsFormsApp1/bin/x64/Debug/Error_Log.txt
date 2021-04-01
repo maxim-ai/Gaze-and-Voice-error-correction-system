@@ -1368,3 +1368,75 @@
 2021-03-13 16:10:45,216 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
 2021-03-13 16:11:41,866 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
 2021-03-13 16:11:47,022 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-01 16:02:31,718 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 16:12:05,744 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 16:12:42,833 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 16:14:09,829 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 16:15:47,516 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 16:26:09,934 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 16:26:35,896 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 16:31:44,901 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 16:34:05,522 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 16:34:39,363 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-01 16:36:52,116 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 16:38:39,992 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 16:39:02,166 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-01 16:40:51,290 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 16:44:33,060 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 16:47:46,082 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 16:51:29,713 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 16:56:32,096 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-01 16:58:21,785 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 16:59:42,295 INFO ErrorLog: אין אפשרות לתהליך לגשת לקובץ 'D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\Tables\commandsEvents.csv' כיוון שתהליך אחר משתמש בקובץ.
+2021-04-01 16:59:49,522 INFO ErrorLog: אין אפשרות לתהליך לגשת לקובץ 'D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\Tables\commandsEvents.csv' כיוון שתהליך אחר משתמש בקובץ.
+2021-04-01 16:59:54,353 INFO ErrorLog: אין אפשרות לתהליך לגשת לקובץ 'D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\Tables\commandsEvents.csv' כיוון שתהליך אחר משתמש בקובץ.
+2021-04-01 16:59:59,687 INFO ErrorLog: אין אפשרות לתהליך לגשת לקובץ 'D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\Tables\commandsEvents.csv' כיוון שתהליך אחר משתמש בקובץ.
+2021-04-01 17:04:44,223 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 17:05:15,204 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 17:05:43,767 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 17:06:10,394 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-01 17:06:13,239 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-01 17:06:19,685 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-01 17:07:41,806 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 17:09:00,934 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 17:10:08,286 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 17:12:16,403 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 17:12:33,197 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 17:14:44,449 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 17:15:06,197 INFO ErrorLog: האינדקס נמצא מחוץ לגבולות המערך.
+2021-04-01 17:15:17,985 INFO ErrorLog: האינדקס נמצא מחוץ לגבולות המערך.
+2021-04-01 17:15:33,372 INFO ErrorLog: האינדקס נמצא מחוץ לגבולות המערך.
+2021-04-01 17:17:12,055 INFO ErrorLog: האינדקס נמצא מחוץ לגבולות המערך.
+2021-04-01 17:17:43,563 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 17:18:06,670 INFO ErrorLog: האינדקס נמצא מחוץ לגבולות המערך.
+2021-04-01 17:18:21,978 INFO ErrorLog: האינדקס נמצא מחוץ לגבולות המערך.
+2021-04-01 17:18:38,651 INFO ErrorLog: האינדקס נמצא מחוץ לגבולות המערך.
+2021-04-01 17:18:59,816 INFO ErrorLog: האינדקס נמצא מחוץ לגבולות המערך.
+2021-04-01 17:20:03,906 INFO ErrorLog: האינדקס נמצא מחוץ לגבולות המערך.
+2021-04-01 17:20:32,771 INFO ErrorLog: האינדקס נמצא מחוץ לגבולות המערך.
+2021-04-01 17:24:05,856 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 17:24:29,758 INFO ErrorLog: האינדקס נמצא מחוץ לגבולות המערך.
+2021-04-01 17:25:21,587 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-01 17:25:33,364 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 17:27:21,744 INFO ErrorLog: אין אפשרות לתהליך לגשת לקובץ 'D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\Tables\commandsEvents.csv' כיוון שתהליך אחר משתמש בקובץ.
+2021-04-01 17:27:50,940 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 17:28:11,379 ERROR ErrorLog: Word text editor did not open successfully ביצוע הפקודה נכשל
+2021-04-01 17:28:24,743 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 17:29:40,500 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 17:30:36,141 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-01 17:32:34,300 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-01 17:34:05,038 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 17:35:04,370 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-01 17:35:39,295 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-01 17:35:46,660 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-01 17:35:54,074 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-01 17:36:07,222 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 17:41:03,855 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 17:57:07,551 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 17:58:37,209 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-01 18:02:21,363 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 18:02:49,254 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-01 18:04:17,878 ERROR ErrorLog: Microsoft Speech to Text - connection to Internet failed
+2021-04-01 18:05:34,691 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-01 18:07:25,496 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-01 18:09:07,728 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.

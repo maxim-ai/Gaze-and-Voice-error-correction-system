@@ -326,7 +326,7 @@ namespace EyeGaze.TextEditor
                 {
                     newWord = newWord.ToUpper();
                 }
-                else if (wordToChange.word[0] >= 'A' && wordToChange.word[0] <= 'Z') // first letter is upper case
+                else if ((wordToChange.word[0] >= 'A' && wordToChange.word[0] <= 'Z')&&newWord.Length!=0) // first letter is upper case
                 {
                     newWord = newWord[0].ToString().ToUpper() + newWord.Substring(1);
                 }
@@ -485,7 +485,6 @@ namespace EyeGaze.TextEditor
 
         public override CoordinateRange PasteSentence(CoordinateRange startRange, string pastePlacement)
         {
-            Console.WriteLine(pastePlacement);
             CoordinateRange toReturn = new CoordinateRange();
             if (pastePlacement == "after")
             {
@@ -520,6 +519,11 @@ namespace EyeGaze.TextEditor
         public override Document getDoc()
         {
             return document;
+        }
+
+        public override string getLastCopiedSentence()
+        {
+            return lastCopiedSentence;
         }
     }
 

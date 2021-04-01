@@ -25,7 +25,7 @@ namespace EyeGaze.SpeechToText
             this.className = className;
             Type speechToTextType = Type.GetType(className);
             speechToText = (InterfaceSpeechToText)Activator.CreateInstance(speechToTextType);
-            actions = new string[] { "fix", "change", "add", "move", "replace", "done", "more", 
+            actions = new string[] { "fix", "change", "add","ed", "move", "replace", "done", "more", 
                 "delete", "delete from", "copy" ,"copy from" ,"paste","paste before","paste after",
                 "to","too","two","do","two,", "cancel",
                 "1", "2", "3", "4", "5" };
@@ -96,10 +96,11 @@ namespace EyeGaze.SpeechToText
         {
             try
             {
+                text = GetSenteceWithoutPunctuation(text);
                 if (text.Length > 0 && actions.Contains(text[0]))
                 {
                     string triggerWord = text[0];
-                    if (triggerWord == "add" && text.Length < 3)            // Add with less then two words after
+                    if ((triggerWord == "add"||triggerWord=="ed") && text.Length < 3)            // Add with less then two words after
                         return null;
                     if (triggerWord == "replace" && text.Length < 3)            // Replace with less then two words after
                         return null;
@@ -116,10 +117,12 @@ namespace EyeGaze.SpeechToText
                         triggerWord = "delete from";
                     else if (triggerWord == "copy" && (text[1] == "form" || text[1] == "from"))
                         triggerWord = "copy from";
-                    else if ((triggerWord == "paste"||triggerWord == "best") && text[1] == "before")
+                    else if ((triggerWord == "paste" || triggerWord == "best") && text[1] == "before")
                         triggerWord = "paste before";
                     else if ((triggerWord == "paste" || triggerWord == "best") && text[1] == "after")
                         triggerWord = "paste after";
+                    else if (triggerWord == "ed")
+                        triggerWord = "add";
 
                     //in case of "delete from word1 to word2"
                     string[] toOptionsArray ={ "to", "2", "two", "do", "too", "two," };
@@ -250,6 +253,18 @@ namespace EyeGaze.SpeechToText
         public void finishListen()
         {
             this.terminate = true;
+        }
+
+        private string[] GetSenteceWithoutPunctuation(string[] sentence)
+        {
+            for (int i = 0; i < sentence.Length; i++)
+            {
+                if (sentence[i].ElementAt(sentence[i].Length - 1) == ',' || sentence[i].ElementAt(sentence[i].Length - 1) == '.')
+                {
+                    sentence[i] = sentence[i].Substring(0, sentence[i].Length - 1);
+                }
+            }
+            return sentence;
         }
 
     }

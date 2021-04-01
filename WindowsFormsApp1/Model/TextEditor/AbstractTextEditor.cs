@@ -49,6 +49,7 @@ namespace EyeGaze.TextEditor
         public abstract CoordinateRange PasteSentence(CoordinateRange startRange, string pastePlacement);
         public abstract void HighlightWordForSpecificTime(CoordinateRange startRange, int milSecs);
         public abstract Document getDoc();
+        public abstract string getLastCopiedSentence();
          public void ShowMoreSuggestions()
         {
             List<string> emptyList = new List<string>();

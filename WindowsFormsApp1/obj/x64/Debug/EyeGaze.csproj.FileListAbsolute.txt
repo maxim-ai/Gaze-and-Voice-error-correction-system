@@ -767,3 +767,22 @@ D:\LocalReps\final_project\WindowsFormsApp1\obj\x64\Debug\EyeGaze.csproj.CopyCom
 D:\LocalReps\final_project\WindowsFormsApp1\obj\x64\Debug\Fixover.exe
 D:\LocalReps\final_project\WindowsFormsApp1\obj\x64\Debug\Fixover.pdb
 C:\Users\sshho\OneDrive\Desktop\Projects\Visual Studio\final_project\WindowsFormsApp1\obj\x64\Debug\EyeGaze.csproj.CoreCompileInputs.cache
+D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\mongocrypt.dll
+D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\snappy32.dll
+D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\snappy64.dll
+D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\libzstd.dll
+D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\CsvHelper.dll
+D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\DnsClient.dll
+D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\ExperimentSystem.exe
+D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\Microsoft.Bcl.HashCode.dll
+D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\MongoDB.Bson.dll
+D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\MongoDB.Driver.Core.dll
+D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\MongoDB.Driver.dll
+D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\MongoDB.Libmongocrypt.dll
+D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\SharpCompress.dll
+D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\CsvHelper.xml
+D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\DnsClient.xml
+D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\Microsoft.Bcl.HashCode.xml
+D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\MongoDB.Bson.xml
+D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\MongoDB.Driver.xml
+D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\MongoDB.Driver.Core.xml
