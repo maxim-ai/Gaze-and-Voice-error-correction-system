@@ -1440,3 +1440,25 @@
 2021-04-01 18:05:34,691 INFO ErrorLog: ----------------------Starting System-------------------------
 2021-04-01 18:07:25,496 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
 2021-04-01 18:09:07,728 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-03 15:30:17,588 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-03 15:35:18,285 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-03 15:36:30,033 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-03 15:36:49,216 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-03 15:36:54,922 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-03 15:41:44,412 INFO ErrorLog: האינדקס נמצא מחוץ לגבולות המערך.
+2021-04-03 15:42:05,792 INFO ErrorLog: האינדקס נמצא מחוץ לגבולות המערך.
+2021-04-03 15:42:40,339 INFO ErrorLog: האינדקס נמצא מחוץ לגבולות המערך.
+2021-04-03 15:42:56,084 INFO ErrorLog: האינדקס נמצא מחוץ לגבולות המערך.
+2021-04-03 15:43:19,472 INFO ErrorLog: האינדקס נמצא מחוץ לגבולות המערך.
+2021-04-03 15:43:33,765 INFO ErrorLog: האינדקס נמצא מחוץ לגבולות המערך.
+2021-04-03 15:44:35,810 INFO ErrorLog: האינדקס נמצא מחוץ לגבולות המערך.
+2021-04-03 15:44:46,136 INFO ErrorLog: האינדקס נמצא מחוץ לגבולות המערך.
+2021-04-03 15:44:54,097 INFO ErrorLog: האינדקס נמצא מחוץ לגבולות המערך.
+2021-04-03 15:45:04,482 INFO ErrorLog: האינדקס נמצא מחוץ לגבולות המערך.
+2021-04-03 15:46:57,480 ERROR ErrorLog: Microsoft Speech to Text - connection to Internet failed
+2021-04-03 15:57:22,672 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-03 15:58:10,902 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-03 16:07:18,874 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-03 16:13:40,765 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-03 16:18:07,364 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-03 16:18:23,185 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.

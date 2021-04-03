@@ -206,7 +206,7 @@ namespace EyeGaze.Engine
             else if (e.triggerWord.Equals("done"))
                 ReplaceAllDone();
 
-            else if (e.triggerWord.Equals("more"))
+            else if (e.triggerWord.Equals("options"))
                 MoreSuggestions();
 
             else if (e.triggerWord.Equals("1") || e.triggerWord.Equals("2") || e.triggerWord.Equals("3") || e.triggerWord.Equals("4") || e.triggerWord.Equals("5"))
@@ -668,7 +668,7 @@ namespace EyeGaze.Engine
             String fixedWord = textEditor.fixedWord.list[index];
             textEditor.ReplaceWord(textEditor.fixedWord.coord, fixedWord.Trim());
             textEditor.HideMoreSuggestions();
-            mainExperiment.EventCommand("more", "more " + trigger, lastOperation.changed, fixedWord.Trim(),
+            mainExperiment.EventCommand("options", "options " + trigger, lastOperation.changed, fixedWord.Trim(),
                 false, textEditor.getDoc().Content.Text, DateTime.Now);
             //textEditor.FixFromSuggestions(index);
 

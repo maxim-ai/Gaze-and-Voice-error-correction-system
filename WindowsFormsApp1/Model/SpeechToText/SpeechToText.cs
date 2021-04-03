@@ -25,7 +25,7 @@ namespace EyeGaze.SpeechToText
             this.className = className;
             Type speechToTextType = Type.GetType(className);
             speechToText = (InterfaceSpeechToText)Activator.CreateInstance(speechToTextType);
-            actions = new string[] { "fix", "change", "add","ed", "move", "replace", "done", "more", 
+            actions = new string[] { "fix", "change", "add","ed", "move", "replace", "done", "options", 
                 "delete", "delete from", "copy" ,"copy from" ,"paste","paste before","paste after",
                 "to","too","two","do","two,", "cancel",
                 "1", "2", "3", "4", "5" };

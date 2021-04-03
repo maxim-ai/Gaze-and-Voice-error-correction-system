@@ -19621,3 +19621,620 @@
 2021-04-01 18:09:55,801 INFO EventLog: Trigger word Fix
 2021-04-01 18:09:56,333 INFO EventLog: Changed physiccs to physics in point x=772 y=671 range start=834 end=841
 2021-04-01 18:10:02,372 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:30:17,562 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-03 15:30:32,037 INFO EventLog: Starting initialization of the system
+2021-04-03 15:30:36,752 INFO EventLog: Trying to open documtent
+2021-04-03 15:30:37,882 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-03 15:30:39,012 INFO EventLog: Connect to Microsoft cloud
+2021-04-03 15:30:45,138 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:30:51,167 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:30:57,027 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:31:02,676 INFO EventLog: Microsoft cloud found : Fix
+2021-04-03 15:31:02,785 INFO EventLog: Trigger word Fix
+2021-04-03 15:31:03,744 INFO EventLog: Changed fce to face in point x=825 y=273 range start=53 end=57
+2021-04-03 15:31:07,348 INFO EventLog: Microsoft cloud found : Options
+2021-04-03 15:31:10,692 INFO EventLog: Microsoft cloud found : Do
+2021-04-03 15:31:16,656 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:31:18,992 INFO EventLog: Microsoft cloud found : Options
+2021-04-03 15:31:22,616 INFO EventLog: Microsoft cloud found : 4
+2021-04-03 15:31:22,717 INFO EventLog: Changed fce to foci in point x=825 y=273 range start=53 end=57
+2021-04-03 15:31:28,807 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:31:34,835 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:31:40,933 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:31:46,949 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:31:52,988 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:31:59,028 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:32:05,099 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:32:11,287 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:32:17,240 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:32:23,178 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:32:29,133 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:32:35,104 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:32:41,042 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:32:47,085 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:32:53,117 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:32:59,092 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:33:05,117 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:33:11,149 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:33:17,100 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:33:23,152 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:33:29,105 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:33:35,142 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:33:41,174 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:33:47,209 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:33:53,241 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:33:59,274 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:34:05,310 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:34:11,336 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:34:17,315 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:34:23,201 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:34:29,236 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:34:35,118 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:34:41,268 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:34:47,311 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:34:53,334 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:34:59,348 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:35:05,327 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:35:05,559 INFO EventLog: Disconnect from Microsoft cloud
+2021-04-03 15:35:05,795 INFO EventLog: Spell checker closed successfully
+2021-04-03 15:35:18,252 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-03 15:35:33,622 INFO EventLog: Starting initialization of the system
+2021-04-03 15:35:38,202 INFO EventLog: Trying to open documtent
+2021-04-03 15:35:39,223 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-03 15:35:39,607 INFO EventLog: Connect to Microsoft cloud
+2021-04-03 15:35:45,747 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:35:51,834 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:35:57,796 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:36:03,739 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:36:09,791 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:36:15,751 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:36:21,770 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:36:24,916 INFO EventLog: Microsoft cloud found : Fix
+2021-04-03 15:36:25,035 INFO EventLog: Trigger word Fix
+2021-04-03 15:36:25,894 INFO EventLog: Changed leve to levee in point x=945 y=273 range start=70 end=75
+2021-04-03 15:36:30,013 INFO EventLog: Microsoft cloud found : More
+2021-04-03 15:36:32,842 INFO EventLog: Microsoft cloud found : Options
+2021-04-03 15:36:36,600 INFO EventLog: Microsoft cloud found : 4
+2021-04-03 15:36:36,676 INFO EventLog: Changed leve to love in point x=945 y=273 range start=70 end=74
+2021-04-03 15:36:42,678 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:36:45,296 INFO EventLog: Microsoft cloud found : Fix
+2021-04-03 15:36:45,363 INFO EventLog: Trigger word Fix
+2021-04-03 15:36:46,017 INFO EventLog: Changed bie to bee in point x=593 y=307 range start=98 end=101
+2021-04-03 15:36:49,203 INFO EventLog: Microsoft cloud found : More
+2021-04-03 15:36:51,438 INFO EventLog: Microsoft cloud found : Options
+2021-04-03 15:36:54,854 INFO EventLog: Microsoft cloud found : 6
+2021-04-03 15:37:00,350 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:37:02,352 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 15:37:02,409 INFO EventLog: Changed bee to bie in point x=593 y=307 range start=98 end=101
+2021-04-03 15:37:07,867 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:37:12,469 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 15:37:12,539 INFO EventLog: Changed bee to bie in point x=593 y=307 range start=98 end=101
+2021-04-03 15:37:18,060 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 15:37:18,200 INFO EventLog: Changed bee to bie in point x=593 y=307 range start=98 end=101
+2021-04-03 15:37:24,300 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:37:30,285 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:37:36,308 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:37:42,346 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:37:47,924 INFO EventLog: Microsoft cloud found : Add yourself and I
+2021-04-03 15:37:48,019 INFO EventLog: Trigger word add
+2021-04-03 15:37:48,490 INFO EventLog: Changed yourself to yourself and i in point x=546 y=307 range start=89 end=103
+2021-04-03 15:37:52,989 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 15:37:53,043 INFO EventLog: Changed yourself and i to yourself in point x=546 y=307 range start=89 end=97
+2021-04-03 15:37:59,156 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:38:05,262 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:38:09,924 INFO EventLog: Microsoft cloud found : Add if you can be
+2021-04-03 15:38:10,014 INFO EventLog: Trigger word add
+2021-04-03 15:38:10,424 INFO EventLog: Changed If to If you can be in point x=419 y=273 range start=0 end=13
+2021-04-03 15:38:14,235 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 15:38:14,278 INFO EventLog: Changed if you can be to If in point x=419 y=273 range start=0 end=2
+2021-04-03 15:38:20,261 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:38:26,378 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:38:32,427 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:38:38,480 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:38:44,407 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:38:50,352 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:38:56,301 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:39:02,270 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:39:08,222 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:39:14,266 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:39:20,329 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:39:26,272 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:39:32,299 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:39:37,388 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 15:39:37,507 INFO EventLog: Changed if you can be to If in point x=419 y=273 range start=0 end=2
+2021-04-03 15:39:43,528 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:39:49,481 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:39:55,435 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:40:01,561 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:40:07,517 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:40:12,984 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:40:22,136 INFO EventLog: Microsoft cloud found : Replaced programming to technology and banana
+2021-04-03 15:40:28,165 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:40:34,263 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:40:41,870 INFO EventLog: Microsoft cloud found : Replace programming and banana
+2021-04-03 15:40:41,950 INFO EventLog: Trigger word Replace
+2021-04-03 15:40:42,433 INFO EventLog: Changed Programming to Banana in point x=465 y=476 range start=252 end=258
+2021-04-03 15:40:48,395 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:40:54,522 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:41:00,564 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:41:06,678 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:41:12,675 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:41:18,302 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 15:41:18,370 INFO EventLog: Changed banana to Programming in point x=465 y=476 range start=252 end=263
+2021-04-03 15:41:23,809 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:41:29,239 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:41:33,803 INFO EventLog: Microsoft cloud found : Replace programming and banana
+2021-04-03 15:41:33,878 INFO EventLog: Trigger word Replace
+2021-04-03 15:41:34,425 INFO EventLog: Changed Programming to Banana in point x=465 y=476 range start=252 end=258
+2021-04-03 15:41:40,462 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:41:44,315 INFO EventLog: Microsoft cloud found : Replace if you
+2021-04-03 15:41:49,826 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:41:55,796 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:42:01,720 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:42:05,674 INFO EventLog: Microsoft cloud found : Replace you can
+2021-04-03 15:42:11,222 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:42:17,786 INFO EventLog: Microsoft cloud found : Replace yourself and I
+2021-04-03 15:42:17,888 INFO EventLog: Trigger word Replace
+2021-04-03 15:42:18,376 INFO EventLog: Changed yourself to i in point x=546 y=307 range start=89 end=90
+2021-04-03 15:42:24,458 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:42:28,479 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 15:42:28,538 INFO EventLog: Changed i to yourself in point x=546 y=307 range start=89 end=97
+2021-04-03 15:42:34,602 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:42:40,259 INFO EventLog: Microsoft cloud found : Replace if hello
+2021-04-03 15:42:46,355 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:42:52,299 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:42:55,960 INFO EventLog: Microsoft cloud found : Replace you he
+2021-04-03 15:43:01,516 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:43:07,385 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:43:13,357 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:43:19,333 INFO EventLog: Microsoft cloud found : Replace more heat
+2021-04-03 15:43:25,414 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:43:33,674 INFO EventLog: Microsoft cloud found : Replace banana hello
+2021-04-03 15:43:39,771 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:43:45,827 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:43:51,278 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:43:57,327 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:44:03,596 INFO EventLog: Microsoft cloud found : Fix
+2021-04-03 15:44:03,671 INFO EventLog: Trigger word Fix
+2021-04-03 15:44:04,300 INFO EventLog: Changed bere to beer in point x=431 y=335 range start=215 end=219
+2021-04-03 15:44:08,073 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 15:44:08,132 INFO EventLog: Changed beer to bere in point x=431 y=335 range start=215 end=219
+2021-04-03 15:44:12,915 INFO EventLog: Microsoft cloud found : Options
+2021-04-03 15:44:16,642 INFO EventLog: Microsoft cloud found : 5
+2021-04-03 15:44:16,795 INFO EventLog: Changed bere to barre in point x=431 y=335 range start=215 end=220
+2021-04-03 15:44:22,461 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 15:44:22,594 INFO EventLog: Changed beer to bere in point x=431 y=335 range start=215 end=219
+2021-04-03 15:44:26,599 INFO EventLog: Microsoft cloud found : Fix
+2021-04-03 15:44:26,667 INFO EventLog: Trigger word Fix
+2021-04-03 15:44:27,325 INFO EventLog: Changed bere to beer in point x=431 y=335 range start=215 end=219
+2021-04-03 15:44:35,713 INFO EventLog: Microsoft cloud found : Replace Bill deposes
+2021-04-03 15:44:41,865 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:44:46,019 INFO EventLog: Microsoft cloud found : Replace banana hello
+2021-04-03 15:44:53,996 INFO EventLog: Microsoft cloud found : Replace in hello
+2021-04-03 15:45:00,138 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:45:04,373 INFO EventLog: Microsoft cloud found : Replace in hello
+2021-04-03 15:45:12,226 INFO EventLog: Microsoft cloud found : Replace brain to mine
+2021-04-03 15:45:12,330 INFO EventLog: Trigger word Replace
+2021-04-03 15:45:12,759 INFO EventLog: Changed brain to mine in point x=603 y=380 range start=274 end=278
+2021-04-03 15:45:18,198 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:45:24,153 INFO EventLog: Microsoft cloud found : Replace if two hello
+2021-04-03 15:45:24,268 INFO EventLog: Trigger word Replace
+2021-04-03 15:45:24,688 INFO EventLog: Changed If to Hello in point x=419 y=225 range start=0 end=5
+2021-04-03 15:45:30,679 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:45:35,635 INFO EventLog: Microsoft cloud found : Who plays love to hate
+2021-04-03 15:45:41,669 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:45:47,613 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:45:54,374 INFO EventLog: Microsoft cloud found : Replace love to hate
+2021-04-03 15:45:54,462 INFO EventLog: Trigger word Replace
+2021-04-03 15:45:54,904 INFO EventLog: Changed love to hate in point x=430 y=259 range start=73 end=77
+2021-04-03 15:46:00,366 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:46:05,529 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 15:46:05,651 INFO EventLog: Changed hate to love in point x=430 y=259 range start=73 end=77
+2021-04-03 15:46:11,743 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:46:17,799 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:46:23,913 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:46:29,950 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:46:35,977 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:46:40,556 INFO EventLog: Microsoft cloud found : Fix
+2021-04-03 15:46:40,624 INFO EventLog: Trigger word Fix
+2021-04-03 15:46:41,102 INFO EventLog: Changed bie to bee in point x=629 y=259 range start=101 end=104
+2021-04-03 15:46:47,092 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:46:53,042 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:46:57,673 INFO EventLog: Disconnect from Microsoft cloud
+2021-04-03 15:46:57,675 INFO EventLog: connect to system lib speech to text
+2021-04-03 15:46:57,733 INFO EventLog: connect to system lib
+2021-04-03 15:46:58,341 INFO EventLog: disconnect from system lib
+2021-04-03 15:46:59,164 INFO EventLog: Connect to Microsoft cloud
+2021-04-03 15:47:05,219 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:47:10,270 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 15:47:10,400 INFO EventLog: Changed bee to bie in point x=629 y=259 range start=101 end=104
+2021-04-03 15:47:16,477 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:47:22,601 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:47:26,267 INFO EventLog: Microsoft cloud found : Fix
+2021-04-03 15:47:26,353 INFO EventLog: Trigger word Fix
+2021-04-03 15:47:26,836 INFO EventLog: Changed bie to bee in point x=629 y=259 range start=101 end=104
+2021-04-03 15:47:29,821 INFO EventLog: Microsoft cloud found : Options
+2021-04-03 15:47:32,987 INFO EventLog: Microsoft cloud found : 1
+2021-04-03 15:47:33,029 INFO EventLog: Changed bie to by in point x=629 y=259 range start=101 end=103
+2021-04-03 15:47:36,746 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 15:47:36,798 INFO EventLog: Changed bee to bie in point x=629 y=259 range start=101 end=104
+2021-04-03 15:47:42,256 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:47:47,680 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:47:53,542 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:47:58,979 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:48:04,920 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:48:10,897 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:48:16,931 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:48:22,989 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:48:29,033 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:48:35,002 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:48:40,961 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:48:47,002 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:48:53,096 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:48:59,170 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:49:05,205 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:49:13,832 INFO EventLog: Microsoft cloud found : Date from debugging to process
+2021-04-03 15:49:19,797 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:49:25,738 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:49:31,698 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:49:34,866 INFO EventLog: Microsoft cloud found : Form debugging two process
+2021-04-03 15:49:40,816 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:49:47,601 INFO EventLog: Microsoft cloud found : Delete form debugging to process
+2021-04-03 15:49:47,707 INFO EventLog: Trigger word Delete From
+2021-04-03 15:49:54,094 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:50:00,123 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:50:06,203 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:50:12,144 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:50:18,201 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:50:24,178 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:50:30,136 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:50:36,204 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:50:42,374 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:50:45,259 INFO EventLog: Microsoft cloud found : Bugging to process
+2021-04-03 15:50:51,295 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:51:00,481 INFO EventLog: Microsoft cloud found : Delete form debugging to process
+2021-04-03 15:51:00,511 INFO EventLog: Trigger word Delete From
+2021-04-03 15:51:07,017 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:51:12,880 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:51:19,026 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:51:22,784 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 15:51:22,925 INFO EventLog: Changed bee to bie in point x=629 y=259 range start=101 end=104
+2021-04-03 15:51:28,932 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:51:34,372 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:51:44,094 INFO EventLog: Microsoft cloud found : Delete from debugging two process
+2021-04-03 15:51:44,139 INFO EventLog: Trigger word Delete From
+2021-04-03 15:51:50,488 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:51:56,444 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:52:02,391 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:52:08,363 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:52:14,308 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:52:20,460 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:52:23,812 INFO EventLog: Microsoft cloud found : Debugging two process
+2021-04-03 15:52:29,677 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:52:36,028 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:52:41,974 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:52:47,927 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:52:53,897 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:52:59,936 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:53:05,384 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:53:10,827 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:53:16,762 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:53:22,385 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:53:28,417 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:53:34,443 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:53:39,871 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:53:45,838 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:53:51,914 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:53:56,201 INFO EventLog: Microsoft cloud found : Delete form debugging to process
+2021-04-03 15:54:26,832 INFO EventLog: Trigger word Delete From
+2021-04-03 15:54:33,415 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:54:39,282 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:54:48,345 INFO EventLog: Microsoft cloud found : Delete from debugging to removing
+2021-04-03 15:54:56,465 INFO EventLog: Trigger word Delete From
+2021-04-03 15:55:02,931 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:55:09,023 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:55:14,964 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:55:20,906 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:55:26,994 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:55:32,962 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:55:38,906 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:55:44,974 INFO EventLog: Microsoft cloud found : Delete form debugging
+2021-04-03 15:55:53,715 INFO EventLog: Trigger word Delete From
+2021-04-03 15:56:00,316 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:56:06,359 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:56:12,314 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:56:18,507 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:56:24,543 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:56:30,503 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:56:36,429 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:56:43,834 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:56:50,273 INFO EventLog: Microsoft cloud found : Delete form debugging
+2021-04-03 15:56:50,315 INFO EventLog: Trigger word Delete From
+2021-04-03 15:56:54,885 INFO EventLog: Microsoft cloud found : Due proces
+2021-04-03 15:57:00,763 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:57:06,820 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:57:12,848 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:57:19,512 INFO EventLog: Microsoft cloud found : Delete form debugging
+2021-04-03 15:57:19,618 INFO EventLog: Trigger word Delete From
+2021-04-03 15:57:22,613 INFO EventLog: Microsoft cloud found : This
+2021-04-03 15:57:28,686 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:57:37,332 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:57:43,368 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:57:49,403 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:57:55,328 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:58:01,450 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:58:07,478 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:58:09,427 INFO EventLog: Microsoft cloud found : One fix
+2021-04-03 15:58:10,885 INFO EventLog: Microsoft cloud found : The
+2021-04-03 15:58:16,924 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:58:23,143 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:58:26,503 INFO EventLog: Microsoft cloud found : One banana, two basic
+2021-04-03 15:58:32,442 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:58:39,306 INFO EventLog: Microsoft cloud found : Delete banana basic
+2021-04-03 15:58:39,377 INFO EventLog: Trigger word Delete One Word
+2021-04-03 15:58:39,861 INFO EventLog: Changed Banana to  in point x=442 y=428 range start=255 end=255
+2021-04-03 15:58:43,752 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 15:58:43,840 INFO EventLog: Changed  to Banana in point x=442 y=428 range start=255 end=261
+2021-04-03 15:58:49,403 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:58:54,552 INFO EventLog: Microsoft cloud found : Delete basic mine
+2021-04-03 15:58:54,598 INFO EventLog: Trigger word Delete One Word
+2021-04-03 15:58:55,124 INFO EventLog: Changed basic to  in point x=512 y=428 range start=265 end=265
+2021-04-03 15:58:58,418 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 15:58:58,464 INFO EventLog: Changed  to basic in point x=512 y=428 range start=265 end=270
+2021-04-03 15:59:03,932 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:59:11,269 INFO EventLog: Microsoft cloud found : Delete cause damages
+2021-04-03 15:59:11,374 INFO EventLog: Trigger word Delete One Word
+2021-04-03 15:59:11,874 INFO EventLog: Changed cause to  in point x=557 y=428 range start=271 end=271
+2021-04-03 15:59:16,545 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 15:59:16,609 INFO EventLog: Changed  to cause in point x=557 y=428 range start=271 end=276
+2021-04-03 15:59:22,545 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:59:25,399 INFO EventLog: Microsoft cloud found : How's two damages
+2021-04-03 15:59:33,177 INFO EventLog: Microsoft cloud found : Delete mine to damages
+2021-04-03 15:59:33,259 INFO EventLog: Trigger word Delete One Word
+2021-04-03 15:59:33,872 INFO EventLog: Changed mine to  in point x=602 y=428 range start=277 end=277
+2021-04-03 15:59:39,846 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:59:45,798 INFO EventLog: Microsoft cloud found : 
+2021-04-03 15:59:47,940 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 15:59:48,013 INFO EventLog: Changed  to mine in point x=602 y=428 range start=277 end=281
+2021-04-03 15:59:54,093 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:00:00,068 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:00:05,502 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:00:14,020 INFO EventLog: Microsoft cloud found : Delete phone Banana 2 mine
+2021-04-03 16:00:14,117 INFO EventLog: Trigger word Delete One Word
+2021-04-03 16:00:20,473 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:00:26,501 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:00:32,984 INFO EventLog: Microsoft cloud found : Delete form banana to mine
+2021-04-03 16:00:33,089 INFO EventLog: Trigger word Delete From
+2021-04-03 16:00:39,531 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:00:45,594 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:00:51,644 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:00:57,661 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:01:03,707 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:01:09,843 INFO EventLog: Microsoft cloud found : Delete phone banana to mine
+2021-04-03 16:01:21,164 INFO EventLog: Trigger word Delete One Word
+2021-04-03 16:01:27,616 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:01:32,768 INFO EventLog: Microsoft cloud found : Delete form banana to mine
+2021-04-03 16:04:34,058 INFO EventLog: Trigger word Delete From
+2021-04-03 16:04:40,487 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:04:45,539 INFO EventLog: Microsoft cloud found : Do mine
+2021-04-03 16:05:18,163 INFO EventLog: Trigger word Delete From To
+2021-04-03 16:05:24,710 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:05:30,822 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:05:36,782 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:05:42,846 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:05:48,871 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:05:54,830 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:06:00,849 INFO EventLog: Microsoft cloud found : Delete from banana
+2021-04-03 16:06:03,455 INFO EventLog: Trigger word Delete From
+2021-04-03 16:06:15,834 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:06:21,778 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:06:33,027 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:06:38,998 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:06:42,348 INFO EventLog: Microsoft cloud found : Do mine
+2021-04-03 16:06:42,432 INFO EventLog: Trigger word Delete From To
+2021-04-03 16:06:44,009 INFO EventLog: Changed debugging to  in point x=479 y=349 range start=154 end=154
+2021-04-03 16:06:48,529 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 16:06:48,708 INFO EventLog: Changed  to debugging on the proses of removing bugs, then programming mest beer the process on putting them in.Banana in basic cause mine in point x=479 y=349 range start=154 end=281
+2021-04-03 16:06:54,778 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:07:00,004 INFO EventLog: Microsoft cloud found : Delete from banana
+2021-04-03 16:07:00,086 INFO EventLog: Trigger word Delete From
+2021-04-03 16:07:05,797 INFO EventLog: Microsoft cloud found : Do mine
+2021-04-03 16:07:05,899 INFO EventLog: Trigger word Delete From To
+2021-04-03 16:07:07,469 INFO EventLog: Changed Banana to  in point x=442 y=428 range start=255 end=255
+2021-04-03 16:07:11,009 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 16:07:11,085 INFO EventLog: Changed  to Banana in basic cause mine in point x=442 y=428 range start=255 end=281
+2021-04-03 16:07:17,083 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:07:18,858 INFO EventLog: Microsoft cloud found : Beer
+2021-04-03 16:07:24,892 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:07:30,840 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:07:32,990 INFO EventLog: Microsoft cloud found : Home bee
+2021-04-03 16:07:38,945 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:07:42,509 INFO EventLog: Microsoft cloud found : Delete from bill
+2021-04-03 16:07:42,597 INFO EventLog: Trigger word Delete From
+2021-04-03 16:07:49,212 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:07:57,778 INFO EventLog: Microsoft cloud found : Delete from on
+2021-04-03 16:07:57,864 INFO EventLog: Trigger word Delete From
+2021-04-03 16:08:03,937 INFO EventLog: Microsoft cloud found : Do booting
+2021-04-03 16:08:04,016 INFO EventLog: Trigger word Delete From To
+2021-04-03 16:08:10,475 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:08:16,038 INFO EventLog: Microsoft cloud found : Do dim
+2021-04-03 16:08:16,100 INFO EventLog: Trigger word Delete From To
+2021-04-03 16:08:23,465 INFO EventLog: Microsoft cloud found : 2 putting
+2021-04-03 16:08:23,542 INFO EventLog: Trigger word Delete From To
+2021-04-03 16:08:24,991 INFO EventLog: Changed on to  in point x=532 y=349 range start=164 end=164
+2021-04-03 16:08:29,544 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 16:08:29,698 INFO EventLog: Changed  to on the proses of removing bugs, then programming mest beer the process on putting in point x=532 y=349 range start=164 end=245
+2021-04-03 16:08:35,696 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:08:41,783 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:08:47,237 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:08:53,069 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:08:59,010 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:09:04,569 INFO EventLog: Microsoft cloud found : Copy from love
+2021-04-03 16:09:04,667 INFO EventLog: Trigger word Copy From
+2021-04-03 16:09:11,139 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:09:17,167 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:09:23,221 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:09:25,391 INFO EventLog: Microsoft cloud found : Do yourself
+2021-04-03 16:09:25,430 INFO EventLog: Trigger word Copy From To
+2021-04-03 16:09:25,909 INFO EventLog: Changed love to  in point x=430 y=259 range start=73 end=100
+2021-04-03 16:09:31,976 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:09:46,477 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:09:52,436 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:09:58,371 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:10:01,033 INFO EventLog: Microsoft cloud found : Just before banana
+2021-04-03 16:10:01,120 INFO EventLog: Trigger word Paste
+2021-04-03 16:10:07,757 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 16:10:51,630 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 16:10:57,699 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:11:03,661 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:11:06,910 INFO EventLog: Microsoft cloud found : Passed after them
+2021-04-03 16:11:07,013 INFO EventLog: Trigger word Paste
+2021-04-03 16:11:13,353 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 16:11:16,579 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 16:11:22,639 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:11:26,213 INFO EventLog: Microsoft cloud found : Copy from debugging
+2021-04-03 16:11:26,311 INFO EventLog: Trigger word Copy From
+2021-04-03 16:11:31,724 INFO EventLog: Microsoft cloud found : Dual removing
+2021-04-03 16:11:37,671 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:11:43,963 INFO EventLog: Microsoft cloud found : Two, removing
+2021-04-03 16:11:44,011 INFO EventLog: Trigger word Copy From To
+2021-04-03 16:11:44,576 INFO EventLog: Changed debugging to  in point x=479 y=349 range start=154 end=189
+2021-04-03 16:11:50,698 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:11:53,357 INFO EventLog: Microsoft cloud found : Before programming
+2021-04-03 16:11:59,365 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:12:04,427 INFO EventLog: Microsoft cloud found : Bust before programming
+2021-04-03 16:12:04,523 INFO EventLog: Trigger word Paste
+2021-04-03 16:12:11,073 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 16:12:17,679 INFO EventLog: Microsoft cloud found : Bust after programming
+2021-04-03 16:12:17,767 INFO EventLog: Trigger word Paste
+2021-04-03 16:12:24,204 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 16:12:30,334 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:12:36,454 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:12:42,522 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:12:47,972 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:12:53,999 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:13:00,109 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:13:06,048 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:13:12,073 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:13:18,030 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:13:24,062 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:13:32,741 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:13:38,784 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:13:40,730 INFO EventLog: Microsoft cloud found : Balloon
+2021-04-03 16:13:46,677 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:13:53,320 INFO EventLog: Microsoft cloud found : Add the balloon
+2021-04-03 16:13:53,388 INFO EventLog: Trigger word add
+2021-04-03 16:13:53,866 INFO EventLog: Changed the to the balloon in point x=628 y=304 range start=140 end=151
+2021-04-03 16:13:58,512 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 16:13:58,567 INFO EventLog: Changed the balloon to the in point x=628 y=304 range start=140 end=143
+2021-04-03 16:14:04,541 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:14:10,672 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:14:16,534 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:14:21,597 INFO EventLog: Microsoft cloud found : Fix
+2021-04-03 16:14:21,623 INFO EventLog: Trigger word Fix
+2021-04-03 16:14:22,215 INFO EventLog: Changed shoiw to show in point x=545 y=304 range start=129 end=133
+2021-04-03 16:14:30,802 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:14:34,953 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 16:14:35,039 INFO EventLog: Changed show to shoiw in point x=545 y=304 range start=129 end=134
+2021-04-03 16:14:40,478 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:14:42,230 INFO EventLog: Microsoft cloud found : Fix
+2021-04-03 16:14:42,250 INFO EventLog: Trigger word Fix
+2021-04-03 16:14:42,822 INFO EventLog: Changed shoiw to show in point x=545 y=304 range start=129 end=133
+2021-04-03 16:14:48,779 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:14:54,843 INFO EventLog: Microsoft cloud found : Options
+2021-04-03 16:14:58,517 INFO EventLog: Microsoft cloud found : 2
+2021-04-03 16:14:58,647 INFO EventLog: Changed shoiw to shoes in point x=545 y=304 range start=129 end=134
+2021-04-03 16:15:04,711 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:15:10,772 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 16:15:10,891 INFO EventLog: Changed show to shoiw in point x=545 y=304 range start=129 end=134
+2021-04-03 16:15:16,326 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:15:22,263 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:15:28,297 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:15:34,063 INFO EventLog: Microsoft cloud found : Fix
+2021-04-03 16:15:34,105 INFO EventLog: Trigger word Fix
+2021-04-03 16:15:34,738 INFO EventLog: Changed alk to all in point x=425 y=304 range start=115 end=118
+2021-04-03 16:15:40,702 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:15:46,743 INFO EventLog: Microsoft cloud found : Options
+2021-04-03 16:15:51,055 INFO EventLog: Microsoft cloud found : 3
+2021-04-03 16:15:51,190 INFO EventLog: Changed alk to ask in point x=425 y=304 range start=115 end=118
+2021-04-03 16:15:56,703 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:15:59,141 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 16:15:59,212 INFO EventLog: Changed all to alk in point x=425 y=304 range start=115 end=118
+2021-04-03 16:16:07,021 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:16:12,987 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:16:31,307 INFO EventLog: Microsoft cloud found : Fix
+2021-04-03 16:16:31,376 INFO EventLog: Trigger word Fix
+2021-04-03 16:16:32,138 INFO EventLog: No misspelled word found close to eye gaze
+2021-04-03 16:16:38,193 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:16:44,351 INFO EventLog: Microsoft cloud found : No man over the Internet, no
+2021-04-03 16:16:50,381 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:16:53,214 INFO EventLog: Microsoft cloud found : Fix
+2021-04-03 16:16:53,292 INFO EventLog: Trigger word Fix
+2021-04-03 16:16:54,020 INFO EventLog: Changed mest to mist in point x=433 y=417 range start=283 end=287
+2021-04-03 16:16:58,869 INFO EventLog: Microsoft cloud found : Options
+2021-04-03 16:17:02,078 INFO EventLog: Microsoft cloud found : 1
+2021-04-03 16:17:02,165 INFO EventLog: Changed mest to mast in point x=433 y=417 range start=283 end=287
+2021-04-03 16:17:05,002 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 16:17:05,146 INFO EventLog: Changed mist to mest in point x=433 y=417 range start=283 end=287
+2021-04-03 16:17:10,610 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:17:16,568 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:17:22,512 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:17:28,478 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:17:34,606 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:17:40,601 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:17:42,946 INFO EventLog: Microsoft cloud found : Fix
+2021-04-03 16:17:42,984 INFO EventLog: Trigger word Fix
+2021-04-03 16:17:43,743 INFO EventLog: Changed shoiw to show in point x=528 y=304 range start=127 end=131
+2021-04-03 16:17:49,838 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:17:52,984 INFO EventLog: Microsoft cloud found : Fix
+2021-04-03 16:17:53,075 INFO EventLog: Trigger word Fix
+2021-04-03 16:17:53,717 INFO EventLog: Changed alk to all in point x=425 y=304 range start=114 end=117
+2021-04-03 16:17:59,183 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 16:17:59,317 INFO EventLog: Changed all to alk in point x=425 y=304 range start=114 end=117
+2021-04-03 16:18:03,913 INFO EventLog: Microsoft cloud found : Fix
+2021-04-03 16:18:03,942 INFO EventLog: Trigger word Fix
+2021-04-03 16:18:04,666 INFO EventLog: Changed alk to all in point x=425 y=304 range start=114 end=117
+2021-04-03 16:18:07,331 INFO EventLog: Microsoft cloud found : Cell
+2021-04-03 16:18:13,512 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:18:19,778 INFO EventLog: Microsoft cloud found : Fix
+2021-04-03 16:18:19,871 INFO EventLog: Trigger word Fix
+2021-04-03 16:18:20,437 INFO EventLog: Changed lve to love in point x=726 y=417 range start=320 end=324
+2021-04-03 16:18:23,157 INFO EventLog: Microsoft cloud found : Sir
+2021-04-03 16:18:27,418 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 16:18:27,469 INFO EventLog: Changed love to lve in point x=726 y=417 range start=320 end=323
+2021-04-03 16:18:30,819 INFO EventLog: Microsoft cloud found : Fix
+2021-04-03 16:18:30,842 INFO EventLog: Trigger word Fix
+2021-04-03 16:18:31,696 INFO EventLog: Changed lve to love in point x=726 y=417 range start=320 end=324
+2021-04-03 16:18:37,765 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:18:43,229 INFO EventLog: Microsoft cloud found : Options
+2021-04-03 16:18:47,860 INFO EventLog: Microsoft cloud found : 4
+2021-04-03 16:18:47,992 INFO EventLog: Changed lve to lee in point x=726 y=417 range start=320 end=323
+2021-04-03 16:18:54,205 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:19:00,155 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:19:04,301 INFO EventLog: Microsoft cloud found : Fix
+2021-04-03 16:19:04,404 INFO EventLog: Trigger word Fix
+2021-04-03 16:19:05,014 INFO EventLog: Changed lve to love in point x=726 y=417 range start=320 end=324
+2021-04-03 16:19:08,270 INFO EventLog: Microsoft cloud found : Options
+2021-04-03 16:19:10,931 INFO EventLog: Microsoft cloud found : 1
+2021-04-03 16:19:10,982 INFO EventLog: Changed lve to live in point x=726 y=417 range start=320 end=324
+2021-04-03 16:19:15,689 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 16:19:15,743 INFO EventLog: Changed love to lve in point x=726 y=417 range start=320 end=323
+2021-04-03 16:19:21,801 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:19:28,073 INFO EventLog: Microsoft cloud found : Fix
+2021-04-03 16:19:28,155 INFO EventLog: Trigger word Fix
+2021-04-03 16:19:28,606 INFO EventLog: Changed puttng to putting in point x=636 y=417 range start=307 end=314
+2021-04-03 16:19:32,770 INFO EventLog: Microsoft cloud found : More options
+2021-04-03 16:19:41,892 INFO EventLog: Microsoft cloud found : Options
+2021-04-03 16:19:47,865 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:19:50,025 INFO EventLog: Microsoft cloud found : 1
+2021-04-03 16:19:50,096 INFO EventLog: Changed puttng to potting in point x=636 y=417 range start=307 end=314
+2021-04-03 16:19:53,403 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-03 16:19:53,537 INFO EventLog: Changed putting to puttng in point x=636 y=417 range start=307 end=313
+2021-04-03 16:19:59,522 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:20:05,559 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:20:11,594 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:20:17,588 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:20:23,765 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:20:29,754 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:20:35,717 INFO EventLog: Microsoft cloud found : 
+2021-04-03 16:20:41,795 INFO EventLog: Microsoft cloud found : 
