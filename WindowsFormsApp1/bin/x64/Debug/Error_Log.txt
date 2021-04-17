@@ -1462,3 +1462,17 @@
 2021-04-03 16:13:40,765 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
 2021-04-03 16:18:07,364 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
 2021-04-03 16:18:23,185 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-17 18:43:36,024 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-17 18:47:13,104 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-17 18:50:07,613 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-17 18:51:14,978 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-17 18:52:55,868 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-17 18:53:51,907 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-17 18:54:09,424 ERROR ErrorLog: Word text editor did not open successfully ביצוע הפקודה נכשל
+2021-04-17 18:54:15,908 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-17 18:54:29,701 ERROR ErrorLog: Word text editor did not open successfully ביצוע הפקודה נכשל
+2021-04-17 18:54:38,217 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-17 18:56:49,659 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-17 19:04:45,609 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-17 19:06:32,089 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-17 19:06:36,229 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.

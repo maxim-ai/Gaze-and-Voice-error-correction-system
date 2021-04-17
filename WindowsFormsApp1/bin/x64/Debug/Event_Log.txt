@@ -20238,3 +20238,148 @@
 2021-04-03 16:20:29,754 INFO EventLog: Microsoft cloud found : 
 2021-04-03 16:20:35,717 INFO EventLog: Microsoft cloud found : 
 2021-04-03 16:20:41,795 INFO EventLog: Microsoft cloud found : 
+2021-04-17 18:43:36,014 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-17 18:43:49,494 INFO EventLog: Starting initialization of the system
+2021-04-17 18:43:53,558 INFO EventLog: Trying to open documtent
+2021-04-17 18:43:54,132 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-17 18:47:13,093 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-17 18:47:21,782 INFO EventLog: Starting initialization of the system
+2021-04-17 18:47:25,539 INFO EventLog: Trying to open documtent
+2021-04-17 18:47:26,056 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-17 18:47:26,325 INFO EventLog: Connect to Microsoft cloud
+2021-04-17 18:47:32,375 INFO EventLog: Microsoft cloud found : 
+2021-04-17 18:47:37,311 INFO EventLog: Microsoft cloud found : Fix
+2021-04-17 18:47:37,361 INFO EventLog: Trigger word Fix
+2021-04-17 18:47:37,802 INFO EventLog: Changed iss to is in point x=722 y=731 range start=796 end=798
+2021-04-17 18:47:41,166 INFO EventLog: Microsoft cloud found : Fix
+2021-04-17 18:47:41,175 INFO EventLog: Trigger word Fix
+2021-04-17 18:47:41,564 INFO EventLog: Changed thinnk to think in point x=743 y=774 range start=866 end=871
+2021-04-17 18:50:07,602 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-17 18:50:29,376 INFO EventLog: Starting initialization of the system
+2021-04-17 18:50:33,089 INFO EventLog: Trying to open documtent
+2021-04-17 18:50:33,548 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-17 18:50:33,634 INFO EventLog: Connect to Microsoft cloud
+2021-04-17 18:50:39,683 INFO EventLog: Microsoft cloud found : 
+2021-04-17 18:50:43,928 INFO EventLog: Microsoft cloud found : Fix
+2021-04-17 18:51:14,967 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-17 18:51:23,154 INFO EventLog: Starting initialization of the system
+2021-04-17 18:51:26,839 INFO EventLog: Trying to open documtent
+2021-04-17 18:51:27,394 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-17 18:51:27,474 INFO EventLog: Connect to Microsoft cloud
+2021-04-17 18:51:33,533 INFO EventLog: Microsoft cloud found : 
+2021-04-17 18:51:37,971 INFO EventLog: Microsoft cloud found : Fix
+2021-04-17 18:52:55,857 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-17 18:53:51,896 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-17 18:54:00,512 INFO EventLog: Starting initialization of the system
+2021-04-17 18:54:04,186 INFO EventLog: Trying to open documtent
+2021-04-17 18:54:09,503 INFO EventLog: Connect to Microsoft cloud
+2021-04-17 18:54:15,898 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-17 18:54:24,205 INFO EventLog: Starting initialization of the system
+2021-04-17 18:54:27,933 INFO EventLog: Trying to open documtent
+2021-04-17 18:54:29,780 INFO EventLog: Connect to Microsoft cloud
+2021-04-17 18:54:38,206 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-17 18:54:46,267 INFO EventLog: Starting initialization of the system
+2021-04-17 18:54:49,947 INFO EventLog: Trying to open documtent
+2021-04-17 18:54:50,407 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-17 18:54:50,489 INFO EventLog: Connect to Microsoft cloud
+2021-04-17 18:54:55,919 INFO EventLog: Microsoft cloud found : 
+2021-04-17 18:55:01,945 INFO EventLog: Microsoft cloud found : 
+2021-04-17 18:55:04,594 INFO EventLog: Microsoft cloud found : Head to code
+2021-04-17 18:55:10,025 INFO EventLog: Microsoft cloud found : Fix
+2021-04-17 18:55:10,081 INFO EventLog: Trigger word Fix
+2021-04-17 18:55:10,449 INFO EventLog: Changed bie to bee in point x=1001 y=385 range start=109 end=112
+2021-04-17 18:55:16,484 INFO EventLog: Microsoft cloud found : Replace defeated two code
+2021-04-17 18:55:16,530 INFO EventLog: Trigger word Replace
+2021-04-17 18:55:16,867 INFO EventLog: Changed defeated to code in point x=1070 y=385 range start=113 end=117
+2021-04-17 18:55:24,518 INFO EventLog: Microsoft cloud found : Replace pineapples 2 computer
+2021-04-17 18:55:24,542 INFO EventLog: Trigger word Replace
+2021-04-17 18:55:24,837 INFO EventLog: Changed pineapples to computer in point x=935 y=497 range start=190 end=198
+2021-04-17 18:55:31,396 INFO EventLog: Microsoft cloud found : Replace leave to Bud
+2021-04-17 18:55:31,426 INFO EventLog: Trigger word Replace
+2021-04-17 18:55:31,789 INFO EventLog: Changed leave to bud in point x=748 y=385 range start=80 end=83
+2021-04-17 18:55:37,784 INFO EventLog: Microsoft cloud found : 
+2021-04-17 18:55:42,821 INFO EventLog: Microsoft cloud found : Replace cheap to walk
+2021-04-17 18:55:42,862 INFO EventLog: Trigger word Replace
+2021-04-17 18:55:43,204 INFO EventLog: Changed cheap to walk in point x=725 y=441 range start=125 end=129
+2021-04-17 18:55:50,041 INFO EventLog: Microsoft cloud found : Replace walk to paper
+2021-04-17 18:55:50,078 INFO EventLog: Trigger word Replace
+2021-04-17 18:55:50,436 INFO EventLog: Changed Walk to Paper in point x=648 y=441 range start=117 end=122
+2021-04-17 18:55:56,404 INFO EventLog: Microsoft cloud found : 
+2021-04-17 18:55:58,742 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-17 18:55:58,806 INFO EventLog: Changed paper to Walk in point x=648 y=441 range start=117 end=121
+2021-04-17 18:56:04,823 INFO EventLog: Microsoft cloud found : 
+2021-04-17 18:56:49,648 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-17 18:57:37,612 INFO EventLog: Starting initialization of the system
+2021-04-17 18:57:41,326 INFO EventLog: Trying to open documtent
+2021-04-17 18:57:41,847 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-17 18:57:41,934 INFO EventLog: Connect to Microsoft cloud
+2021-04-17 18:57:47,975 INFO EventLog: Microsoft cloud found : 
+2021-04-17 18:57:50,197 INFO EventLog: Microsoft cloud found : Fix
+2021-04-17 18:57:50,272 INFO EventLog: Trigger word Fix
+2021-04-17 18:57:50,702 INFO EventLog: Changed mest to mist in point x=984 y=540 range start=263 end=267
+2021-04-17 18:57:57,478 INFO EventLog: Microsoft cloud found : Replace walk to computer
+2021-04-17 18:57:57,542 INFO EventLog: Trigger word Replace
+2021-04-17 18:58:11,629 INFO EventLog: Changed Walk to Computer in point x=648 y=441 range start=123 end=131
+2021-04-17 18:58:17,633 INFO EventLog: Microsoft cloud found : 
+2021-04-17 18:58:20,764 INFO EventLog: Microsoft cloud found : My ******* to process
+2021-04-17 18:58:26,500 INFO EventLog: Microsoft cloud found : Replace pineapples to process
+2021-04-17 18:58:26,533 INFO EventLog: Trigger word Replace
+2021-04-17 18:58:35,249 INFO EventLog: Changed pineapples to process in point x=935 y=497 range start=198 end=205
+2021-04-17 18:58:40,681 INFO EventLog: Microsoft cloud found : 
+2021-04-17 18:58:46,104 INFO EventLog: Microsoft cloud found : 
+2021-04-17 18:58:51,522 INFO EventLog: Microsoft cloud found : 
+2021-04-17 18:58:57,464 INFO EventLog: Microsoft cloud found : 
+2021-04-17 18:59:01,611 INFO EventLog: Microsoft cloud found : Replace paper to program
+2021-04-17 18:59:01,630 INFO EventLog: Trigger word Replace
+2021-04-17 18:59:14,453 INFO EventLog: Changed papers to program in point x=949 y=596 range start=336 end=343
+2021-04-17 18:59:20,505 INFO EventLog: Microsoft cloud found : 
+2021-04-17 18:59:25,136 INFO EventLog: Microsoft cloud found : Replace papers to debugging
+2021-04-17 18:59:25,170 INFO EventLog: Trigger word Replace
+2021-04-17 18:59:49,119 INFO EventLog: Changed paper to debugging in point x=688 y=497 range start=175 end=184
+2021-04-17 18:59:55,178 INFO EventLog: Microsoft cloud found : 
+2021-04-17 19:00:03,972 INFO EventLog: Microsoft cloud found : Replace damage to removing
+2021-04-17 19:00:04,014 INFO EventLog: Trigger word Replace
+2021-04-17 19:00:12,278 INFO EventLog: Changed damages to removing in point x=1160 y=638 range start=360 end=368
+2021-04-17 19:00:18,312 INFO EventLog: Microsoft cloud found : 
+2021-04-17 19:04:45,598 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-17 19:04:55,570 INFO EventLog: Starting initialization of the system
+2021-04-17 19:04:59,258 INFO EventLog: Trying to open documtent
+2021-04-17 19:04:59,711 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-17 19:04:59,802 INFO EventLog: Connect to Microsoft cloud
+2021-04-17 19:05:05,829 INFO EventLog: Microsoft cloud found : 
+2021-04-17 19:05:11,678 INFO EventLog: Microsoft cloud found : Replace pineapples to earphone
+2021-04-17 19:05:11,706 INFO EventLog: Trigger word Replace
+2021-04-17 19:05:11,997 INFO EventLog: Changed pineapples to earphone in point x=935 y=497 range start=194 end=202
+2021-04-17 19:05:17,127 INFO EventLog: Microsoft cloud found : Delete computer
+2021-04-17 19:05:17,140 INFO EventLog: Trigger word Delete One Word
+2021-04-17 19:05:17,414 INFO EventLog: Changed computer to  in point x=670 y=540 range start=229 end=229
+2021-04-17 19:05:22,861 INFO EventLog: Microsoft cloud found : 
+2021-04-17 19:05:27,981 INFO EventLog: Microsoft cloud found : Delete from face
+2021-04-17 19:05:28,037 INFO EventLog: Trigger word Delete From
+2021-04-17 19:05:32,580 INFO EventLog: Microsoft cloud found : Two let
+2021-04-17 19:05:32,608 INFO EventLog: Trigger word Delete From To
+2021-04-17 19:05:33,999 INFO EventLog: Changed face to  in point x=1189 y=342 range start=59 end=59
+2021-04-17 19:05:39,437 INFO EventLog: Microsoft cloud found : 
+2021-04-17 19:05:45,459 INFO EventLog: Microsoft cloud found : Copy from work
+2021-04-17 19:05:45,511 INFO EventLog: Trigger word Copy From
+2021-04-17 19:05:51,164 INFO EventLog: Microsoft cloud found : Too cold
+2021-04-17 19:05:51,205 INFO EventLog: Trigger word Copy From To
+2021-04-17 19:05:51,525 INFO EventLog: Changed Walk to  in point x=648 y=441 range start=83 end=124
+2021-04-17 19:05:56,953 INFO EventLog: Microsoft cloud found : 
+2021-04-17 19:06:02,693 INFO EventLog: Microsoft cloud found : Based before programming
+2021-04-17 19:06:02,746 INFO EventLog: Trigger word Paste
+2021-04-17 19:06:08,430 INFO EventLog: Microsoft cloud found : 
+2021-04-17 19:06:14,771 INFO EventLog: Microsoft cloud found : Copy from day
+2021-04-17 19:06:14,784 INFO EventLog: Trigger word Copy From
+2021-04-17 19:06:21,043 INFO EventLog: Microsoft cloud found : 
+2021-04-17 19:06:25,989 INFO EventLog: Microsoft cloud found : Copy from the
+2021-04-17 19:06:26,038 INFO EventLog: Trigger word Copy From
+2021-04-17 19:06:32,064 INFO EventLog: Microsoft cloud found : 2IN
+2021-04-17 19:06:36,207 INFO EventLog: Microsoft cloud found : 2IN
+2021-04-17 19:06:41,587 INFO EventLog: Microsoft cloud found : Two them
+2021-04-17 19:06:41,602 INFO EventLog: Trigger word Copy From To
+2021-04-17 19:06:41,896 INFO EventLog: Changed the to  in point x=688 y=582 range start=265 end=292
+2021-04-17 19:06:47,852 INFO EventLog: Microsoft cloud found : 
+2021-04-17 19:06:50,485 INFO EventLog: Microsoft cloud found : Based after damage
+2021-04-17 19:06:50,531 INFO EventLog: Trigger word Paste
+2021-04-17 19:06:56,303 INFO EventLog: Microsoft cloud found : 
