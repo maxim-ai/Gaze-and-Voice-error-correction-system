@@ -1,1 +1,25 @@
 ExperimentID,MissionID,TextNumber,SystemName,UserID,Event,Timestamp,ActualResult,MissionText
+0_VoiceGaze_5464564_23/04/2021,VoiceGaze_0_0,0,VoiceGaze,5464564,StartMission,202104231952487101,,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_5464564_23/04/2021,VoiceGaze_0_0,0,VoiceGaze,5464564,EndMission,202104231952520790,,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_5464564_23/04/2021,VoiceGaze_0_1,0,VoiceGaze,5464564,StartMission,202104231952520810,,Fix "mopd" to "mood"
+0_VoiceGaze_64564545_23/04/2021,VoiceGaze_0_0,0,VoiceGaze,64564545,StartMission,202104231956175471,,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_64564545_23/04/2021,VoiceGaze_0_0,0,VoiceGaze,64564545,EndMission,202104231956201582,,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_64564545_23/04/2021,VoiceGaze_0_1,0,VoiceGaze,64564545,StartMission,202104231956201602,,Fix "mopd" to "mood"
+0_VoiceGaze_56455123_23/04/2021,VoiceGaze_0_0,0,VoiceGaze,56455123,StartMission,202104231958411517,,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_56455123_23/04/2021,VoiceGaze_0_0,0,VoiceGaze,56455123,EndMission,202104231958440917,,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_56455123_23/04/2021,VoiceGaze_0_1,0,VoiceGaze,56455123,StartMission,202104231958440935,,Fix "mopd" to "mood"
+0_VoiceGaze_5464521_23/04/2021,VoiceGaze_0_0,0,VoiceGaze,5464521,StartMission,202104232004083844,,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_5464521_23/04/2021,VoiceGaze_0_0,0,VoiceGaze,5464521,EndMission,202104232004110781,,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_5464521_23/04/2021,VoiceGaze_0_1,0,VoiceGaze,5464521,StartMission,202104232004110801,,Fix "mopd" to "mood"
+0_VoiceGaze_6465465132_23/04/2021,VoiceGaze_0_0,0,VoiceGaze,6465465132,StartMission,202104232006126685,,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_6465465132_23/04/2021,VoiceGaze_0_0,0,VoiceGaze,6465465132,EndMission,202104232006152344,,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_6465465132_23/04/2021,VoiceGaze_0_1,0,VoiceGaze,6465465132,StartMission,202104232006152364,,Fix "mopd" to "mood"
+0_VoiceGaze_45646_23/04/2021,VoiceGaze_0_0,0,VoiceGaze,45646,StartMission,202104232008179788,,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_45646_23/04/2021,VoiceGaze_0_0,0,VoiceGaze,45646,EndMission,202104232008202993,,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_45646_23/04/2021,VoiceGaze_0_1,0,VoiceGaze,45646,StartMission,202104232008203014,,Fix "mopd" to "mood"
+0_VoiceGaze_4561222_23/04/2021,VoiceGaze_0_0,0,VoiceGaze,4561222,StartMission,202104232012164405,,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_4561222_23/04/2021,VoiceGaze_0_0,0,VoiceGaze,4561222,EndMission,202104232012189270,,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_4561222_23/04/2021,VoiceGaze_0_1,0,VoiceGaze,4561222,StartMission,202104232012189293,,Fix "mopd" to "mood"
+0_VoiceGaze_645645546_23/04/2021,VoiceGaze_0_0,0,VoiceGaze,645645546,StartMission,202104232014495011,,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_645645546_23/04/2021,VoiceGaze_0_0,0,VoiceGaze,645645546,EndMission,202104232014519400,,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_645645546_23/04/2021,VoiceGaze_0_1,0,VoiceGaze,645645546,StartMission,202104232014519422,,Fix "mopd" to "mood"

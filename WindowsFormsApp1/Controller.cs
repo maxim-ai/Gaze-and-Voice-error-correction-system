@@ -20,7 +20,7 @@ namespace EyeGaze
         public string path;
         public string speechToText;
         public Thread thread;
-        public Frontend frontend;
+        public ExperimentForm frontend;
         public string key;
         public string region;
 
@@ -29,7 +29,7 @@ namespace EyeGaze
             this.key = "69a12462814f4df1a7b1d38c67963adf";
             this.region = "westeaurope";
             this.engineMain = engineMain;
-            this.frontend = new Frontend(this);
+            this.frontend = new ExperimentForm(this);
             WireEventMessageFromEngine(this.engineMain);
             this.path = "";
             this.speechToText = "EyeGaze.SpeechToText.MicrosoftCloudSpeechToText";

@@ -821,3 +821,5 @@ D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\NuGet.Common.dll
 D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\NuGet.Frameworks.dll
 D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\NuGet.Common.xml
 D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\NuGet.Frameworks.xml
+D:\LocalReps\final_project\WindowsFormsApp1\obj\x64\Debug\EyeGaze.ExperimentForm.resources
+D:\LocalReps\final_project\WindowsFormsApp1\obj\x64\Debug\EyeGaze.ExperimentHelpForm.resources

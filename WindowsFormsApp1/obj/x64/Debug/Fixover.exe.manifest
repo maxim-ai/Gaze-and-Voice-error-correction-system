@@ -90,26 +90,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ExperimentSystem.exe" size="18432">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ExperimentSystem.exe" size="41472">
       <assemblyIdentity name="ExperimentSystem" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>kMa1x8+T4RNRNjMLIwZXYhDGFxgjv7vk2ARzWmOdLN0=</dsig:DigestValue>
+        <dsig:DigestValue>q/pMTdy0JWDCaeXin8UQUynRx6/82OA+vi+lv1a7Fzs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fixover.exe" size="661472">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fixover.exe" size="701920">
       <assemblyIdentity name="Fixover" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>lXT12OYtAKnA5rNecDza6IpVkhIkdp5dmXe5yp2bSFU=</dsig:DigestValue>
+        <dsig:DigestValue>m3Cav2DdNXPQSBQ3x1LqRdlOnem3QU8KzB8ypkkouSQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -630,6 +630,60 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>qv7CfrEwZYKIn2UHEMuCIPP5RDf/54vIJJRro5by59w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Experiment\close_l.png" size="558">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>w6lDBT3m6+xQjT1K5Lb9AV9clLiTEZ5h/mBIQ83wYlg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Experiment\ebg.PNG" size="3403">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rnxgfRQqLbxEL0eAVb9BlRYOfM9gHAGYTUNHCyukauo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Experiment\globe.png" size="2314">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2gjDHOWrhtDUhjozvrvq/aICk5DDJ7cR6yhCs00HRbE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Experiment\hde2.PNG" size="9940">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3sIEzK/ZsVwb/fJaY1CJU8460NwR31jXVO762vZuKS0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Experiment\play.png" size="784">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>k5ka4B9Qp4iDk2GI9zJtEIWDP9flvklNLak1wBxi4fc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Experiment\video.png" size="499">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GIQ3uTO0OtA+E3AoFw6TOq2bqi5WsRT5ZOBPicygezU=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Fixover.exe.config" size="1020">

@@ -20383,3 +20383,148 @@
 2021-04-17 19:06:50,485 INFO EventLog: Microsoft cloud found : Based after damage
 2021-04-17 19:06:50,531 INFO EventLog: Trigger word Paste
 2021-04-17 19:06:56,303 INFO EventLog: Microsoft cloud found : 
+2021-04-19 12:13:42,677 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-19 12:13:51,942 INFO EventLog: Starting initialization of the system
+2021-04-19 12:13:55,697 INFO EventLog: Trying to open documtent
+2021-04-19 12:13:56,306 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-19 12:13:56,643 INFO EventLog: Connect to Microsoft cloud
+2021-04-19 12:13:59,930 INFO EventLog: Microsoft cloud found : Hey Oscar
+2021-04-19 12:14:04,220 INFO EventLog: Microsoft cloud found : Alright, kiss my ***
+2021-04-19 12:14:07,966 INFO EventLog: Microsoft cloud found : Replace the images to computer
+2021-04-19 12:14:08,034 INFO EventLog: Trigger word Replace
+2021-04-19 12:14:16,841 INFO EventLog: Microsoft cloud found : OK, the images OK replace damages
+2021-04-19 12:14:22,094 INFO EventLog: Microsoft cloud found : Hello, my name is
+2021-04-19 12:14:22,242 INFO EventLog: Disconnect from Microsoft cloud
+2021-04-19 12:14:22,316 INFO EventLog: Spell checker closed successfully
+2021-04-23 19:48:15,298 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-23 19:48:26,543 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-23 19:48:34,527 INFO EventLog: Starting initialization of the system
+2021-04-23 19:48:39,251 INFO EventLog: Trying to open documtent
+2021-04-23 19:48:40,224 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-23 19:48:40,708 INFO EventLog: Connect to Microsoft cloud
+2021-04-23 19:48:46,473 INFO EventLog: Microsoft cloud found : Fix
+2021-04-23 19:48:46,514 INFO EventLog: Trigger word Fix
+2021-04-23 19:48:47,925 INFO EventLog: Changed eatt to eat in point x=733 y=342 range start=10 end=13
+2021-04-23 19:48:53,993 INFO EventLog: Microsoft cloud found : 
+2021-04-23 19:49:00,029 INFO EventLog: Microsoft cloud found : 
+2021-04-23 19:49:06,069 INFO EventLog: Microsoft cloud found : 
+2021-04-23 19:49:11,489 INFO EventLog: Microsoft cloud found : 
+2021-04-23 19:49:16,928 INFO EventLog: Microsoft cloud found : 
+2021-04-23 19:52:40,484 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-23 19:52:43,695 INFO EventLog: Starting initialization of the system
+2021-04-23 19:52:48,630 INFO EventLog: Trying to open documtent
+2021-04-23 19:52:49,738 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-23 19:52:50,023 INFO EventLog: Connect to Microsoft cloud
+2021-04-23 19:52:58,200 INFO EventLog: Microsoft cloud found : Ed want computer paper
+2021-04-23 19:52:58,369 INFO EventLog: Trigger word add
+2021-04-23 19:52:59,318 INFO EventLog: Changed want to want computer paper in point x=659 y=342 range start=2 end=21
+2021-04-23 19:53:04,763 INFO EventLog: Microsoft cloud found : 
+2021-04-23 19:53:10,187 INFO EventLog: Microsoft cloud found : 
+2021-04-23 19:53:16,207 INFO EventLog: Microsoft cloud found : 
+2021-04-23 19:53:22,139 INFO EventLog: Microsoft cloud found : 
+2021-04-23 19:53:27,558 INFO EventLog: Microsoft cloud found : 
+2021-04-23 19:53:33,588 INFO EventLog: Microsoft cloud found : 
+2021-04-23 19:56:09,324 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-23 19:56:12,535 INFO EventLog: Starting initialization of the system
+2021-04-23 19:56:17,028 INFO EventLog: Trying to open documtent
+2021-04-23 19:56:18,268 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-23 19:56:18,417 INFO EventLog: Connect to Microsoft cloud
+2021-04-23 19:56:24,315 INFO EventLog: Microsoft cloud found : Fix
+2021-04-23 19:56:24,437 INFO EventLog: Trigger word Fix
+2021-04-23 19:56:25,697 INFO EventLog: Changed eatt to eat in point x=733 y=342 range start=10 end=13
+2021-04-23 19:56:31,683 INFO EventLog: Microsoft cloud found : 
+2021-04-23 19:56:36,533 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-23 19:56:36,667 INFO EventLog: Changed eat to eatt in point x=733 y=342 range start=10 end=14
+2021-04-23 19:56:42,142 INFO EventLog: Microsoft cloud found : 
+2021-04-23 19:56:47,554 INFO EventLog: Microsoft cloud found : 
+2021-04-23 19:56:52,976 INFO EventLog: Microsoft cloud found : 
+2021-04-23 19:58:31,756 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-23 19:58:36,136 INFO EventLog: Starting initialization of the system
+2021-04-23 19:58:40,666 INFO EventLog: Trying to open documtent
+2021-04-23 19:58:42,093 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-23 19:58:42,415 INFO EventLog: Connect to Microsoft cloud
+2021-04-23 19:58:47,855 INFO EventLog: Microsoft cloud found : 
+2021-04-23 19:58:51,549 INFO EventLog: Microsoft cloud found : Delete want
+2021-04-23 19:58:51,678 INFO EventLog: Trigger word Delete One Word
+2021-04-23 19:58:52,811 INFO EventLog: Changed want to  in point x=659 y=342 range start=2 end=2
+2021-04-23 19:58:58,334 INFO EventLog: Microsoft cloud found : 
+2021-04-23 19:59:03,754 INFO EventLog: Microsoft cloud found : 
+2021-04-23 19:59:09,167 INFO EventLog: Microsoft cloud found : 
+2021-04-23 20:03:59,079 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-23 20:04:03,366 INFO EventLog: Starting initialization of the system
+2021-04-23 20:04:07,657 INFO EventLog: Trying to open documtent
+2021-04-23 20:04:08,547 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-23 20:04:08,699 INFO EventLog: Connect to Microsoft cloud
+2021-04-23 20:04:14,150 INFO EventLog: Microsoft cloud found : 
+2021-04-23 20:04:17,883 INFO EventLog: Microsoft cloud found : Replace Apple two beach
+2021-04-23 20:04:17,928 INFO EventLog: Trigger word Replace
+2021-04-23 20:04:18,738 INFO EventLog: Changed apple to beach in point x=812 y=342 range start=18 end=23
+2021-04-23 20:04:24,276 INFO EventLog: Microsoft cloud found : 
+2021-04-23 20:04:29,708 INFO EventLog: Microsoft cloud found : 
+2021-04-23 20:04:35,154 INFO EventLog: Microsoft cloud found : 
+2021-04-23 20:06:03,396 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-23 20:06:07,655 INFO EventLog: Starting initialization of the system
+2021-04-23 20:06:11,965 INFO EventLog: Trying to open documtent
+2021-04-23 20:06:12,968 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-23 20:06:13,227 INFO EventLog: Connect to Microsoft cloud
+2021-04-23 20:06:18,666 INFO EventLog: Microsoft cloud found : 
+2021-04-23 20:06:24,423 INFO EventLog: Microsoft cloud found : Delete from want
+2021-04-23 20:06:24,612 INFO EventLog: Trigger word Delete From
+2021-04-23 20:06:30,643 INFO EventLog: Microsoft cloud found : Do it
+2021-04-23 20:06:30,744 INFO EventLog: Trigger word Delete From To
+2021-04-23 20:06:32,847 INFO EventLog: Changed want to  in point x=659 y=342 range start=2 end=2
+2021-04-23 20:06:38,293 INFO EventLog: Microsoft cloud found : 
+2021-04-23 20:06:43,697 INFO EventLog: Microsoft cloud found : 
+2021-04-23 20:06:49,130 INFO EventLog: Microsoft cloud found : 
+2021-04-23 20:08:09,373 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-23 20:08:12,950 INFO EventLog: Starting initialization of the system
+2021-04-23 20:08:17,456 INFO EventLog: Trying to open documtent
+2021-04-23 20:08:18,218 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-23 20:08:18,357 INFO EventLog: Connect to Microsoft cloud
+2021-04-23 20:08:24,294 INFO EventLog: Microsoft cloud found : 
+2021-04-23 20:08:30,307 INFO EventLog: Microsoft cloud found : 
+2021-04-23 20:08:36,868 INFO EventLog: Microsoft cloud found : Copy from want
+2021-04-23 20:08:37,008 INFO EventLog: Trigger word Copy From
+2021-04-23 20:08:43,286 INFO EventLog: Microsoft cloud found : 
+2021-04-23 20:08:45,527 INFO EventLog: Microsoft cloud found : 2 N
+2021-04-23 20:08:45,645 INFO EventLog: Trigger word Copy From To
+2021-04-23 20:08:46,960 INFO EventLog: Changed want to  in point x=659 y=342 range start=2 end=17
+2021-04-23 20:08:53,785 INFO EventLog: Microsoft cloud found : Based after Apple
+2021-04-23 20:08:53,817 INFO EventLog: Trigger word Paste
+2021-04-23 20:09:00,582 INFO EventLog: Microsoft cloud found : 
+2021-04-23 20:09:06,003 INFO EventLog: Microsoft cloud found : 
+2021-04-23 20:09:11,427 INFO EventLog: Microsoft cloud found : 
+2021-04-23 20:09:16,850 INFO EventLog: Microsoft cloud found : 
+2021-04-23 20:09:22,294 INFO EventLog: Microsoft cloud found : 
+2021-04-23 20:09:27,705 INFO EventLog: Microsoft cloud found : 
+2021-04-23 20:09:33,105 INFO EventLog: Microsoft cloud found : 
+2021-04-23 20:09:38,532 INFO EventLog: Microsoft cloud found : 
+2021-04-23 20:09:43,947 INFO EventLog: Microsoft cloud found : 
+2021-04-23 20:09:49,369 INFO EventLog: Microsoft cloud found : 
+2021-04-23 20:12:05,304 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-23 20:12:11,423 INFO EventLog: Starting initialization of the system
+2021-04-23 20:12:15,572 INFO EventLog: Trying to open documtent
+2021-04-23 20:12:16,816 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-23 20:12:17,523 INFO EventLog: Connect to Microsoft cloud
+2021-04-23 20:12:24,390 INFO EventLog: Microsoft cloud found : Copy from want
+2021-04-23 20:12:24,555 INFO EventLog: Trigger word Copy From
+2021-04-23 20:12:29,282 INFO EventLog: Microsoft cloud found : 2 N
+2021-04-23 20:12:29,315 INFO EventLog: Trigger word Copy From To
+2021-04-23 20:12:30,634 INFO EventLog: Changed want to  in point x=659 y=342 range start=2 end=17
+2021-04-23 20:12:35,970 INFO EventLog: Microsoft cloud found : Based before Apple
+2021-04-23 20:12:36,084 INFO EventLog: Trigger word Paste
+2021-04-23 20:12:42,730 INFO EventLog: Microsoft cloud found : 
+2021-04-23 20:14:40,833 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-23 20:14:44,481 INFO EventLog: Starting initialization of the system
+2021-04-23 20:14:48,862 INFO EventLog: Trying to open documtent
+2021-04-23 20:14:49,555 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-23 20:14:49,783 INFO EventLog: Connect to Microsoft cloud
+2021-04-23 20:14:55,237 INFO EventLog: Microsoft cloud found : 
+2021-04-23 20:14:59,367 INFO EventLog: Microsoft cloud found : Fix
+2021-04-23 20:14:59,501 INFO EventLog: Trigger word Fix
+2021-04-23 20:15:00,746 INFO EventLog: Changed eatt to eat in point x=733 y=342 range start=10 end=13
+2021-04-23 20:15:03,338 INFO EventLog: Microsoft cloud found : Options
+2021-04-23 20:15:06,749 INFO EventLog: Microsoft cloud found : 1
+2021-04-23 20:15:06,946 INFO EventLog: Changed eatt to east in point x=733 y=342 range start=10 end=14
+2021-04-23 20:15:12,434 INFO EventLog: Microsoft cloud found : 
+2021-04-23 20:15:17,875 INFO EventLog: Microsoft cloud found : 

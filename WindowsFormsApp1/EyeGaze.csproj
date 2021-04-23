@@ -107,7 +107,7 @@
       <HintPath>..\packages\DnsClient.1.3.1\lib\net471\DnsClient.dll</HintPath>
     </Reference>
     <Reference Include="ExperimentSystem, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ExperimentSystem.1.3.0\lib\net461\ExperimentSystem.exe</HintPath>
+      <HintPath>..\packages\ExperimentSystem.2.1.0\lib\net461\ExperimentSystem.exe</HintPath>
     </Reference>
     <Reference Include="Google.Api.CommonProtos, Version=2.2.0.0, Culture=neutral, PublicKeyToken=3ec5ea7f18953e47, processorArchitecture=MSIL">
       <HintPath>..\packages\Google.Api.CommonProtos.2.2.0\lib\net461\Google.Api.CommonProtos.dll</HintPath>
@@ -287,6 +287,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller.cs" />
+    <Compile Include="Experiment\ExperimentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Experiment\ExperimentForm.Designer.cs">
+      <DependentUpon>ExperimentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Experiment\ExperimentHelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Experiment\ExperimentHelpForm.Designer.cs">
+      <DependentUpon>ExperimentHelpForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Model\Engine\EngineMain.cs" />
     <Compile Include="Model\EyeTracking\debugger.cs">
       <SubType>Form</SubType>
@@ -350,10 +362,22 @@
     <Content Include="Core\Compression\Snappy\lib\win\snappy32.dll" />
     <Content Include="Core\Compression\Snappy\lib\win\snappy64.dll" />
     <Content Include="Core\Compression\Zstandard\lib\win\libzstd.dll" />
+    <Content Include="Experiment\close_l.png" />
+    <Content Include="Experiment\ebg.PNG" />
+    <Content Include="Experiment\globe.png" />
+    <Content Include="Experiment\hde2.PNG" />
+    <Content Include="Experiment\play.png" />
+    <Content Include="Experiment\video.png" />
     <Content Include="libzstd.dll" />
     <Content Include="mongocrypt.dll" />
     <Content Include="snappy32.dll" />
     <Content Include="snappy64.dll" />
+    <EmbeddedResource Include="Experiment\ExperimentForm.resx">
+      <DependentUpon>ExperimentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Experiment\ExperimentHelpForm.resx">
+      <DependentUpon>ExperimentHelpForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="View\Frontend.resx">
       <DependentUpon>Frontend.cs</DependentUpon>
     </EmbeddedResource>

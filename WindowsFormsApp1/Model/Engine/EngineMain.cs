@@ -35,7 +35,7 @@ namespace EyeGaze.Engine
         private CoordinateRange deleteLastCoordinate;
         private CoordinateRange copyLastCoordinate;
         private (String trigger, CoordinateRange prevCoord, String changed) lastOperation;
-        private MainClass mainExperiment;
+        public MainClass mainExperiment;
 
         //[System.Runtime.InteropServices.DllImport("DpiHelper.dll")]
         //static public extern void PrintDpiInfo();
@@ -239,10 +239,10 @@ namespace EyeGaze.Engine
             if (lastOperation.trigger == "fix" || lastOperation.trigger == "fixTo" || lastOperation.trigger == "change"
                 || lastOperation.trigger == "replace" || lastOperation.trigger == "add" || lastOperation.trigger == "delete")
             {
+                string textBeforeChange = textEditor.getDoc().Content.Text;
                 CoordinateRange newCoords = new CoordinateRange(lastOperation.prevCoord.X, lastOperation.prevCoord.Y, lastOperation.prevCoord.range, lastOperation.changed);
                 textEditor.ReplaceWord(newCoords, lastOperation.prevCoord.word);
-                mainExperiment.EventCommand("cancel", "cancel", lastOperation.changed, lastOperation.prevCoord.word,false,
-                    textEditor.getDoc().Content.Text,DateTime.Now);
+                mainExperiment.EventCommand("cancel", "cancel", textBeforeChange, textEditor.getDoc().Content.Text, false,DateTime.Now);
             }
         }
 
@@ -276,6 +276,7 @@ namespace EyeGaze.Engine
 
                 if (sortedPoints.Count > 0)
                 {
+                    string textBeforeChange = textEditor.getDoc().Content.Text;
                     while (sortedPoints.Count > 0)
                     {
                         CoordinateRange wordToReplaceCoordinateRange = sortedPoints.First().Key;
@@ -287,8 +288,7 @@ namespace EyeGaze.Engine
                             //for cancel
                             lastOperation = ("delete", sortedPoints.First().Key, "");
                             string deletedWord = sortedPoints.First().Key.word;
-                            mainExperiment.EventCommand("delete", "delete "+deletedWord, deletedWord, "",
-                                true, textEditor.getDoc().Content.Text, DateTime.Now);
+                            mainExperiment.EventCommand("delete", "delete " + deletedWord, textBeforeChange, textEditor.getDoc().Content.Text, true, DateTime.Now);
                             return;
                         }
                         sortedPoints.RemoveAt(0);
@@ -332,13 +332,13 @@ namespace EyeGaze.Engine
                 List<KeyValuePair<CoordinateRange, double>> sortedPoints = SortByDistance(distanceFromCoordinate);
                 if (sortedPoints.Count > 0)
                 {
+                    string textBeforeChange = textEditor.getDoc().Content.Text;
                     CoordinateRange wordToFix = sortedPoints.First().Key;
                     textEditor.ReplaceWord(wordToFix, word);
 
                     //for cancel
                     lastOperation = ("fixTo", wordToFix, word);
-                    mainExperiment.EventCommand("fix to", "fix to " + wordToFix, wordToFix.word, word,
-                        true, textEditor.getDoc().Content.Text, DateTime.Now);
+                    mainExperiment.EventCommand("fix to", "fix to " + wordToFix, textBeforeChange, textEditor.getDoc().Content.Text, true,DateTime.Now);
                 }
             }
             catch (Exception e)
@@ -395,6 +395,7 @@ namespace EyeGaze.Engine
                 List<KeyValuePair<CoordinateRange, double>> sortedPoints = SortByDistance(distanceFromCoordinate);
                 if (sortedPoints.Count > 0)
                 {
+                    string textBeforeChange = textEditor.getDoc().Content.Text;
                     while (sortedPoints.Count > 0)
                     {
                         CoordinateRange wordToReplaceCoordinateRange = sortedPoints.First().Key;
@@ -405,8 +406,8 @@ namespace EyeGaze.Engine
 
                             //for cancel
                             lastOperation = ("replace", wordToReplaceCoordinateRange, replaceToWord);
-                            mainExperiment.EventCommand("replace", "replace " + wordToReplace + " to " + replaceToWord, wordToReplace, replaceToWord,
-                                true, textEditor.getDoc().Content.Text, DateTime.Now);
+                            mainExperiment.EventCommand("replace", "replace " + wordToReplace + " to " + replaceToWord, textBeforeChange, textEditor.getDoc().Content.Text,
+                                true, DateTime.Now);
                             return;
                         }
                         sortedPoints.RemoveAt(0);
@@ -462,6 +463,7 @@ namespace EyeGaze.Engine
                 List<KeyValuePair<CoordinateRange, double>> sortedPoints = SortByDistance(distanceFromCoordinate);
                 if (sortedPoints.Count > 0)
                 {
+                    string textBeforeChange = textEditor.getDoc().Content.Text;
                     while (sortedPoints.Count > 0)
                     {
                         CoordinateRange wordToReplaceCoordinateRange = sortedPoints.First().Key;
@@ -476,8 +478,8 @@ namespace EyeGaze.Engine
 
                             //for cancel
                             lastOperation = ("delete", deleted, "");
-                            mainExperiment.EventCommand("delete from to", "delete from "+ deleteLastCoordinate.word + " to "+ stopWord, deleted.word, "",
-                                true, textEditor.getDoc().Content.Text, DateTime.Now);
+                            mainExperiment.EventCommand("delete from to", "delete from " + deleteLastCoordinate.word + " to " + stopWord, 
+                                textBeforeChange, textEditor.getDoc().Content.Text, true, DateTime.Now);
                             return;
                         }
                         sortedPoints.RemoveAt(0);
@@ -535,6 +537,7 @@ namespace EyeGaze.Engine
                 List<KeyValuePair<CoordinateRange, double>> sortedPoints = SortByDistance(distanceFromCoordinate);
                 if (sortedPoints.Count > 0)
                 {
+                    string textBeforeChange = textEditor.getDoc().Content.Text;
                     while (sortedPoints.Count > 0)
                     {
                         CoordinateRange wordToReplaceCoordinateRange = sortedPoints.First().Key;
@@ -543,8 +546,8 @@ namespace EyeGaze.Engine
                         {
                             textEditor.HighlightWordForSpecificTime(wordToReplaceCoordinateRange, 1000);
                             CoordinateRange copied = textEditor.SaveSentence(copyLastCoordinate, wordToReplaceCoordinateRange);
-                            mainExperiment.EventCommand("copy from to", "copy from " + copyLastCoordinate.word + " to " + stopWord, "", copied.word,
-                                true, textEditor.getDoc().Content.Text, DateTime.Now);
+                            mainExperiment.EventCommand("copy from to", "copy from " + copyLastCoordinate.word + " to " + stopWord, 
+                                textBeforeChange, textEditor.getDoc().Content.Text, true,DateTime.Now);
                             return;
                         }
                         sortedPoints.RemoveAt(0);
@@ -569,6 +572,7 @@ namespace EyeGaze.Engine
                 List<KeyValuePair<CoordinateRange, double>> sortedPoints = SortByDistance(distanceFromCoordinate);
                 if (sortedPoints.Count > 0)
                 {
+                    string textBeforeChange = textEditor.getDoc().Content.Text;
                     while (sortedPoints.Count > 0)
                     {
                         CoordinateRange wordToReplaceCoordinateRange = sortedPoints.First().Key;
@@ -581,12 +585,10 @@ namespace EyeGaze.Engine
 
                             //for cancel
                             lastOperation = ("paste", pasted, wordToReplaceCoordinateRange.word);
-                            if(pastePlacement.Equals("before"))
-                                mainExperiment.EventCommand("paste", "paste " + pastePlacement + " " + stopWord, stopWord,
-                                    textEditor.getLastCopiedSentence()+" "+stopWord,true, textEditor.getDoc().Content.Text, DateTime.Now);
-                            else if(pastePlacement.Equals("after"))
-                                mainExperiment.EventCommand("paste", "paste " + pastePlacement + " " + stopWord, stopWord,
-                                    stopWord+" "+textEditor.getLastCopiedSentence(), true, textEditor.getDoc().Content.Text, DateTime.Now);
+                            if (pastePlacement.Equals("before"))
+                                mainExperiment.EventCommand("paste", "paste " + pastePlacement + " " + stopWord, textBeforeChange, textEditor.getDoc().Content.Text, true, DateTime.Now);
+                            else if (pastePlacement.Equals("after"))
+                                mainExperiment.EventCommand("paste", "paste " + pastePlacement + " " + stopWord, textBeforeChange, textEditor.getDoc().Content.Text, true, DateTime.Now);
 
                             return;
                         }
@@ -671,12 +673,13 @@ namespace EyeGaze.Engine
             //numbers.Add("four");
             //numbers.Add("five");
             //int index = numbers.IndexOf(trigger);
+            string textBeforeChange = textEditor.getDoc().Content.Text;
             int index= Int32.Parse(trigger)-1;
             String fixedWord = textEditor.fixedWord.list[index];
             textEditor.ReplaceWord(textEditor.fixedWord.coord, fixedWord.Trim());
             textEditor.HideMoreSuggestions();
-            mainExperiment.EventCommand("options", "options " + trigger, lastOperation.changed, fixedWord.Trim(),
-                false, textEditor.getDoc().Content.Text, DateTime.Now);
+            mainExperiment.EventCommand("options", "options " + trigger, textBeforeChange, textEditor.getDoc().Content.Text,
+                false, DateTime.Now);
             //textEditor.FixFromSuggestions(index);
 
         }
@@ -708,6 +711,7 @@ namespace EyeGaze.Engine
         {
             if (sortedMisspelledWordsByDistance.Count > 0)
             {
+                string textBeforeChange = textEditor.getDoc().Content.Text;
                 CoordinateRange wordToFix = sortedMisspelledWordsByDistance.First().Key;
                 List<string> suggestions = spellChecker.GetSpellingSuggestions(wordToFix.word);
                 if (suggestions.Count > 0)
@@ -720,8 +724,7 @@ namespace EyeGaze.Engine
 
                     //for cancel
                     lastOperation = ("fix", wordToFix, fixedWord);
-                    mainExperiment.EventCommand("fix", "fix", wordToFix.word, fixedWord,
-                        true, textEditor.getDoc().Content.Text, DateTime.Now);
+                    mainExperiment.EventCommand("fix", "fix", textBeforeChange, textEditor.getDoc().Content.Text,true, DateTime.Now);
                 }
                 return;
             }
@@ -730,12 +733,12 @@ namespace EyeGaze.Engine
 
         private void AddWords(CoordinateRange firstWordCoordinate, string wordsToAdd)
         {
+            string textBeforeChange = textEditor.getDoc().Content.Text;
             textEditor.ReplaceWord(firstWordCoordinate, wordsToAdd);
 
             //for cancel
             lastOperation = ("add", firstWordCoordinate, wordsToAdd);
-            mainExperiment.EventCommand("add", "add " + wordsToAdd, firstWordCoordinate.word, wordsToAdd,
-                true, textEditor.getDoc().Content.Text, DateTime.Now);
+            mainExperiment.EventCommand("add", "add " + wordsToAdd, textBeforeChange, textEditor.getDoc().Content.Text,true,DateTime.Now);
         }
 
         private void FixLatestMisspelledWord(List<CoordinateRange> misspelledWords)
