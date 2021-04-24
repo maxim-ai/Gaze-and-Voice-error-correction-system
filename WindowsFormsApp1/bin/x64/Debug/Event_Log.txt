@@ -20528,3 +20528,56 @@
 2021-04-23 20:15:06,946 INFO EventLog: Changed eatt to east in point x=733 y=342 range start=10 end=14
 2021-04-23 20:15:12,434 INFO EventLog: Microsoft cloud found : 
 2021-04-23 20:15:17,875 INFO EventLog: Microsoft cloud found : 
+2021-04-24 22:28:50,488 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-24 22:28:54,762 INFO EventLog: Starting initialization of the system
+2021-04-24 22:28:58,453 INFO EventLog: Trying to open documtent
+2021-04-24 22:28:58,937 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-24 22:28:59,072 INFO EventLog: Connect to Microsoft cloud
+2021-04-24 22:29:04,504 INFO EventLog: Microsoft cloud found : 
+2021-04-24 22:29:10,432 INFO EventLog: Microsoft cloud found : 
+2021-04-24 22:29:16,368 INFO EventLog: Microsoft cloud found : 
+2021-04-24 22:29:20,384 INFO EventLog: Microsoft cloud found : Delete from love
+2021-04-24 22:29:20,410 INFO EventLog: Trigger word Delete From
+2021-04-24 22:29:24,335 INFO EventLog: Microsoft cloud found : Two drink
+2021-04-24 22:29:24,362 INFO EventLog: Trigger word Delete From To
+2021-04-24 22:29:25,702 INFO EventLog: Changed love to  in point x=628 y=356 range start=3 end=3
+2021-04-24 22:29:30,627 INFO EventLog: Microsoft cloud found : Copy from hate
+2021-04-24 22:29:30,676 INFO EventLog: Trigger word Copy From
+2021-04-24 22:29:36,965 INFO EventLog: Microsoft cloud found : Two clea
+2021-04-24 22:29:37,012 INFO EventLog: Trigger word Copy From To
+2021-04-24 22:29:37,264 INFO EventLog: Changed hate to  in point x=681 y=356 range start=8 end=21
+2021-04-24 22:29:44,509 INFO EventLog: Microsoft cloud found : Based before end
+2021-04-24 22:29:44,527 INFO EventLog: Trigger word Paste
+2021-04-24 22:29:50,923 INFO EventLog: Microsoft cloud found : 
+2021-04-24 22:29:56,329 INFO EventLog: Microsoft cloud found : 
+2021-04-24 22:30:01,744 INFO EventLog: Microsoft cloud found : 
+2021-04-24 22:30:07,394 INFO EventLog: Microsoft cloud found : Delete from 8
+2021-04-24 22:30:07,434 INFO EventLog: Trigger word Delete From
+2021-04-24 22:30:12,746 INFO EventLog: Microsoft cloud found : To clean
+2021-04-24 22:30:12,765 INFO EventLog: Trigger word Delete From To
+2021-04-24 22:30:14,035 INFO EventLog: Changed to to  in point x=676 y=356 range start=9 end=9
+2021-04-24 22:30:20,055 INFO EventLog: Microsoft cloud found : 
+2021-04-24 22:31:03,238 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-24 22:31:06,471 INFO EventLog: Starting initialization of the system
+2021-04-24 22:31:10,178 INFO EventLog: Trying to open documtent
+2021-04-24 22:31:10,613 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-24 22:31:10,735 INFO EventLog: Connect to Microsoft cloud
+2021-04-24 22:31:16,172 INFO EventLog: Microsoft cloud found : 
+2021-04-24 22:31:22,927 INFO EventLog: Microsoft cloud found : Delete from love
+2021-04-24 22:31:22,996 INFO EventLog: Trigger word Delete From
+2021-04-24 22:31:27,073 INFO EventLog: Microsoft cloud found : End
+2021-04-24 22:31:31,926 INFO EventLog: Microsoft cloud found : To end
+2021-04-24 22:31:31,978 INFO EventLog: Trigger word Delete From To
+2021-04-24 22:31:33,314 INFO EventLog: Changed love to  in point x=628 y=356 range start=3 end=3
+2021-04-24 22:31:39,237 INFO EventLog: Microsoft cloud found : Cancel
+2021-04-24 22:31:39,306 INFO EventLog: Changed  to love to drink and in point x=628 y=356 range start=3 end=20
+2021-04-24 22:31:45,238 INFO EventLog: Microsoft cloud found : 
+2021-04-24 22:31:49,265 INFO EventLog: Microsoft cloud found : Kobe from drink
+2021-04-24 22:31:54,684 INFO EventLog: Microsoft cloud found : 
+2021-04-24 22:31:58,208 INFO EventLog: Microsoft cloud found : Copy from drink
+2021-04-24 22:31:58,254 INFO EventLog: Trigger word Copy From
+2021-04-24 22:32:04,512 INFO EventLog: Microsoft cloud found : To end
+2021-04-24 22:32:04,554 INFO EventLog: Trigger word Copy From To
+2021-04-24 22:32:04,852 INFO EventLog: Changed drink to  in point x=711 y=356 range start=11 end=20
+2021-04-24 22:32:10,990 INFO EventLog: Microsoft cloud found : Based after two
+2021-04-24 22:32:11,040 INFO EventLog: Trigger word Paste
