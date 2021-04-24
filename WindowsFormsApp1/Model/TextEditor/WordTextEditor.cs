@@ -37,6 +37,7 @@ namespace EyeGaze.TextEditor
         private List<CoordinateRange> replaceAllWordsToChange;
         private bool isReplaceAll;
         private string lastCopiedSentence;
+        private (Range range, WdColorIndex color) lastCopiedSentenceInfo;
 
         public WordTextEditor(string path)
         {
@@ -524,6 +525,20 @@ namespace EyeGaze.TextEditor
         public override string getLastCopiedSentence()
         {
             return lastCopiedSentence;
+        }
+
+        public override void HighlightLastCopiedSentence(CoordinateRange range)
+        {
+            Range rangeToHighlight = range.range.Duplicate;
+            WdColorIndex prevColor = rangeToHighlight.HighlightColorIndex;
+            rangeToHighlight.HighlightColorIndex = WdColorIndex.wdYellow;
+            this.lastCopiedSentenceInfo = (rangeToHighlight, prevColor);
+        }
+
+        public override void StopHightlightLastCopiedSentece()
+        {
+            if (fileIsOpen)
+                lastCopiedSentenceInfo.range.HighlightColorIndex = lastCopiedSentenceInfo.color;
         }
     }
 

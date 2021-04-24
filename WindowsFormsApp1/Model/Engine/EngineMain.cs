@@ -548,7 +548,8 @@ namespace EyeGaze.Engine
                         //if (wordToReplaceCoordinateRange.word.ToLower().Equals(stopWord.ToLower()))
                         {
                             CoordinateRange copied = textEditor.SaveSentence(copyLastCoordinate, wordToReplaceCoordinateRange);
-                            textEditor.HighlightWordForSpecificTime(copied, 3000);
+                            //textEditor.HighlightWordForSpecificTime(copied, 3000);
+                            textEditor.HighlightLastCopiedSentence(copied);
                             mainExperiment.EventCommand("copy from to", "copy from " + copyLastCoordinate.word + " to " + stopWord, 
                                 textBeforeChange, textEditor.getDoc().Content.Text, true,DateTime.Now);
                             return;
@@ -585,6 +586,7 @@ namespace EyeGaze.Engine
                             //textEditor.HighlightWordForSpecificTime(wordToReplaceCoordinateRange, 1000);
                             //textEditor.SaveSentence(copyLastCoordinate, wordToReplaceCoordinateRange);
                             CoordinateRange pasted= textEditor.PasteSentence(wordToReplaceCoordinateRange, pastePlacement);
+                            textEditor.StopHightlightLastCopiedSentece();
 
                             //for cancel
                             lastOperation = ("paste", pasted, wordToReplaceCoordinateRange.word);

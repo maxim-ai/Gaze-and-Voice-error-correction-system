@@ -50,6 +50,9 @@ namespace EyeGaze.TextEditor
         public abstract void HighlightWordForSpecificTime(CoordinateRange startRange, int milSecs);
         public abstract Document getDoc();
         public abstract string getLastCopiedSentence();
+        public abstract void HighlightLastCopiedSentence(CoordinateRange range);
+        public abstract void StopHightlightLastCopiedSentece();
+
          public void ShowMoreSuggestions()
         {
             List<string> emptyList = new List<string>();

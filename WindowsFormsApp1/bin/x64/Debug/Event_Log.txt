@@ -20581,3 +20581,75 @@
 2021-04-24 22:32:04,852 INFO EventLog: Changed drink to  in point x=711 y=356 range start=11 end=20
 2021-04-24 22:32:10,990 INFO EventLog: Microsoft cloud found : Based after two
 2021-04-24 22:32:11,040 INFO EventLog: Trigger word Paste
+2021-04-24 22:49:07,991 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-24 22:49:11,507 INFO EventLog: Starting initialization of the system
+2021-04-24 22:49:15,256 INFO EventLog: Trying to open documtent
+2021-04-24 22:49:15,719 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-24 22:49:15,967 INFO EventLog: Connect to Microsoft cloud
+2021-04-24 22:49:21,920 INFO EventLog: Microsoft cloud found : 
+2021-04-24 22:49:27,330 INFO EventLog: Microsoft cloud found : 
+2021-04-24 22:49:32,754 INFO EventLog: Microsoft cloud found : 
+2021-04-24 22:49:38,512 INFO EventLog: Microsoft cloud found : Copy from want
+2021-04-24 22:49:38,548 INFO EventLog: Trigger word Copy From
+2021-04-24 22:49:42,600 INFO EventLog: Microsoft cloud found : Do bike
+2021-04-24 22:49:42,612 INFO EventLog: Trigger word Copy From To
+2021-04-24 22:49:42,990 INFO EventLog: Changed want to  in point x=627 y=356 range start=2 end=20
+2021-04-24 22:49:48,427 INFO EventLog: Microsoft cloud found : 
+2021-04-24 22:49:53,336 INFO EventLog: Microsoft cloud found : Based after eat
+2021-04-24 22:49:53,373 INFO EventLog: Trigger word Paste
+2021-04-24 22:49:59,133 INFO EventLog: Microsoft cloud found : 
+2021-04-24 22:51:42,507 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-24 22:51:50,674 INFO EventLog: Starting initialization of the system
+2021-04-24 22:51:54,392 INFO EventLog: Trying to open documtent
+2021-04-24 22:51:56,458 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-24 22:51:56,590 INFO EventLog: Connect to Microsoft cloud
+2021-04-24 22:52:29,381 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-24 22:52:32,697 INFO EventLog: Starting initialization of the system
+2021-04-24 22:52:36,432 INFO EventLog: Trying to open documtent
+2021-04-24 22:52:36,959 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-24 22:52:37,075 INFO EventLog: Connect to Microsoft cloud
+2021-04-24 22:52:42,045 INFO EventLog: Microsoft cloud found : Copy from 1
+2021-04-24 22:52:42,090 INFO EventLog: Trigger word Copy From
+2021-04-24 22:52:46,652 INFO EventLog: Microsoft cloud found : Do bike
+2021-04-24 22:52:46,696 INFO EventLog: Trigger word Copy From To
+2021-04-24 22:52:47,062 INFO EventLog: Changed to to  in point x=670 y=356 range start=7 end=21
+2021-04-24 22:52:51,629 INFO EventLog: Microsoft cloud found : Based after eat
+2021-04-24 22:52:51,689 INFO EventLog: Trigger word Paste
+2021-04-24 22:53:51,466 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-24 22:53:55,023 INFO EventLog: Starting initialization of the system
+2021-04-24 22:53:58,725 INFO EventLog: Trying to open documtent
+2021-04-24 22:53:59,099 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-24 22:53:59,235 INFO EventLog: Connect to Microsoft cloud
+2021-04-24 22:54:04,483 INFO EventLog: Microsoft cloud found : Copy from want
+2021-04-24 22:54:04,553 INFO EventLog: Trigger word Copy From
+2021-04-24 22:54:08,919 INFO EventLog: Microsoft cloud found : Two bike
+2021-04-24 22:54:08,956 INFO EventLog: Trigger word Copy From To
+2021-04-24 22:54:09,303 INFO EventLog: Changed want to  in point x=627 y=356 range start=2 end=21
+2021-04-24 22:54:16,088 INFO EventLog: Microsoft cloud found : Based after Apple
+2021-04-24 22:54:16,155 INFO EventLog: Trigger word Paste
+2021-04-24 22:54:21,852 INFO EventLog: Microsoft cloud found : 
+2021-04-24 22:54:27,687 INFO EventLog: Microsoft cloud found : Delete from it
+2021-04-24 22:54:27,709 INFO EventLog: Trigger word Delete From
+2021-04-24 22:54:32,263 INFO EventLog: Microsoft cloud found : 2 bond
+2021-04-24 22:54:32,313 INFO EventLog: Trigger word Delete From To
+2021-04-24 22:54:37,329 INFO EventLog: Microsoft cloud found : Do ride
+2021-04-24 22:54:37,390 INFO EventLog: Trigger word Delete From To
+2021-04-24 22:54:38,733 INFO EventLog: Changed eat to  in point x=950 y=356 range start=34 end=34
+2021-04-24 22:54:44,744 INFO EventLog: Microsoft cloud found : 
+2021-04-24 22:55:03,397 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-24 22:55:06,946 INFO EventLog: Starting initialization of the system
+2021-04-24 22:55:10,685 INFO EventLog: Trying to open documtent
+2021-04-24 22:55:11,173 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-24 22:55:11,299 INFO EventLog: Connect to Microsoft cloud
+2021-04-24 22:55:16,236 INFO EventLog: Microsoft cloud found : Copy from 2
+2021-04-24 22:55:16,317 INFO EventLog: Trigger word Copy From
+2021-04-24 22:55:21,270 INFO EventLog: Microsoft cloud found : Bike
+2021-04-24 22:55:25,242 INFO EventLog: Microsoft cloud found : Mik
+2021-04-24 22:55:30,666 INFO EventLog: Microsoft cloud found : 
+2021-04-24 22:55:33,371 INFO EventLog: Microsoft cloud found : Do bike
+2021-04-24 22:55:33,431 INFO EventLog: Trigger word Copy From To
+2021-04-24 22:55:33,764 INFO EventLog: Changed to to  in point x=670 y=356 range start=7 end=21
+2021-04-24 22:55:39,220 INFO EventLog: Microsoft cloud found : 
+2021-04-24 22:55:44,740 INFO EventLog: Microsoft cloud found : Based before end
+2021-04-24 22:55:44,790 INFO EventLog: Trigger word Paste
+2021-04-24 22:55:51,148 INFO EventLog: Microsoft cloud found : 
