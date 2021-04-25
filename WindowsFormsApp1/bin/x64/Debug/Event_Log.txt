@@ -20692,3 +20692,240 @@
 2021-04-25 12:30:16,570 INFO EventLog: Connect to Microsoft cloud
 2021-04-25 12:30:22,018 INFO EventLog: Microsoft cloud found : 
 2021-04-25 12:30:27,957 INFO EventLog: Microsoft cloud found : 
+2021-04-25 14:36:03,611 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-25 14:36:06,458 INFO EventLog: Starting initialization of the system
+2021-04-25 14:36:10,179 INFO EventLog: Trying to open documtent
+2021-04-25 14:36:10,524 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-25 14:36:10,643 INFO EventLog: Connect to Microsoft cloud
+2021-04-25 14:36:14,995 INFO EventLog: Microsoft cloud found : Supernatural
+2021-04-25 14:36:21,018 INFO EventLog: Microsoft cloud found : 
+2021-04-25 14:36:22,358 INFO EventLog: Starting initialization of the system
+2021-04-25 14:36:25,089 INFO EventLog: Microsoft cloud found : Start experiment number one and more. Feel it there
+2021-04-25 14:36:26,068 INFO EventLog: Trying to open documtent
+2021-04-25 14:36:26,652 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-25 14:36:26,668 INFO EventLog: Connect to Microsoft cloud
+2021-04-25 14:36:29,099 INFO EventLog: Microsoft cloud found : Venini stock
+2021-04-25 14:36:29,175 INFO EventLog: Microsoft cloud found : Venini stock
+2021-04-25 14:36:31,911 INFO EventLog: Microsoft cloud found : Awesome office
+2021-04-25 14:36:31,911 INFO EventLog: Microsoft cloud found : Awesome office
+2021-04-25 14:36:36,557 INFO EventLog: Microsoft cloud found : Fix
+2021-04-25 14:36:36,571 INFO EventLog: Microsoft cloud found : Fix
+2021-04-25 14:36:36,622 INFO EventLog: Trigger word Fix
+2021-04-25 14:36:36,631 INFO EventLog: Trigger word Fix
+2021-04-25 14:36:36,923 INFO EventLog: No misspelled word found close to eye gaze
+2021-04-25 14:36:36,923 INFO EventLog: No misspelled word found close to eye gaze
+2021-04-25 14:36:42,358 INFO EventLog: Microsoft cloud found : Stop
+2021-04-25 14:36:42,358 INFO EventLog: Microsoft cloud found : Stop
+2021-04-25 14:36:45,505 INFO EventLog: Microsoft cloud found : Fix
+2021-04-25 14:36:45,505 INFO EventLog: Microsoft cloud found : Fix
+2021-04-25 14:36:45,516 INFO EventLog: Trigger word Fix
+2021-04-25 14:36:45,530 INFO EventLog: Trigger word Fix
+2021-04-25 14:36:45,963 INFO EventLog: Changed peeach to peach in point x=915 y=356 range start=29 end=34
+2021-04-25 14:36:45,963 INFO EventLog: Changed peeach to peach in point x=915 y=356 range start=29 end=34
+2021-04-25 14:36:49,657 INFO EventLog: Microsoft cloud found : Maya
+2021-04-25 14:36:49,731 INFO EventLog: Microsoft cloud found : Maya
+2021-04-25 14:36:55,611 INFO EventLog: Microsoft cloud found : 
+2021-04-25 14:36:55,677 INFO EventLog: Microsoft cloud found : 
+2021-04-25 14:36:57,504 INFO EventLog: Microsoft cloud found : Fix
+2021-04-25 14:36:57,518 INFO EventLog: Trigger word Fix
+2021-04-25 14:36:57,534 INFO EventLog: Microsoft cloud found : Fix
+2021-04-25 14:36:57,547 INFO EventLog: Trigger word Fix
+2021-04-25 14:36:58,001 INFO EventLog: Changed ppean to paean in point x=639 y=356 range start=3 end=13
+2021-04-25 14:36:58,029 INFO EventLog: Changed ppean to paean in point x=639 y=356 range start=3 end=8
+2021-04-25 14:37:02,153 INFO EventLog: Microsoft cloud found : Mama mosi
+2021-04-25 14:37:02,182 INFO EventLog: Microsoft cloud found : Mama mosi
+2021-04-25 14:37:08,088 INFO EventLog: Microsoft cloud found : 
+2021-04-25 14:37:08,116 INFO EventLog: Microsoft cloud found : 
+2021-04-25 14:37:14,003 INFO EventLog: Microsoft cloud found : 
+2021-04-25 14:37:14,050 INFO EventLog: Microsoft cloud found : 
+2021-04-25 14:37:19,932 INFO EventLog: Microsoft cloud found : 
+2021-04-25 14:37:19,995 INFO EventLog: Microsoft cloud found : 
+2021-04-25 14:37:31,405 INFO EventLog: Microsoft cloud found : Smiles is Heroes, which is a potential, but there's a film going along earlier. She drive a car driving stay in both rooms early this year
+2021-04-25 14:37:31,422 INFO EventLog: Microsoft cloud found : Schmalz is Heroes, which is a potential, but there's a film going along earlier. She drive a car driving stable, so from the early stages of gear
+2021-04-25 14:37:34,956 INFO EventLog: Microsoft cloud found : Replace car too bold
+2021-04-25 14:37:34,971 INFO EventLog: Trigger word Replace
+2021-04-25 14:37:35,075 INFO EventLog: Microsoft cloud found : Replace car to boat
+2021-04-25 14:37:35,090 INFO EventLog: Trigger word Replace
+2021-04-25 14:37:35,250 INFO EventLog: Changed car to bold in point x=706 y=356 range start=11 end=15
+2021-04-25 14:37:35,392 INFO EventLog: Changed car to boat in point x=706 y=356 range start=11 end=15
+2021-04-25 14:37:41,215 INFO EventLog: Microsoft cloud found : Small is exact
+2021-04-25 14:37:41,274 INFO EventLog: Microsoft cloud found : Small is exact
+2021-04-25 14:37:47,876 INFO EventLog: Microsoft cloud found : Can can you pull it up on my account? Can you Russia
+2021-04-25 14:37:47,966 INFO EventLog: Microsoft cloud found : Can can you pull it up on my account? Can you Russia
+2021-04-25 14:37:53,296 INFO EventLog: Microsoft cloud found : 
+2021-04-25 14:37:53,373 INFO EventLog: Microsoft cloud found : 
+2021-04-25 14:37:59,311 INFO EventLog: Microsoft cloud found : 
+2021-04-25 14:37:59,404 INFO EventLog: Microsoft cloud found : 
+2021-04-25 14:39:22,580 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-25 14:40:39,573 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-25 14:40:42,868 INFO EventLog: Starting initialization of the system
+2021-04-25 14:40:46,605 INFO EventLog: Trying to open documtent
+2021-04-25 14:40:47,080 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-25 14:40:47,197 INFO EventLog: Connect to Microsoft cloud
+2021-04-25 14:40:53,144 INFO EventLog: Microsoft cloud found : 
+2021-04-25 14:40:59,462 INFO EventLog: Microsoft cloud found : Replace pen to bicycle
+2021-04-25 14:40:59,488 INFO EventLog: Trigger word Replace
+2021-04-25 14:40:59,788 INFO EventLog: Changed pen to bicycle in point x=626 y=356 range start=3 end=10
+2021-04-25 14:41:05,729 INFO EventLog: Microsoft cloud found : 
+2021-04-25 14:41:09,133 INFO EventLog: Microsoft cloud found : Fix
+2021-04-25 14:41:09,194 INFO EventLog: Trigger word Fix
+2021-04-25 14:41:09,640 INFO EventLog: Changed peaen to peahen in point x=771 y=356 range start=17 end=23
+2021-04-25 14:41:15,266 INFO EventLog: Microsoft cloud found : Fix
+2021-04-25 14:41:15,319 INFO EventLog: Trigger word Fix
+2021-04-25 14:41:15,615 INFO EventLog: Changed aan to an in point x=727 y=356 range start=14 end=16
+2021-04-25 14:41:22,378 INFO EventLog: Microsoft cloud found : Replace Bicycle 2 car
+2021-04-25 14:41:22,426 INFO EventLog: Trigger word Replace
+2021-04-25 14:41:22,643 INFO EventLog: Changed bicycle to car in point x=642 y=356 range start=3 end=6
+2021-04-25 14:41:26,892 INFO EventLog: Microsoft cloud found : Pilot
+2021-04-25 14:41:32,910 INFO EventLog: Microsoft cloud found : 
+2021-04-25 14:41:39,261 INFO EventLog: Microsoft cloud found : Nothing
+2021-04-25 14:42:37,799 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-25 14:42:41,069 INFO EventLog: Starting initialization of the system
+2021-04-25 14:42:44,829 INFO EventLog: Trying to open documtent
+2021-04-25 14:42:45,285 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-25 14:42:45,421 INFO EventLog: Connect to Microsoft cloud
+2021-04-25 14:42:51,197 INFO EventLog: Microsoft cloud found : Replace pen to computer
+2021-04-25 14:42:51,247 INFO EventLog: Trigger word Replace
+2021-04-25 14:42:51,549 INFO EventLog: Changed pen to computer in point x=626 y=356 range start=3 end=11
+2021-04-25 14:42:57,625 INFO EventLog: Microsoft cloud found : 
+2021-04-25 14:43:03,631 INFO EventLog: Microsoft cloud found : 
+2021-04-25 14:43:09,542 INFO EventLog: Microsoft cloud found : 
+2021-04-25 15:45:36,056 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-25 15:45:39,976 INFO EventLog: Starting initialization of the system
+2021-04-25 15:45:44,632 INFO EventLog: Trying to open documtent
+2021-04-25 15:45:45,547 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-25 15:45:45,915 INFO EventLog: Connect to Microsoft cloud
+2021-04-25 15:45:51,889 INFO EventLog: Microsoft cloud found : 
+2021-04-25 15:45:57,234 INFO EventLog: Microsoft cloud found : Replace pen, two room
+2021-04-25 15:45:57,353 INFO EventLog: Trigger word Replace
+2021-04-25 15:45:58,382 INFO EventLog: Changed pen to room in point x=658 y=342 range start=3 end=7
+2021-04-25 15:46:04,409 INFO EventLog: Microsoft cloud found : 
+2021-04-25 15:46:10,429 INFO EventLog: Microsoft cloud found : 
+2021-04-25 15:46:16,355 INFO EventLog: Starting initialization of the system
+2021-04-25 15:46:16,365 INFO EventLog: Microsoft cloud found : 
+2021-04-25 15:46:20,525 INFO EventLog: Trying to open documtent
+2021-04-25 15:46:21,092 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-25 15:46:21,112 INFO EventLog: Connect to Microsoft cloud
+2021-04-25 15:46:21,784 INFO EventLog: Microsoft cloud found : 
+2021-04-25 15:46:29,433 INFO EventLog: Microsoft cloud found : Replace pen, two room
+2021-04-25 15:46:29,459 INFO EventLog: Microsoft cloud found : Replace pen, two room
+2021-04-25 15:46:29,529 INFO EventLog: Trigger word Replace
+2021-04-25 15:46:29,595 INFO EventLog: Trigger word Replace
+2021-04-25 15:46:30,931 INFO EventLog: Changed pen to room in point x=658 y=342 range start=3 end=7
+2021-04-25 15:46:31,132 INFO EventLog: Changed pen to room in point x=658 y=342 range start=3 end=7
+2021-04-25 15:47:49,760 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-25 15:47:52,999 INFO EventLog: Starting initialization of the system
+2021-04-25 15:47:57,400 INFO EventLog: Trying to open documtent
+2021-04-25 15:47:58,520 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-25 15:47:58,671 INFO EventLog: Connect to Microsoft cloud
+2021-04-25 15:48:06,110 INFO EventLog: Microsoft cloud found : Replace room to table
+2021-04-25 15:48:06,239 INFO EventLog: Trigger word Replace
+2021-04-25 15:48:07,246 INFO EventLog: Changed room to table in point x=666 y=342 range start=3 end=8
+2021-04-25 15:48:13,365 INFO EventLog: Microsoft cloud found : 
+2021-04-25 15:48:19,381 INFO EventLog: Microsoft cloud found : 
+2021-04-25 15:52:06,070 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-25 15:52:09,542 INFO EventLog: Starting initialization of the system
+2021-04-25 15:52:14,379 INFO EventLog: Trying to open documtent
+2021-04-25 15:52:15,057 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-25 15:52:15,231 INFO EventLog: Connect to Microsoft cloud
+2021-04-25 15:52:22,093 INFO EventLog: Microsoft cloud found : Replace room to blanket
+2021-04-25 15:52:22,209 INFO EventLog: Trigger word Replace
+2021-04-25 15:52:23,347 INFO EventLog: Changed room to blanket in point x=666 y=342 range start=3 end=10
+2021-04-25 15:52:29,449 INFO EventLog: Microsoft cloud found : 
+2021-04-25 15:52:34,856 INFO EventLog: Microsoft cloud found : 
+2021-04-25 15:52:40,272 INFO EventLog: Microsoft cloud found : 
+2021-04-25 15:52:46,193 INFO EventLog: Microsoft cloud found : 
+2021-04-25 15:52:46,219 INFO EventLog: Disconnect from Microsoft cloud
+2021-04-25 15:52:46,354 INFO EventLog: Spell checker closed successfully
+2021-04-25 15:52:46,420 INFO EventLog: Disconnect from Microsoft cloud
+2021-04-25 15:52:46,778 INFO EventLog: Starting initialization of the system
+2021-04-25 15:52:51,091 INFO EventLog: Trying to open documtent
+2021-04-25 15:52:51,795 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-25 15:52:51,862 INFO EventLog: Connect to Microsoft cloud
+2021-04-25 15:52:57,791 INFO EventLog: Microsoft cloud found : 
+2021-04-25 15:53:00,622 INFO EventLog: Microsoft cloud found : Room 2 car
+2021-04-25 15:53:07,990 INFO EventLog: Microsoft cloud found : Replace Room 2 car
+2021-04-25 15:53:08,074 INFO EventLog: Trigger word Replace
+2021-04-25 15:53:08,982 INFO EventLog: Changed room to car in point x=666 y=342 range start=3 end=6
+2021-04-25 15:53:16,474 INFO EventLog: Microsoft cloud found : Replace speech to blanket
+2021-04-25 15:53:16,568 INFO EventLog: Trigger word Replace
+2021-04-25 15:53:17,463 INFO EventLog: Changed peach to blanket in point x=823 y=342 range start=20 end=27
+2021-04-25 15:53:24,455 INFO EventLog: Microsoft cloud found : Replace pen two word
+2021-04-25 15:53:24,575 INFO EventLog: Trigger word Replace
+2021-04-25 15:53:25,924 INFO EventLog: Changed pen to word in point x=721 y=342 range start=10 end=14
+2021-04-25 15:53:32,197 INFO EventLog: Microsoft cloud found : Replace car to Pence
+2021-04-25 15:53:32,283 INFO EventLog: Trigger word Replace
+2021-04-25 15:53:33,030 INFO EventLog: Changed car to pence in point x=654 y=342 range start=3 end=8
+2021-04-25 15:53:42,223 INFO EventLog: Microsoft cloud found : Ed blanket I love to drive and drink
+2021-04-25 15:53:42,320 INFO EventLog: Trigger word add
+2021-04-25 15:53:43,028 INFO EventLog: Changed blanket to blanket i love to drive and drink in point x=872 y=342 range start=23 end=56
+2021-04-25 15:53:48,516 INFO EventLog: Microsoft cloud found : 
+2021-04-25 15:53:53,927 INFO EventLog: Microsoft cloud found : 
+2021-04-25 15:53:59,859 INFO EventLog: Microsoft cloud found : 
+2021-04-25 15:54:05,274 INFO EventLog: Microsoft cloud found : 
+2021-04-25 15:54:05,276 INFO EventLog: Disconnect from Microsoft cloud
+2021-04-25 15:54:05,428 INFO EventLog: Spell checker closed successfully
+2021-04-25 15:54:05,464 INFO EventLog: Disconnect from Microsoft cloud
+2021-04-25 15:54:05,769 INFO EventLog: Starting initialization of the system
+2021-04-25 15:54:10,249 INFO EventLog: Trying to open documtent
+2021-04-25 15:54:10,671 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-25 15:54:10,751 INFO EventLog: Connect to Microsoft cloud
+2021-04-25 15:54:16,751 INFO EventLog: Microsoft cloud found : 
+2021-04-25 15:54:22,802 INFO EventLog: Microsoft cloud found : Copy from room
+2021-04-25 15:54:22,863 INFO EventLog: Trigger word Copy From
+2021-04-25 15:54:26,710 INFO EventLog: Microsoft cloud found : Two pe
+2021-04-25 15:54:26,741 INFO EventLog: Trigger word Copy From To
+2021-04-25 15:54:27,930 INFO EventLog: Changed room to  in point x=666 y=342 range start=3 end=14
+2021-04-25 15:54:33,002 INFO EventLog: Microsoft cloud found : Based before Peach
+2021-04-25 15:54:33,076 INFO EventLog: Trigger word Paste
+2021-04-25 15:59:36,605 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-25 15:59:39,688 INFO EventLog: Starting initialization of the system
+2021-04-25 15:59:43,761 INFO EventLog: Trying to open documtent
+2021-04-25 15:59:44,533 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-25 15:59:44,844 INFO EventLog: Connect to Microsoft cloud
+2021-04-25 15:59:50,819 INFO EventLog: Microsoft cloud found : Replace room to horse
+2021-04-25 15:59:50,955 INFO EventLog: Trigger word Replace
+2021-04-25 15:59:51,854 INFO EventLog: Changed room to horse in point x=666 y=342 range start=3 end=8
+2021-04-25 15:59:57,702 INFO EventLog: Microsoft cloud found : 
+2021-04-25 16:00:00,546 INFO EventLog: Disconnect from Microsoft cloud
+2021-04-25 16:00:00,547 INFO EventLog: connect to system lib speech to text
+2021-04-25 16:00:00,559 INFO EventLog: connect to system lib
+2021-04-25 16:00:00,949 INFO EventLog: disconnect from system lib
+2021-04-25 16:00:02,258 INFO EventLog: Connect to Microsoft cloud
+2021-04-25 16:00:08,273 INFO EventLog: Microsoft cloud found : 
+2021-04-25 16:00:08,451 INFO EventLog: Disconnect from Microsoft cloud
+2021-04-25 16:00:08,526 INFO EventLog: Spell checker closed successfully
+2021-04-25 16:00:09,071 INFO EventLog: Disconnect from Microsoft cloud
+2021-04-25 16:00:09,279 INFO EventLog: Starting initialization of the system
+2021-04-25 16:00:13,584 INFO EventLog: Trying to open documtent
+2021-04-25 16:00:14,124 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-25 16:00:14,190 INFO EventLog: Connect to Microsoft cloud
+2021-04-25 16:00:19,697 INFO EventLog: Microsoft cloud found : Replace Room 2 cat
+2021-04-25 16:00:19,793 INFO EventLog: Trigger word Replace
+2021-04-25 16:00:20,747 INFO EventLog: Changed room to cat in point x=666 y=342 range start=3 end=6
+2021-04-25 16:00:26,810 INFO EventLog: Microsoft cloud found : 
+2021-04-25 16:00:32,850 INFO EventLog: Microsoft cloud found : 
+2021-04-25 16:00:38,284 INFO EventLog: Microsoft cloud found : 
+2021-04-25 16:00:43,708 INFO EventLog: Microsoft cloud found : 
+2021-04-25 16:00:43,712 INFO EventLog: Disconnect from Microsoft cloud
+2021-04-25 16:00:43,878 INFO EventLog: Disconnect from Microsoft cloud
+2021-04-25 16:00:43,945 INFO EventLog: Spell checker closed successfully
+2021-04-25 16:00:45,026 INFO EventLog: Starting initialization of the system
+2021-04-25 16:00:49,282 INFO EventLog: Trying to open documtent
+2021-04-25 16:00:50,298 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-25 16:00:50,400 INFO EventLog: Connect to Microsoft cloud
+2021-04-25 16:00:57,212 INFO EventLog: Microsoft cloud found : Replace room to dog
+2021-04-25 16:00:57,300 INFO EventLog: Trigger word Replace
+2021-04-25 16:00:58,156 INFO EventLog: Changed room to dog in point x=666 y=342 range start=3 end=6
+2021-04-25 16:01:03,899 INFO EventLog: Microsoft cloud found : Ed Beach chair table me
+2021-04-25 16:01:03,956 INFO EventLog: Trigger word add
+2021-04-25 16:01:12,454 INFO EventLog: Microsoft cloud found : Ed Beach chair table me
+2021-04-25 16:01:12,537 INFO EventLog: Trigger word add
+2021-04-25 16:01:19,235 INFO EventLog: Microsoft cloud found : Add dog chair table me
+2021-04-25 16:01:19,321 INFO EventLog: Trigger word add
+2021-04-25 16:01:20,188 INFO EventLog: Changed dog to dog chair table me in point x=658 y=342 range start=3 end=21
+2021-04-25 16:01:26,218 INFO EventLog: Microsoft cloud found : 
+2021-04-25 16:01:31,628 INFO EventLog: Microsoft cloud found : 
+2021-04-25 16:01:37,662 INFO EventLog: Microsoft cloud found : 
+2021-04-25 16:01:43,681 INFO EventLog: Microsoft cloud found : 
+2021-04-25 16:01:49,787 INFO EventLog: Microsoft cloud found : 

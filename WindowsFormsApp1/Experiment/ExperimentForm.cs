@@ -21,7 +21,6 @@ namespace EyeGaze
         private EndExperiment _end;
         private int _expNum;
         Controller controller;
-        //MainClass mainClass = new MainClass();
         public ExperimentForm(Controller c)
         {
             InitializeComponent();
@@ -128,6 +127,8 @@ namespace EyeGaze
 
         private void RunAppSystem(int expNumber)
         {
+            if (expNumber != 0) { this.controller.engineMain.End(); }
+
             controller.path = "D:\\Downloads\\Fresh Downloads\\fixig examples.docx";
             controller.StartProgram("EyeGaze.SpellChecker.WordSpell", controller.speechToText);
             Thread.Sleep(5000);

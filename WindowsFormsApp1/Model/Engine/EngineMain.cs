@@ -122,6 +122,11 @@ namespace EyeGaze.Engine
 
         public void End()
         {
+            this.finishListen();
+            this.completedEvent.WaitOne();
+            this.completedEvent.Reset();
+
+
             this.speechToText.disconnect();
             this.spellChecker.CloseSpellChecker();
             this.textEditor.CloseFile();

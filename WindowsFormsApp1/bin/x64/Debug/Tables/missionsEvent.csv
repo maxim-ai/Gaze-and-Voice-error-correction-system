@@ -36,3 +36,356 @@ ExperimentID,MissionID,TextNumber,SystemName,UserID,Event,Timestamp,ActualResult
 0_VoiceGaze_645645_25/04/2021,VoiceGaze_0_0,0,VoiceGaze,645645,StartMission,202104251228255005,,Navigate to page 1 paragraph 1 line 3
 0_VoiceGaze_1231_25/04/2021,VoiceGaze_0_0,0,VoiceGaze,1231,StartMission,202104251228570970,,Navigate to page 1 paragraph 1 line 3
 0_VoiceGaze_1232126_25/04/2021,VoiceGaze_0_0,0,VoiceGaze,1232126,StartMission,202104251230171765,,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_0,0,VoiceGaze,45564456,StartMission,202104251436114625,,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_0,0,VoiceGaze,45564456,EndMission,202104251436129203,,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_1,0,VoiceGaze,45564456,StartMission,202104251436129213,,Fix "mopd" to "mood"
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_1,0,VoiceGaze,45564456,EndMission,202104251436134358,,Fix "mopd" to "mood"
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_2,0,VoiceGaze,45564456,StartMission,202104251436134368,,Navigate to page 1 paragraph 2 line 1
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_2,0,VoiceGaze,45564456,EndMission,202104251436138618,,Navigate to page 1 paragraph 2 line 1
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_3,0,VoiceGaze,45564456,StartMission,202104251436138628,,Replace "fake" to "make"
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_3,0,VoiceGaze,45564456,EndMission,202104251436142542,,Replace "fake" to "make"
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_4,0,VoiceGaze,45564456,StartMission,202104251436142552,,Navigate to page 1 paragraph 3 line 3-5
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_4,0,VoiceGaze,45564456,EndMission,202104251436146501,,Navigate to page 1 paragraph 3 line 3-5
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_5,0,VoiceGaze,45564456,StartMission,202104251436146511,,Copy from "According" to "does"
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_5,0,VoiceGaze,45564456,EndMission,202104251436150467,,Copy from "According" to "does"
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_6,0,VoiceGaze,45564456,StartMission,202104251436150467,,Navigate to page 1 paragraph 5 line 3
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_6,0,VoiceGaze,45564456,EndMission,202104251436154380,,Navigate to page 1 paragraph 5 line 3
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_7,0,VoiceGaze,45564456,StartMission,202104251436154380,,Add "very" after "something"
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_7,0,VoiceGaze,45564456,EndMission,202104251436158350,,Add "very" after "something"
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_8,0,VoiceGaze,45564456,StartMission,202104251436158360,,Navigate to page 1 paragraph 8 line 1
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_8,0,VoiceGaze,45564456,EndMission,202104251436161700,,Navigate to page 1 paragraph 8 line 1
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_9,0,VoiceGaze,45564456,StartMission,202104251436161700,,Fix "corunt" to "count"
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_9,0,VoiceGaze,45564456,EndMission,202104251436164877,,Fix "corunt" to "count"
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_10,0,VoiceGaze,45564456,StartMission,202104251436164887,,Navigate to page 2 paragraph 1 line 1
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_10,0,VoiceGaze,45564456,EndMission,202104251436168232,,Navigate to page 2 paragraph 1 line 1
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_11,0,VoiceGaze,45564456,StartMission,202104251436168242,,Add "point of" after "reference"
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_11,0,VoiceGaze,45564456,EndMission,202104251436171707,,Add "point of" after "reference"
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_12,0,VoiceGaze,45564456,StartMission,202104251436171792,,Navigate to page 2 paragraph 2 line 4
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_12,0,VoiceGaze,45564456,EndMission,202104251436175201,,Navigate to page 2 paragraph 2 line 4
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_13,0,VoiceGaze,45564456,StartMission,202104251436175211,,Replace "form" to "until"
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_13,0,VoiceGaze,45564456,EndMission,202104251436178888,,Replace "form" to "until"
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_14,0,VoiceGaze,45564456,StartMission,202104251436178888,,Navigate to page 2 paragraph 4 line 3
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_14,0,VoiceGaze,45564456,EndMission,202104251436182281,,Navigate to page 2 paragraph 4 line 3
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_15,0,VoiceGaze,45564456,StartMission,202104251436182281,,Past after "Oscar"
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_15,0,VoiceGaze,45564456,EndMission,202104251436185547,,Past after "Oscar"
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_16,0,VoiceGaze,45564456,StartMission,202104251436185557,,Navigate to page 2 paragraph 6 line 1-2
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_16,0,VoiceGaze,45564456,EndMission,202104251436189009,,Navigate to page 2 paragraph 6 line 1-2
+0_VoiceGaze_45564456_25/04/2021,VoiceGaze_0_16,0,VoiceGaze,45564456,EndMission,202104251436193068,,Delete from "master" to "story"
+1_VoiceGaze_45564456_25/04/2021,VoiceGaze_1_0,1,VoiceGaze,45564456,StartMission,202104251436273694,,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_0,0,VoiceGaze,123123,StartMission,202104251440478719,,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_0,0,VoiceGaze,123123,EndMission,202104251441248442,I  car a  an peahen a  an peach peach.,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_1,0,VoiceGaze,123123,StartMission,202104251441248452,I  car a  an peahen a  an peach peach.,Fix "mopd" to "mood"
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_1,0,VoiceGaze,123123,EndMission,202104251441255718,I  car a  an peahen a  an peach peach.,Fix "mopd" to "mood"
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_2,0,VoiceGaze,123123,StartMission,202104251441255729,I  car a  an peahen a  an peach peach.,Navigate to page 1 paragraph 2 line 1
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_2,0,VoiceGaze,123123,EndMission,202104251441262354,I  car a  an peahen a  an peach peach.,Navigate to page 1 paragraph 2 line 1
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_3,0,VoiceGaze,123123,StartMission,202104251441262364,I  car a  an peahen a  an peach peach.,Replace "fake" to "make"
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_3,0,VoiceGaze,123123,EndMission,202104251441268680,I  car a  an peahen a  an peach peach.,Replace "fake" to "make"
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_4,0,VoiceGaze,123123,StartMission,202104251441268690,I  car a  an peahen a  an peach peach.,Navigate to page 1 paragraph 3 line 3-5
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_4,0,VoiceGaze,123123,EndMission,202104251441274943,I  car a  an peahen a  an peach peach.,Navigate to page 1 paragraph 3 line 3-5
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_5,0,VoiceGaze,123123,StartMission,202104251441274953,I  car a  an peahen a  an peach peach.,Copy from "According" to "does"
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_5,0,VoiceGaze,123123,EndMission,202104251441281387,I  car a  an peahen a  an peach peach.,Copy from "According" to "does"
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_6,0,VoiceGaze,123123,StartMission,202104251441281387,I  car a  an peahen a  an peach peach.,Navigate to page 1 paragraph 5 line 3
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_6,0,VoiceGaze,123123,EndMission,202104251441287524,I  car a  an peahen a  an peach peach.,Navigate to page 1 paragraph 5 line 3
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_7,0,VoiceGaze,123123,StartMission,202104251441287534,I  car a  an peahen a  an peach peach.,Add "very" after "something"
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_7,0,VoiceGaze,123123,EndMission,202104251441293389,I  car a  an peahen a  an peach peach.,Add "very" after "something"
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_8,0,VoiceGaze,123123,StartMission,202104251441293389,I  car a  an peahen a  an peach peach.,Navigate to page 1 paragraph 8 line 1
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_8,0,VoiceGaze,123123,EndMission,202104251441299513,I  car a  an peahen a  an peach peach.,Navigate to page 1 paragraph 8 line 1
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_9,0,VoiceGaze,123123,StartMission,202104251441299523,I  car a  an peahen a  an peach peach.,Fix "corunt" to "count"
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_9,0,VoiceGaze,123123,EndMission,202104251441305292,I  car a  an peahen a  an peach peach.,Fix "corunt" to "count"
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_10,0,VoiceGaze,123123,StartMission,202104251441305302,I  car a  an peahen a  an peach peach.,Navigate to page 2 paragraph 1 line 1
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_10,0,VoiceGaze,123123,EndMission,202104251441310938,I  car a  an peahen a  an peach peach.,Navigate to page 2 paragraph 1 line 1
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_11,0,VoiceGaze,123123,StartMission,202104251441310948,I  car a  an peahen a  an peach peach.,Add "point of" after "reference"
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_11,0,VoiceGaze,123123,EndMission,202104251441317113,I  car a  an peahen a  an peach peach.,Add "point of" after "reference"
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_12,0,VoiceGaze,123123,StartMission,202104251441317113,I  car a  an peahen a  an peach peach.,Navigate to page 2 paragraph 2 line 4
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_12,0,VoiceGaze,123123,EndMission,202104251441323343,I  car a  an peahen a  an peach peach.,Navigate to page 2 paragraph 2 line 4
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_13,0,VoiceGaze,123123,StartMission,202104251441323353,I  car a  an peahen a  an peach peach.,Replace "form" to "until"
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_13,0,VoiceGaze,123123,EndMission,202104251441329530,I  car a  an peahen a  an peach peach.,Replace "form" to "until"
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_14,0,VoiceGaze,123123,StartMission,202104251441329540,I  car a  an peahen a  an peach peach.,Navigate to page 2 paragraph 4 line 3
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_14,0,VoiceGaze,123123,EndMission,202104251441335709,I  car a  an peahen a  an peach peach.,Navigate to page 2 paragraph 4 line 3
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_15,0,VoiceGaze,123123,StartMission,202104251441335720,I  car a  an peahen a  an peach peach.,Past after "Oscar"
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_15,0,VoiceGaze,123123,EndMission,202104251441341201,I  car a  an peahen a  an peach peach.,Past after "Oscar"
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_16,0,VoiceGaze,123123,StartMission,202104251441341211,I  car a  an peahen a  an peach peach.,Navigate to page 2 paragraph 6 line 1-2
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_16,0,VoiceGaze,123123,EndMission,202104251441347198,I  car a  an peahen a  an peach peach.,Navigate to page 2 paragraph 6 line 1-2
+0_VoiceGaze_123123_25/04/2021,VoiceGaze_0_16,0,VoiceGaze,123123,EndMission,202104251441353208,I  car a  an peahen a  an peach peach.,Delete from "master" to "story"
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_0,0,VoiceGaze,213231123,StartMission,202104251442460872,,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_0,0,VoiceGaze,213231123,EndMission,202104251442535527,I  computer a  an pen a  an peach peach.,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_1,0,VoiceGaze,213231123,StartMission,202104251442535547,I  computer a  an pen a  an peach peach.,Fix "mopd" to "mood"
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_1,0,VoiceGaze,213231123,EndMission,202104251442543451,I  computer a  an pen a  an peach peach.,Fix "mopd" to "mood"
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_2,0,VoiceGaze,213231123,StartMission,202104251442543451,I  computer a  an pen a  an peach peach.,Navigate to page 1 paragraph 2 line 1
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_2,0,VoiceGaze,213231123,EndMission,202104251442550778,I  computer a  an pen a  an peach peach.,Navigate to page 1 paragraph 2 line 1
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_3,0,VoiceGaze,213231123,StartMission,202104251442550798,I  computer a  an pen a  an peach peach.,Replace "fake" to "make"
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_3,0,VoiceGaze,213231123,EndMission,202104251442558188,I  computer a  an pen a  an peach peach.,Replace "fake" to "make"
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_4,0,VoiceGaze,213231123,StartMission,202104251442558198,I  computer a  an pen a  an peach peach.,Navigate to page 1 paragraph 3 line 3-5
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_4,0,VoiceGaze,213231123,EndMission,202104251442565253,I  computer a  an pen a  an peach peach.,Navigate to page 1 paragraph 3 line 3-5
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_5,0,VoiceGaze,213231123,StartMission,202104251442565263,I  computer a  an pen a  an peach peach.,Copy from "According" to "does"
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_5,0,VoiceGaze,213231123,EndMission,202104251442572272,I  computer a  an pen a  an peach peach.,Copy from "According" to "does"
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_6,0,VoiceGaze,213231123,StartMission,202104251442572283,I  computer a  an pen a  an peach peach.,Navigate to page 1 paragraph 5 line 3
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_6,0,VoiceGaze,213231123,EndMission,202104251442579313,I  computer a  an pen a  an peach peach.,Navigate to page 1 paragraph 5 line 3
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_7,0,VoiceGaze,213231123,StartMission,202104251442579323,I  computer a  an pen a  an peach peach.,Add "very" after "something"
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_7,0,VoiceGaze,213231123,EndMission,202104251442585689,I  computer a  an pen a  an peach peach.,Add "very" after "something"
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_8,0,VoiceGaze,213231123,StartMission,202104251442585689,I  computer a  an pen a  an peach peach.,Navigate to page 1 paragraph 8 line 1
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_8,0,VoiceGaze,213231123,EndMission,202104251442592003,I  computer a  an pen a  an peach peach.,Navigate to page 1 paragraph 8 line 1
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_9,0,VoiceGaze,213231123,StartMission,202104251442592013,I  computer a  an pen a  an peach peach.,Fix "corunt" to "count"
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_9,0,VoiceGaze,213231123,EndMission,202104251442599264,I  computer a  an pen a  an peach peach.,Fix "corunt" to "count"
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_10,0,VoiceGaze,213231123,StartMission,202104251442599275,I  computer a  an pen a  an peach peach.,Navigate to page 2 paragraph 1 line 1
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_10,0,VoiceGaze,213231123,EndMission,202104251443005913,I  computer a  an pen a  an peach peach.,Navigate to page 2 paragraph 1 line 1
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_11,0,VoiceGaze,213231123,StartMission,202104251443005923,I  computer a  an pen a  an peach peach.,Add "point of" after "reference"
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_11,0,VoiceGaze,213231123,EndMission,202104251443012415,I  computer a  an pen a  an peach peach.,Add "point of" after "reference"
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_12,0,VoiceGaze,213231123,StartMission,202104251443012425,I  computer a  an pen a  an peach peach.,Navigate to page 2 paragraph 2 line 4
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_12,0,VoiceGaze,213231123,EndMission,202104251443019392,I  computer a  an pen a  an peach peach.,Navigate to page 2 paragraph 2 line 4
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_13,0,VoiceGaze,213231123,StartMission,202104251443019402,I  computer a  an pen a  an peach peach.,Replace "form" to "until"
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_13,0,VoiceGaze,213231123,EndMission,202104251443026008,I  computer a  an pen a  an peach peach.,Replace "form" to "until"
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_14,0,VoiceGaze,213231123,StartMission,202104251443026008,I  computer a  an pen a  an peach peach.,Navigate to page 2 paragraph 4 line 3
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_14,0,VoiceGaze,213231123,EndMission,202104251443032953,I  computer a  an pen a  an peach peach.,Navigate to page 2 paragraph 4 line 3
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_15,0,VoiceGaze,213231123,StartMission,202104251443032963,I  computer a  an pen a  an peach peach.,Past after "Oscar"
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_15,0,VoiceGaze,213231123,EndMission,202104251443039685,I  computer a  an pen a  an peach peach.,Past after "Oscar"
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_16,0,VoiceGaze,213231123,StartMission,202104251443039695,I  computer a  an pen a  an peach peach.,Navigate to page 2 paragraph 6 line 1-2
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_16,0,VoiceGaze,213231123,EndMission,202104251443046716,I  computer a  an pen a  an peach peach.,Navigate to page 2 paragraph 6 line 1-2
+0_VoiceGaze_213231123_25/04/2021,VoiceGaze_0_16,0,VoiceGaze,213231123,EndMission,202104251443053604,I  computer a  an pen a  an peach peach.,Delete from "master" to "story"
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_0,0,VoiceGaze,231312231,StartMission,202104251545449791,,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_0,0,VoiceGaze,231312231,EndMission,202104251546026925,I  room a  an pen a  an peach peach.,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_1,0,VoiceGaze,231312231,StartMission,202104251546026940,I  room a  an pen a  an peach peach.,Fix "mopd" to "mood"
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_1,0,VoiceGaze,231312231,EndMission,202104251546034190,I  room a  an pen a  an peach peach.,Fix "mopd" to "mood"
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_2,0,VoiceGaze,231312231,StartMission,202104251546034201,I  room a  an pen a  an peach peach.,Navigate to page 1 paragraph 2 line 1
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_2,0,VoiceGaze,231312231,EndMission,202104251546041325,I  room a  an pen a  an peach peach.,Navigate to page 1 paragraph 2 line 1
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_3,0,VoiceGaze,231312231,StartMission,202104251546041325,I  room a  an pen a  an peach peach.,Replace "fake" to "make"
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_3,0,VoiceGaze,231312231,EndMission,202104251546047658,I  room a  an pen a  an peach peach.,Replace "fake" to "make"
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_4,0,VoiceGaze,231312231,StartMission,202104251546047672,I  room a  an pen a  an peach peach.,Navigate to page 1 paragraph 3 line 3-5
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_4,0,VoiceGaze,231312231,EndMission,202104251546054196,I  room a  an pen a  an peach peach.,Navigate to page 1 paragraph 3 line 3-5
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_5,0,VoiceGaze,231312231,StartMission,202104251546054207,I  room a  an pen a  an peach peach.,Copy from "According" to "does"
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_5,0,VoiceGaze,231312231,EndMission,202104251546060346,I  room a  an pen a  an peach peach.,Copy from "According" to "does"
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_6,0,VoiceGaze,231312231,StartMission,202104251546060366,I  room a  an pen a  an peach peach.,Navigate to page 1 paragraph 5 line 3
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_6,0,VoiceGaze,231312231,EndMission,202104251546066080,I  room a  an pen a  an peach peach.,Navigate to page 1 paragraph 5 line 3
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_7,0,VoiceGaze,231312231,StartMission,202104251546066090,I  room a  an pen a  an peach peach.,Add "very" after "something"
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_7,0,VoiceGaze,231312231,EndMission,202104251546072155,I  room a  an pen a  an peach peach.,Add "very" after "something"
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_8,0,VoiceGaze,231312231,StartMission,202104251546072165,I  room a  an pen a  an peach peach.,Navigate to page 1 paragraph 8 line 1
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_8,0,VoiceGaze,231312231,EndMission,202104251546078462,I  room a  an pen a  an peach peach.,Navigate to page 1 paragraph 8 line 1
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_9,0,VoiceGaze,231312231,StartMission,202104251546078472,I  room a  an pen a  an peach peach.,Fix "corunt" to "count"
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_9,0,VoiceGaze,231312231,EndMission,202104251546085132,I  room a  an pen a  an peach peach.,Fix "corunt" to "count"
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_10,0,VoiceGaze,231312231,StartMission,202104251546085142,I  room a  an pen a  an peach peach.,Navigate to page 2 paragraph 1 line 1
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_10,0,VoiceGaze,231312231,EndMission,202104251546092389,I  room a  an pen a  an peach peach.,Navigate to page 2 paragraph 1 line 1
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_11,0,VoiceGaze,231312231,StartMission,202104251546092410,I  room a  an pen a  an peach peach.,Add "point of" after "reference"
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_11,0,VoiceGaze,231312231,EndMission,202104251546098976,I  room a  an pen a  an peach peach.,Add "point of" after "reference"
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_12,0,VoiceGaze,231312231,StartMission,202104251546098990,I  room a  an pen a  an peach peach.,Navigate to page 2 paragraph 2 line 4
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_12,0,VoiceGaze,231312231,EndMission,202104251546105636,I  room a  an pen a  an peach peach.,Navigate to page 2 paragraph 2 line 4
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_13,0,VoiceGaze,231312231,StartMission,202104251546105649,I  room a  an pen a  an peach peach.,Replace "form" to "until"
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_13,0,VoiceGaze,231312231,EndMission,202104251546112181,I  room a  an pen a  an peach peach.,Replace "form" to "until"
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_14,0,VoiceGaze,231312231,StartMission,202104251546112192,I  room a  an pen a  an peach peach.,Navigate to page 2 paragraph 4 line 3
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_14,0,VoiceGaze,231312231,EndMission,202104251546118299,I  room a  an pen a  an peach peach.,Navigate to page 2 paragraph 4 line 3
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_15,0,VoiceGaze,231312231,StartMission,202104251546118315,I  room a  an pen a  an peach peach.,Past after "Oscar"
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_15,0,VoiceGaze,231312231,EndMission,202104251546124716,I  room a  an pen a  an peach peach.,Past after "Oscar"
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_16,0,VoiceGaze,231312231,StartMission,202104251546124736,I  room a  an pen a  an peach peach.,Navigate to page 2 paragraph 6 line 1-2
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_16,0,VoiceGaze,231312231,EndMission,202104251546131570,I  room a  an pen a  an peach peach.,Navigate to page 2 paragraph 6 line 1-2
+0_VoiceGaze_231312231_25/04/2021,VoiceGaze_0_16,0,VoiceGaze,231312231,EndMission,202104251546138485,I  room a  an pen a  an peach peach.,Delete from "master" to "story"
+1_VoiceGaze_231312231_25/04/2021,VoiceGaze_1_0,1,VoiceGaze,231312231,StartMission,202104251546213605,,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_0,0,VoiceGaze,456645645,StartMission,202104251547580204,,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_0,0,VoiceGaze,456645645,EndMission,202104251548100477,I  table an pen a  an peach.,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_1,0,VoiceGaze,456645645,StartMission,202104251548100497,I  table an pen a  an peach.,Fix "mopd" to "mood"
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_1,0,VoiceGaze,456645645,EndMission,202104251548108654,I  table an pen a  an peach.,Fix "mopd" to "mood"
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_2,0,VoiceGaze,456645645,StartMission,202104251548108661,I  table an pen a  an peach.,Navigate to page 1 paragraph 2 line 1
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_2,0,VoiceGaze,456645645,EndMission,202104251548116112,I  table an pen a  an peach.,Navigate to page 1 paragraph 2 line 1
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_3,0,VoiceGaze,456645645,StartMission,202104251548116116,I  table an pen a  an peach.,Replace "fake" to "make"
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_3,0,VoiceGaze,456645645,EndMission,202104251548123874,I  table an pen a  an peach.,Replace "fake" to "make"
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_4,0,VoiceGaze,456645645,StartMission,202104251548123890,I  table an pen a  an peach.,Navigate to page 1 paragraph 3 line 3-5
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_4,0,VoiceGaze,456645645,EndMission,202104251548131417,I  table an pen a  an peach.,Navigate to page 1 paragraph 3 line 3-5
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_5,0,VoiceGaze,456645645,StartMission,202104251548131426,I  table an pen a  an peach.,Copy from "According" to "does"
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_5,0,VoiceGaze,456645645,EndMission,202104251548138465,I  table an pen a  an peach.,Copy from "According" to "does"
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_6,0,VoiceGaze,456645645,StartMission,202104251548138475,I  table an pen a  an peach.,Navigate to page 1 paragraph 5 line 3
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_6,0,VoiceGaze,456645645,EndMission,202104251548145587,I  table an pen a  an peach.,Navigate to page 1 paragraph 5 line 3
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_7,0,VoiceGaze,456645645,StartMission,202104251548145597,I  table an pen a  an peach.,Add "very" after "something"
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_7,0,VoiceGaze,456645645,EndMission,202104251548152216,I  table an pen a  an peach.,Add "very" after "something"
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_8,0,VoiceGaze,456645645,StartMission,202104251548152226,I  table an pen a  an peach.,Navigate to page 1 paragraph 8 line 1
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_8,0,VoiceGaze,456645645,EndMission,202104251548158689,I  table an pen a  an peach.,Navigate to page 1 paragraph 8 line 1
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_9,0,VoiceGaze,456645645,StartMission,202104251548158700,I  table an pen a  an peach.,Fix "corunt" to "count"
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_9,0,VoiceGaze,456645645,EndMission,202104251548165968,I  table an pen a  an peach.,Fix "corunt" to "count"
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_10,0,VoiceGaze,456645645,StartMission,202104251548165982,I  table an pen a  an peach.,Navigate to page 2 paragraph 1 line 1
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_10,0,VoiceGaze,456645645,EndMission,202104251548173694,I  table an pen a  an peach.,Navigate to page 2 paragraph 1 line 1
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_11,0,VoiceGaze,456645645,StartMission,202104251548173705,I  table an pen a  an peach.,Add "point of" after "reference"
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_11,0,VoiceGaze,456645645,EndMission,202104251548180798,I  table an pen a  an peach.,Add "point of" after "reference"
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_12,0,VoiceGaze,456645645,StartMission,202104251548180808,I  table an pen a  an peach.,Navigate to page 2 paragraph 2 line 4
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_12,0,VoiceGaze,456645645,EndMission,202104251548187666,I  table an pen a  an peach.,Navigate to page 2 paragraph 2 line 4
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_13,0,VoiceGaze,456645645,StartMission,202104251548187676,I  table an pen a  an peach.,Replace "form" to "until"
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_13,0,VoiceGaze,456645645,EndMission,202104251548194317,I  table an pen a  an peach.,Replace "form" to "until"
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_14,0,VoiceGaze,456645645,StartMission,202104251548194327,I  table an pen a  an peach.,Navigate to page 2 paragraph 4 line 3
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_14,0,VoiceGaze,456645645,EndMission,202104251548201012,I  table an pen a  an peach.,Navigate to page 2 paragraph 4 line 3
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_15,0,VoiceGaze,456645645,StartMission,202104251548201023,I  table an pen a  an peach.,Past after "Oscar"
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_15,0,VoiceGaze,456645645,EndMission,202104251548207892,I  table an pen a  an peach.,Past after "Oscar"
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_16,0,VoiceGaze,456645645,StartMission,202104251548207903,I  table an pen a  an peach.,Navigate to page 2 paragraph 6 line 1-2
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_16,0,VoiceGaze,456645645,EndMission,202104251548214247,I  table an pen a  an peach.,Navigate to page 2 paragraph 6 line 1-2
+0_VoiceGaze_456645645_25/04/2021,VoiceGaze_0_16,0,VoiceGaze,456645645,EndMission,202104251548220938,I  table an pen a  an peach.,Delete from "master" to "story"
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_0,0,VoiceGaze,645465312123,StartMission,202104251552145502,,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_0,0,VoiceGaze,645465312123,EndMission,202104251552261136,I  blanket an pen a  an peach.,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_1,0,VoiceGaze,645465312123,StartMission,202104251552261159,I  blanket an pen a  an peach.,Fix "mopd" to "mood"
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_1,0,VoiceGaze,645465312123,EndMission,202104251552276739,I  blanket an pen a  an peach.,Fix "mopd" to "mood"
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_2,0,VoiceGaze,645465312123,StartMission,202104251552276749,I  blanket an pen a  an peach.,Navigate to page 1 paragraph 2 line 1
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_2,0,VoiceGaze,645465312123,EndMission,202104251552284379,I  blanket an pen a  an peach.,Navigate to page 1 paragraph 2 line 1
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_3,0,VoiceGaze,645465312123,StartMission,202104251552284399,I  blanket an pen a  an peach.,Replace "fake" to "make"
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_3,0,VoiceGaze,645465312123,EndMission,202104251552290321,I  blanket an pen a  an peach.,Replace "fake" to "make"
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_4,0,VoiceGaze,645465312123,StartMission,202104251552290334,I  blanket an pen a  an peach.,Navigate to page 1 paragraph 3 line 3-5
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_4,0,VoiceGaze,645465312123,EndMission,202104251552296011,I  blanket an pen a  an peach.,Navigate to page 1 paragraph 3 line 3-5
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_5,0,VoiceGaze,645465312123,StartMission,202104251552296021,I  blanket an pen a  an peach.,Copy from "According" to "does"
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_5,0,VoiceGaze,645465312123,EndMission,202104251552301551,I  blanket an pen a  an peach.,Copy from "According" to "does"
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_6,0,VoiceGaze,645465312123,StartMission,202104251552301567,I  blanket an pen a  an peach.,Navigate to page 1 paragraph 5 line 3
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_6,0,VoiceGaze,645465312123,EndMission,202104251552306837,I  blanket an pen a  an peach.,Navigate to page 1 paragraph 5 line 3
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_7,0,VoiceGaze,645465312123,StartMission,202104251552306847,I  blanket an pen a  an peach.,Add "very" after "something"
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_7,0,VoiceGaze,645465312123,EndMission,202104251552311724,I  blanket an pen a  an peach.,Add "very" after "something"
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_8,0,VoiceGaze,645465312123,StartMission,202104251552311734,I  blanket an pen a  an peach.,Navigate to page 1 paragraph 8 line 1
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_8,0,VoiceGaze,645465312123,EndMission,202104251552317206,I  blanket an pen a  an peach.,Navigate to page 1 paragraph 8 line 1
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_9,0,VoiceGaze,645465312123,StartMission,202104251552317216,I  blanket an pen a  an peach.,Fix "corunt" to "count"
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_9,0,VoiceGaze,645465312123,EndMission,202104251552322415,I  blanket an pen a  an peach.,Fix "corunt" to "count"
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_10,0,VoiceGaze,645465312123,StartMission,202104251552322435,I  blanket an pen a  an peach.,Navigate to page 2 paragraph 1 line 1
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_10,0,VoiceGaze,645465312123,EndMission,202104251552327597,I  blanket an pen a  an peach.,Navigate to page 2 paragraph 1 line 1
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_11,0,VoiceGaze,645465312123,StartMission,202104251552327606,I  blanket an pen a  an peach.,Add "point of" after "reference"
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_11,0,VoiceGaze,645465312123,EndMission,202104251552332937,I  blanket an pen a  an peach.,Add "point of" after "reference"
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_12,0,VoiceGaze,645465312123,StartMission,202104251552332939,I  blanket an pen a  an peach.,Navigate to page 2 paragraph 2 line 4
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_12,0,VoiceGaze,645465312123,EndMission,202104251552337842,I  blanket an pen a  an peach.,Navigate to page 2 paragraph 2 line 4
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_13,0,VoiceGaze,645465312123,StartMission,202104251552337852,I  blanket an pen a  an peach.,Replace "form" to "until"
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_13,0,VoiceGaze,645465312123,EndMission,202104251552342986,I  blanket an pen a  an peach.,Replace "form" to "until"
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_14,0,VoiceGaze,645465312123,StartMission,202104251552342995,I  blanket an pen a  an peach.,Navigate to page 2 paragraph 4 line 3
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_14,0,VoiceGaze,645465312123,EndMission,202104251552348229,I  blanket an pen a  an peach.,Navigate to page 2 paragraph 4 line 3
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_15,0,VoiceGaze,645465312123,StartMission,202104251552348249,I  blanket an pen a  an peach.,Past after "Oscar"
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_15,0,VoiceGaze,645465312123,EndMission,202104251552353486,I  blanket an pen a  an peach.,Past after "Oscar"
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_16,0,VoiceGaze,645465312123,StartMission,202104251552353495,I  blanket an pen a  an peach.,Navigate to page 2 paragraph 6 line 1-2
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_16,0,VoiceGaze,645465312123,EndMission,202104251552359092,I  blanket an pen a  an peach.,Navigate to page 2 paragraph 6 line 1-2
+0_VoiceGaze_645465312123_25/04/2021,VoiceGaze_0_16,0,VoiceGaze,645465312123,EndMission,202104251552364478,I  blanket an pen a  an peach.,Delete from "master" to "story"
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_0,1,VoiceGaze,645465312123,StartMission,202104251552517896,,Navigate to page 1 paragraph 1 line 3
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_0,1,VoiceGaze,645465312123,EndMission,202104251553481863,I  pence an word a  an blanket i love to drive and drink.,Navigate to page 1 paragraph 1 line 3
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_1,1,VoiceGaze,645465312123,StartMission,202104251553481863,I  pence an word a  an blanket i love to drive and drink.,Fix "mopd" to "mood"
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_1,1,VoiceGaze,645465312123,EndMission,202104251553489113,I  pence an word a  an blanket i love to drive and drink.,Fix "mopd" to "mood"
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_2,1,VoiceGaze,645465312123,StartMission,202104251553489123,I  pence an word a  an blanket i love to drive and drink.,Navigate to page 1 paragraph 2 line 1
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_2,1,VoiceGaze,645465312123,EndMission,202104251553495577,I  pence an word a  an blanket i love to drive and drink.,Navigate to page 1 paragraph 2 line 1
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_3,1,VoiceGaze,645465312123,StartMission,202104251553495579,I  pence an word a  an blanket i love to drive and drink.,Replace "fake" to "make"
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_3,1,VoiceGaze,645465312123,EndMission,202104251553502136,I  pence an word a  an blanket i love to drive and drink.,Replace "fake" to "make"
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_4,1,VoiceGaze,645465312123,StartMission,202104251553502156,I  pence an word a  an blanket i love to drive and drink.,Navigate to page 1 paragraph 3 line 3-5
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_4,1,VoiceGaze,645465312123,EndMission,202104251553508762,I  pence an word a  an blanket i love to drive and drink.,Navigate to page 1 paragraph 3 line 3-5
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_5,1,VoiceGaze,645465312123,StartMission,202104251553508764,I  pence an word a  an blanket i love to drive and drink.,Copy from "According" to "does"
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_5,1,VoiceGaze,645465312123,EndMission,202104251553515587,I  pence an word a  an blanket i love to drive and drink.,Copy from "According" to "does"
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_6,1,VoiceGaze,645465312123,StartMission,202104251553515587,I  pence an word a  an blanket i love to drive and drink.,Navigate to page 1 paragraph 5 line 3
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_6,1,VoiceGaze,645465312123,EndMission,202104251553522159,I  pence an word a  an blanket i love to drive and drink.,Navigate to page 1 paragraph 5 line 3
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_7,1,VoiceGaze,645465312123,StartMission,202104251553522169,I  pence an word a  an blanket i love to drive and drink.,Add "very" after "something"
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_7,1,VoiceGaze,645465312123,EndMission,202104251553528649,I  pence an word a  an blanket i love to drive and drink.,Add "very" after "something"
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_8,1,VoiceGaze,645465312123,StartMission,202104251553528659,I  pence an word a  an blanket i love to drive and drink.,Navigate to page 1 paragraph 8 line 1
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_8,1,VoiceGaze,645465312123,EndMission,202104251553535068,I  pence an word a  an blanket i love to drive and drink.,Navigate to page 1 paragraph 8 line 1
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_9,1,VoiceGaze,645465312123,StartMission,202104251553535068,I  pence an word a  an blanket i love to drive and drink.,Fix "corunt" to "count"
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_9,1,VoiceGaze,645465312123,EndMission,202104251553541246,I  pence an word a  an blanket i love to drive and drink.,Fix "corunt" to "count"
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_10,1,VoiceGaze,645465312123,StartMission,202104251553541256,I  pence an word a  an blanket i love to drive and drink.,Navigate to page 2 paragraph 1 line 1
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_10,1,VoiceGaze,645465312123,EndMission,202104251553547234,I  pence an word a  an blanket i love to drive and drink.,Navigate to page 2 paragraph 1 line 1
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_11,1,VoiceGaze,645465312123,StartMission,202104251553547244,I  pence an word a  an blanket i love to drive and drink.,Add "point of" after "reference"
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_11,1,VoiceGaze,645465312123,EndMission,202104251553553493,I  pence an word a  an blanket i love to drive and drink.,Add "point of" after "reference"
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_12,1,VoiceGaze,645465312123,StartMission,202104251553553503,I  pence an word a  an blanket i love to drive and drink.,Navigate to page 2 paragraph 2 line 4
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_12,1,VoiceGaze,645465312123,EndMission,202104251553559897,I  pence an word a  an blanket i love to drive and drink.,Navigate to page 2 paragraph 2 line 4
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_13,1,VoiceGaze,645465312123,StartMission,202104251553559907,I  pence an word a  an blanket i love to drive and drink.,Replace "form" to "until"
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_13,1,VoiceGaze,645465312123,EndMission,202104251553566056,I  pence an word a  an blanket i love to drive and drink.,Replace "form" to "until"
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_14,1,VoiceGaze,645465312123,StartMission,202104251553566068,I  pence an word a  an blanket i love to drive and drink.,Navigate to page 2 paragraph 4 line 3
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_14,1,VoiceGaze,645465312123,EndMission,202104251553572393,I  pence an word a  an blanket i love to drive and drink.,Navigate to page 2 paragraph 4 line 3
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_15,1,VoiceGaze,645465312123,StartMission,202104251553572406,I  pence an word a  an blanket i love to drive and drink.,Past after "Oscar"
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_15,1,VoiceGaze,645465312123,EndMission,202104251553578348,I  pence an word a  an blanket i love to drive and drink.,Past after "Oscar"
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_16,1,VoiceGaze,645465312123,StartMission,202104251553578358,I  pence an word a  an blanket i love to drive and drink.,Navigate to page 2 paragraph 6 line 1-2
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_16,1,VoiceGaze,645465312123,EndMission,202104251553584399,I  pence an word a  an blanket i love to drive and drink.,Navigate to page 2 paragraph 6 line 1-2
+1_VoiceGaze_645465312123_25/04/2021,VoiceGaze_1_16,1,VoiceGaze,645465312123,EndMission,202104251553591279,I  pence an word a  an blanket i love to drive and drink.,Delete from "master" to "story"
+2_VoiceGaze_645465312123_25/04/2021,VoiceGaze_2_0,2,VoiceGaze,645465312123,StartMission,202104251554107719,,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_0,0,VoiceGaze,654564,StartMission,202104251559446890,,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_0,0,VoiceGaze,654564,EndMission,202104251559554852,I  horse an pen a  an peach.,Navigate to page 1 paragraph 1 line 3
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_1,0,VoiceGaze,654564,StartMission,202104251559554872,I  horse an pen a  an peach.,Fix "mopd" to "mood"
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_1,0,VoiceGaze,654564,EndMission,202104251559562044,I  horse an pen a  an peach.,Fix "mopd" to "mood"
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_2,0,VoiceGaze,654564,StartMission,202104251559562054,I  horse an pen a  an peach.,Navigate to page 1 paragraph 2 line 1
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_2,0,VoiceGaze,654564,EndMission,202104251559567588,I  horse an pen a  an peach.,Navigate to page 1 paragraph 2 line 1
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_3,0,VoiceGaze,654564,StartMission,202104251559567598,I  horse an pen a  an peach.,Replace "fake" to "make"
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_3,0,VoiceGaze,654564,EndMission,202104251559572572,I  horse an pen a  an peach.,Replace "fake" to "make"
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_4,0,VoiceGaze,654564,StartMission,202104251559572587,I  horse an pen a  an peach.,Navigate to page 1 paragraph 3 line 3-5
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_4,0,VoiceGaze,654564,EndMission,202104251559577746,I  horse an pen a  an peach.,Navigate to page 1 paragraph 3 line 3-5
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_5,0,VoiceGaze,654564,StartMission,202104251559577756,I  horse an pen a  an peach.,Copy from "According" to "does"
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_5,0,VoiceGaze,654564,EndMission,202104251559582877,I  horse an pen a  an peach.,Copy from "According" to "does"
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_6,0,VoiceGaze,654564,StartMission,202104251559582877,I  horse an pen a  an peach.,Navigate to page 1 paragraph 5 line 3
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_6,0,VoiceGaze,654564,EndMission,202104251559587990,I  horse an pen a  an peach.,Navigate to page 1 paragraph 5 line 3
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_7,0,VoiceGaze,654564,StartMission,202104251559588012,I  horse an pen a  an peach.,Add "very" after "something"
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_7,0,VoiceGaze,654564,EndMission,202104251559592854,I  horse an pen a  an peach.,Add "very" after "something"
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_8,0,VoiceGaze,654564,StartMission,202104251559592864,I  horse an pen a  an peach.,Navigate to page 1 paragraph 8 line 1
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_8,0,VoiceGaze,654564,EndMission,202104251559597463,I  horse an pen a  an peach.,Navigate to page 1 paragraph 8 line 1
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_9,0,VoiceGaze,654564,StartMission,202104251559597472,I  horse an pen a  an peach.,Fix "corunt" to "count"
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_9,0,VoiceGaze,654564,EndMission,202104251600001903,I  horse an pen a  an peach.,Fix "corunt" to "count"
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_10,0,VoiceGaze,654564,StartMission,202104251600001913,I  horse an pen a  an peach.,Navigate to page 2 paragraph 1 line 1
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_10,0,VoiceGaze,654564,EndMission,202104251600007016,I  horse an pen a  an peach.,Navigate to page 2 paragraph 1 line 1
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_11,0,VoiceGaze,654564,StartMission,202104251600007026,I  horse an pen a  an peach.,Add "point of" after "reference"
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_11,0,VoiceGaze,654564,EndMission,202104251600019044,I  horse an pen a  an peach.,Add "point of" after "reference"
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_12,0,VoiceGaze,654564,StartMission,202104251600019059,I  horse an pen a  an peach.,Navigate to page 2 paragraph 2 line 4
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_12,0,VoiceGaze,654564,EndMission,202104251600030350,I  horse an pen a  an peach.,Navigate to page 2 paragraph 2 line 4
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_13,0,VoiceGaze,654564,StartMission,202104251600030361,I  horse an pen a  an peach.,Replace "form" to "until"
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_13,0,VoiceGaze,654564,EndMission,202104251600036491,I  horse an pen a  an peach.,Replace "form" to "until"
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_14,0,VoiceGaze,654564,StartMission,202104251600036500,I  horse an pen a  an peach.,Navigate to page 2 paragraph 4 line 3
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_14,0,VoiceGaze,654564,EndMission,202104251600041781,I  horse an pen a  an peach.,Navigate to page 2 paragraph 4 line 3
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_15,0,VoiceGaze,654564,StartMission,202104251600041793,I  horse an pen a  an peach.,Past after "Oscar"
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_15,0,VoiceGaze,654564,EndMission,202104251600046987,I  horse an pen a  an peach.,Past after "Oscar"
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_16,0,VoiceGaze,654564,StartMission,202104251600046987,I  horse an pen a  an peach.,Navigate to page 2 paragraph 6 line 1-2
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_16,0,VoiceGaze,654564,EndMission,202104251600051830,I  horse an pen a  an peach.,Navigate to page 2 paragraph 6 line 1-2
+0_VoiceGaze_654564_25/04/2021,VoiceGaze_0_16,0,VoiceGaze,654564,EndMission,202104251600057171,I  horse an pen a  an peach.,Delete from "master" to "story"
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_0,1,VoiceGaze,654564,StartMission,202104251600142797,,Navigate to page 1 paragraph 1 line 3
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_0,1,VoiceGaze,654564,EndMission,202104251600233245,I  cat an pen a  an peach.,Navigate to page 1 paragraph 1 line 3
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_1,1,VoiceGaze,654564,StartMission,202104251600233255,I  cat an pen a  an peach.,Fix "mopd" to "mood"
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_1,1,VoiceGaze,654564,EndMission,202104251600246371,I  cat an pen a  an peach.,Fix "mopd" to "mood"
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_2,1,VoiceGaze,654564,StartMission,202104251600246381,I  cat an pen a  an peach.,Navigate to page 1 paragraph 2 line 1
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_2,1,VoiceGaze,654564,EndMission,202104251600251719,I  cat an pen a  an peach.,Navigate to page 1 paragraph 2 line 1
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_3,1,VoiceGaze,654564,StartMission,202104251600251719,I  cat an pen a  an peach.,Replace "fake" to "make"
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_3,1,VoiceGaze,654564,EndMission,202104251600256571,I  cat an pen a  an peach.,Replace "fake" to "make"
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_4,1,VoiceGaze,654564,StartMission,202104251600256582,I  cat an pen a  an peach.,Navigate to page 1 paragraph 3 line 3-5
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_4,1,VoiceGaze,654564,EndMission,202104251600261389,I  cat an pen a  an peach.,Navigate to page 1 paragraph 3 line 3-5
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_5,1,VoiceGaze,654564,StartMission,202104251600261399,I  cat an pen a  an peach.,Copy from "According" to "does"
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_5,1,VoiceGaze,654564,EndMission,202104251600266266,I  cat an pen a  an peach.,Copy from "According" to "does"
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_6,1,VoiceGaze,654564,StartMission,202104251600266285,I  cat an pen a  an peach.,Navigate to page 1 paragraph 5 line 3
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_6,1,VoiceGaze,654564,EndMission,202104251600271096,I  cat an pen a  an peach.,Navigate to page 1 paragraph 5 line 3
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_7,1,VoiceGaze,654564,StartMission,202104251600271106,I  cat an pen a  an peach.,Add "very" after "something"
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_7,1,VoiceGaze,654564,EndMission,202104251600275895,I  cat an pen a  an peach.,Add "very" after "something"
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_8,1,VoiceGaze,654564,StartMission,202104251600275906,I  cat an pen a  an peach.,Navigate to page 1 paragraph 8 line 1
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_8,1,VoiceGaze,654564,EndMission,202104251600280880,I  cat an pen a  an peach.,Navigate to page 1 paragraph 8 line 1
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_9,1,VoiceGaze,654564,StartMission,202104251600280890,I  cat an pen a  an peach.,Fix "corunt" to "count"
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_9,1,VoiceGaze,654564,EndMission,202104251600285582,I  cat an pen a  an peach.,Fix "corunt" to "count"
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_10,1,VoiceGaze,654564,StartMission,202104251600285582,I  cat an pen a  an peach.,Navigate to page 2 paragraph 1 line 1
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_10,1,VoiceGaze,654564,EndMission,202104251600290922,I  cat an pen a  an peach.,Navigate to page 2 paragraph 1 line 1
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_11,1,VoiceGaze,654564,StartMission,202104251600290933,I  cat an pen a  an peach.,Add "point of" after "reference"
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_11,1,VoiceGaze,654564,EndMission,202104251600295721,I  cat an pen a  an peach.,Add "point of" after "reference"
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_12,1,VoiceGaze,654564,StartMission,202104251600295741,I  cat an pen a  an peach.,Navigate to page 2 paragraph 2 line 4
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_12,1,VoiceGaze,654564,EndMission,202104251600300746,I  cat an pen a  an peach.,Navigate to page 2 paragraph 2 line 4
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_13,1,VoiceGaze,654564,StartMission,202104251600300756,I  cat an pen a  an peach.,Replace "form" to "until"
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_13,1,VoiceGaze,654564,EndMission,202104251600305461,I  cat an pen a  an peach.,Replace "form" to "until"
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_14,1,VoiceGaze,654564,StartMission,202104251600305461,I  cat an pen a  an peach.,Navigate to page 2 paragraph 4 line 3
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_14,1,VoiceGaze,654564,EndMission,202104251600310205,I  cat an pen a  an peach.,Navigate to page 2 paragraph 4 line 3
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_15,1,VoiceGaze,654564,StartMission,202104251600310217,I  cat an pen a  an peach.,Past after "Oscar"
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_15,1,VoiceGaze,654564,EndMission,202104251600315039,I  cat an pen a  an peach.,Past after "Oscar"
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_16,1,VoiceGaze,654564,StartMission,202104251600315049,I  cat an pen a  an peach.,Navigate to page 2 paragraph 6 line 1-2
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_16,1,VoiceGaze,654564,EndMission,202104251600320035,I  cat an pen a  an peach.,Navigate to page 2 paragraph 6 line 1-2
+1_VoiceGaze_654564_25/04/2021,VoiceGaze_1_16,1,VoiceGaze,654564,EndMission,202104251600325228,I  cat an pen a  an peach.,Delete from "master" to "story"
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_0,2,VoiceGaze,654564,StartMission,202104251600500300,,Navigate to page 1 paragraph 1 line 3
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_0,2,VoiceGaze,654564,EndMission,202104251601227907,I  dog chair table me an pen a  an peach.,Navigate to page 1 paragraph 1 line 3
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_1,2,VoiceGaze,654564,StartMission,202104251601227927,I  dog chair table me an pen a  an peach.,Fix "mopd" to "mood"
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_1,2,VoiceGaze,654564,EndMission,202104251601236218,I  dog chair table me an pen a  an peach.,Fix "mopd" to "mood"
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_2,2,VoiceGaze,654564,StartMission,202104251601236228,I  dog chair table me an pen a  an peach.,Navigate to page 1 paragraph 2 line 1
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_2,2,VoiceGaze,654564,EndMission,202104251601244330,I  dog chair table me an pen a  an peach.,Navigate to page 1 paragraph 2 line 1
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_3,2,VoiceGaze,654564,StartMission,202104251601244341,I  dog chair table me an pen a  an peach.,Replace "fake" to "make"
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_3,2,VoiceGaze,654564,EndMission,202104251601251047,I  dog chair table me an pen a  an peach.,Replace "fake" to "make"
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_4,2,VoiceGaze,654564,StartMission,202104251601251057,I  dog chair table me an pen a  an peach.,Navigate to page 1 paragraph 3 line 3-5
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_4,2,VoiceGaze,654564,EndMission,202104251601257645,I  dog chair table me an pen a  an peach.,Navigate to page 1 paragraph 3 line 3-5
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_5,2,VoiceGaze,654564,StartMission,202104251601257656,I  dog chair table me an pen a  an peach.,Copy from "According" to "does"
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_5,2,VoiceGaze,654564,EndMission,202104251601263567,I  dog chair table me an pen a  an peach.,Copy from "According" to "does"
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_6,2,VoiceGaze,654564,StartMission,202104251601263577,I  dog chair table me an pen a  an peach.,Navigate to page 1 paragraph 5 line 3
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_6,2,VoiceGaze,654564,EndMission,202104251601268856,I  dog chair table me an pen a  an peach.,Navigate to page 1 paragraph 5 line 3
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_7,2,VoiceGaze,654564,StartMission,202104251601268868,I  dog chair table me an pen a  an peach.,Add "very" after "something"
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_7,2,VoiceGaze,654564,EndMission,202104251601275224,I  dog chair table me an pen a  an peach.,Add "very" after "something"
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_8,2,VoiceGaze,654564,StartMission,202104251601275234,I  dog chair table me an pen a  an peach.,Navigate to page 1 paragraph 8 line 1
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_8,2,VoiceGaze,654564,EndMission,202104251601281316,I  dog chair table me an pen a  an peach.,Navigate to page 1 paragraph 8 line 1
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_9,2,VoiceGaze,654564,StartMission,202104251601281326,I  dog chair table me an pen a  an peach.,Fix "corunt" to "count"
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_9,2,VoiceGaze,654564,EndMission,202104251601286979,I  dog chair table me an pen a  an peach.,Fix "corunt" to "count"
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_10,2,VoiceGaze,654564,StartMission,202104251601286989,I  dog chair table me an pen a  an peach.,Navigate to page 2 paragraph 1 line 1
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_10,2,VoiceGaze,654564,EndMission,202104251601293386,I  dog chair table me an pen a  an peach.,Navigate to page 2 paragraph 1 line 1
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_11,2,VoiceGaze,654564,StartMission,202104251601293400,I  dog chair table me an pen a  an peach.,Add "point of" after "reference"
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_11,2,VoiceGaze,654564,EndMission,202104251601298608,I  dog chair table me an pen a  an peach.,Add "point of" after "reference"
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_12,2,VoiceGaze,654564,StartMission,202104251601298618,I  dog chair table me an pen a  an peach.,Navigate to page 2 paragraph 2 line 4
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_12,2,VoiceGaze,654564,EndMission,202104251601305003,I  dog chair table me an pen a  an peach.,Navigate to page 2 paragraph 2 line 4
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_13,2,VoiceGaze,654564,StartMission,202104251601305021,I  dog chair table me an pen a  an peach.,Replace "form" to "until"
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_13,2,VoiceGaze,654564,EndMission,202104251601311476,I  dog chair table me an pen a  an peach.,Replace "form" to "until"
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_14,2,VoiceGaze,654564,StartMission,202104251601311486,I  dog chair table me an pen a  an peach.,Navigate to page 2 paragraph 4 line 3
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_14,2,VoiceGaze,654564,EndMission,202104251601317392,I  dog chair table me an pen a  an peach.,Navigate to page 2 paragraph 4 line 3
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_15,2,VoiceGaze,654564,StartMission,202104251601317403,I  dog chair table me an pen a  an peach.,Past after "Oscar"
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_15,2,VoiceGaze,654564,EndMission,202104251601323229,I  dog chair table me an pen a  an peach.,Past after "Oscar"
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_16,2,VoiceGaze,654564,StartMission,202104251601323229,I  dog chair table me an pen a  an peach.,Navigate to page 2 paragraph 6 line 1-2
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_16,2,VoiceGaze,654564,EndMission,202104251601329298,I  dog chair table me an pen a  an peach.,Navigate to page 2 paragraph 6 line 1-2
+2_VoiceGaze_654564_25/04/2021,VoiceGaze_2_16,2,VoiceGaze,654564,EndMission,202104251601335057,I  dog chair table me an pen a  an peach.,Delete from "master" to "story"
