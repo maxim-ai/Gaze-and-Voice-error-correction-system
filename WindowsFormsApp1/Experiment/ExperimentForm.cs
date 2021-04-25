@@ -93,11 +93,17 @@ namespace EyeGaze
         private void pilotBtn_Click(object sender, EventArgs e)
         {
             this.pilotBtn.Enabled = false;
+            this.pilotBtn.Visible = false;
+            this.Pilot_LBL.Visible = false;
             //Start Pilot
             _expNum = 0;
             RunAppSystem(0);
-            
 
+            this.exp1Btn.Visible = true;
+            this.Exp1_LBL.Visible = true;
+            this.exp2Btn.Visible = true;
+            this.Exp2_LBL.Visible = true;
+            this.exp2Btn.Enabled = false;
         }
 
         private void exp1Btn_Click(object sender, EventArgs e)
@@ -106,17 +112,18 @@ namespace EyeGaze
             //Start Exp1
             _expNum = 1;
             RunAppSystem(1);
-            
+            this.exp2Btn.Enabled = true;
+
         }
 
         private void exp2Btn_Click(object sender, EventArgs e)
         {
-            this.exp1Btn.Enabled = false;
+            this.exp2Btn.Enabled = false;
             //Start Exp1
             _expNum = 2;
             RunAppSystem(2);
             // Add Link BTN releas
-            
+
         }
 
         private void RunAppSystem(int expNumber)
