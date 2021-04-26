@@ -129,7 +129,7 @@ namespace EyeGaze
         {
             if (expNumber != 0) { this.controller.engineMain.End(); }
 
-            controller.path = "C:\\Users\\sshho\\Google Drive\\אוניברסיטה - פרטי\\שנה ד\\פרויקט גמר\\fixig examples.docx";
+            controller.path = "D:\\Downloads\\Fresh Downloads\\fixig examples.docx";
             controller.StartProgram("EyeGaze.SpellChecker.WordSpell", controller.speechToText);
             Thread.Sleep(5000);
             MainClass mainExpreriment = controller.engineMain.mainExperiment;

@@ -288,6 +288,8 @@ namespace EyeGaze.Engine
                         if (LevenshteinDistance(wordToReplaceCoordinateRange.word.ToLower(), wordToDelete.ToLower()) <= 2)
                         //if (wordToReplaceCoordinateRange.word.ToLower().Equals(wordToDelete.ToLower()))
                         {
+                            textEditor.HighlightWordForSpecificTime(wordToReplaceCoordinateRange, 3000);
+                            Thread.Sleep(3000);
                             textEditor.ReplaceWord(wordToReplaceCoordinateRange, "");
 
                             //for cancel
@@ -379,7 +381,9 @@ namespace EyeGaze.Engine
                     return;
                 List<KeyValuePair<CoordinateRange, double>> distanceFromCoordinate = FindDistanceFromCoordinate(exactWords, position).ToList();
                 List<KeyValuePair<CoordinateRange, double>> sortedPoints = SortByDistance(distanceFromCoordinate);
-                AddWords(sortedPoints.First().Key, wordsToAdd);
+                CoordinateRange firstPoint = sortedPoints.First().Key;
+                wordsToAdd = wordsToAdd.Replace(firstWord, firstPoint.word);
+                AddWords(firstPoint, wordsToAdd);
             }
             catch (Exception e)
             {
@@ -443,7 +447,9 @@ namespace EyeGaze.Engine
                         //if (wordToReplaceCoordinateRange.word.ToLower().Equals(startWord.ToLower()))
                         {
                             deleteLastCoordinate = wordToReplaceCoordinateRange;
-                            textEditor.HighlightWordForSpecificTime(wordToReplaceCoordinateRange,3000);
+                            int timeHighlighted = 2000;
+                            textEditor.HighlightWordForSpecificTime(wordToReplaceCoordinateRange, timeHighlighted);
+                            //Thread.Sleep(timeHighlighted);
                             return;
                         }
                         sortedPoints.RemoveAt(0);
@@ -477,11 +483,12 @@ namespace EyeGaze.Engine
                         {
 
                             deleteLastCoordinate.range.End = wordToReplaceCoordinateRange.range.End;
-                            CoordinateRange toReturn = new CoordinateRange(deleteLastCoordinate.X, deleteLastCoordinate.Y, deleteLastCoordinate.range, deleteLastCoordinate.range.Text);
-                            textEditor.HighlightWordForSpecificTime(toReturn, 3000);
+                            CoordinateRange wholeSentenceCoordinates = new CoordinateRange(deleteLastCoordinate.X, deleteLastCoordinate.Y, deleteLastCoordinate.range, deleteLastCoordinate.range.Text);
+                            int timeHighlighted = 3000;
+                            textEditor.HighlightWordForSpecificTime(wholeSentenceCoordinates, timeHighlighted);
+                            Thread.Sleep(timeHighlighted);
 
 
-                            Thread.Sleep(1000);
                             CoordinateRange deleted=textEditor.DeleteSentence(deleteLastCoordinate, wordToReplaceCoordinateRange);
 
                             //for cancel
@@ -519,7 +526,9 @@ namespace EyeGaze.Engine
                         //if (wordToReplaceCoordinateRange.word.ToLower().Equals(startWord.ToLower()))
                         {
                             copyLastCoordinate = wordToReplaceCoordinateRange;
-                            textEditor.HighlightWordForSpecificTime(wordToReplaceCoordinateRange, 3000);
+                            int timeHighlighted = 2000;
+                            textEditor.HighlightWordForSpecificTime(wordToReplaceCoordinateRange, timeHighlighted);
+                            //Thread.Sleep(timeHighlighted);
                             return;
                         }
                         sortedPoints.RemoveAt(0);
@@ -553,7 +562,6 @@ namespace EyeGaze.Engine
                         //if (wordToReplaceCoordinateRange.word.ToLower().Equals(stopWord.ToLower()))
                         {
                             CoordinateRange copied = textEditor.SaveSentence(copyLastCoordinate, wordToReplaceCoordinateRange);
-                            //textEditor.HighlightWordForSpecificTime(copied, 3000);
                             textEditor.HighlightLastCopiedSentence(copied);
                             mainExperiment.EventCommand("copy from to", "copy from " + copyLastCoordinate.word + " to " + stopWord, 
                                 textBeforeChange, textEditor.getDoc().Content.Text, true,DateTime.Now);
@@ -786,7 +794,8 @@ namespace EyeGaze.Engine
             List<CoordinateRange> sameWord = new List<CoordinateRange>();
             foreach (CoordinateRange word in allWords)
             {
-                if (word.word.ToLower().Equals(firstWord.ToLower()))
+                if (LevenshteinDistance(word.word.ToLower(), firstWord.ToLower()) <= 2)
+                //if (word.word.ToLower().Equals(firstWord.ToLower()))
                 {
                     sameWord.Add(word);
                 }

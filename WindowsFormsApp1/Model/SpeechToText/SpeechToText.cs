@@ -25,7 +25,7 @@ namespace EyeGaze.SpeechToText
             this.className = className;
             Type speechToTextType = Type.GetType(className);
             speechToText = (InterfaceSpeechToText)Activator.CreateInstance(speechToTextType);
-            actions = new string[] { "fix", "change", "add","ed", "move", "replace", "done", "options", 
+            actions = new string[] { "fix", "change", "add", "move", "replace", "done", "options", 
                 "delete", "delete from", "copy" ,"copy from" ,"paste","paste before","paste after",
                 "to","too","two","do","two,", "cancel",
                 "1", "2", "3", "4", "5" };
@@ -97,10 +97,10 @@ namespace EyeGaze.SpeechToText
             try
             {
                 text = GetSenteceWithoutPunctuation(text);
-                if (text.Length > 0 && actions.Contains(text[0]))
+                if (text.Length > 0 && (actions.Contains(text[0]) || checkIfTriggerWordLevDisFromActions(text[0])))
                 {
                     string triggerWord = text[0];
-                    if ((triggerWord == "add"||triggerWord=="ed") && text.Length < 3)            // Add with less then two words after
+                    if ((triggerWord == "add"|| triggerWord == "ed") && text.Length < 3)            // Add with less then two words after
                         return null;
                     if (triggerWord == "replace" && text.Length < 3)            // Replace with less then two words after
                         return null;
@@ -113,15 +113,17 @@ namespace EyeGaze.SpeechToText
                     }
                     if (triggerWord == "fix" && text.Length > 1)
                         triggerWord = "fix word";
-                    if (triggerWord == "delete" && (text[1] == "form" || text[1] == "from"))
+                    if ((triggerWord == "delete" || checkLevinshteinDistance("delete", triggerWord)) && (text[1] == "from" || LevenshteinDistance(text[1],"from") <= 2))
                         triggerWord = "delete from";
-                    else if (triggerWord == "copy" && (text[1] == "form" || text[1] == "from"))
+                    else if ((triggerWord == "copy" || checkLevinshteinDistance("copy", triggerWord)) && (text[1] == "from" || LevenshteinDistance(text[1], "from") <= 2))
                         triggerWord = "copy from";
-                    else if ((triggerWord == "paste" || triggerWord == "best") && text[1] == "before")
+                    else if ((triggerWord == "paste" || triggerWord == "best" || checkLevinshteinDistance("paste",triggerWord)) 
+                        && text[1] == "before")
                         triggerWord = "paste before";
-                    else if ((triggerWord == "paste" || triggerWord == "best") && text[1] == "after")
+                    else if ((triggerWord == "paste" || triggerWord == "best" || checkLevinshteinDistance("paste", triggerWord)) 
+                        && text[1] == "after")
                         triggerWord = "paste after";
-                    else if (triggerWord == "ed")
+                    else if (checkLevinshteinDistance("add", triggerWord))
                         triggerWord = "add";
 
                     //in case of "delete from word1 to word2"
@@ -265,6 +267,71 @@ namespace EyeGaze.SpeechToText
                 }
             }
             return sentence;
+        }
+
+        private int LevenshteinDistance(string left, string right)
+        {
+            left = left.ToLower();
+            right = right.ToLower();
+
+            if (left == null || right == null)
+            {
+                return -1;
+            }
+
+            if (left.Length == 0)
+            {
+                return right.Length;
+            }
+
+            if (right.Length == 0)
+            {
+                return left.Length;
+            }
+
+            int[,] distance = new int[left.Length + 1, right.Length + 1];
+
+            for (int i = 0; i <= left.Length; i++)
+            {
+                distance[i, 0] = i;
+            }
+
+            for (int j = 0; j <= right.Length; j++)
+            {
+                distance[0, j] = j;
+            }
+
+            for (int i = 1; i <= left.Length; i++)
+            {
+                for (int j = 1; j <= right.Length; j++)
+                {
+                    if (right[j - 1] == left[i - 1])
+                    {
+                        distance[i, j] = distance[i - 1, j - 1];
+                    }
+                    else
+                    {
+                        distance[i, j] = Math.Min(distance[i - 1, j], Math.Min(distance[i, j - 1], distance[i - 1, j - 1])) + 1;
+                    }
+                }
+            }
+
+            return distance[left.Length, right.Length];
+        }
+
+        private bool checkIfTriggerWordLevDisFromActions(string triggerWord)
+        {
+            foreach(string action in actions)
+            {
+                if (LevenshteinDistance(triggerWord, action) <= 2)
+                    return true;
+            }
+            return false;
+        }
+
+        private bool checkLevinshteinDistance(string wordFromActions, string triggerWord)
+        {
+            return LevenshteinDistance(wordFromActions, triggerWord) <= 2 && !actions.Contains(triggerWord);
         }
 
     }
