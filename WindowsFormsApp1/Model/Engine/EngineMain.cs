@@ -837,7 +837,7 @@ namespace EyeGaze.Engine
             return result;
         }
 
-        private int LevenshteinDistance(string left, string right)
+        public int LevenshteinDistance(string left, string right)
         {
             left = left.ToLower();
             right = right.ToLower();

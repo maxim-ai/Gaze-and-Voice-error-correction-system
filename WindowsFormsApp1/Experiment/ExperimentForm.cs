@@ -129,7 +129,7 @@ namespace EyeGaze
         {
             if (expNumber != 0) { this.controller.engineMain.End(); }
 
-            controller.path = "D:\\Downloads\\Fresh Downloads\\fixig examples.docx";
+            controller.path = "C:\\Users\\sshho\\Google Drive\\אוניברסיטה - פרטי\\שנה ד\\פרויקט גמר\\fixig examples.docx";
             controller.StartProgram("EyeGaze.SpellChecker.WordSpell", controller.speechToText);
             Thread.Sleep(5000);
             MainClass mainExpreriment = controller.engineMain.mainExperiment;
@@ -276,7 +276,13 @@ namespace EyeGaze
                     }
                     if (e.type == MessageEvent.messageType.TriggerWord)
                     {
-                        PopTimer pt = new PopTimer(e.message);
+                        string[] actions = new string[] { "fix","fix to", "change", "add", "move", "replace", "options","delete", "copy from","copy to" ,"paste before","paste after","cancel","1", "2", "3", "4", "5" };
+                        Dictionary<String, int> distances = new Dictionary<string, int>();
+                        foreach(String word in actions)
+                        {
+                            distances.Add(word, controller.engineMain.LevenshteinDistance(e.message.ToLower(), word));
+                        }
+                        PopTimer pt = new PopTimer(distances.OrderBy(kvp => kvp.Value).First().Key);
                     }
                     if (e.type == MessageEvent.messageType.closeFile)
                     {
