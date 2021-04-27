@@ -123,13 +123,16 @@ namespace EyeGaze.Engine
         public void End()
         {
             this.finishListen();
-            this.completedEvent.WaitOne();
-            this.completedEvent.Reset();
+            if(this.completedEvent != null)
+            {
+                this.completedEvent.WaitOne();
+                this.completedEvent.Reset();
+            }
 
 
-            this.speechToText.disconnect();
-            this.spellChecker.CloseSpellChecker();
-            this.textEditor.CloseFile();
+            if(this.speechToText!=null) this.speechToText.disconnect();
+            if (this.spellChecker != null) this.spellChecker.CloseSpellChecker();
+            if (this.textEditor != null) this.textEditor.CloseFile();
         }
 
         public void finishListen()

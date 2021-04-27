@@ -1608,3 +1608,14 @@
 2021-04-27 01:07:23,125 INFO ErrorLog: ----------------------Starting System-------------------------
 2021-04-27 01:09:54,812 INFO ErrorLog: האינדקס נמצא מחוץ לגבולות המערך.
 2021-04-27 01:19:18,380 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-27 15:42:30,090 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-27 16:45:41,673 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-04-27 16:46:34,482 ERROR ErrorLog: לא ניתן לבצע cast של אובייקט COM מסוג 'Microsoft.Office.Interop.Word.DocumentClass' לסוג ממשק 'Microsoft.Office.Interop.Word._Document'. פעולה זו נכשלה מכיוון שקריאת ה- QueryInterface לרכיב ה- COM עבור הממשק עם IID ‏'{0002096B-0000-0000-C000-000000000046}' נכשלה עקב השגיאה הבאה: The application called an interface that was marshalled for a different thread. (חריג מ-  HRESULT: 0x8001010E (RPC_E_WRONG_THREAD)).
+2021-04-27 16:46:34,708 ERROR ErrorLog: The RPC server is unavailable. (חריג מ-  HRESULT: 0x800706BA)
+2021-04-27 16:47:04,009 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-27 16:48:22,509 ERROR ErrorLog: The object invoked has disconnected from its clients. (חריג מ-  HRESULT: 0x80010108 (RPC_E_DISCONNECTED))
+2021-04-27 16:48:22,522 ERROR ErrorLog: The RPC server is unavailable. (חריג מ-  HRESULT: 0x800706BA)
+2021-04-27 16:48:22,606 ERROR ErrorLog: לא ניתן לבצע cast של אובייקט COM מסוג 'Microsoft.Office.Interop.Word.DocumentClass' לסוג ממשק 'Microsoft.Office.Interop.Word._Document'. פעולה זו נכשלה מכיוון שקריאת ה- QueryInterface לרכיב ה- COM עבור הממשק עם IID ‏'{0002096B-0000-0000-C000-000000000046}' נכשלה עקב השגיאה הבאה: The application called an interface that was marshalled for a different thread. (חריג מ-  HRESULT: 0x8001010E (RPC_E_WRONG_THREAD)).
+2021-04-27 16:48:58,935 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-04-27 16:50:34,191 ERROR ErrorLog: The RPC server is unavailable. (חריג מ-  HRESULT: 0x800706BA)
+2021-04-27 16:50:34,323 ERROR ErrorLog: לא ניתן לבצע cast של אובייקט COM מסוג 'Microsoft.Office.Interop.Word.DocumentClass' לסוג ממשק 'Microsoft.Office.Interop.Word._Document'. פעולה זו נכשלה מכיוון שקריאת ה- QueryInterface לרכיב ה- COM עבור הממשק עם IID ‏'{0002096B-0000-0000-C000-000000000046}' נכשלה עקב השגיאה הבאה: The application called an interface that was marshalled for a different thread. (חריג מ-  HRESULT: 0x8001010E (RPC_E_WRONG_THREAD)).

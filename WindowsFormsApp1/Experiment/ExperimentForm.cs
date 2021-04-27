@@ -33,6 +33,7 @@ namespace EyeGaze
             }
 
             this.controller = c;
+            this.SetEndExpFunc((EndExperiment)(this.controller.engineMain.End));
             controller.key = "69a12462814f4df1a7b1d38c67963adf";
             controller.region = "westeurope";
             controller.speechToText = "EyeGaze.SpeechToText.MicrosoftCloudSpeechToText";

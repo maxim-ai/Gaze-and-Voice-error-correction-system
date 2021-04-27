@@ -21928,3 +21928,127 @@
 2021-04-27 01:23:17,926 INFO EventLog: Microsoft cloud found : Replace the two router
 2021-04-27 01:23:17,989 INFO EventLog: Trigger word Replace
 2021-04-27 01:23:18,308 INFO EventLog: Changed the to router in point x=835 y=342 range start=21 end=27
+2021-04-27 15:42:30,066 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-27 16:45:41,623 INFO EventLog: ----------------------Starting System-------------------------
+2021-04-27 16:45:47,398 INFO EventLog: Starting initialization of the system
+2021-04-27 16:45:51,149 INFO EventLog: Trying to open documtent
+2021-04-27 16:45:51,616 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-27 16:45:52,009 INFO EventLog: Connect to Microsoft cloud
+2021-04-27 16:45:57,984 INFO EventLog: Microsoft cloud found : Replace achieve to dream
+2021-04-27 16:45:58,044 INFO EventLog: Trigger word Replace
+2021-04-27 16:45:58,392 INFO EventLog: Changed achieve to dream in point x=1024 y=342 range start=38 end=43
+2021-04-27 16:46:01,992 INFO EventLog: Microsoft cloud found : Replace code to dream
+2021-04-27 16:46:02,042 INFO EventLog: Trigger word Replace
+2021-04-27 16:46:02,337 INFO EventLog: Changed code to dream in point x=1029 y=441 range start=158 end=163
+2021-04-27 16:46:06,109 INFO EventLog: Microsoft cloud found : Replace removing to dream
+2021-04-27 16:46:06,164 INFO EventLog: Trigger word Replace
+2021-04-27 16:46:06,473 INFO EventLog: Changed removing to dream in point x=1197 y=497 range start=221 end=226
+2021-04-27 16:46:10,949 INFO EventLog: Microsoft cloud found : Replace dream two sword
+2021-04-27 16:46:10,982 INFO EventLog: Trigger word Replace
+2021-04-27 16:46:11,296 INFO EventLog: Changed dream to sword in point x=854 y=342 range start=21 end=26
+2021-04-27 16:46:15,847 INFO EventLog: Microsoft cloud found : Replace Dream 2 cable
+2021-04-27 16:46:15,883 INFO EventLog: Trigger word Replace
+2021-04-27 16:46:16,170 INFO EventLog: Changed dream to cable in point x=1015 y=342 range start=38 end=43
+2021-04-27 16:46:22,217 INFO EventLog: Microsoft cloud found : 
+2021-04-27 16:46:28,082 INFO EventLog: Microsoft cloud found : 
+2021-04-27 16:46:34,103 INFO EventLog: Microsoft cloud found : 
+2021-04-27 16:46:34,307 INFO EventLog: Disconnect from Microsoft cloud
+2021-04-27 16:46:34,383 INFO EventLog: Spell checker closed successfully
+2021-04-27 16:46:34,485 INFO EventLog: Starting initialization of the system
+2021-04-27 16:46:34,696 INFO EventLog: Disconnect from Microsoft cloud
+2021-04-27 16:46:38,182 INFO EventLog: Trying to open documtent
+2021-04-27 16:46:38,667 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-27 16:46:38,721 INFO EventLog: Connect to Microsoft cloud
+2021-04-27 16:46:44,686 INFO EventLog: Microsoft cloud found : 
+2021-04-27 16:46:50,102 INFO EventLog: Microsoft cloud found : 
+2021-04-27 16:46:56,115 INFO EventLog: Microsoft cloud found : 
+2021-04-27 16:47:02,118 INFO EventLog: Microsoft cloud found : 
+2021-04-27 16:47:03,959 INFO EventLog: Microsoft cloud found : Dream
+2021-04-27 16:47:11,530 INFO EventLog: Microsoft cloud found : Replace achieve to dream
+2021-04-27 16:47:11,579 INFO EventLog: Trigger word Replace
+2021-04-27 16:47:11,841 INFO EventLog: Changed achieve to dream in point x=1024 y=342 range start=38 end=43
+2021-04-27 16:47:16,929 INFO EventLog: Microsoft cloud found : Replace removing to dream
+2021-04-27 16:47:16,975 INFO EventLog: Trigger word Replace
+2021-04-27 16:47:17,274 INFO EventLog: Changed removing to dream in point x=1197 y=497 range start=220 end=225
+2021-04-27 16:47:21,013 INFO EventLog: Microsoft cloud found : Replace face to dream
+2021-04-27 16:47:21,026 INFO EventLog: Trigger word Replace
+2021-04-27 16:47:21,378 INFO EventLog: Changed face to dream in point x=1178 y=342 range start=57 end=62
+2021-04-27 16:47:26,027 INFO EventLog: Microsoft cloud found : Replace dream to nose
+2021-04-27 16:47:26,067 INFO EventLog: Trigger word Replace
+2021-04-27 16:47:26,421 INFO EventLog: Changed dream to nose in point x=854 y=342 range start=21 end=25
+2021-04-27 16:47:31,314 INFO EventLog: Microsoft cloud found : Replace dream to ninja
+2021-04-27 16:47:31,338 INFO EventLog: Trigger word Replace
+2021-04-27 16:47:31,662 INFO EventLog: Changed dream to ninja in point x=1173 y=342 range start=56 end=61
+2021-04-27 16:47:36,202 INFO EventLog: Microsoft cloud found : Replace dream to keyboard
+2021-04-27 16:47:36,241 INFO EventLog: Trigger word Replace
+2021-04-27 16:47:36,571 INFO EventLog: Changed dream to keyboard in point x=1183 y=497 range start=220 end=228
+2021-04-27 16:47:40,617 INFO EventLog: Microsoft cloud found : Cope from debugging
+2021-04-27 16:47:40,641 INFO EventLog: Trigger word Copy From
+2021-04-27 16:47:44,227 INFO EventLog: Microsoft cloud found : Do bugs
+2021-04-27 16:47:44,276 INFO EventLog: Trigger word Copy From To
+2021-04-27 16:47:44,547 INFO EventLog: Changed debugging to  in point x=770 y=497 range start=175 end=242
+2021-04-27 16:47:49,533 INFO EventLog: Microsoft cloud found : Based after pudding
+2021-04-27 16:47:49,553 INFO EventLog: Trigger word Paste
+2021-04-27 16:47:58,062 INFO EventLog: Microsoft cloud found : Ed Cars train airplane
+2021-04-27 16:47:58,099 INFO EventLog: Trigger word add
+2021-04-27 16:47:58,386 INFO EventLog: Changed car to car train airplane in point x=772 y=681 range start=383 end=401
+2021-04-27 16:48:04,388 INFO EventLog: Microsoft cloud found : 
+2021-04-27 16:48:10,395 INFO EventLog: Microsoft cloud found : 
+2021-04-27 16:48:16,412 INFO EventLog: Microsoft cloud found : 
+2021-04-27 16:48:22,358 INFO EventLog: Microsoft cloud found : 
+2021-04-27 16:48:22,363 INFO EventLog: Disconnect from Microsoft cloud
+2021-04-27 16:48:22,492 INFO EventLog: Disconnect from Microsoft cloud
+2021-04-27 16:48:22,510 INFO EventLog: Spell checker closed successfully
+2021-04-27 16:48:22,608 INFO EventLog: Starting initialization of the system
+2021-04-27 16:48:26,244 INFO EventLog: Trying to open documtent
+2021-04-27 16:48:26,610 INFO EventLog: Word text editor has been initialized and document is open
+2021-04-27 16:48:26,664 INFO EventLog: Connect to Microsoft cloud
+2021-04-27 16:48:32,703 INFO EventLog: Microsoft cloud found : 
+2021-04-27 16:48:38,711 INFO EventLog: Microsoft cloud found : 
+2021-04-27 16:48:44,668 INFO EventLog: Microsoft cloud found : 
+2021-04-27 16:48:50,698 INFO EventLog: Microsoft cloud found : 
+2021-04-27 16:48:56,652 INFO EventLog: Microsoft cloud found : 
+2021-04-27 16:48:58,891 INFO EventLog: Microsoft cloud found : Music
+2021-04-27 16:49:05,340 INFO EventLog: Microsoft cloud found : Replace live to dream
+2021-04-27 16:49:05,367 INFO EventLog: Trigger word Replace
+2021-04-27 16:49:05,675 INFO EventLog: Changed leave to dream in point x=748 y=385 range start=80 end=85
+2021-04-27 16:49:10,353 INFO EventLog: Microsoft cloud found : Replace pineapple to dream
+2021-04-27 16:49:10,385 INFO EventLog: Trigger word Replace
+2021-04-27 16:49:10,656 INFO EventLog: Changed pineapples to dream in point x=935 y=497 range start=194 end=199
+2021-04-27 16:49:14,002 INFO EventLog: Microsoft cloud found : Replace paper to dream
+2021-04-27 16:49:14,049 INFO EventLog: Trigger word Replace
+2021-04-27 16:49:14,376 INFO EventLog: Changed paper to dream in point x=688 y=497 range start=171 end=176
+2021-04-27 16:49:18,042 INFO EventLog: Microsoft cloud found : Replace cheap to dream
+2021-04-27 16:49:18,076 INFO EventLog: Trigger word Replace
+2021-04-27 16:49:18,383 INFO EventLog: Changed cheap to dream in point x=725 y=441 range start=131 end=136
+2021-04-27 16:49:22,647 INFO EventLog: Microsoft cloud found : But he plays dream too cheap
+2021-04-27 16:49:27,380 INFO EventLog: Microsoft cloud found : Replace dream too cheap
+2021-04-27 16:49:27,432 INFO EventLog: Trigger word Replace
+2021-04-27 16:49:27,762 INFO EventLog: Changed dream to cheap in point x=754 y=385 range start=80 end=85
+2021-04-27 16:49:33,251 INFO EventLog: Microsoft cloud found : Replace dream to Calibri
+2021-04-27 16:49:33,306 INFO EventLog: Trigger word Replace
+2021-04-27 16:49:33,656 INFO EventLog: Changed dream to calibri in point x=854 y=342 range start=21 end=28
+2021-04-27 16:49:39,661 INFO EventLog: Microsoft cloud found : 
+2021-04-27 16:49:43,397 INFO EventLog: Microsoft cloud found : Fix
+2021-04-27 16:49:43,449 INFO EventLog: Trigger word Fix
+2021-04-27 16:49:43,849 INFO EventLog: Changed calibri to Calibri in point x=852 y=342 range start=21 end=28
+2021-04-27 16:49:49,322 INFO EventLog: Microsoft cloud found : Replace the Rim 2 cable
+2021-04-27 16:49:49,363 INFO EventLog: Trigger word Replace
+2021-04-27 16:49:49,674 INFO EventLog: Changed the to 2 in point x=980 y=540 range start=270 end=271
+2021-04-27 16:49:55,751 INFO EventLog: Microsoft cloud found : Replace dream to be
+2021-04-27 16:49:55,799 INFO EventLog: Trigger word Replace
+2021-04-27 16:49:56,124 INFO EventLog: Changed dream to be in point x=921 y=497 range start=196 end=198
+2021-04-27 16:50:02,303 INFO EventLog: Microsoft cloud found : 
+2021-04-27 16:50:04,655 INFO EventLog: Microsoft cloud found : Coming Python
+2021-04-27 16:50:09,302 INFO EventLog: Microsoft cloud found : Ed programming Python
+2021-04-27 16:50:09,338 INFO EventLog: Trigger word add
+2021-04-27 16:50:09,577 INFO EventLog: Changed Programming to Programming python in point x=688 y=596 range start=297 end=315
+2021-04-27 16:50:15,542 INFO EventLog: Microsoft cloud found : Replace dream too big
+2021-04-27 16:50:15,592 INFO EventLog: Trigger word Replace
+2021-04-27 16:50:15,920 INFO EventLog: Changed dream to big in point x=691 y=497 range start=173 end=176
+2021-04-27 16:50:21,892 INFO EventLog: Microsoft cloud found : 
+2021-04-27 16:50:27,823 INFO EventLog: Microsoft cloud found : 
+2021-04-27 16:50:34,091 INFO EventLog: Microsoft cloud found : 
+2021-04-27 16:50:34,092 INFO EventLog: Disconnect from Microsoft cloud
+2021-04-27 16:50:34,179 INFO EventLog: Spell checker closed successfully
+2021-04-27 16:50:34,236 INFO EventLog: Disconnect from Microsoft cloud
