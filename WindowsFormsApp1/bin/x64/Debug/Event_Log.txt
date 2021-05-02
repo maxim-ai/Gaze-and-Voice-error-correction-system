@@ -22052,3 +22052,38 @@
 2021-04-27 16:50:34,092 INFO EventLog: Disconnect from Microsoft cloud
 2021-04-27 16:50:34,179 INFO EventLog: Spell checker closed successfully
 2021-04-27 16:50:34,236 INFO EventLog: Disconnect from Microsoft cloud
+2021-05-02 22:31:46,032 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-02 22:31:48,908 INFO EventLog: Starting initialization of the system
+2021-05-02 22:31:52,647 INFO EventLog: Trying to open documtent
+2021-05-02 22:31:53,233 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-02 22:31:53,349 INFO EventLog: Connect to Microsoft cloud
+2021-05-02 22:31:57,912 INFO EventLog: Microsoft cloud found : Copy from paper
+2021-05-02 22:31:57,974 INFO EventLog: Trigger word Copy From
+2021-05-02 22:32:01,465 INFO EventLog: Microsoft cloud found : To dream
+2021-05-02 22:32:01,503 INFO EventLog: Trigger word Copy From To
+2021-05-02 22:32:01,835 INFO EventLog: Changed paper to  in point x=710 y=342 range start=7 end=26
+2021-05-02 22:32:06,013 INFO EventLog: Microsoft cloud found : Copy from paper
+2021-05-02 22:32:06,060 INFO EventLog: Trigger word Copy From
+2021-05-02 22:32:09,266 INFO EventLog: Microsoft cloud found : To achieve
+2021-05-02 22:32:09,319 INFO EventLog: Trigger word Copy From To
+2021-05-02 22:32:09,597 INFO EventLog: Changed paper to  in point x=710 y=342 range start=7 end=45
+2021-05-02 22:32:14,279 INFO EventLog: Microsoft cloud found : Based before leave
+2021-05-02 22:32:14,332 INFO EventLog: Trigger word Paste
+2021-05-02 22:32:18,733 INFO EventLog: Microsoft cloud found : Based after cheap
+2021-05-02 22:32:18,786 INFO EventLog: Trigger word Paste
+2021-05-02 22:32:23,224 INFO EventLog: Microsoft cloud found : Copy from paper
+2021-05-02 22:32:23,246 INFO EventLog: Trigger word Copy From
+2021-05-02 22:32:27,232 INFO EventLog: Microsoft cloud found : Two, removing
+2021-05-02 22:32:27,300 INFO EventLog: Trigger word Copy From To
+2021-05-02 22:32:27,585 INFO EventLog: Changed paper to  in point x=688 y=582 range start=249 end=308
+2021-05-02 22:32:31,078 INFO EventLog: Microsoft cloud found : Copy from computer
+2021-05-02 22:32:31,140 INFO EventLog: Trigger word Copy From
+2021-05-02 22:32:36,491 INFO EventLog: Microsoft cloud found : Two programming
+2021-05-02 22:32:36,553 INFO EventLog: Trigger word Copy From To
+2021-05-02 22:32:36,807 INFO EventLog: Changed computer to  in point x=670 y=625 range start=309 end=340
+2021-05-02 22:32:42,802 INFO EventLog: Microsoft cloud found : 
+2021-05-02 22:32:48,227 INFO EventLog: Microsoft cloud found : 
+2021-05-02 22:32:53,469 INFO EventLog: Microsoft cloud found : Copy from debugging
+2021-05-02 22:32:53,507 INFO EventLog: Trigger word Copy From
+2021-05-02 22:32:59,336 INFO EventLog: Microsoft cloud found : Based after paper
+2021-05-02 22:32:59,398 INFO EventLog: Trigger word Paste
