@@ -90,26 +90,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ExperimentSystem.exe" size="41472">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ExperimentSystem.exe" size="74240">
       <assemblyIdentity name="ExperimentSystem" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>q/pMTdy0JWDCaeXin8UQUynRx6/82OA+vi+lv1a7Fzs=</dsig:DigestValue>
+        <dsig:DigestValue>392hw0BlhPOB6OByTQa1510asUpxN4/VNm18EwZovnE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fixover.exe" size="704480">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fixover.exe" size="704992">
       <assemblyIdentity name="Fixover" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>147XVDumTNdAuWzQypvcbuQdGduCJ7OOPWnyiXEikmw=</dsig:DigestValue>
+        <dsig:DigestValue>ZPosSJyHYnGQZ8hKgmdhaAS7APKoYfGBzN3wSHBzp7A=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -302,6 +302,18 @@
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
         <dsig:DigestValue>r1YQxRXSJE25jGYmNiZMgXfomxr+QH+I/RikHWb25+I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LumenWorks.Framework.IO.dll" size="46080">
+      <assemblyIdentity name="LumenWorks.Framework.IO" version="4.0.0.0" publicKeyToken="5AD3EA2F85776344" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4xVfTBjg8BzQmvX8vft/hB23aeHfXiTb0BP2iL6scyc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -90,7 +90,7 @@ namespace EyeGaze.Engine
                 GT.connect();
                 GT.listen();
             }
-            this.mainExperiment = new MainClass();
+            //this.mainExperiment = new MainClass();
             completedEvent = new ManualResetEvent(false);
             SystemLogger.getEventLog().Info("Starting initialization of the system");
             Type eyeGazeType = Type.GetType(eyeGazeNamespace);
@@ -106,6 +106,17 @@ namespace EyeGaze.Engine
             this.speechToText.FindActionFromSpeech(key, keyInfo);
             completedEvent.Set();
             this.End();
+        }
+
+        public void StartReg(string textEditorPath, string speechToTextNamespace, string key, string keyInfo, string eyeGazeNamespace, string spellChecker)
+        {
+            this.mainExperiment = new MainClass();
+            completedEvent = new ManualResetEvent(false);
+            SystemLogger.getEventLog().Info("Starting initialization of the system");
+            Type textEditorType = Type.GetType("EyeGaze.TextEditor.WordTextEditor");
+            this.textEditor = (AbstractTextEditor<CoordinateRange>)Activator.CreateInstance(textEditorType, textEditorPath);
+            WireEventHandlersCloseFile(this.textEditor);
+            completedEvent.Set();
         }
 
         public void setSpellChecker(string spellchecker)

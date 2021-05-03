@@ -848,3 +848,6 @@ C:\Users\sshho\OneDrive\Desktop\Projects\Visual Studio\final_project\WindowsForm
 C:\Users\sshho\OneDrive\Desktop\Projects\Visual Studio\final_project\WindowsFormsApp1\bin\x64\Debug\libgrpc_csharp_ext.x64.so
 C:\Users\sshho\OneDrive\Desktop\Projects\Visual Studio\final_project\WindowsFormsApp1\bin\x64\Debug\libgrpc_csharp_ext.x86.dylib
 C:\Users\sshho\OneDrive\Desktop\Projects\Visual Studio\final_project\WindowsFormsApp1\bin\x64\Debug\libgrpc_csharp_ext.x64.dylib
+D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\LumenWorks.Framework.IO.dll
+D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\LumenWorks.Framework.IO.pdb
+D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\LumenWorks.Framework.IO.xml

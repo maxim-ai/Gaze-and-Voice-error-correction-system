@@ -33,6 +33,7 @@ namespace EyeGaze
             }
 
             this.controller = c;
+            controller.engineMain.mainExperiment = new MainClass();
             this.SetEndExpFunc((EndExperiment)(this.controller.engineMain.End));
             controller.key = "69a12462814f4df1a7b1d38c67963adf";
             controller.region = "westeurope";
@@ -130,11 +131,13 @@ namespace EyeGaze
         {
             if (expNumber != 0) { this.controller.engineMain.End(); }
 
-            controller.path = "D:\\Downloads\\Fresh Downloads\\fixig examples.docx";
+            MainClass mainExpreriment = controller.engineMain.mainExperiment;
+            String path = mainExpreriment.GetPath(this.IdTxtBox.Text, "VoiceGaze", expNumber);
+
+            controller.path = path;
             controller.StartProgram("EyeGaze.SpellChecker.WordSpell", controller.speechToText);
             Thread.Sleep(5000);
-            MainClass mainExpreriment = controller.engineMain.mainExperiment;
-            String a = mainExpreriment.GetPath(this.IdTxtBox.Text, "VoiceGaze", expNumber);
+
             mainExpreriment.StartExperiment(DateTime.Now);
         }
 

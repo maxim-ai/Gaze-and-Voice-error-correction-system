@@ -20,7 +20,7 @@ namespace EyeGaze
         public PopTimer(String message)
         {
             System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
-            timer.Interval = 6000;
+            timer.Interval = 2000;
             timer.Tick += new EventHandler(timer_Tick);
             popupDisappear = new PopUpDisappear(message);
             popupDisappear.Show();

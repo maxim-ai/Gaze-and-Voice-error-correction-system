@@ -1620,3 +1620,37 @@
 2021-04-27 16:50:34,191 ERROR ErrorLog: The RPC server is unavailable. (חריג מ-  HRESULT: 0x800706BA)
 2021-04-27 16:50:34,323 ERROR ErrorLog: לא ניתן לבצע cast של אובייקט COM מסוג 'Microsoft.Office.Interop.Word.DocumentClass' לסוג ממשק 'Microsoft.Office.Interop.Word._Document'. פעולה זו נכשלה מכיוון שקריאת ה- QueryInterface לרכיב ה- COM עבור הממשק עם IID ‏'{0002096B-0000-0000-C000-000000000046}' נכשלה עקב השגיאה הבאה: The application called an interface that was marshalled for a different thread. (חריג מ-  HRESULT: 0x8001010E (RPC_E_WRONG_THREAD)).
 2021-05-02 22:31:46,047 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-02 23:13:06,678 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-02 23:14:11,374 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-02 23:17:25,627 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-02 23:22:00,690 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-02 23:22:02,862 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-03 12:39:04,627 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-03 12:39:32,756 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-03 12:40:55,710 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-03 12:41:38,655 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-03 12:43:23,531 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-03 12:43:59,136 ERROR ErrorLog: The RPC server is unavailable. (חריג מ-  HRESULT: 0x800706BA)
+2021-05-03 12:43:59,561 ERROR ErrorLog: לא ניתן לבצע cast של אובייקט COM מסוג 'Microsoft.Office.Interop.Word.DocumentClass' לסוג ממשק 'Microsoft.Office.Interop.Word._Document'. פעולה זו נכשלה מכיוון שקריאת ה- QueryInterface לרכיב ה- COM עבור הממשק עם IID ‏'{0002096B-0000-0000-C000-000000000046}' נכשלה עקב השגיאה הבאה: The application called an interface that was marshalled for a different thread. (חריג מ-  HRESULT: 0x8001010E (RPC_E_WRONG_THREAD)).
+2021-05-03 13:04:15,737 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-03 13:07:25,898 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-03 13:08:18,442 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-03 16:30:03,825 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-03 16:30:41,847 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-03 16:31:19,728 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-03 16:31:23,473 ERROR ErrorLog: The RPC server is unavailable. (חריג מ-  HRESULT: 0x800706BA)
+2021-05-03 16:31:23,631 ERROR ErrorLog: לא ניתן לבצע cast של אובייקט COM מסוג 'Microsoft.Office.Interop.Word.DocumentClass' לסוג ממשק 'Microsoft.Office.Interop.Word._Document'. פעולה זו נכשלה מכיוון שקריאת ה- QueryInterface לרכיב ה- COM עבור הממשק עם IID ‏'{0002096B-0000-0000-C000-000000000046}' נכשלה עקב השגיאה הבאה: The application called an interface that was marshalled for a different thread. (חריג מ-  HRESULT: 0x8001010E (RPC_E_WRONG_THREAD)).
+2021-05-03 16:32:32,984 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-03 16:33:28,023 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-03 16:36:44,346 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-03 16:46:34,990 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-03 16:46:52,015 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-03 16:46:58,306 ERROR ErrorLog: The RPC server is unavailable. (חריג מ-  HRESULT: 0x800706BA)
+2021-05-03 16:46:58,710 ERROR ErrorLog: לא ניתן לבצע cast של אובייקט COM מסוג 'Microsoft.Office.Interop.Word.DocumentClass' לסוג ממשק 'Microsoft.Office.Interop.Word._Document'. פעולה זו נכשלה מכיוון שקריאת ה- QueryInterface לרכיב ה- COM עבור הממשק עם IID ‏'{0002096B-0000-0000-C000-000000000046}' נכשלה עקב השגיאה הבאה: The application called an interface that was marshalled for a different thread. (חריג מ-  HRESULT: 0x8001010E (RPC_E_WRONG_THREAD)).
+2021-05-03 16:47:06,377 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-03 16:48:05,008 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-03 16:48:43,499 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-03 16:49:09,013 ERROR ErrorLog: The RPC server is unavailable. (חריג מ-  HRESULT: 0x800706BA)
+2021-05-03 16:50:09,410 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-03 16:50:31,128 ERROR ErrorLog: The RPC server is unavailable. (חריג מ-  HRESULT: 0x800706BA)
+2021-05-03 16:50:31,555 ERROR ErrorLog: לא ניתן לבצע cast של אובייקט COM מסוג 'Microsoft.Office.Interop.Word.DocumentClass' לסוג ממשק 'Microsoft.Office.Interop.Word._Document'. פעולה זו נכשלה מכיוון שקריאת ה- QueryInterface לרכיב ה- COM עבור הממשק עם IID ‏'{0002096B-0000-0000-C000-000000000046}' נכשלה עקב השגיאה הבאה: The application called an interface that was marshalled for a different thread. (חריג מ-  HRESULT: 0x8001010E (RPC_E_WRONG_THREAD)).

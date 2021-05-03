@@ -1,0 +1,28 @@
+ExperimentID,MissionID,TextNumber,SystemName,UserID,Event,Timestamp,ActualResult,MissionText,TotalTime,Verdict
+0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_0,0,VoiceGaze,123645,StartMission,2021-05-03 16:48:51,,Navigate to page 1 paragraph 1 line 2
+0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_0,0,VoiceGaze,123645,EndMission,2021-05-03 16:48:54,,Navigate to page 1 paragraph 1 line 2,3,Fail
+0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_1,0,VoiceGaze,123645,StartMission,2021-05-03 16:48:54,,Fix "underear" to "underwear"
+0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_1,0,VoiceGaze,123645,EndMission,2021-05-03 16:48:54,,Fix "underear" to "underwear",0,Fail
+0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_2,0,VoiceGaze,123645,StartMission,2021-05-03 16:48:54,,Navigate to page 1 paragraph 2 line 6
+0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_2,0,VoiceGaze,123645,EndMission,2021-05-03 16:48:54,,Navigate to page 1 paragraph 2 line 6,0,Fail
+0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_3,0,VoiceGaze,123645,StartMission,2021-05-03 16:48:54,,Replace "back" to "front"
+0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_3,0,VoiceGaze,123645,EndMission,2021-05-03 16:48:55,,Replace "back" to "front",1,Fail
+0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_4,0,VoiceGaze,123645,StartMission,2021-05-03 16:48:55,,Navigate to page 1 paragraph 3 line 1
+0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_4,0,VoiceGaze,123645,EndMission,2021-05-03 16:48:55,,Navigate to page 1 paragraph 3 line 1,0,Fail
+0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_5,0,VoiceGaze,123645,StartMission,2021-05-03 16:48:55,,Add "father" after "mother"
+0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_5,0,VoiceGaze,123645,EndMission,2021-05-03 16:48:56,,Add "father" after "mother",1,Fail
+0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_6,0,VoiceGaze,123645,StartMission,2021-05-03 16:48:56,,Navigate to page 2 paragraph 5 line 3
+0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_6,0,VoiceGaze,123645,EndMission,2021-05-03 16:48:56,,Navigate to page 2 paragraph 5 line 3,0,Fail
+0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_7,0,VoiceGaze,123645,StartMission,2021-05-03 16:48:56,,Fix "siple" to "supple"
+0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_7,0,VoiceGaze,123645,EndMission,2021-05-03 16:48:57,,Fix "siple" to "supple",1,Fail
+0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_8,0,VoiceGaze,123645,StartMission,2021-05-03 16:48:57,,Navigate to page 2 paragraph 6 line 2
+0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_8,0,VoiceGaze,123645,EndMission,2021-05-03 16:48:57,,Navigate to page 2 paragraph 6 line 2,0,Fail
+0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_9,0,VoiceGaze,123645,StartMission,2021-05-03 16:48:57,,Copy from "You" to "is"
+0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_9,0,VoiceGaze,123645,EndMission,2021-05-03 16:48:58,,Copy from "You" to "is",1,Fail
+0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_10,0,VoiceGaze,123645,StartMission,2021-05-03 16:48:58,,Navigate to page 2 paragraph 7 line 1
+0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_10,0,VoiceGaze,123645,EndMission,2021-05-03 16:48:58,,Navigate to page 2 paragraph 7 line 1,0,Fail
+0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_11,0,VoiceGaze,123645,StartMission,2021-05-03 16:48:58,,Paste after "another"
+0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_11,0,VoiceGaze,123645,EndMission,2021-05-03 16:48:58,,Paste after "another",0,Fail
+0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_12,0,VoiceGaze,123645,StartMission,2021-05-03 16:48:58,,Navigate to page 2 paragraph 9 line 2
+0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_12,0,VoiceGaze,123645,EndMission,2021-05-03 16:48:59,,Navigate to page 2 paragraph 9 line 2,1,Fail
+0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_12,0,VoiceGaze,123645,EndMission,2021-05-03 16:49:00,,Delete from "he" to "met",2,Fail

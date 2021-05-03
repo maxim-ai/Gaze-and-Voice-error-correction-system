@@ -433,7 +433,9 @@ namespace EyeGaze.TextEditor
             rangeToHighlight.HighlightColorIndex = WdColorIndex.wdYellow;
             Thread.Sleep(4000);
             if (fileIsOpen)
-                rangeToHighlight.HighlightColorIndex = prevColor;
+                try { rangeToHighlight.HighlightColorIndex = prevColor; }
+                catch(Exception e) { }
+                
         }
 
         public void UnHighlightWord(List<CoordinateRange> wordsToChange)

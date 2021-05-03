@@ -65,5 +65,12 @@ namespace EyeGaze
             this.thread.Start();
         }
 
+        public void StartProgramReg(string spellChecker, string speechToText)
+        {
+            this.thread = new Thread(() =>
+                this.engineMain.StartReg(path, speechToText, key, region, "EyeGaze.EyeTracking.MousePoint", spellChecker));
+            this.thread.Start();
+        }
+
     }
 }
