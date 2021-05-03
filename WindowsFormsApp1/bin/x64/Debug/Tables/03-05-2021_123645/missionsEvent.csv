@@ -26,3 +26,4 @@ ExperimentID,MissionID,TextNumber,SystemName,UserID,Event,Timestamp,ActualResult
 0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_12,0,VoiceGaze,123645,StartMission,2021-05-03 16:48:58,,Navigate to page 2 paragraph 9 line 2
 0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_12,0,VoiceGaze,123645,EndMission,2021-05-03 16:48:59,,Navigate to page 2 paragraph 9 line 2,1,Fail
 0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_12,0,VoiceGaze,123645,EndMission,2021-05-03 16:49:00,,Delete from "he" to "met",2,Fail
+0_VoiceGaze_123645_03-05-2021,VoiceGaze_#0_0,0,VoiceGaze,123645,StartMission,2021-05-03 17:46:03,,Navigate to page 1 paragraph 1 line 2
