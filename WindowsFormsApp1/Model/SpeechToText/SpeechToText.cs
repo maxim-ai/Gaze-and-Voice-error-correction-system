@@ -100,7 +100,7 @@ namespace EyeGaze.SpeechToText
                 if (text.Length > 0 && (actions.Contains(text[0]) || checkIfTriggerWordLevDisFromActions(text[0])))
                 {
                     string triggerWord = text[0];
-                    if ((triggerWord == "add"|| triggerWord == "ed") && text.Length < 3)            // Add with less then two words after
+                    if ((triggerWord == "add" || triggerWord == "ed") && text.Length < 3)            // Add with less then two words after
                         return null;
                     if (triggerWord == "replace" && text.Length < 3)            // Replace with less then two words after
                         return null;
@@ -113,46 +113,59 @@ namespace EyeGaze.SpeechToText
                     }
                     if (triggerWord == "fix" && text.Length > 1)
                         triggerWord = "fix word";
-                    if ((triggerWord == "delete" || checkLevinshteinDistance("delete", triggerWord)) && (text[1] == "from" || LevenshteinDistance(text[1],"from") <= 2))
+                    if ((triggerWord == "delete" || checkLevinshteinDistance("delete", triggerWord)) && (text[1] == "from" || LevenshteinDistance(text[1], "from") <= 2))
                         triggerWord = "delete from";
                     else if ((triggerWord == "copy" || checkLevinshteinDistance("copy", triggerWord)) && (text[1] == "from" || LevenshteinDistance(text[1], "from") <= 2))
                         triggerWord = "copy from";
-                    else if ((triggerWord == "paste" || triggerWord == "best" || checkLevinshteinDistance("paste",triggerWord)) 
+                    else if ((triggerWord == "paste" || triggerWord == "best" || checkLevinshteinDistance("paste", triggerWord))
                         && text[1] == "before")
                         triggerWord = "paste before";
-                    else if ((triggerWord == "paste" || triggerWord == "best" || checkLevinshteinDistance("paste", triggerWord)) 
+                    else if ((triggerWord == "paste" || triggerWord == "best" || checkLevinshteinDistance("paste", triggerWord))
                         && text[1] == "after")
                         triggerWord = "paste after";
                     else if (checkLevinshteinDistance("add", triggerWord))
                         triggerWord = "add";
 
                     //in case of "delete from word1 to word2"
-                    string[] toOptionsArray ={ "to", "2", "two", "do", "too", "two," };
-                    if(toOptionsArray.Contains(triggerWord) && lastTriggerWord == "delete from")
+                    string[] toOptionsArray = { "to", "2", "two", "do", "too", "two," };
+                    if (toOptionsArray.Contains(triggerWord) && lastTriggerWord == "delete from")
                         triggerWord = "to (delete)";
-                    else if(toOptionsArray.Contains(triggerWord) && lastTriggerWord == "copy from")
+                    else if (toOptionsArray.Contains(triggerWord) && lastTriggerWord == "copy from")
                         triggerWord = "to (copy)";
 
-                    if(!triggerWord.Contains("("))
+                    if (!triggerWord.Contains("("))
                         lastTriggerWord = triggerWord;
 
                     TriggerWordEvent message = new TriggerWordEvent();
                     message.triggerWord = triggerWord;
                     string[] content = new string[text.Length - 1];
                     Array.Copy(text, 1, content, 0, text.Length - 1);
-                    if (triggerWord == "delete from" || triggerWord == "copy from" 
+                    if (triggerWord == "delete from" || triggerWord == "copy from"
                         || triggerWord == "paste before" || triggerWord == "paste after")
                     {
                         string[] tmpContent = new string[content.Length - 1];
                         Array.Copy(content, 1, tmpContent, 0, content.Length - 1);
                         content = tmpContent;
                     }
+                    else if (triggerWord == "add")
+                    {
+                        string[] tmpContenct = new string[content.Length - 1];
+                        tmpContenct[0] = content[content.Length - 1];
+                        int tmpContentIndex = 1;
+                        for (int i = 0; i < content.Length; i++)
+                        {
+                            if (content[i].Equals("after")) break;
+                            tmpContenct[tmpContentIndex] = content[i];
+                            tmpContentIndex++;
+                        }
+                        content = tmpContenct;
+                    }
                     message.content = content;
                     if (!(triggerWord == "done" && !prevReplaceAll))
                         sendMessage(triggerWord, content);
                     return message;
                 }
-                else if (text.Length > 0 && (text[1] == "before" || text[1] == "after"))
+                else if (text.Length > 0 && (text[1] == "before" || text[1] == "after") && LevenshteinDistance(text[0], "paste")<=3)
                 {
                     string triggerWord = "paste " + text[1];
                     lastTriggerWord = triggerWord;
