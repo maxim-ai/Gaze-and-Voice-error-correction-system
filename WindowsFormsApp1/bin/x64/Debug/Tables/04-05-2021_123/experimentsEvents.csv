@@ -1,0 +1,23 @@
+ExperimentID,SystemName,TextNumber,UserID,Event,Timestamp
+0_VoiceMouse_123_04-05-2021,VoiceMouse,0,123,NewExperiment,2021-05-04 11:31:55
+0_VoiceMouse_123_04-05-2021,VoiceMouse,0,123,EndExperiment,2021-05-04 11:32:17
+0_VoiceMouse_123_04-05-2021,VoiceMouse,0,123,NewExperiment,2021-05-04 11:33:15
+0_VoiceMouse_123_04-05-2021,VoiceMouse,0,123,EndExperiment,2021-05-04 11:33:28
+0_MouseAndKeyboard_123_04-05-2021,MouseAndKeyboard,0,123,NewExperiment,2021-05-04 11:39:26
+0_MouseAndKeyboard_123_04-05-2021,MouseAndKeyboard,0,123,EndExperiment,2021-05-04 11:39:40
+0_MouseAndKeyboard_123_04-05-2021,MouseAndKeyboard,0,123,NewExperiment,2021-05-04 12:36:20
+0_MouseAndKeyboard_123_04-05-2021,MouseAndKeyboard,0,123,EndExperiment,2021-05-04 12:36:39
+1_MouseAndKeyboard_123_04-05-2021,MouseAndKeyboard,1,123,NewExperiment,2021-05-04 12:36:47
+1_MouseAndKeyboard_123_04-05-2021,MouseAndKeyboard,1,123,EndExperiment,2021-05-04 12:36:56
+0_VoiceMouse_123_04-05-2021,VoiceMouse,0,123,NewExperiment,2021-05-04 12:39:01
+0_VoiceMouse_123_04-05-2021,VoiceMouse,0,123,EndExperiment,2021-05-04 12:39:28
+1_VoiceMouse_123_04-05-2021,VoiceMouse,1,123,NewExperiment,2021-05-04 12:39:36
+1_VoiceMouse_123_04-05-2021,VoiceMouse,1,123,EndExperiment,2021-05-04 12:39:48
+0_VoiceGaze_123_04-05-2021,VoiceGaze,0,123,NewExperiment,2021-05-04 13:43:18
+0_VoiceGaze_123_04-05-2021,VoiceGaze,0,123,NewExperiment,2021-05-04 13:51:05
+0_VoiceGaze_123_04-05-2021,VoiceGaze,0,123,EndExperiment,2021-05-04 13:53:32
+0_VoiceGaze_123_04-05-2021,VoiceGaze,0,123,NewExperiment,2021-05-04 13:55:52
+0_VoiceGaze_123_04-05-2021,VoiceGaze,0,123,EndExperiment,2021-05-04 13:57:24
+1_VoiceGaze_123_04-05-2021,VoiceGaze,1,123,NewExperiment,2021-05-04 13:57:46
+0_VoiceGaze_123_04-05-2021,VoiceGaze,0,123,NewExperiment,2021-05-04 15:12:53
+0_VoiceGaze_123_04-05-2021,VoiceGaze,0,123,EndExperiment,2021-05-04 15:18:16

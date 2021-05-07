@@ -785,7 +785,16 @@ namespace EyeGaze.Engine
 
             //for cancel
             lastOperation = ("add", firstWordCoordinate, wordsToAdd);
-            mainExperiment.EventCommand("add", "add " + wordsToAdd, textBeforeChange, textEditor.getDoc().Content.Text,true,DateTime.Now);
+
+            String[] wordsToAddArray = wordsToAdd.Split();
+            String[] wordsForCommand = new string[wordsToAddArray.Length + 1];
+
+            for (int i = 1, index = 0; i < wordsToAddArray.Length; i++, index++)
+                wordsForCommand[index] = wordsToAddArray[i];
+
+            wordsForCommand[wordsForCommand.Length - 2] = "after";
+            wordsForCommand[wordsForCommand.Length - 1] = wordsToAddArray[0];
+            mainExperiment.EventCommand("add", "add " + String.Join(" ", wordsForCommand), textBeforeChange, textEditor.getDoc().Content.Text, true, DateTime.Now);
         }
 
         private void FixLatestMisspelledWord(List<CoordinateRange> misspelledWords)

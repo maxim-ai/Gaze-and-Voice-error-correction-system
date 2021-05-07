@@ -138,7 +138,7 @@ namespace EyeGaze
             controller.StartProgram("EyeGaze.SpellChecker.WordSpell", controller.speechToText);
             Thread.Sleep(5000);
 
-            mainExpreriment.StartExperiment(DateTime.Now);
+            //mainExpreriment.StartExperiment(DateTime.Now);
         }
 
         private void End()
@@ -282,11 +282,20 @@ namespace EyeGaze
                     {
                         string[] actions = new string[] { "fix","fix to", "change", "add", "move", "replace", "options","delete", "copy from","copy to" ,"paste before","paste after","cancel","1", "2", "3", "4", "5" };
                         Dictionary<String, int> distances = new Dictionary<string, int>();
+                        String contains = "";
                         foreach(String word in actions)
                         {
                             distances.Add(word, controller.engineMain.LevenshteinDistance(e.message.ToLower(), word));
+                            if (e.message.ToLower().Contains(word)) contains = word;
                         }
-                        PopTimer pt = new PopTimer(distances.OrderBy(kvp => kvp.Value).First().Key);
+
+                        PopTimer pt = null;
+                        var chosen = distances.OrderBy(kvp => kvp.Value).First();
+                        if(contains!="")
+                            pt = new PopTimer(contains);
+                        else if (chosen.Value<3)
+                            pt = new PopTimer(distances.OrderBy(kvp => kvp.Value).First().Key);
+                       
                     }
                     if (e.type == MessageEvent.messageType.closeFile)
                     {

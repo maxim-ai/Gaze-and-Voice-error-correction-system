@@ -1689,3 +1689,73 @@
 2021-05-05 18:25:47,029 INFO ErrorLog: ----------------------Starting System-------------------------
 2021-05-05 18:29:32,911 INFO ErrorLog: ----------------------Starting System-------------------------
 2021-05-05 18:32:20,358 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-06 16:29:44,313 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-06 16:31:50,751 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-06 16:33:47,636 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-06 16:35:07,355 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-06 16:39:04,122 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-06 16:39:57,165 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-06 16:45:10,115 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-06 16:45:50,133 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 16:45:54,437 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 16:49:21,948 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 16:49:27,469 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 16:49:31,501 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 16:49:56,933 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 16:55:04,184 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 16:55:05,904 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 16:55:52,451 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 16:55:56,105 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 16:56:03,067 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 16:56:22,948 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 16:56:32,086 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 16:57:33,911 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 16:57:41,727 ERROR ErrorLog: Error in parse resultממדי המערך חרגו מהטווח הנתמך.
+2021-05-06 17:00:06,139 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 17:01:55,910 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 17:04:39,325 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 17:05:11,904 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 17:05:41,053 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 17:06:03,428 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 17:06:26,885 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 17:07:16,874 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 17:12:00,303 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 17:13:20,259 ERROR ErrorLog: WordSpell exceptionThe RPC server is unavailable. (חריג מ-  HRESULT: 0x800706BA)
+2021-05-06 17:13:20,300 ERROR ErrorLog: The RPC server is unavailable. (חריג מ-  HRESULT: 0x800706BA)
+2021-05-06 17:13:33,272 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 17:14:07,528 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 17:14:22,984 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 17:50:02,664 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-06 17:50:32,914 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 17:55:10,665 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-06 17:56:42,718 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-06 17:59:57,538 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-06 18:06:09,462 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-06 18:06:29,853 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 18:06:43,173 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 18:07:09,575 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 18:07:26,277 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 18:07:50,833 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 18:07:58,253 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 18:08:43,314 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-06 18:09:44,349 INFO ErrorLog: הרצף לא מכיל רכיבים
+2021-05-06 18:09:55,362 INFO ErrorLog: הרצף לא מכיל רכיבים
+2021-05-06 18:11:39,259 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 18:11:46,169 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 18:12:06,200 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 18:12:13,893 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 18:12:21,646 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 18:12:40,150 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 18:12:42,962 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 18:17:31,898 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-06 18:18:36,108 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 18:18:37,819 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 18:19:21,341 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 18:19:36,755 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 18:20:15,734 INFO ErrorLog: הרצף לא מכיל רכיבים
+2021-05-06 18:20:25,970 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 18:20:47,279 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 18:21:46,564 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 18:21:54,769 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 18:22:58,351 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-06 18:23:52,050 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.

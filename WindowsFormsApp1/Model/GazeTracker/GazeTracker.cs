@@ -81,9 +81,9 @@ namespace EyeGaze.GazeTracker
 
         public void ConvertGazeToCoords()
         {
-            EyeGaze.EyeTracking.debugger l = new debugger();
-            l.Show();
-            l.Refresh();
+            //EyeGaze.EyeTracking.debugger l = new debugger();
+            //l.Show();
+            //l.Refresh();
 
             bool exit_state = false;
             int startindex, endindex;
@@ -176,7 +176,7 @@ namespace EyeGaze.GazeTracker
                             float scale = getWindowScale();
                             //Console.WriteLine("X: " + (int)((screen.X * fpogx)) + "Y: " + (int)((screen.Y * fpogy)));
                             //Console.WriteLine("MouseX: " + m.GetEyeGazePosition().X + " mouseY: " + m.GetEyeGazePosition().Y);
-                            l.MoveCircle((int)((screen.X * fpogx)), (int)((screen.Y * fpogy)));
+                            //l.MoveCircle((int)((screen.X * fpogx)), (int)((screen.Y * fpogy)));
 
 
                             //position = currPos;

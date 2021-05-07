@@ -22897,3 +22897,852 @@
 2021-05-05 18:32:37,157 INFO EventLog: Microsoft cloud found : Add leg after feet
 2021-05-05 18:32:37,280 INFO EventLog: Trigger word add
 2021-05-05 18:32:38,474 INFO EventLog: Changed Feet to Feet leg in point x=814 y=422 range start=141 end=149
+2021-05-06 16:29:44,280 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-06 16:29:53,917 INFO EventLog: Starting initialization of the system
+2021-05-06 16:31:50,717 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-06 16:31:53,818 INFO EventLog: Starting initialization of the system
+2021-05-06 16:31:59,067 INFO EventLog: Trying to open documtent
+2021-05-06 16:32:00,175 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-06 16:32:00,763 INFO EventLog: Connect to Microsoft cloud
+2021-05-06 16:32:06,845 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:32:12,849 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:32:18,804 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:32:24,830 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:32:30,847 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:32:36,852 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:32:42,864 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:32:48,877 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:32:54,898 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:33:47,605 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-06 16:34:10,712 INFO EventLog: Starting initialization of the system
+2021-05-06 16:34:15,896 INFO EventLog: Trying to open documtent
+2021-05-06 16:34:20,763 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-06 16:34:21,041 INFO EventLog: Connect to Microsoft cloud
+2021-05-06 16:34:27,325 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:34:30,854 INFO EventLog: Starting initialization of the system
+2021-05-06 16:35:07,310 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-06 16:35:26,033 INFO EventLog: Starting initialization of the system
+2021-05-06 16:35:31,428 INFO EventLog: Trying to open documtent
+2021-05-06 16:35:32,671 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-06 16:35:32,969 INFO EventLog: Connect to Microsoft cloud
+2021-05-06 16:35:38,951 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:35:44,352 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:35:50,182 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:35:56,191 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:36:01,585 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:36:07,574 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:36:13,579 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:36:19,583 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:36:25,583 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:36:31,638 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:36:37,042 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:36:42,440 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:36:48,451 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:36:54,377 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:37:00,304 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:37:06,339 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:37:12,372 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:37:14,615 INFO EventLog: Microsoft cloud found : OK
+2021-05-06 16:37:20,131 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:37:25,525 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:37:31,461 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:37:37,419 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:37:43,417 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:37:47,912 INFO EventLog: Microsoft cloud found : Fix
+2021-05-06 16:37:47,967 INFO EventLog: Trigger word Fix
+2021-05-06 16:37:49,297 INFO EventLog: Changed underear to underwear in point x=813 y=300 range start=81 end=90
+2021-05-06 16:39:04,077 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-06 16:39:07,446 INFO EventLog: Starting initialization of the system
+2021-05-06 16:39:13,004 INFO EventLog: Trying to open documtent
+2021-05-06 16:39:19,654 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-06 16:39:20,633 INFO EventLog: Connect to Microsoft cloud
+2021-05-06 16:39:26,545 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:39:57,130 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-06 16:40:00,536 INFO EventLog: Starting initialization of the system
+2021-05-06 16:40:05,495 INFO EventLog: Trying to open documtent
+2021-05-06 16:40:06,573 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-06 16:40:07,146 INFO EventLog: Connect to Microsoft cloud
+2021-05-06 16:40:13,216 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:40:19,148 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:40:20,576 INFO EventLog: Microsoft cloud found : X
+2021-05-06 16:40:26,566 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:40:30,282 INFO EventLog: Microsoft cloud found : Fix
+2021-05-06 16:40:30,340 INFO EventLog: Trigger word Fix
+2021-05-06 16:40:31,494 INFO EventLog: No misspelled word found close to eye gaze
+2021-05-06 16:40:37,011 INFO EventLog: Microsoft cloud found : Fix
+2021-05-06 16:40:37,081 INFO EventLog: Trigger word Fix
+2021-05-06 16:40:38,093 INFO EventLog: No misspelled word found close to eye gaze
+2021-05-06 16:40:43,892 INFO EventLog: Microsoft cloud found : Fix
+2021-05-06 16:40:43,943 INFO EventLog: Trigger word Fix
+2021-05-06 16:40:44,689 INFO EventLog: No misspelled word found close to eye gaze
+2021-05-06 16:40:50,413 INFO EventLog: Microsoft cloud found : Fix
+2021-05-06 16:40:50,469 INFO EventLog: Trigger word Fix
+2021-05-06 16:40:51,487 INFO EventLog: Changed underear to underwear in point x=813 y=300 range start=81 end=90
+2021-05-06 16:40:57,448 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:41:03,466 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:45:10,068 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-06 16:45:13,494 INFO EventLog: Starting initialization of the system
+2021-05-06 16:45:23,390 INFO EventLog: Trying to open documtent
+2021-05-06 16:45:26,793 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-06 16:45:29,812 INFO EventLog: Connect to Microsoft cloud
+2021-05-06 16:45:36,075 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:45:42,094 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:45:48,192 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:45:49,961 INFO EventLog: Microsoft cloud found : Yes
+2021-05-06 16:45:54,387 INFO EventLog: Microsoft cloud found : Gift
+2021-05-06 16:46:00,372 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:46:06,311 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:46:12,457 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:46:18,528 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:46:24,539 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:46:30,628 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:46:36,575 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:46:42,496 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:46:48,505 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:46:54,503 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:47:00,412 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:47:06,418 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:47:12,475 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:47:18,678 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:47:24,600 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:47:28,918 INFO EventLog: Microsoft cloud found : Fur
+2021-05-06 16:47:34,996 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:47:40,944 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:47:46,339 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:47:51,735 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:47:57,647 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:48:03,569 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:48:10,360 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:48:16,280 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:48:22,118 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:48:28,097 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:48:33,940 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:48:39,869 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:48:46,368 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:48:52,332 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:48:58,247 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:49:04,177 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:49:10,194 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:49:16,094 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:49:21,913 INFO EventLog: Microsoft cloud found : Kind
+2021-05-06 16:49:27,423 INFO EventLog: Microsoft cloud found : Right
+2021-05-06 16:49:31,473 INFO EventLog: Microsoft cloud found : Poops
+2021-05-06 16:49:37,497 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:49:43,476 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:49:49,384 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:49:55,380 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:49:56,903 INFO EventLog: Microsoft cloud found : It's
+2021-05-06 16:50:03,409 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:50:09,449 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:50:14,848 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:50:20,848 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:50:26,747 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:50:32,798 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:50:36,907 INFO EventLog: Microsoft cloud found : Fix
+2021-05-06 16:50:36,964 INFO EventLog: Trigger word Fix
+2021-05-06 16:50:37,935 INFO EventLog: Changed wth to with in point x=864 y=411 range start=217 end=221
+2021-05-06 16:50:44,109 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:50:50,112 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:50:56,025 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:51:01,440 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:51:07,435 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:51:13,366 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:51:18,774 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:51:24,667 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:51:30,069 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:51:35,475 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:51:40,875 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:51:46,814 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:51:52,204 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:51:57,599 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:52:03,516 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:52:08,910 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:52:14,315 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:52:19,719 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:52:25,664 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:52:31,584 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:52:37,583 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:52:43,505 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:52:49,414 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:52:55,490 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:53:01,455 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:53:07,491 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:53:13,574 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:53:19,491 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:53:25,511 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:53:31,430 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:53:37,446 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:53:43,526 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:53:49,572 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:53:51,945 INFO EventLog: Microsoft cloud found : Oh, come on
+2021-05-06 16:53:57,988 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:54:04,179 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:54:10,083 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:54:16,080 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:54:22,103 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:54:29,717 INFO EventLog: Microsoft cloud found : Similar Cheg
+2021-05-06 16:54:34,032 INFO EventLog: Microsoft cloud found : Stupid artificially good material. That's how many mystical
+2021-05-06 16:54:39,669 INFO EventLog: Microsoft cloud found : Cash return to Susan. So I go left here. The rock matat
+2021-05-06 16:54:43,291 INFO EventLog: Microsoft cloud found : Similar here to my Bachelor
+2021-05-06 16:54:49,211 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:55:02,230 INFO EventLog: Microsoft cloud found : Similar care goal of Africa bossa stimulates. Can't say good material to share. Many mystical cashier attempted but certainly sorry I go live here
+2021-05-06 16:55:04,153 INFO EventLog: Microsoft cloud found : Directions
+2021-05-06 16:55:05,875 INFO EventLog: Microsoft cloud found : Martin
+2021-05-06 16:55:07,713 INFO EventLog: Microsoft cloud found : Will it fix
+2021-05-06 16:55:14,910 INFO EventLog: Microsoft cloud found : Will it fix Nardella taken me to show it to an active alone automatic so many cover them
+2021-05-06 16:55:25,882 INFO EventLog: Microsoft cloud found : Connecticut in adults Alchemistic early Menahem Alameel as we would like it fix my heart at the Kennett. Adults eloped at the vehicle
+2021-05-06 16:55:29,909 INFO EventLog: Microsoft cloud found : Daniel said the gentleman that doesn't fix
+2021-05-06 16:55:35,873 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:55:41,870 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:55:47,791 INFO EventLog: Microsoft cloud found : Fix
+2021-05-06 16:55:47,848 INFO EventLog: Trigger word Fix
+2021-05-06 16:55:49,365 INFO EventLog: Changed mkes to makes in point x=1222 y=252 range start=56 end=61
+2021-05-06 16:55:52,421 INFO EventLog: Microsoft cloud found : Medical
+2021-05-06 16:55:56,073 INFO EventLog: Microsoft cloud found : Similar
+2021-05-06 16:56:00,129 INFO EventLog: Microsoft cloud found : Because at the luggage options
+2021-05-06 16:56:03,039 INFO EventLog: Microsoft cloud found : Massage
+2021-05-06 16:56:07,282 INFO EventLog: Microsoft cloud found : Fall behind, so that's like you do it. This part of swords
+2021-05-06 16:56:10,371 INFO EventLog: Microsoft cloud found : Fix
+2021-05-06 16:56:10,420 INFO EventLog: Trigger word Fix
+2021-05-06 16:56:11,397 INFO EventLog: Changed acros to across in point x=938 y=432 range start=289 end=295
+2021-05-06 16:56:15,187 INFO EventLog: Microsoft cloud found : Options
+2021-05-06 16:56:19,149 INFO EventLog: Microsoft cloud found : 1
+2021-05-06 16:56:19,321 INFO EventLog: Changed acros to acres in point x=938 y=432 range start=289 end=294
+2021-05-06 16:56:22,917 INFO EventLog: Microsoft cloud found : Location
+2021-05-06 16:56:28,929 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:56:32,054 INFO EventLog: Microsoft cloud found : God could not replace
+2021-05-06 16:56:37,537 INFO EventLog: Microsoft cloud found : Put that replace Norda Cadillac left Miller Hotel myself. Let me know how it
+2021-05-06 16:56:41,178 INFO EventLog: Microsoft cloud found : Mr Clawson and we lost the most emotional
+2021-05-06 16:56:43,133 INFO EventLog: Microsoft cloud found : They give
+2021-05-06 16:56:46,470 INFO EventLog: Microsoft cloud found : Colorful gift
+2021-05-06 16:56:52,480 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:56:58,413 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:57:07,203 INFO EventLog: Microsoft cloud found : Replace replace no doctor
+2021-05-06 16:57:07,259 INFO EventLog: Trigger word Replace
+2021-05-06 16:57:08,046 INFO EventLog: Changed July to Doctor in point x=923 y=-125 range start=29 end=35
+2021-05-06 16:57:14,653 INFO EventLog: Microsoft cloud found : Put that, replace Nodak Deluxe left me like myself. Let me love her
+2021-05-06 16:57:18,679 INFO EventLog: Microsoft cloud found : Tell me another motivational negate they give
+2021-05-06 16:57:23,282 INFO EventLog: Microsoft cloud found : IMO they please give to take
+2021-05-06 16:57:28,663 INFO EventLog: Microsoft cloud found : Replace give to take
+2021-05-06 16:57:28,715 INFO EventLog: Trigger word Replace
+2021-05-06 16:57:29,632 INFO EventLog: Changed give to take in point x=607 y=399 range start=616 end=620
+2021-05-06 16:57:33,883 INFO EventLog: Microsoft cloud found : Vanilla
+2021-05-06 16:57:39,903 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:57:41,699 INFO EventLog: Microsoft cloud found : At
+2021-05-06 16:57:45,690 INFO EventLog: Microsoft cloud found : Put that at Northern Los if Melinda text
+2021-05-06 16:57:53,099 INFO EventLog: Microsoft cloud found : Condensed milk water basins. It's the whole loss if milim ramalama swimming with text now
+2021-05-06 16:57:58,177 INFO EventLog: Microsoft cloud found : Nicki Chapman was similar. Similar size. Are they amazing
+2021-05-06 16:57:59,993 INFO EventLog: Microsoft cloud found : In Apple
+2021-05-06 16:58:05,878 INFO EventLog: Microsoft cloud found : Mr. Klein Miller sing viral ad size after the same
+2021-05-06 16:58:08,756 INFO EventLog: Microsoft cloud found : But amid an Italian restaurant metaphor
+2021-05-06 16:58:12,963 INFO EventLog: Microsoft cloud found : Ed
+2021-05-06 16:58:16,796 INFO EventLog: Microsoft cloud found : To that end, no dialogue safe Milliman text
+2021-05-06 16:58:19,731 INFO EventLog: Microsoft cloud found : Those were put up better
+2021-05-06 16:58:24,241 INFO EventLog: Microsoft cloud found : Good at it, no diagnosis. Malina text
+2021-05-06 16:58:31,476 INFO EventLog: Microsoft cloud found : Bathroom is the holos. If medium high MMR, 7 text
+2021-05-06 16:58:36,408 INFO EventLog: Microsoft cloud found : Like each other, more seamlessly to middle size array Amila say
+2021-05-06 16:58:44,668 INFO EventLog: Microsoft cloud found : Is the clue Alamilla, say Venmo add size after same
+2021-05-06 16:58:50,127 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:58:53,740 INFO EventLog: Microsoft cloud found : Add size after same
+2021-05-06 16:58:53,790 INFO EventLog: Trigger word add
+2021-05-06 16:58:54,583 INFO EventLog: Changed same to same size in point x=1165 y=579 range start=924 end=933
+2021-05-06 16:59:00,432 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:59:06,245 INFO EventLog: Microsoft cloud found : Cancel
+2021-05-06 16:59:06,407 INFO EventLog: Changed same size to same in point x=1165 y=579 range start=924 end=928
+2021-05-06 16:59:12,433 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:59:16,658 INFO EventLog: Microsoft cloud found : Product it no download safe minimum text
+2021-05-06 16:59:23,769 INFO EventLog: Microsoft cloud found : Intelligence work with veterans is the holos. If Billy Ray or left knee MMT 7 text
+2021-05-06 16:59:32,776 INFO EventLog: Microsoft cloud found : Nicki Chapman with similar safety measures, size, Lahar, Mila. Same did the whole again ad size after the same
+2021-05-06 16:59:38,677 INFO EventLog: Microsoft cloud found : 
+2021-05-06 16:59:41,894 INFO EventLog: Microsoft cloud found : Could not add nardello cymatics
+2021-05-06 16:59:48,529 INFO EventLog: Microsoft cloud found : Change my poodle balances the whole lawsuit. Medium high or if they will also be text
+2021-05-06 16:59:48,580 INFO EventLog: Trigger word Change
+2021-05-06 16:59:50,524 INFO EventLog: Changed motinal to motional in point x=625 y=789 range start=1062 end=1070
+2021-05-06 16:59:53,145 INFO EventLog: Microsoft cloud found : Hi I mean
+2021-05-06 16:59:58,521 INFO EventLog: Microsoft cloud found : Cancel
+2021-05-06 16:59:58,684 INFO EventLog: Changed motional to motinal in point x=625 y=789 range start=1062 end=1069
+2021-05-06 17:00:04,681 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:00:06,107 INFO EventLog: Microsoft cloud found : Head
+2021-05-06 17:00:09,852 INFO EventLog: Microsoft cloud found : No download safe milima text
+2021-05-06 17:00:16,556 INFO EventLog: Microsoft cloud found : Is Tesla victims? It's a whole Asif Milling aluminum summit, but text
+2021-05-06 17:00:23,070 INFO EventLog: Microsoft cloud found : Like each other, more simple, safe with the middle size high. I'm not saying
+2021-05-06 17:00:24,788 INFO EventLog: Microsoft cloud found : Cool again
+2021-05-06 17:00:27,057 INFO EventLog: Microsoft cloud found : Size after saying
+2021-05-06 17:00:29,357 INFO EventLog: Microsoft cloud found : What's the weather
+2021-05-06 17:00:32,480 INFO EventLog: Microsoft cloud found : Add size after same
+2021-05-06 17:00:32,532 INFO EventLog: Trigger word add
+2021-05-06 17:00:33,378 INFO EventLog: Changed same to same size in point x=1165 y=579 range start=924 end=933
+2021-05-06 17:00:39,433 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:00:43,654 INFO EventLog: Microsoft cloud found : This will be for December data. Fairly flame long text
+2021-05-06 17:00:49,572 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:00:55,582 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:01:00,983 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:01:06,909 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:01:12,919 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:01:18,863 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:01:22,223 INFO EventLog: Microsoft cloud found : Copy paste
+2021-05-06 17:01:24,991 INFO EventLog: Microsoft cloud found : But other Prada
+2021-05-06 17:01:27,383 INFO EventLog: Microsoft cloud found : Copy paste
+2021-05-06 17:01:32,391 INFO EventLog: Microsoft cloud found : How to put a electric Malema text would have become the Commissioner
+2021-05-06 17:01:35,619 INFO EventLog: Microsoft cloud found : She must be a copy with the Barber Saba
+2021-05-06 17:01:39,850 INFO EventLog: Microsoft cloud found : I think the million she will appreciate the firm
+2021-05-06 17:01:42,425 INFO EventLog: Microsoft cloud found : She will push it from
+2021-05-06 17:01:49,012 INFO EventLog: Microsoft cloud found : Copy paste
+2021-05-06 17:01:52,195 INFO EventLog: Microsoft cloud found : My text would have become very concerning
+2021-05-06 17:01:55,880 INFO EventLog: Microsoft cloud found : As she must be copying me but Saba
+2021-05-06 17:02:01,729 INFO EventLog: Microsoft cloud found : My kitchen table, similar ticket and William. She will appreciate the firm
+2021-05-06 17:02:09,283 INFO EventLog: Microsoft cloud found : Is the claw animal Alicia, now that insula tick she she with the kiddo copy from sheep
+2021-05-06 17:02:13,536 INFO EventLog: Microsoft cloud found : Copy from sheet
+2021-05-06 17:02:13,592 INFO EventLog: Trigger word Copy From
+2021-05-06 17:02:21,275 INFO EventLog: Microsoft cloud found : Copy from sheet
+2021-05-06 17:02:21,315 INFO EventLog: Trigger word Copy From
+2021-05-06 17:02:32,683 INFO EventLog: Microsoft cloud found : Left Arm again is the clue Alamilla Horner she feels Arctic she firm vertically due to firm
+2021-05-06 17:02:38,695 INFO EventLog: Microsoft cloud found : Catalyst budgeting so dat IK U dash. After that be good climber altogether based
+2021-05-06 17:02:42,227 INFO EventLog: Microsoft cloud found : Russell two fir
+2021-05-06 17:02:47,586 INFO EventLog: Microsoft cloud found : Two fir
+2021-05-06 17:02:47,641 INFO EventLog: Trigger word Copy From To
+2021-05-06 17:02:48,406 INFO EventLog: Changed She to  in point x=770 y=774 range start=695 end=723
+2021-05-06 17:02:53,998 INFO EventLog: Microsoft cloud found : 7 available at best
+2021-05-06 17:03:00,659 INFO EventLog: Microsoft cloud found : There's a lot of code is, oh, the horror. The bigger damage Bachelor him High, Alif 9 millimeter mixed
+2021-05-06 17:03:07,147 INFO EventLog: Microsoft cloud found : Mr Coulombe llama, serving the text like Gucci, Sweet boy
+2021-05-06 17:03:11,686 INFO EventLog: Microsoft cloud found : Vimal based after sweat
+2021-05-06 17:03:14,009 INFO EventLog: Microsoft cloud found : But I'm not the host as before
+2021-05-06 17:03:16,011 INFO EventLog: Microsoft cloud found : Stop
+2021-05-06 17:03:18,678 INFO EventLog: Microsoft cloud found : Based after sweat
+2021-05-06 17:03:18,746 INFO EventLog: Trigger word Paste
+2021-05-06 17:03:24,195 INFO EventLog: Microsoft cloud found : The first time in Arizona
+2021-05-06 17:03:25,935 INFO EventLog: Microsoft cloud found : Cancel
+2021-05-06 17:03:31,603 INFO EventLog: Microsoft cloud found : Cancel
+2021-05-06 17:03:37,647 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:03:43,620 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:03:49,630 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:03:55,554 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:04:01,600 INFO EventLog: Microsoft cloud found : Copy paste
+2021-05-06 17:04:07,197 INFO EventLog: Microsoft cloud found : But at the podium Elastic Malema text who had become become shiny
+2021-05-06 17:04:10,619 INFO EventLog: Microsoft cloud found : But she must be copy made better bits of other
+2021-05-06 17:04:15,070 INFO EventLog: Microsoft cloud found : Nicki Chapman would seem like it in my name. She will appreciate the firm
+2021-05-06 17:04:25,503 INFO EventLog: Microsoft cloud found : Mr Claudia Miller issue now that erratic chichi? But did you do copy form she
+2021-05-06 17:04:32,839 INFO EventLog: Microsoft cloud found : Logan is the clue Alamilla harshita traffic. She firm for the kiddo too firm
+2021-05-06 17:04:39,294 INFO EventLog: Microsoft cloud found : At which budgeted so radicular. Gosh, I just big water comma
+2021-05-06 17:04:41,217 INFO EventLog: Microsoft cloud found : After that game
+2021-05-06 17:04:43,752 INFO EventLog: Microsoft cloud found : Copy from sheet
+2021-05-06 17:04:43,804 INFO EventLog: Trigger word Copy From
+2021-05-06 17:04:50,369 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:04:56,388 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:05:02,721 INFO EventLog: Microsoft cloud found : Copy paste
+2021-05-06 17:05:08,227 INFO EventLog: Microsoft cloud found : Matata CUDA Elastic Malema text will not become become sunny
+2021-05-06 17:05:11,872 INFO EventLog: Microsoft cloud found : As you must copy meatbats. Abbott Saba
+2021-05-06 17:05:16,210 INFO EventLog: Microsoft cloud found : Chatting with similar ticket Emily, she will appreciate the firm
+2021-05-06 17:05:18,029 INFO EventLog: Microsoft cloud found : Nothing really matter
+2021-05-06 17:05:27,353 INFO EventLog: Microsoft cloud found : Is the Corona mill additional orthotics erratic? She she with a giggle copy from she
+2021-05-06 17:05:35,080 INFO EventLog: Microsoft cloud found : Left arm again these declaw MJH now that it's all attic. She firm but they go to affirm
+2021-05-06 17:05:41,023 INFO EventLog: Microsoft cloud found : At least budgeted, so I think you gosh, I just had big water
+2021-05-06 17:05:46,165 INFO EventLog: Microsoft cloud found : Cat game copy from sheet
+2021-05-06 17:05:51,502 INFO EventLog: Microsoft cloud found : Copy from sheet
+2021-05-06 17:05:51,548 INFO EventLog: Trigger word Copy From
+2021-05-06 17:05:56,407 INFO EventLog: Microsoft cloud found : Two fir
+2021-05-06 17:05:56,447 INFO EventLog: Trigger word Copy From To
+2021-05-06 17:05:57,326 INFO EventLog: Changed She to  in point x=765 y=774 range start=694 end=722
+2021-05-06 17:06:03,388 INFO EventLog: Microsoft cloud found : Hello
+2021-05-06 17:06:06,084 INFO EventLog: Microsoft cloud found : You know
+2021-05-06 17:06:12,049 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:06:17,592 INFO EventLog: Microsoft cloud found : Copy paste
+2021-05-06 17:06:23,239 INFO EventLog: Microsoft cloud found : Matata Buddha elastic milim. My text will not become become sooner
+2021-05-06 17:06:26,857 INFO EventLog: Microsoft cloud found : As she wants to copy but Sir but Alaba
+2021-05-06 17:06:32,879 INFO EventLog: Microsoft cloud found : Each other will cymatic Atom name. She will appreciate the firm comma at a minimum
+2021-05-06 17:06:41,874 INFO EventLog: Microsoft cloud found : Is the clone a relational? The tinsel attic she she with a giggle copy from she
+2021-05-06 17:06:45,979 INFO EventLog: Microsoft cloud found : Come again is the claw enemy larger deal, so I think
+2021-05-06 17:06:51,948 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:06:58,234 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:07:04,081 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:07:07,125 INFO EventLog: Microsoft cloud found : Copy paste
+2021-05-06 17:07:13,201 INFO EventLog: Microsoft cloud found : Metallica Buddha Elastic Malema text will become a concern
+2021-05-06 17:07:16,846 INFO EventLog: Microsoft cloud found : As she must be copy need, but servants of ABBA
+2021-05-06 17:07:22,662 INFO EventLog: Microsoft cloud found : After what seemed like, take it a million. She will appreciate the firm comma
+2021-05-06 17:07:30,370 INFO EventLog: Microsoft cloud found : Is the claw Miller issue. Now that is well, I think she she vertical copy from she
+2021-05-06 17:07:37,617 INFO EventLog: Microsoft cloud found : L'homme again is the clue. Alamilla hold now suggests Rotec she firm with a giggle too firm
+2021-05-06 17:07:44,108 INFO EventLog: Microsoft cloud found : Kat I miss budgeted, so I think you guys as it had big water. Comma articulate it could at best
+2021-05-06 17:07:45,926 INFO EventLog: Microsoft cloud found : Soccer gam
+2021-05-06 17:07:49,936 INFO EventLog: Microsoft cloud found : Copy from sheet
+2021-05-06 17:07:49,983 INFO EventLog: Trigger word Copy From
+2021-05-06 17:07:54,992 INFO EventLog: Microsoft cloud found : The firm
+2021-05-06 17:08:00,843 INFO EventLog: Microsoft cloud found : Two fir
+2021-05-06 17:08:06,612 INFO EventLog: Microsoft cloud found : Two fir
+2021-05-06 17:08:10,354 INFO EventLog: Microsoft cloud found : Two fir
+2021-05-06 17:08:13,547 INFO EventLog: Microsoft cloud found : I fix
+2021-05-06 17:08:15,902 INFO EventLog: Microsoft cloud found : Not this summer
+2021-05-06 17:08:21,982 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:08:27,991 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:08:33,594 INFO EventLog: Microsoft cloud found : Two fir
+2021-05-06 17:08:39,457 INFO EventLog: Microsoft cloud found : Two fir
+2021-05-06 17:08:45,593 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:08:51,595 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:08:57,511 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:09:02,629 INFO EventLog: Microsoft cloud found : Two idea
+2021-05-06 17:09:08,492 INFO EventLog: Microsoft cloud found : Two idea
+2021-05-06 17:09:14,443 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:09:18,066 INFO EventLog: Microsoft cloud found : Two idea
+2021-05-06 17:09:23,554 INFO EventLog: Microsoft cloud found : Two idea
+2021-05-06 17:09:28,216 INFO EventLog: Microsoft cloud found : Do idea
+2021-05-06 17:09:34,411 INFO EventLog: Microsoft cloud found : Copy from will
+2021-05-06 17:09:34,458 INFO EventLog: Trigger word Copy From
+2021-05-06 17:09:38,221 INFO EventLog: Microsoft cloud found : Two idea
+2021-05-06 17:09:38,274 INFO EventLog: Trigger word Copy From To
+2021-05-06 17:09:38,993 INFO EventLog: Changed will to  in point x=814 y=774 range start=698 end=722
+2021-05-06 17:09:45,179 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:09:51,192 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:09:57,716 INFO EventLog: Microsoft cloud found : Matata Buddha Elastic Malema text will not become the Macomb Center
+2021-05-06 17:10:01,142 INFO EventLog: Microsoft cloud found : She must be copy me, but Abbott Saba
+2021-05-06 17:10:07,717 INFO EventLog: Microsoft cloud found : Each other with similar ticket. A medium. She will appreciate the idea and in Saint Paul
+2021-05-06 17:10:15,008 INFO EventLog: Microsoft cloud found : Is the claw alamilla rational autotester attic she is. She will copy from she
+2021-05-06 17:10:20,970 INFO EventLog: Microsoft cloud found : Left arm again Mr Clue Alamilla, are Horner also dealt with Attic she firm
+2021-05-06 17:10:25,072 INFO EventLog: Microsoft cloud found : Copy paste
+2021-05-06 17:10:31,543 INFO EventLog: Microsoft cloud found : Copy paste
+2021-05-06 17:10:34,829 INFO EventLog: Microsoft cloud found : Doctor Ilan ticket a million
+2021-05-06 17:10:39,970 INFO EventLog: Microsoft cloud found : Copy paste
+2021-05-06 17:10:48,107 INFO EventLog: Microsoft cloud found : I put a text would have become baby come soon as she must be copy but Sir but Saba
+2021-05-06 17:10:53,665 INFO EventLog: Microsoft cloud found : Automatic item name. She will appreciate the idea and example
+2021-05-06 17:11:01,244 INFO EventLog: Microsoft cloud found : Is the coalition autologic she is she with the kiddo copy from she
+2021-05-06 17:11:09,539 INFO EventLog: Microsoft cloud found : Lahontan is the Cloner Miller Horn out of the Democratic she idea with digital two idea
+2021-05-06 17:11:15,985 INFO EventLog: Microsoft cloud found : Correct image budget, so I think you gosh after the big water global asset. Again with the color paste
+2021-05-06 17:11:17,697 INFO EventLog: Microsoft cloud found : Title gam
+2021-05-06 17:11:20,026 INFO EventLog: Microsoft cloud found : Copy from she
+2021-05-06 17:11:20,065 INFO EventLog: Trigger word Copy From
+2021-05-06 17:11:25,751 INFO EventLog: Microsoft cloud found : Two idea
+2021-05-06 17:11:25,805 INFO EventLog: Trigger word Copy From To
+2021-05-06 17:11:26,495 INFO EventLog: Changed She to  in point x=765 y=774 range start=694 end=722
+2021-05-06 17:11:33,053 INFO EventLog: Microsoft cloud found : Not *** **** is a harmless wet
+2021-05-06 17:11:35,248 INFO EventLog: Microsoft cloud found : After sweat
+2021-05-06 17:11:39,782 INFO EventLog: Microsoft cloud found : This is sure
+2021-05-06 17:11:42,020 INFO EventLog: Microsoft cloud found : After sweat
+2021-05-06 17:11:48,867 INFO EventLog: Microsoft cloud found : Based after sweat
+2021-05-06 17:11:48,921 INFO EventLog: Trigger word Paste
+2021-05-06 17:11:53,936 INFO EventLog: Microsoft cloud found : Let's see
+2021-05-06 17:12:00,272 INFO EventLog: Microsoft cloud found : Delete
+2021-05-06 17:12:04,342 INFO EventLog: Microsoft cloud found : Cortana delete no doctor in Hotmail email text
+2021-05-06 17:12:08,091 INFO EventLog: Microsoft cloud found : She moved up Koda dementia, most could not copy
+2021-05-06 17:12:13,136 INFO EventLog: Microsoft cloud found : Ingersoll Ram Ram rocket emblem it's nearly impossible to forget
+2021-05-06 17:12:19,051 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:12:20,463 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:12:23,602 INFO EventLog: Microsoft cloud found : Will it snow darker than hopefully my text
+2021-05-06 17:12:26,970 INFO EventLog: Microsoft cloud found : Husband couldn't dimension was recorded copy
+2021-05-06 17:12:34,048 INFO EventLog: Microsoft cloud found : Even in death on him in Pocket and William, it's nearly impossible to forget an insult with his backbone
+2021-05-06 17:12:41,155 INFO EventLog: Microsoft cloud found : Alchemist Academy locational. She it's flooded the lid from its
+2021-05-06 17:12:48,522 INFO EventLog: Microsoft cloud found : Lock him again. I look at Mr. Kelly Miller Horner. She forgets the luggage to forget
+2021-05-06 17:12:54,525 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:13:00,535 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:13:06,509 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:13:12,583 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:13:14,002 INFO EventLog: Microsoft cloud found : X
+2021-05-06 17:13:19,471 INFO EventLog: Microsoft cloud found : Fix
+2021-05-06 17:13:19,509 INFO EventLog: Trigger word Fix
+2021-05-06 17:13:24,324 INFO EventLog: Changed forggeting to forgetting in point x=890 y=639 range start=529 end=539
+2021-05-06 17:13:27,787 INFO EventLog: Microsoft cloud found : Fix
+2021-05-06 17:13:27,835 INFO EventLog: Trigger word Fix
+2021-05-06 17:13:28,728 INFO EventLog: No misspelled word found close to eye gaze
+2021-05-06 17:13:33,244 INFO EventLog: Microsoft cloud found : Delete
+2021-05-06 17:13:36,460 INFO EventLog: Microsoft cloud found : Delete no docket in Hotmail in my text
+2021-05-06 17:13:36,506 INFO EventLog: Trigger word Delete One Word
+2021-05-06 17:13:40,449 INFO EventLog: Microsoft cloud found : Demolish emotional, couldn't copy
+2021-05-06 17:13:47,503 INFO EventLog: Microsoft cloud found : Indians on him limiting William it's nearly impossible for getting an insane
+2021-05-06 17:13:54,073 INFO EventLog: Microsoft cloud found : Alchemist Girl in Malaysia. She it's like it delete from it
+2021-05-06 17:13:58,718 INFO EventLog: Microsoft cloud found : Lecompton, Mr. Klein Miller, Horner she forgetting
+2021-05-06 17:14:01,750 INFO EventLog: Microsoft cloud found : Yeah, do 2 for getting
+2021-05-06 17:14:05,800 INFO EventLog: Microsoft cloud found : Let me show you how to make sure that this solution out vehicle
+2021-05-06 17:14:07,502 INFO EventLog: Microsoft cloud found : Catki
+2021-05-06 17:14:09,848 INFO EventLog: Microsoft cloud found : Delete from its
+2021-05-06 17:14:09,914 INFO EventLog: Trigger word Delete From
+2021-05-06 17:14:15,467 INFO EventLog: Microsoft cloud found : Two forgetting
+2021-05-06 17:14:15,523 INFO EventLog: Trigger word Delete From To
+2021-05-06 17:14:19,305 INFO EventLog: Changed It’s to  in point x=593 y=639 range start=505 end=505
+2021-05-06 17:14:22,952 INFO EventLog: Microsoft cloud found : Luca
+2021-05-06 17:14:29,323 INFO EventLog: Microsoft cloud found : Cancel
+2021-05-06 17:14:29,478 INFO EventLog: Changed  to It’s nearly impossible forgetting in point x=593 y=639 range start=505 end=538
+2021-05-06 17:14:36,398 INFO EventLog: Microsoft cloud found : The South Branch love show the Clover. Get cancelled or behalf little at the polar ownership better
+2021-05-06 17:14:42,356 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:14:48,347 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:14:54,334 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:14:55,723 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:15:01,736 INFO EventLog: Microsoft cloud found : Delete from its
+2021-05-06 17:15:01,807 INFO EventLog: Trigger word Delete From
+2021-05-06 17:15:05,843 INFO EventLog: Microsoft cloud found : Two forgetting
+2021-05-06 17:15:05,895 INFO EventLog: Trigger word Delete From To
+2021-05-06 17:15:09,726 INFO EventLog: Changed It’s to  in point x=599 y=639 range start=505 end=505
+2021-05-06 17:15:15,573 INFO EventLog: Microsoft cloud found : Something the better growth days are cancelled
+2021-05-06 17:15:22,616 INFO EventLog: Microsoft cloud found : The horse love. So the cleaner gates that have good luck answered or the hospital at the polar ownership better
+2021-05-06 17:15:24,045 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:15:26,377 INFO EventLog: Microsoft cloud found : Cancel
+2021-05-06 17:15:26,602 INFO EventLog: Changed  to It’s nearly impossible forgetting in point x=599 y=639 range start=505 end=538
+2021-05-06 17:15:32,283 INFO EventLog: Microsoft cloud found : Message later
+2021-05-06 17:15:38,286 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:15:44,300 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:50:02,644 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-06 17:50:08,447 INFO EventLog: Starting initialization of the system
+2021-05-06 17:50:12,755 INFO EventLog: Trying to open documtent
+2021-05-06 17:50:13,661 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-06 17:50:15,330 INFO EventLog: Connect to Microsoft cloud
+2021-05-06 17:50:21,300 INFO EventLog: Microsoft cloud found : OK
+2021-05-06 17:50:24,050 INFO EventLog: Microsoft cloud found : Ke
+2021-05-06 17:50:26,676 INFO EventLog: Microsoft cloud found : Stop
+2021-05-06 17:50:28,658 INFO EventLog: Microsoft cloud found : Mr. Bell
+2021-05-06 17:50:30,959 INFO EventLog: Microsoft cloud found : Try
+2021-05-06 17:50:32,873 INFO EventLog: Microsoft cloud found : Blah
+2021-05-06 17:50:38,751 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:50:43,066 INFO EventLog: Microsoft cloud found : Fix
+2021-05-06 17:50:43,128 INFO EventLog: Trigger word Fix
+2021-05-06 17:50:43,914 INFO EventLog: Changed acros to across in point x=938 y=498 range start=287 end=293
+2021-05-06 17:50:50,066 INFO EventLog: Microsoft cloud found : Replace markets to consumer
+2021-05-06 17:50:50,074 INFO EventLog: Trigger word Replace
+2021-05-06 17:50:50,672 INFO EventLog: Changed market to consumer in point x=1219 y=453 range start=247 end=255
+2021-05-06 17:50:56,769 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:51:01,708 INFO EventLog: Microsoft cloud found : Fix
+2021-05-06 17:51:01,756 INFO EventLog: Trigger word Fix
+2021-05-06 17:51:02,391 INFO EventLog: Changed wth to with in point x=848 y=453 range start=217 end=221
+2021-05-06 17:51:08,333 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:51:14,250 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:55:10,649 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-06 17:55:13,742 INFO EventLog: Starting initialization of the system
+2021-05-06 17:55:17,823 INFO EventLog: Trying to open documtent
+2021-05-06 17:55:18,665 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-06 17:55:20,280 INFO EventLog: Connect to Microsoft cloud
+2021-05-06 17:55:26,148 INFO EventLog: Microsoft cloud found : Fix
+2021-05-06 17:55:26,231 INFO EventLog: Trigger word Fix
+2021-05-06 17:55:26,932 INFO EventLog: Changed mkes to makes in point x=1222 y=318 range start=56 end=61
+2021-05-06 17:55:33,033 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:55:36,366 INFO EventLog: Microsoft cloud found : Place that too big
+2021-05-06 17:55:42,357 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:55:48,348 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:55:54,815 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:56:00,802 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:56:06,793 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:56:12,692 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:56:18,638 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:56:42,698 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-06 17:56:45,094 INFO EventLog: Starting initialization of the system
+2021-05-06 17:56:49,141 INFO EventLog: Trying to open documtent
+2021-05-06 17:56:49,866 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-06 17:56:51,450 INFO EventLog: Connect to Microsoft cloud
+2021-05-06 17:56:56,491 INFO EventLog: Microsoft cloud found : Fix
+2021-05-06 17:57:05,484 INFO EventLog: Trigger word Fix
+2021-05-06 17:57:05,862 INFO EventLog: No misspelled word found close to eye gaze
+2021-05-06 17:57:12,153 INFO EventLog: Microsoft cloud found : Replace
+2021-05-06 17:57:19,782 INFO EventLog: Microsoft cloud found : Replace breath to breed
+2021-05-06 17:57:25,044 INFO EventLog: Trigger word Replace
+2021-05-06 17:57:31,306 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:57:37,318 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:57:45,951 INFO EventLog: Microsoft cloud found : Replace water to dirt
+2021-05-06 17:57:45,958 INFO EventLog: Trigger word Replace
+2021-05-06 17:57:46,435 INFO EventLog: Changed water to dirt in point x=658 y=453 range start=199 end=203
+2021-05-06 17:57:52,449 INFO EventLog: Microsoft cloud found : 
+2021-05-06 17:57:59,623 INFO EventLog: Microsoft cloud found : Replace ice to send
+2021-05-06 17:59:57,527 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-06 18:00:00,110 INFO EventLog: Starting initialization of the system
+2021-05-06 18:00:03,719 INFO EventLog: Trying to open documtent
+2021-05-06 18:00:04,131 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-06 18:00:05,630 INFO EventLog: Connect to Microsoft cloud
+2021-05-06 18:00:11,550 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:00:14,836 INFO EventLog: Microsoft cloud found : Tree after faces
+2021-05-06 18:00:21,662 INFO EventLog: Microsoft cloud found : Add tree after faces
+2021-05-06 18:06:09,449 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-06 18:06:12,339 INFO EventLog: Starting initialization of the system
+2021-05-06 18:06:15,958 INFO EventLog: Trying to open documtent
+2021-05-06 18:06:16,344 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-06 18:06:17,846 INFO EventLog: Connect to Microsoft cloud
+2021-05-06 18:06:22,487 INFO EventLog: Microsoft cloud found : Add fan
+2021-05-06 18:06:29,830 INFO EventLog: Microsoft cloud found : Add fan to breath
+2021-05-06 18:06:35,837 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:06:43,160 INFO EventLog: Microsoft cloud found : Add fan to breath
+2021-05-06 18:06:49,085 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:06:55,063 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:07:00,963 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:07:09,562 INFO EventLog: Microsoft cloud found : Add fan to breath ****
+2021-05-06 18:07:16,584 INFO EventLog: Microsoft cloud found : Add fan after breath
+2021-05-06 18:07:16,621 INFO EventLog: Trigger word add
+2021-05-06 18:07:16,941 INFO EventLog: Changed breath to breath fan in point x=872 y=797 range start=571 end=581
+2021-05-06 18:07:22,998 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:07:26,265 INFO EventLog: Microsoft cloud found : Matter
+2021-05-06 18:07:28,583 INFO EventLog: Microsoft cloud found : Hey Cortana
+2021-05-06 18:07:33,501 INFO EventLog: Microsoft cloud found : Look, look
+2021-05-06 18:07:36,622 INFO EventLog: Microsoft cloud found : Because I heard the bells on this book
+2021-05-06 18:07:42,550 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:07:47,700 INFO EventLog: Microsoft cloud found : Not funny cast
+2021-05-06 18:07:50,823 INFO EventLog: Microsoft cloud found : Sorry
+2021-05-06 18:07:58,242 INFO EventLog: Microsoft cloud found : Yeah
+2021-05-06 18:08:04,190 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:08:10,503 INFO EventLog: Microsoft cloud found : Add fan after breath
+2021-05-06 18:08:43,303 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-06 18:08:45,960 INFO EventLog: Starting initialization of the system
+2021-05-06 18:08:49,567 INFO EventLog: Trying to open documtent
+2021-05-06 18:08:49,964 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-06 18:08:51,460 INFO EventLog: Connect to Microsoft cloud
+2021-05-06 18:08:55,500 INFO EventLog: Microsoft cloud found : Add fan after breath
+2021-05-06 18:08:55,537 INFO EventLog: Trigger word add
+2021-05-06 18:08:55,858 INFO EventLog: Changed breath to breath fan in point x=872 y=797 range start=571 end=581
+2021-05-06 18:09:01,272 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:09:07,265 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:09:12,669 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:09:15,361 INFO EventLog: Microsoft cloud found : Fix
+2021-05-06 18:09:15,383 INFO EventLog: Trigger word Fix
+2021-05-06 18:09:15,736 INFO EventLog: Changed dimiish to diminish in point x=652 y=543 range start=327 end=335
+2021-05-06 18:09:21,593 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:09:27,515 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:09:33,513 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:09:37,633 INFO EventLog: Microsoft cloud found : Add fan after casting
+2021-05-06 18:09:44,155 INFO EventLog: Trigger word add
+2021-05-06 18:09:51,207 INFO EventLog: Microsoft cloud found : Add sand after ice
+2021-05-06 18:09:55,176 INFO EventLog: Trigger word add
+2021-05-06 18:10:03,249 INFO EventLog: Microsoft cloud found : Add fan after ice
+2021-05-06 18:10:03,274 INFO EventLog: Trigger word add
+2021-05-06 18:10:03,562 INFO EventLog: Changed ice to ice fan in point x=992 y=453 range start=229 end=236
+2021-05-06 18:10:11,268 INFO EventLog: Microsoft cloud found : Replace feet to leg
+2021-05-06 18:10:11,289 INFO EventLog: Trigger word Replace
+2021-05-06 18:10:11,559 INFO EventLog: Changed Feet to Leg in point x=794 y=408 range start=142 end=145
+2021-05-06 18:10:17,582 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:10:20,389 INFO EventLog: Microsoft cloud found : Delete from diminish
+2021-05-06 18:10:20,409 INFO EventLog: Trigger word Delete From
+2021-05-06 18:10:24,009 INFO EventLog: Microsoft cloud found : Two there
+2021-05-06 18:10:24,030 INFO EventLog: Trigger word Delete From To
+2021-05-06 18:10:27,271 INFO EventLog: Changed diminish to  in point x=660 y=543 range start=303 end=303
+2021-05-06 18:10:33,330 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:10:36,923 INFO EventLog: Microsoft cloud found : 2 ice
+2021-05-06 18:10:36,950 INFO EventLog: Trigger word Delete From To
+2021-05-06 18:10:40,239 INFO EventLog: Changed diminish to  in point x=660 y=543 range start=231 end=231
+2021-05-06 18:10:43,359 INFO EventLog: Microsoft cloud found : Delete from worth
+2021-05-06 18:10:43,381 INFO EventLog: Trigger word Delete From
+2021-05-06 18:10:47,178 INFO EventLog: Microsoft cloud found : Two bodies
+2021-05-06 18:10:47,196 INFO EventLog: Trigger word Delete From To
+2021-05-06 18:10:50,462 INFO EventLog: Changed warmth to  in point x=801 y=543 range start=343 end=343
+2021-05-06 18:10:56,954 INFO EventLog: Microsoft cloud found : Copy from leg
+2021-05-06 18:10:56,977 INFO EventLog: Trigger word Copy From
+2021-05-06 18:11:00,353 INFO EventLog: Microsoft cloud found : Two pools
+2021-05-06 18:11:00,358 INFO EventLog: Trigger word Copy From To
+2021-05-06 18:11:00,631 INFO EventLog: Changed Leg to  in point x=790 y=408 range start=142 end=175
+2021-05-06 18:11:05,003 INFO EventLog: Microsoft cloud found : Paste after shiny
+2021-05-06 18:11:05,031 INFO EventLog: Trigger word Paste
+2021-05-06 18:11:11,660 INFO EventLog: Microsoft cloud found : Add after one
+2021-05-06 18:11:11,687 INFO EventLog: Trigger word add
+2021-05-06 18:11:11,963 INFO EventLog: Changed one to one in point x=658 y=318 range start=5 end=8
+2021-05-06 18:11:17,881 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:11:19,586 INFO EventLog: Microsoft cloud found : After one
+2021-05-06 18:11:26,188 INFO EventLog: Microsoft cloud found : Add big after one
+2021-05-06 18:11:26,212 INFO EventLog: Trigger word add
+2021-05-06 18:11:26,482 INFO EventLog: Changed one to one big in point x=658 y=318 range start=5 end=12
+2021-05-06 18:11:30,210 INFO EventLog: Microsoft cloud found : Add
+2021-05-06 18:11:32,844 INFO EventLog: Microsoft cloud found : Screen before shiny
+2021-05-06 18:11:39,248 INFO EventLog: Microsoft cloud found : Add screen before shiny
+2021-05-06 18:11:46,157 INFO EventLog: Microsoft cloud found : Add blue before kind
+2021-05-06 18:11:52,162 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:11:58,085 INFO EventLog: Microsoft cloud found : Add blue after kind
+2021-05-06 18:11:58,108 INFO EventLog: Trigger word add
+2021-05-06 18:11:58,396 INFO EventLog: Changed kind to kind blue in point x=1079 y=318 range start=43 end=52
+2021-05-06 18:12:04,240 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:12:06,188 INFO EventLog: Microsoft cloud found : Thanks
+2021-05-06 18:12:13,881 INFO EventLog: Microsoft cloud found : Add one before breeze
+2021-05-06 18:12:18,999 INFO EventLog: Microsoft cloud found : Add one after breeze
+2021-05-06 18:12:19,021 INFO EventLog: Trigger word add
+2021-05-06 18:12:19,307 INFO EventLog: Changed breeze to breeze one in point x=675 y=498 range start=274 end=284
+2021-05-06 18:12:21,636 INFO EventLog: Microsoft cloud found : Maxi
+2021-05-06 18:12:25,689 INFO EventLog: Microsoft cloud found : Things that they contacted
+2021-05-06 18:12:28,338 INFO EventLog: Microsoft cloud found : Don't be foremost looked after
+2021-05-06 18:12:33,730 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:12:40,138 INFO EventLog: Microsoft cloud found : Ceramic
+2021-05-06 18:12:42,952 INFO EventLog: Microsoft cloud found : Yeah
+2021-05-06 18:12:48,860 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:12:54,765 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:17:31,887 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-06 18:17:35,432 INFO EventLog: Starting initialization of the system
+2021-05-06 18:17:39,059 INFO EventLog: Trying to open documtent
+2021-05-06 18:17:39,563 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-06 18:17:39,737 INFO EventLog: Connect to Microsoft cloud
+2021-05-06 18:17:45,761 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:17:51,758 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:17:57,802 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:18:03,795 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:18:08,117 INFO EventLog: Microsoft cloud found : Put fix
+2021-05-06 18:18:14,634 INFO EventLog: Microsoft cloud found : Let's fix model that can be lost so it'll only activate on her stomach
+2021-05-06 18:18:21,188 INFO EventLog: Microsoft cloud found : Connecticut adult as this or talk about Ella Mail as young, virginal fix
+2021-05-06 18:18:24,828 INFO EventLog: Microsoft cloud found : I heard that Canada don't allow opt out of albuterol
+2021-05-06 18:18:29,030 INFO EventLog: Microsoft cloud found : Fix
+2021-05-06 18:18:29,053 INFO EventLog: Trigger word Fix
+2021-05-06 18:18:29,498 INFO EventLog: Changed mkes to makes in point x=1321 y=318 range start=65 end=70
+2021-05-06 18:18:36,093 INFO EventLog: Microsoft cloud found : Similar
+2021-05-06 18:18:37,807 INFO EventLog: Microsoft cloud found : Budget
+2021-05-06 18:18:40,609 INFO EventLog: Microsoft cloud found : Doc login options
+2021-05-06 18:18:43,442 INFO EventLog: Microsoft cloud found : Even flow chart
+2021-05-06 18:18:47,678 INFO EventLog: Microsoft cloud found : Content of carbohydrates oils. Again with Mr Schultz
+2021-05-06 18:18:50,681 INFO EventLog: Microsoft cloud found : Deauxma milazz
+2021-05-06 18:18:52,085 INFO EventLog: Microsoft cloud found : Fix
+2021-05-06 18:18:52,104 INFO EventLog: Trigger word Fix
+2021-05-06 18:18:52,457 INFO EventLog: Changed acrss to across in point x=697 y=588 range start=395 end=401
+2021-05-06 18:18:56,386 INFO EventLog: Microsoft cloud found : Options
+2021-05-06 18:18:59,718 INFO EventLog: Microsoft cloud found : 1
+2021-05-06 18:18:59,758 INFO EventLog: Changed acrss to arcs in point x=697 y=588 range start=395 end=399
+2021-05-06 18:19:05,719 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:19:09,635 INFO EventLog: Microsoft cloud found : What other place
+2021-05-06 18:19:15,106 INFO EventLog: Microsoft cloud found : Product replace Nodoka della Cliff Miller Hut Alamosa let me lock it
+2021-05-06 18:19:21,327 INFO EventLog: Microsoft cloud found : As well as, these are tough ball Illumina so attempts English or not
+2021-05-06 18:19:23,856 INFO EventLog: Microsoft cloud found : Book
+2021-05-06 18:19:27,963 INFO EventLog: Microsoft cloud found : They will replace give to take
+2021-05-06 18:19:32,656 INFO EventLog: Microsoft cloud found : Replace give to take
+2021-05-06 18:19:32,675 INFO EventLog: Trigger word Replace
+2021-05-06 18:19:33,044 INFO EventLog: Changed give to take in point x=636 y=842 range start=637 end=641
+2021-05-06 18:19:36,744 INFO EventLog: Microsoft cloud found : Manila
+2021-05-06 18:19:40,576 INFO EventLog: Microsoft cloud found : Put it
+2021-05-06 18:19:43,911 INFO EventLog: Microsoft cloud found : So
+2021-05-06 18:19:50,924 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:19:52,326 INFO EventLog: Microsoft cloud found : It
+2021-05-06 18:19:55,850 INFO EventLog: Microsoft cloud found : Put that it nardello safe Milliman text
+2021-05-06 18:20:01,877 INFO EventLog: Microsoft cloud found : What color is the whole lawsuit? Medium High Milliman buttocks
+2021-05-06 18:20:08,037 INFO EventLog: Microsoft cloud found : The kitchen was seamless at Amelia size. Hi, Amir, same
+2021-05-06 18:20:15,301 INFO EventLog: Microsoft cloud found : As this attack about Ella Bella saying they will add size after saying
+2021-05-06 18:20:15,330 INFO EventLog: Trigger word add
+2021-05-06 18:20:18,524 INFO EventLog: Microsoft cloud found : So some of the game
+2021-05-06 18:20:22,628 INFO EventLog: Microsoft cloud found : Ed size after same
+2021-05-06 18:20:22,644 INFO EventLog: Trigger word add
+2021-05-06 18:20:23,032 INFO EventLog: Changed same to same size in point x=1165 y=956 range start=945 end=954
+2021-05-06 18:20:25,961 INFO EventLog: Microsoft cloud found : Location
+2021-05-06 18:20:31,872 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:20:37,962 INFO EventLog: Microsoft cloud found : Copy paste
+2021-05-06 18:20:43,534 INFO EventLog: Microsoft cloud found : Madonna buder illa take milima. Text will not become become shining
+2021-05-06 18:20:47,270 INFO EventLog: Microsoft cloud found : As he must be copy, but Abbott Alaba
+2021-05-06 18:20:53,008 INFO EventLog: Microsoft cloud found : Get your temple similar. Take it a million. She will appreciate the idea
+2021-05-06 18:21:00,250 INFO EventLog: Microsoft cloud found : Assistant off ball elevation a tick she she
+2021-05-06 18:21:02,734 INFO EventLog: Microsoft cloud found : Copy from she
+2021-05-06 18:21:02,756 INFO EventLog: Trigger word Copy From
+2021-05-06 18:21:04,748 INFO EventLog: Microsoft cloud found : Come again
+2021-05-06 18:21:08,722 INFO EventLog: Microsoft cloud found : Cancel
+2021-05-06 18:21:08,773 INFO EventLog: Changed same size to same in point x=1165 y=956 range start=945 end=949
+2021-05-06 18:21:14,825 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:21:20,710 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:21:26,616 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:21:31,041 INFO EventLog: Microsoft cloud found : Copy paste
+2021-05-06 18:21:36,016 INFO EventLog: Microsoft cloud found : Masada Elastic Milima text who had become become sooner
+2021-05-06 18:21:39,548 INFO EventLog: Microsoft cloud found : She must be copy made by itself. It's a Barber
+2021-05-06 18:21:43,765 INFO EventLog: Microsoft cloud found : Shut down with similar ticket and William. She will appreciate the idea
+2021-05-06 18:21:46,552 INFO EventLog: Microsoft cloud found : Sample
+2021-05-06 18:21:54,758 INFO EventLog: Microsoft cloud found : As this will talk about Ella Mail, additional orthotic, Chichi veemo copy from she
+2021-05-06 18:22:03,127 INFO EventLog: Microsoft cloud found : Now we can talk about it. Let me know what else would I think she idea that Aikido to idea
+2021-05-06 18:22:09,368 INFO EventLog: Microsoft cloud found : Curtain is positive, so I think you'd gosh after that big water comma based
+2021-05-06 18:22:11,265 INFO EventLog: Microsoft cloud found : I'm gay
+2021-05-06 18:22:13,576 INFO EventLog: Microsoft cloud found : Copy from she
+2021-05-06 18:22:13,598 INFO EventLog: Trigger word Copy From
+2021-05-06 18:22:17,007 INFO EventLog: Microsoft cloud found : Two idea
+2021-05-06 18:22:17,010 INFO EventLog: Trigger word Copy From To
+2021-05-06 18:22:17,308 INFO EventLog: Changed She to  in point x=835 y=834 range start=716 end=744
+2021-05-06 18:22:22,810 INFO EventLog: Microsoft cloud found : Kate Nevada pes
+2021-05-06 18:22:27,685 INFO EventLog: Microsoft cloud found : Academisch bottle of him high Olive nee Miller. Miss Irvine protext
+2021-05-06 18:22:33,781 INFO EventLog: Microsoft cloud found : China could talk about and be long. Son protects mcgeachy sweat
+2021-05-06 18:22:36,389 INFO EventLog: Microsoft cloud found : Demo based on sweats
+2021-05-06 18:22:40,620 INFO EventLog: Microsoft cloud found : Both are both made. A Twitter is gonna be for the big day
+2021-05-06 18:22:43,222 INFO EventLog: Microsoft cloud found : Kids game
+2021-05-06 18:22:45,333 INFO EventLog: Microsoft cloud found : After sweat
+2021-05-06 18:22:51,741 INFO EventLog: Microsoft cloud found : Based after sweet
+2021-05-06 18:22:51,761 INFO EventLog: Trigger word Paste
+2021-05-06 18:22:58,341 INFO EventLog: Microsoft cloud found : Sweet
+2021-05-06 18:23:04,343 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:23:10,274 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:23:16,184 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:23:20,333 INFO EventLog: Microsoft cloud found : Wouldn't delete node and cuddling Hawk Malema text
+2021-05-06 18:23:23,975 INFO EventLog: Microsoft cloud found : She must have put the domain ownership without copy
+2021-05-06 18:23:30,212 INFO EventLog: Microsoft cloud found : Can someone hook at a million? It's nearly impossible for getting an insane with Scottish button
+2021-05-06 18:23:35,586 INFO EventLog: Microsoft cloud found : Alison's is adorable animal. Additional sheets
+2021-05-06 18:23:37,489 INFO EventLog: Microsoft cloud found : Pull it from its
+2021-05-06 18:23:42,509 INFO EventLog: Microsoft cloud found : Llama can alcohol alamilla hana she forgetting
+2021-05-06 18:23:45,626 INFO EventLog: Microsoft cloud found : Flag it to forgetting
+2021-05-06 18:23:52,040 INFO EventLog: Microsoft cloud found : A million Shelton? Yeah sure let me solutions Villa Comicon, Morocco
+2021-05-06 18:23:54,396 INFO EventLog: Microsoft cloud found : Delete from its
+2021-05-06 18:23:54,426 INFO EventLog: Trigger word Delete From
+2021-05-06 18:23:57,906 INFO EventLog: Microsoft cloud found : Two forgetting
+2021-05-06 18:23:57,926 INFO EventLog: Trigger word Delete From To
+2021-05-06 18:24:01,210 INFO EventLog: Changed It’s to  in point x=593 y=744 range start=523 end=523
+2021-05-06 18:24:04,023 INFO EventLog: Microsoft cloud found : The Hancock
+2021-05-06 18:24:08,540 INFO EventLog: Microsoft cloud found : Catonsville could cancel
+2021-05-06 18:24:15,405 INFO EventLog: Microsoft cloud found : The horse love. So the whole I get cancelled because little at the polar Horner Sheet pizza
+2021-05-06 18:24:18,143 INFO EventLog: Microsoft cloud found : But if doc
+2021-05-06 18:24:20,558 INFO EventLog: Microsoft cloud found : Cancel
+2021-05-06 18:24:20,606 INFO EventLog: Changed  to It’s nearly impossible forgetting in point x=593 y=744 range start=523 end=556
+2021-05-06 18:24:25,734 INFO EventLog: Microsoft cloud found : Because the 1,000,000 mark tapers upward elite
+2021-05-06 18:24:31,737 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:24:37,805 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:24:43,798 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:24:49,781 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:24:55,835 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:25:01,761 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:25:07,778 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:25:13,702 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:25:19,706 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:25:25,762 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:25:31,767 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:25:37,752 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:25:43,159 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:25:48,555 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:25:54,460 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:26:00,369 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:26:05,770 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:26:11,694 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:26:17,082 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:26:22,470 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:26:28,474 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:26:34,388 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:26:40,363 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:26:46,269 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:26:52,178 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:26:58,071 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:27:04,056 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:27:09,876 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:27:15,760 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:27:21,755 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:27:27,152 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:27:32,548 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:27:38,454 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:27:44,362 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:27:49,747 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:27:55,141 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:28:00,538 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:28:06,522 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:28:11,913 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:28:17,833 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:28:23,721 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:28:29,645 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:28:35,635 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:28:41,452 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:28:47,462 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:28:53,456 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:28:59,464 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:29:05,370 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:29:11,267 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:29:17,183 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:29:23,221 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:29:29,125 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:29:35,030 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:29:40,940 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:29:46,915 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:29:52,897 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:29:58,904 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:30:04,951 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:30:10,935 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:30:16,331 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:30:22,336 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:30:28,325 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:30:34,315 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:30:40,318 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:30:45,715 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:30:51,691 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:30:57,691 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:31:03,088 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:31:08,977 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:31:14,902 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:31:20,903 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:31:26,852 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:31:32,831 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:31:38,747 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:31:44,673 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:31:50,671 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:31:56,656 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:32:02,054 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:32:08,032 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:32:14,032 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:32:19,425 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:32:24,818 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:32:30,823 INFO EventLog: Microsoft cloud found : 
+2021-05-06 18:32:36,892 INFO EventLog: Microsoft cloud found : 

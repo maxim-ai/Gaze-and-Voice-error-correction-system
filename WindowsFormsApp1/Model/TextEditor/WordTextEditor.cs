@@ -430,8 +430,10 @@ namespace EyeGaze.TextEditor
         public void HighlightWord(Range rangeToHighlight)
         {
             WdColorIndex prevColor = rangeToHighlight.HighlightColorIndex;
+            if (prevColor == WdColorIndex.wdYellow)
+                prevColor = WdColorIndex.wdWhite;
             rangeToHighlight.HighlightColorIndex = WdColorIndex.wdYellow;
-            Thread.Sleep(4000);
+            Thread.Sleep(3000);
             if (fileIsOpen)
                 try { rangeToHighlight.HighlightColorIndex = prevColor; }
                 catch(Exception e) { }
@@ -511,6 +513,8 @@ namespace EyeGaze.TextEditor
             Range rangeToHighlight = startRange.range.Duplicate;
             Thread thread = new Thread(() => {
                 WdColorIndex prevColor = rangeToHighlight.HighlightColorIndex;
+                if (prevColor == WdColorIndex.wdYellow)
+                    prevColor = WdColorIndex.wdWhite;
                 rangeToHighlight.HighlightColorIndex = WdColorIndex.wdYellow;
                 Thread.Sleep(milSecs);
                 if (fileIsOpen)
@@ -534,6 +538,8 @@ namespace EyeGaze.TextEditor
             if (this.lastCopiedSentenceInfo.range != null) this.StopHightlightLastCopiedSentece();
             Range rangeToHighlight = range.range.Duplicate;
             WdColorIndex prevColor = rangeToHighlight.HighlightColorIndex;
+            if (prevColor == WdColorIndex.wdYellow)
+                prevColor = WdColorIndex.wdWhite;
             rangeToHighlight.HighlightColorIndex = WdColorIndex.wdYellow;
             this.lastCopiedSentenceInfo = (rangeToHighlight, prevColor);
         }
