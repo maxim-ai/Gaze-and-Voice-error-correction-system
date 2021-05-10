@@ -106,9 +106,6 @@
     <Reference Include="DnsClient, Version=1.3.1.0, Culture=neutral, PublicKeyToken=4574bb5573c51424, processorArchitecture=MSIL">
       <HintPath>..\packages\DnsClient.1.3.1\lib\net471\DnsClient.dll</HintPath>
     </Reference>
-    <Reference Include="ExperimentSystem, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ExperimentSystem.2.2.0\lib\net461\ExperimentSystem.exe</HintPath>
-    </Reference>
     <Reference Include="Google.Api.CommonProtos, Version=2.2.0.0, Culture=neutral, PublicKeyToken=3ec5ea7f18953e47, processorArchitecture=MSIL">
       <HintPath>..\packages\Google.Api.CommonProtos.2.2.0\lib\net461\Google.Api.CommonProtos.dll</HintPath>
     </Reference>
@@ -209,6 +206,15 @@
     <Reference Include="SharpCompress, Version=0.23.0.0, Culture=neutral, PublicKeyToken=afb0a02973931d96, processorArchitecture=MSIL">
       <HintPath>..\packages\SharpCompress.0.23.0\lib\net45\SharpCompress.dll</HintPath>
     </Reference>
+    <Reference Include="Spire.Doc, Version=9.4.18.0, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spire.Doc.9.4.18\lib\net40\Spire.Doc.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.License, Version=1.3.8.40, Culture=neutral, PublicKeyToken=b1144360237c8b3f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spire.Doc.9.4.18\lib\net40\Spire.License.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.Pdf, Version=7.4.13.0, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spire.Doc.9.4.18\lib\net40\Spire.Pdf.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
@@ -302,6 +308,29 @@
     <Compile Include="Experiment\ExperimentHelpForm.Designer.cs">
       <DependentUpon>ExperimentHelpForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Expr\Class1.cs" />
+    <Compile Include="Expr\dataframe.cs" />
+    <Compile Include="Expr\DBWriterInterface.cs" />
+    <Compile Include="Expr\ExperimentEvent.cs" />
+    <Compile Include="Expr\Guide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expr\Guide.designer.cs">
+      <DependentUpon>Guide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Expr\MainClass.cs" />
+    <Compile Include="Expr\POPUP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Expr\POPUP.Designer.cs">
+      <DependentUpon>POPUP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Expr\Properties\AssemblyInfo.cs" />
+    <Compile Include="Expr\Properties\Resource1.Designer.cs" />
+    <Compile Include="Expr\Resources\old\Resource1.Designer.cs" />
+    <Compile Include="Expr\Resources\old\Resource2.Designer.cs" />
+    <Compile Include="Expr\TextAndMissions.cs" />
+    <Compile Include="Expr\writeToCSV.cs" />
     <Compile Include="Model\Engine\EngineMain.cs" />
     <Compile Include="Model\EyeTracking\debugger.cs">
       <SubType>Form</SubType>
@@ -349,7 +378,6 @@
     <Compile Include="Model\SpellChecker\WordSpell.cs" />
     <Compile Include="Model\EyeTracking\MousePoint.cs" />
     <Compile Include="Logger\SystemLogger.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Model\SpeechToText\ConnectionFailedException.cs" />
     <Compile Include="Model\Engine\MessageEvent.cs" />
     <Compile Include="Model\SpeechToText\IBMCloudSpeechToText.cs" />
@@ -362,25 +390,39 @@
     <Compile Include="Model\SpellChecker\NHunspellSpellChecker.cs" />
     <Compile Include="Model\TextEditor\AbstractTextEditor.cs" />
     <Compile Include="Model\TextEditor\WordTextEditor.cs" />
-    <Content Include="Core\Compression\Snappy\lib\win\snappy32.dll" />
-    <Content Include="Core\Compression\Snappy\lib\win\snappy64.dll" />
-    <Content Include="Core\Compression\Zstandard\lib\win\libzstd.dll" />
     <Content Include="Experiment\close_l.png" />
     <Content Include="Experiment\ebg.PNG" />
     <Content Include="Experiment\globe.png" />
     <Content Include="Experiment\hde2.PNG" />
     <Content Include="Experiment\play.png" />
     <Content Include="Experiment\video.png" />
-    <Content Include="libzstd.dll" />
-    <Content Include="mongocrypt.dll" />
-    <Content Include="snappy32.dll" />
-    <Content Include="snappy64.dll" />
+    <Content Include="Expr\content\Core\Compression\Snappy\lib\win\snappy32.dll" />
+    <Content Include="Expr\content\Core\Compression\Snappy\lib\win\snappy64.dll" />
+    <Content Include="Expr\content\Core\Compression\Zstandard\lib\win\libzstd.dll" />
+    <Content Include="Expr\content\libzstd.dll" />
+    <Content Include="Expr\content\mongocrypt.dll" />
+    <Content Include="Expr\content\snappy32.dll" />
+    <Content Include="Expr\content\snappy64.dll" />
+    <Content Include="Expr\Core\Compression\Snappy\lib\win\snappy32.dll" />
+    <Content Include="Expr\Core\Compression\Snappy\lib\win\snappy64.dll" />
+    <Content Include="Expr\Core\Compression\Zstandard\lib\win\libzstd.dll" />
+    <Content Include="Expr\lib\net461\ExperimentSystem.exe" />
+    <Content Include="Expr\Resources\old\commands.txt" />
     <EmbeddedResource Include="Experiment\ExperimentForm.resx">
       <DependentUpon>ExperimentForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Experiment\ExperimentHelpForm.resx">
       <DependentUpon>ExperimentHelpForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Expr\Guide.resx">
+      <DependentUpon>Guide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expr\POPUP.resx">
+      <DependentUpon>POPUP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Expr\Properties\Resource1.resx" />
+    <EmbeddedResource Include="Expr\Resources\old\Resource1.resx" />
+    <EmbeddedResource Include="Expr\Resources\old\Resource2.resx" />
     <EmbeddedResource Include="View\Frontend.resx">
       <DependentUpon>Frontend.cs</DependentUpon>
     </EmbeddedResource>
@@ -393,6 +435,43 @@
     <EmbeddedResource Include="View\suggestionPopup.resx">
       <DependentUpon>suggestionPopup.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Expr\app.config" />
+    <None Include="Expr\Experiment.csproj" />
+    <None Include="Expr\Experiment.nuspec" />
+    <None Include="Expr\packages.config" />
+    <None Include="Expr\package\services\metadata\core-properties\5531de171ba944e09875fa7227aef50a.psmdcp" />
+    <None Include="Expr\Resources\exp1.docx" />
+    <None Include="Expr\Resources\exp3.docx" />
+    <None Include="Expr\Resources\food.docx" />
+    <None Include="Expr\Resources\missions.csv" />
+    <None Include="Expr\Resources\old\food.docx" />
+    <None Include="Expr\Resources\old\missions.csv" />
+    <None Include="Expr\Resources\old\ShortStory.docx" />
+    <None Include="Expr\Resources\old\text_1.docx" />
+    <None Include="Expr\Resources\old\text_2.docx" />
+    <None Include="Expr\Resources\old\text_3.docx" />
+    <None Include="Expr\Resources\old\text_4.docx" />
+    <None Include="Expr\Resources\old\text_5.docx" />
+    <None Include="Expr\Resources\old\text_6.docx" />
+    <None Include="Expr\Resources\old\text_7.docx" />
+    <None Include="Expr\Resources\old\text_8.docx" />
+    <None Include="Expr\Resources\old\text_9.docx" />
+    <None Include="Expr\Resources\pilot.docx" />
+    <None Include="Expr\Resources\VoiceOnly_#1_1.docx" />
+    <None Include="Expr\Resources\VoiceOnly_#1_11.docx" />
+    <None Include="Expr\Resources\VoiceOnly_#1_13.docx" />
+    <None Include="Expr\Resources\VoiceOnly_#1_3.docx" />
+    <None Include="Expr\Resources\VoiceOnly_#1_5.docx" />
+    <None Include="Expr\Resources\VoiceOnly_#1_7.docx" />
+    <None Include="Expr\Resources\VoiceOnly_#1_9.docx" />
+    <None Include="Expr\Resources\VoiceOnly_#3_1.docx" />
+    <None Include="Expr\Resources\VoiceOnly_#3_11.docx" />
+    <None Include="Expr\Resources\VoiceOnly_#3_13.docx" />
+    <None Include="Expr\Resources\VoiceOnly_#3_3.docx" />
+    <None Include="Expr\Resources\VoiceOnly_#3_5.docx" />
+    <None Include="Expr\Resources\VoiceOnly_#3_7.docx" />
+    <None Include="Expr\Resources\VoiceOnly_#3_9.docx" />
+    <None Include="Expr\_rels\.rels" />
     <None Include="icons\question.jpeg" />
     <None Include="icons\question2.png" />
     <Content Include="Hunspellx64.dll" />

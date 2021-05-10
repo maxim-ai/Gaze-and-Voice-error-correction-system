@@ -131,6 +131,8 @@ namespace EyeGaze
         {
             if (expNumber != 0) { this.controller.engineMain.End(); }
 
+            //expNumber = 1;
+
             MainClass mainExpreriment = controller.engineMain.mainExperiment;
             String path = mainExpreriment.GetPath(this.IdTxtBox.Text, "VoiceGaze", expNumber);
 
@@ -138,7 +140,7 @@ namespace EyeGaze
             controller.StartProgram("EyeGaze.SpellChecker.WordSpell", controller.speechToText);
             Thread.Sleep(5000);
 
-            //mainExpreriment.StartExperiment(DateTime.Now);
+            mainExpreriment.StartExperiment(DateTime.Now);
         }
 
         private void End()

@@ -1759,3 +1759,6 @@
 2021-05-06 18:21:54,769 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
 2021-05-06 18:22:58,351 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
 2021-05-06 18:23:52,050 ERROR ErrorLog: Error in parse resultהאינדקס נמצא מחוץ לגבולות המערך.
+2021-05-10 19:53:34,877 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-10 19:53:44,904 ERROR ErrorLog: Word text editor did not open successfully מצטערים, לא היתה אפשרות למצוא את הקובץ. האם הוא הועבר, נמחק או ששמו השתנה? (D:\LocalReps\...\VoiceGaze_#0.docx)
+2021-05-10 19:54:13,357 INFO ErrorLog: ----------------------Starting System-------------------------

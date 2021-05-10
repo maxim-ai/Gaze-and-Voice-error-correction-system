@@ -1,6 +1,0 @@
-ExperimentID,SystemName,TextNumber,UserID,Event,Timestamp
-0_VoiceGaze_123546_03-05-2021,VoiceGaze,0,123546,NewExperiment,2021-05-03 17:44:09
-0_VoiceGaze_123546_03-05-2021,VoiceGaze,0,123546,NewExperiment,2021-05-03 17:57:47
-0_VoiceGaze_123546_03-05-2021,VoiceGaze,0,123546,EndExperiment,2021-05-03 17:59:18
-1_VoiceGaze_123546_03-05-2021,VoiceGaze,1,123546,NewExperiment,2021-05-03 17:59:27
-1_VoiceGaze_123546_03-05-2021,VoiceGaze,1,123546,EndExperiment,2021-05-03 18:01:53
