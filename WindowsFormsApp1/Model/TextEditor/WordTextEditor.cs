@@ -38,6 +38,7 @@ namespace EyeGaze.TextEditor
         private bool isReplaceAll;
         private string lastCopiedSentence;
         private (Range range, WdColorIndex color) lastCopiedSentenceInfo = (null, 0);
+        public bool isSentenceHighlighted = false;
 
         public WordTextEditor(string path)
         {
@@ -518,7 +519,9 @@ namespace EyeGaze.TextEditor
                 rangeToHighlight.HighlightColorIndex = WdColorIndex.wdYellow;
                 Thread.Sleep(milSecs);
                 if (fileIsOpen)
-                    rangeToHighlight.HighlightColorIndex = prevColor;
+                    try { rangeToHighlight.HighlightColorIndex = prevColor; }
+                    catch(Exception e) { }
+                    
             });
             thread.Start();
  
@@ -535,19 +538,34 @@ namespace EyeGaze.TextEditor
 
         public override void HighlightLastCopiedSentence(CoordinateRange range)
         {
-            if (this.lastCopiedSentenceInfo.range != null) this.StopHightlightLastCopiedSentece();
-            Range rangeToHighlight = range.range.Duplicate;
-            WdColorIndex prevColor = rangeToHighlight.HighlightColorIndex;
-            if (prevColor == WdColorIndex.wdYellow)
-                prevColor = WdColorIndex.wdWhite;
-            rangeToHighlight.HighlightColorIndex = WdColorIndex.wdYellow;
-            this.lastCopiedSentenceInfo = (rangeToHighlight, prevColor);
+            try
+            {
+                if (this.lastCopiedSentenceInfo.range != null) this.StopHightlightLastCopiedSentece();
+                Range rangeToHighlight = range.range.Duplicate;
+                WdColorIndex prevColor = rangeToHighlight.HighlightColorIndex;
+                if (prevColor == WdColorIndex.wdYellow)
+                    prevColor = WdColorIndex.wdWhite;
+                rangeToHighlight.HighlightColorIndex = WdColorIndex.wdYellow;
+                this.lastCopiedSentenceInfo = (rangeToHighlight, prevColor);
+                this.isSentenceHighlighted = true;
+            }
+            catch(Exception e) { }
+            
         }
 
         public override void StopHightlightLastCopiedSentece()
         {
-            if (fileIsOpen)
-                lastCopiedSentenceInfo.range.HighlightColorIndex = lastCopiedSentenceInfo.color;
+            try
+            {
+                if (fileIsOpen)
+                {
+                    lastCopiedSentenceInfo.range.HighlightColorIndex = lastCopiedSentenceInfo.color;
+                    this.isSentenceHighlighted = false;
+                }
+            }
+            catch(Exception e) { }
+            
+                
         }
     }
 

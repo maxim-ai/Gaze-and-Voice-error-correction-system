@@ -164,7 +164,12 @@ namespace CsvExample
             currState = Regex.Replace(currState, @"[\d-]", string.Empty);
             currState = removePunctuation(currState);
             var totalTime = calcTotalTime(experimentID,missionID,timestamp, user_id, date);
-            var verdict = compare(missionID, currState);
+            //var verdict = compare(missionID, currState);
+            var verdict = "";
+            if (missionText.Contains("Navigate") && missionText.Contains("line"))
+                verdict = "Pass";
+            else
+                verdict = compare(missionID, currState);
             var newLine = string.Format(
                                     "{0},{1},{2},{3},{4},{5},{6},{7},{8},{9},{10}",
                                     experimentID, missionID, textNumber,
@@ -254,11 +259,13 @@ namespace CsvExample
                 if (int.Parse(missionID.Split('_')[2]) % 2 != 0)
                 {
                     string path = string.Format("{0}Resources\\" + missionID + ".docx", Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\")));
+                    Console.WriteLine(path);
                     Document doc = new Document();
                     doc.LoadFromFile(path);
                     string text = doc.GetText();
                     text = Regex.Replace(text, @"[\d-]", string.Empty);
-
+                    if (text.Contains(".NET.\r\n"))
+                        text = text.Substring(text.IndexOf(".NET.\r\n"));
                     var lines = Regex.Split(text, "\r\n|\r|\n").Skip(1);
                     //Console.WriteLine(text);
                     text = string.Join(Environment.NewLine, lines.ToArray());

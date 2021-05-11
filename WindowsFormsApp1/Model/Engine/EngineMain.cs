@@ -255,7 +255,7 @@ namespace EyeGaze.Engine
         private void Cancel()
         {
             if (lastOperation.trigger == "fix" || lastOperation.trigger == "fixTo" || lastOperation.trigger == "change"
-                || lastOperation.trigger == "replace" || lastOperation.trigger == "add" || lastOperation.trigger == "delete")
+                || lastOperation.trigger == "replace" || lastOperation.trigger == "add" || lastOperation.trigger == "delete"||lastOperation.trigger=="paste")
             {
                 string textBeforeChange = textEditor.getDoc().Content.Text;
                 CoordinateRange newCoords = new CoordinateRange(lastOperation.prevCoord.X, lastOperation.prevCoord.Y, lastOperation.prevCoord.range, lastOperation.changed);
@@ -550,6 +550,8 @@ namespace EyeGaze.Engine
                         //if (wordToReplaceCoordinateRange.word.ToLower().Equals(startWord.ToLower()))
                         if(true)
                         {
+                            if (((WordTextEditor)this.textEditor).isSentenceHighlighted)
+                                ((WordTextEditor)this.textEditor).StopHightlightLastCopiedSentece();
                             copyLastCoordinate = wordToReplaceCoordinateRange;
                             int timeHighlighted = 2000;
                             textEditor.HighlightWordForSpecificTime(wordToReplaceCoordinateRange, timeHighlighted);

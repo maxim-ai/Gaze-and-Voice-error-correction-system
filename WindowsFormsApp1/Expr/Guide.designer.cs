@@ -46,7 +46,7 @@ namespace Experiment
             // nextButton
             // 
             this.nextButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(177)));
-            this.nextButton.Location = new System.Drawing.Point(519, 140);
+            this.nextButton.Location = new System.Drawing.Point(580, 140);
             this.nextButton.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.nextButton.Name = "nextButton";
             this.nextButton.Size = new System.Drawing.Size(103, 34);
@@ -60,7 +60,7 @@ namespace Experiment
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.ClientSize = new System.Drawing.Size(656, 185);
+            this.ClientSize = new System.Drawing.Size(733, 185);
             this.ControlBox = false;
             this.Controls.Add(this.nextButton);
             this.Controls.Add(this.missionLabel);

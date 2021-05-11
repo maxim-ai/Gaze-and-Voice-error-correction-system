@@ -129,12 +129,19 @@ namespace EyeGaze
 
         private void RunAppSystem(int expNumber)
         {
+            //expNumber++;
+
             if (expNumber != 0) { this.controller.engineMain.End(); }
 
-            //expNumber = 1;
+            string systemName = "";
+            if (expNumber == 0) { 
+                systemName = "VoiceOnly";
+            }
+            else systemName = "VoiceGaze";
+            
 
             MainClass mainExpreriment = controller.engineMain.mainExperiment;
-            String path = mainExpreriment.GetPath(this.IdTxtBox.Text, "VoiceGaze", expNumber);
+            String path = mainExpreriment.GetPath(this.IdTxtBox.Text, systemName, expNumber);
 
             controller.path = path;
             controller.StartProgram("EyeGaze.SpellChecker.WordSpell", controller.speechToText);

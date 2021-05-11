@@ -250,13 +250,6 @@ namespace Experiment
         {
 
             string timeStamp_ours = GetTimestamp(timeStamp);
-            EventCommand(
-                "Fix",
-                "Fix mouse house",
-                "Determining what exactly separates a short story from longer fictional formats is problematic. A classic definition of a short story is that one should be able to read it in one sitting, a point most notably made in Edgar Allan Poe's essay (1846). According to William Faulkner, a short story is character driven and a writer's job is to must have a definite design, which includes a point of departure, a climax and a point of test; in other words, it must have a plot" + " This view is however opposed by Anton Chekov ",
-                "Determining what exactly separates a short story from longer fictional formats is problematic. A classic definition of a short story is that one should be able to read it in one sitting, a point most notably made in Edgar Allan Poe's essay (1846). According to William Faulkner, a short story is character driven and a writer's job is to must have a definite design, which includes a point of departure, a climax and a point of test; in other words, it must have a plot" + " This view is however opposed by Anton Chekov ",
-                true,
-                DateTime.Now);
             // save the end mission event
 
             csvWriter.writeEndMissionEvent(this.experimentID, this.missionID, this.currentTextNumber, this.systemName,
@@ -308,14 +301,6 @@ namespace Experiment
         //    Console.WriteLine(path);
         //    mc.StartExperiment(DateTime.Now);
         //    //eventComm
-
-        //    /*mc.EventCommand(
-        //        "Fix",
-        //        "Fix mouse house",
-        //        "Determining what exactly separates a short story from longer fictional formats is problematic. A classic definition of a short story is that one should be able to read it in one sitting, a point most notably made in Edgar Allan Poe's essay (1846). According to William Faulkner, a short story is character driven and a writer's job is to must have a definite design, which includes a point of departure, a climax and a point of test; in other words, it must have a plot" + " This view is however opposed by Anton Chekov ",
-        //        "Determining what exactly separates a short story from longer fictional formats is problematic. A classic definition of a short story is that one should be able to read it in one sitting, a point most notably made in Edgar Allan Poe's essay (1846). According to William Faulkner, a short story is character driven and a writer's job is to must have a definite design, which includes a point of departure, a climax and a point of test; in other words, it must have a plot" + " This view is however opposed by Anton Chekov ",
-        //        true,
-        //        DateTime.Now);*/
 
         //}
         /*
