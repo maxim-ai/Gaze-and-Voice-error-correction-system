@@ -36,7 +36,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ClientSize = new System.Drawing.Size(152, 40);
+            this.ClientSize = new System.Drawing.Size(151, 51);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "suggestionPopup";
             this.Opacity = 0.9D;

@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using EyeGaze;
 using EyeGaze.Engine;
+
 using EyeGaze.SpeechToText;
 
 namespace EyeGaze
@@ -58,10 +59,14 @@ namespace EyeGaze
             return spellChecker;
         }
 
-        public void StartProgram(string spellChecker, string speechToText)
+        public void StartProgram(string spellChecker, string speechToText,string systemName)
         {
+            string eyeSystem = "";
+            if (systemName == "VoiceGaze") eyeSystem = "EyeGaze.EyeTracking.GazePoint";
+            else if (systemName == "VoiceMouse") eyeSystem = "EyeGaze.EyeTracking.MousePoint";
+
             this.thread = new Thread(() =>
-                this.engineMain.Start(path, speechToText, key, region, "EyeGaze.EyeTracking.MousePoint", spellChecker));
+                this.engineMain.Start(path, speechToText, key, region, eyeSystem, spellChecker));
             this.thread.Start();
         }
 

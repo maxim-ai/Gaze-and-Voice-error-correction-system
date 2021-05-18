@@ -796,7 +796,6 @@ D:\LocalReps\final_project\WindowsFormsApp1\obj\x64\Debug\EyeGaze.ExperimentForm
 D:\LocalReps\final_project\WindowsFormsApp1\obj\x64\Debug\EyeGaze.ExperimentHelpForm.resources
 C:\Users\sshho\OneDrive\Desktop\Projects\Visual Studio\final_project\WindowsFormsApp1\bin\x64\Debug\CsvHelper.dll
 C:\Users\sshho\OneDrive\Desktop\Projects\Visual Studio\final_project\WindowsFormsApp1\bin\x64\Debug\DnsClient.dll
-C:\Users\sshho\OneDrive\Desktop\Projects\Visual Studio\final_project\WindowsFormsApp1\bin\x64\Debug\ExperimentSystem.exe
 C:\Users\sshho\OneDrive\Desktop\Projects\Visual Studio\final_project\WindowsFormsApp1\bin\x64\Debug\Microsoft.Bcl.HashCode.dll
 C:\Users\sshho\OneDrive\Desktop\Projects\Visual Studio\final_project\WindowsFormsApp1\bin\x64\Debug\MongoDB.Bson.dll
 C:\Users\sshho\OneDrive\Desktop\Projects\Visual Studio\final_project\WindowsFormsApp1\bin\x64\Debug\MongoDB.Driver.Core.dll
@@ -865,3 +864,15 @@ D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\Microsoft.mshtml.dll
 D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\Spire.Doc.xml
 D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\Spire.License.xml
 D:\LocalReps\final_project\WindowsFormsApp1\bin\x64\Debug\Spire.Pdf.xml
+C:\Users\sshho\OneDrive\Desktop\Projects\Visual Studio\final_project\WindowsFormsApp1\bin\x64\Debug\Spire.Doc.dll
+C:\Users\sshho\OneDrive\Desktop\Projects\Visual Studio\final_project\WindowsFormsApp1\bin\x64\Debug\Spire.License.dll
+C:\Users\sshho\OneDrive\Desktop\Projects\Visual Studio\final_project\WindowsFormsApp1\bin\x64\Debug\Spire.Pdf.dll
+C:\Users\sshho\OneDrive\Desktop\Projects\Visual Studio\final_project\WindowsFormsApp1\bin\x64\Debug\Microsoft.mshtml.dll
+C:\Users\sshho\OneDrive\Desktop\Projects\Visual Studio\final_project\WindowsFormsApp1\bin\x64\Debug\Spire.Doc.xml
+C:\Users\sshho\OneDrive\Desktop\Projects\Visual Studio\final_project\WindowsFormsApp1\bin\x64\Debug\Spire.License.xml
+C:\Users\sshho\OneDrive\Desktop\Projects\Visual Studio\final_project\WindowsFormsApp1\bin\x64\Debug\Spire.Pdf.xml
+C:\Users\sshho\OneDrive\Desktop\Projects\Visual Studio\final_project\WindowsFormsApp1\obj\x64\Debug\Experiment.Guide.resources
+C:\Users\sshho\OneDrive\Desktop\Projects\Visual Studio\final_project\WindowsFormsApp1\obj\x64\Debug\Experiment.POPUP.resources
+C:\Users\sshho\OneDrive\Desktop\Projects\Visual Studio\final_project\WindowsFormsApp1\obj\x64\Debug\EyeGaze.Expr.Properties.Resource1.resources
+C:\Users\sshho\OneDrive\Desktop\Projects\Visual Studio\final_project\WindowsFormsApp1\obj\x64\Debug\EyeGaze.Expr.Resources.old.Resource1.resources
+C:\Users\sshho\OneDrive\Desktop\Projects\Visual Studio\final_project\WindowsFormsApp1\obj\x64\Debug\EyeGaze.Expr.Resources.old.Resource2.resources

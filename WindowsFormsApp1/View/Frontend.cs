@@ -295,7 +295,7 @@ namespace EyeGaze
                 start_button.Enabled = false;
                 this.TopMost = false;
                 string spellChecker = controller.getSpellChecker(spellCheckerComboBox.SelectedItem.ToString());
-                controller.StartProgram(spellChecker, controller.speechToText);
+                controller.StartProgram(spellChecker, controller.speechToText, "VoiceGaze");
 
             }
         }

@@ -1,0 +1,8 @@
+ExperimentID,SystemName,TextNumber,UserID,Event,Timestamp
+0_VoiceOnly_123456789_18-05-2021,VoiceOnly,0,123456789,NewExperiment,2021-05-18 13:03:09
+0_VoiceOnly_123456789_18-05-2021,VoiceOnly,0,123456789,NewExperiment,2021-05-18 13:10:47
+0_VoiceOnly_123456789_18-05-2021,VoiceOnly,0,123456789,EndExperiment,2021-05-18 13:11:48
+0_VoiceOnly_123456789_18-05-2021,VoiceOnly,0,123456789,NewExperiment,2021-05-18 13:14:32
+0_VoiceOnly_123456789_18-05-2021,VoiceOnly,0,123456789,EndExperiment,2021-05-18 13:16:49
+1_VoiceMouse_123456789_18-05-2021,VoiceMouse,1,123456789,NewExperiment,2021-05-18 13:17:05
+1_VoiceMouse_123456789_18-05-2021,VoiceMouse,1,123456789,EndExperiment,2021-05-18 13:19:11

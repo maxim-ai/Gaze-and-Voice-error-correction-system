@@ -90,14 +90,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fixover.exe" size="733152">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fixover.exe" size="751072">
       <assemblyIdentity name="Fixover" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>wiGmeS3mUrfGDwgBxbeID7z/cKjx/K4caUZGKTVuFZU=</dsig:DigestValue>
+        <dsig:DigestValue>4354fUn/65p0bROC6pA//1p4nB5k7H1cGLCzaabpOYs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -653,7 +653,7 @@
       <dsig:DigestValue>qv7CfrEwZYKIn2UHEMuCIPP5RDf/54vIJJRro5by59w=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Experiment\close_l.png" size="558">
+  <file name="ExperimentNew\close_l.png" size="558">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -662,7 +662,7 @@
       <dsig:DigestValue>w6lDBT3m6+xQjT1K5Lb9AV9clLiTEZ5h/mBIQ83wYlg=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Experiment\ebg.PNG" size="3403">
+  <file name="ExperimentNew\ebg.PNG" size="3403">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -671,7 +671,7 @@
       <dsig:DigestValue>rnxgfRQqLbxEL0eAVb9BlRYOfM9gHAGYTUNHCyukauo=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Experiment\globe.png" size="2314">
+  <file name="ExperimentNew\globe.png" size="2314">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -680,7 +680,7 @@
       <dsig:DigestValue>2gjDHOWrhtDUhjozvrvq/aICk5DDJ7cR6yhCs00HRbE=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Experiment\hde2.PNG" size="9940">
+  <file name="ExperimentNew\hde2.PNG" size="9940">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -689,7 +689,7 @@
       <dsig:DigestValue>3sIEzK/ZsVwb/fJaY1CJU8460NwR31jXVO762vZuKS0=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Experiment\play.png" size="784">
+  <file name="ExperimentNew\play.png" size="784">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -698,7 +698,7 @@
       <dsig:DigestValue>k5ka4B9Qp4iDk2GI9zJtEIWDP9flvklNLak1wBxi4fc=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Experiment\video.png" size="499">
+  <file name="ExperimentNew\video.png" size="499">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />

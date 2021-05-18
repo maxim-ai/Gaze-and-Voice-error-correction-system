@@ -1,0 +1,174 @@
+ExperimentID,MissionID,TextNumber,SystemName,UserID,Event,Timestamp,ActualResult,MissionText,TotalTime,Verdict
+0_VoiceMouse_319084893_12-05-2021,VoiceMouse_#0_0,0,VoiceMouse,319084893,StartMission,2021-05-12 08:44:02,,Navigate to page 1 paragraph 1 line 3-4
+0_VoiceMouse_319084893_12-05-2021,VoiceMouse_#0_0,0,VoiceMouse,319084893,EndMission,2021-05-12 08:44:10,,Navigate to page 1 paragraph 1 line 3-4,8,Pass
+0_VoiceMouse_319084893_12-05-2021,VoiceMouse_#0_1,0,VoiceMouse,319084893,StartMission,2021-05-12 08:44:10,,Delete from "The" to "revenge"
+0_VoiceMouse_319084893_12-05-2021,VoiceMouse_#0_1,0,VoiceMouse,319084893,EndMission,2021-05-12 08:44:11,,Delete from "The" to "revenge",1,Pass
+0_VoiceMouse_319084893_12-05-2021,VoiceMouse_#0_2,0,VoiceMouse,319084893,StartMission,2021-05-12 08:44:12,,Navigate to page 1 paragraph 2 line 6
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_0,0,VoiceOnly,319084893,StartMission,2021-05-12 08:48:04,,Navigate to page 1 paragraph 1 line 1
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_0,0,VoiceOnly,319084893,EndMission,2021-05-12 08:48:11,,Navigate to page 1 paragraph 1 line 1,7,Pass
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_1,0,VoiceOnly,319084893,StartMission,2021-05-12 08:48:11,,fix "batery"" to "battery"" page 1 paragraph 1 line 1 
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_1,0,VoiceOnly,319084893,EndMission,2021-05-12 08:48:23,,fix "batery"" to "battery"" page 1 paragraph 1 line 1 ,12,Fail
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_2,0,VoiceOnly,319084893,StartMission,2021-05-12 08:48:25,,Navigate to page 1 paragraph 2 line 9 
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_2,0,VoiceOnly,319084893,EndMission,2021-05-12 08:48:38,,Navigate to page 1 paragraph 2 line 9 ,13,Pass
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_3,0,VoiceOnly,319084893,StartMission,2021-05-12 08:48:38,,Add "great"" after "first "" page 1 paragraph 2 line 9 
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_3,0,VoiceOnly,319084893,EndMission,2021-05-12 08:48:39,,Add "great"" after "first "" page 1 paragraph 2 line 9 ,1,Fail
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_4,0,VoiceOnly,319084893,StartMission,2021-05-12 08:48:39,,Navigate to page 1 paragraph 3 line 19
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_4,0,VoiceOnly,319084893,EndMission,2021-05-12 08:48:39,,Navigate to page 1 paragraph 3 line 19,0,Pass
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_5,0,VoiceOnly,319084893,StartMission,2021-05-12 08:48:39,,Copy from "down ""  to "sand"" page 1 paragraph 3 line 19
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_5,0,VoiceOnly,319084893,EndMission,2021-05-12 08:48:40,,Copy from "down ""  to "sand"" page 1 paragraph 3 line 19,1,Fail
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_6,0,VoiceOnly,319084893,StartMission,2021-05-12 08:48:40,,Navigate to page 1 paragraph 3 line 20
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_6,0,VoiceOnly,319084893,EndMission,2021-05-12 08:48:40,,Navigate to page 1 paragraph 3 line 20,0,Pass
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_7,0,VoiceOnly,319084893,StartMission,2021-05-12 08:48:40,,Paste after "ring"" page 1 paragraph 3 line 20
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_7,0,VoiceOnly,319084893,EndMission,2021-05-12 08:48:41,,Paste after "ring"" page 1 paragraph 3 line 20,1,Fail
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_8,0,VoiceOnly,319084893,StartMission,2021-05-12 08:48:41,,Navigate to page 2 paragraph 5 line 31
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_8,0,VoiceOnly,319084893,EndMission,2021-05-12 08:48:41,,Navigate to page 2 paragraph 5 line 31,0,Pass
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_9,0,VoiceOnly,319084893,StartMission,2021-05-12 08:48:41,,Replace "garden "" to "balcony""  page 2 paragraph 5 line 31
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_9,0,VoiceOnly,319084893,EndMission,2021-05-12 08:48:42,,Replace "garden "" to "balcony""  page 2 paragraph 5 line 31,1,Fail
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_10,0,VoiceOnly,319084893,StartMission,2021-05-12 08:48:42,,Navigate to page 1 paragrpah 2 line 13
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_10,0,VoiceOnly,319084893,EndMission,2021-05-12 08:48:42,,Navigate to page 1 paragrpah 2 line 13,0,Pass
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_11,0,VoiceOnly,319084893,StartMission,2021-05-12 08:48:42,,fix "slueg"" to "slug"" page 1 paragrpah 2 line 13
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_11,0,VoiceOnly,319084893,EndMission,2021-05-12 08:48:43,,fix "slueg"" to "slug"" page 1 paragrpah 2 line 13,1,Fail
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_12,0,VoiceOnly,319084893,StartMission,2021-05-12 08:48:43,,Navigate to page 2 paragraph 4 line 22-23
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_12,0,VoiceOnly,319084893,EndMission,2021-05-12 08:48:43,,Navigate to page 2 paragraph 4 line 22-23,0,Pass
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_13,0,VoiceOnly,319084893,StartMission,2021-05-12 08:48:43,,Delete from "Water ""  to "mud"" page 2 paragraph 4 line 22-23
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_13,0,VoiceOnly,319084893,EndMission,2021-05-12 08:48:44,,Delete from "Water ""  to "mud"" page 2 paragraph 4 line 22-23,1,Fail
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_0,0,VoiceOnly,319084893,StartMission,2021-05-12 08:59:34,,Navigate to page 1 paragraph 1 line 1
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_0,0,VoiceOnly,319084893,EndMission,2021-05-12 08:59:39,,Navigate to page 1 paragraph 1 line 1,695,Pass
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_1,0,VoiceOnly,319084893,StartMission,2021-05-12 08:59:39,,fix "batery"" to "battery"" page 1 paragraph 1 line 1 
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_1,0,VoiceOnly,319084893,EndMission,2021-05-12 08:59:39,,fix "batery"" to "battery"" page 1 paragraph 1 line 1 ,688,Fail
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_2,0,VoiceOnly,319084893,StartMission,2021-05-12 08:59:41,,Navigate to page 1 paragraph 2 line 9 
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_2,0,VoiceOnly,319084893,EndMission,2021-05-12 08:59:41,,Navigate to page 1 paragraph 2 line 9 ,676,Pass
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_3,0,VoiceOnly,319084893,StartMission,2021-05-12 08:59:41,,Add "great"" after "first "" page 1 paragraph 2 line 9 
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_3,0,VoiceOnly,319084893,EndMission,2021-05-12 08:59:41,,Add "great"" after "first "" page 1 paragraph 2 line 9 ,663,Fail
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_4,0,VoiceOnly,319084893,StartMission,2021-05-12 08:59:41,,Navigate to page 1 paragraph 3 line 19
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_4,0,VoiceOnly,319084893,EndMission,2021-05-12 08:59:42,,Navigate to page 1 paragraph 3 line 19,663,Pass
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_5,0,VoiceOnly,319084893,StartMission,2021-05-12 08:59:42,,Copy from "down ""  to "sand"" page 1 paragraph 3 line 19
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_5,0,VoiceOnly,319084893,EndMission,2021-05-12 08:59:42,,Copy from "down ""  to "sand"" page 1 paragraph 3 line 19,663,Fail
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_6,0,VoiceOnly,319084893,StartMission,2021-05-12 08:59:42,,Navigate to page 1 paragraph 3 line 20
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_6,0,VoiceOnly,319084893,EndMission,2021-05-12 08:59:43,,Navigate to page 1 paragraph 3 line 20,663,Pass
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_7,0,VoiceOnly,319084893,StartMission,2021-05-12 08:59:43,,Paste after "ring"" page 1 paragraph 3 line 20
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_7,0,VoiceOnly,319084893,EndMission,2021-05-12 08:59:44,,Paste after "ring"" page 1 paragraph 3 line 20,664,Fail
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_8,0,VoiceOnly,319084893,StartMission,2021-05-12 08:59:44,,Navigate to page 2 paragraph 5 line 31
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_8,0,VoiceOnly,319084893,EndMission,2021-05-12 08:59:44,,Navigate to page 2 paragraph 5 line 31,663,Pass
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_9,0,VoiceOnly,319084893,StartMission,2021-05-12 08:59:44,,Replace "garden "" to "balcony""  page 2 paragraph 5 line 31
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_9,0,VoiceOnly,319084893,EndMission,2021-05-12 08:59:45,,Replace "garden "" to "balcony""  page 2 paragraph 5 line 31,664,Fail
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_10,0,VoiceOnly,319084893,StartMission,2021-05-12 08:59:45,,Navigate to page 1 paragrpah 2 line 13
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_10,0,VoiceOnly,319084893,EndMission,2021-05-12 08:59:45,,Navigate to page 1 paragrpah 2 line 13,663,Pass
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_11,0,VoiceOnly,319084893,StartMission,2021-05-12 08:59:45,,fix "slueg"" to "slug"" page 1 paragrpah 2 line 13
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_11,0,VoiceOnly,319084893,EndMission,2021-05-12 08:59:46,,fix "slueg"" to "slug"" page 1 paragrpah 2 line 13,664,Fail
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_12,0,VoiceOnly,319084893,StartMission,2021-05-12 08:59:46,,Navigate to page 2 paragraph 4 line 22-23
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_12,0,VoiceOnly,319084893,EndMission,2021-05-12 08:59:47,,Navigate to page 2 paragraph 4 line 22-23,664,Pass
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_13,0,VoiceOnly,319084893,StartMission,2021-05-12 08:59:47,,Delete from "Water ""  to "mud"" page 2 paragraph 4 line 22-23
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_13,0,VoiceOnly,319084893,EndMission,2021-05-12 08:59:48,,Delete from "Water ""  to "mud"" page 2 paragraph 4 line 22-23,665,Fail
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_0,0,VoiceOnly,319084893,StartMission,2021-05-12 09:01:44,,Navigate to page 1 paragraph 1 line 1
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_0,0,VoiceOnly,319084893,EndMission,2021-05-12 09:01:48,,Navigate to page 1 paragraph 1 line 1,824,Pass
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_1,0,VoiceOnly,319084893,StartMission,2021-05-12 09:01:48,,fix "batery"" to "battery"" page 1 paragraph 1 line 1 
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_1,0,VoiceOnly,319084893,EndMission,2021-05-12 09:01:49,,fix "batery"" to "battery"" page 1 paragraph 1 line 1 ,818,Fail
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_2,0,VoiceOnly,319084893,StartMission,2021-05-12 09:01:51,,Navigate to page 1 paragraph 2 line 9 
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_2,0,VoiceOnly,319084893,EndMission,2021-05-12 09:01:51,,Navigate to page 1 paragraph 2 line 9 ,806,Pass
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_3,0,VoiceOnly,319084893,StartMission,2021-05-12 09:01:51,,Add "great"" after "first "" page 1 paragraph 2 line 9 
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_3,0,VoiceOnly,319084893,EndMission,2021-05-12 09:01:52,,Add "great"" after "first "" page 1 paragraph 2 line 9 ,794,Fail
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_4,0,VoiceOnly,319084893,StartMission,2021-05-12 09:01:52,,Navigate to page 1 paragraph 3 line 19
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_4,0,VoiceOnly,319084893,EndMission,2021-05-12 09:01:53,,Navigate to page 1 paragraph 3 line 19,794,Pass
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_5,0,VoiceOnly,319084893,StartMission,2021-05-12 09:01:53,,Copy from "down ""  to "sand"" page 1 paragraph 3 line 19
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_5,0,VoiceOnly,319084893,EndMission,2021-05-12 09:01:54,,Copy from "down ""  to "sand"" page 1 paragraph 3 line 19,795,Fail
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_6,0,VoiceOnly,319084893,StartMission,2021-05-12 09:01:54,,Navigate to page 1 paragraph 3 line 20
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_6,0,VoiceOnly,319084893,EndMission,2021-05-12 09:01:54,,Navigate to page 1 paragraph 3 line 20,794,Pass
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_7,0,VoiceOnly,319084893,StartMission,2021-05-12 09:01:54,,Paste after "ring"" page 1 paragraph 3 line 20
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_7,0,VoiceOnly,319084893,EndMission,2021-05-12 09:01:55,,Paste after "ring"" page 1 paragraph 3 line 20,795,Fail
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_8,0,VoiceOnly,319084893,StartMission,2021-05-12 09:01:55,,Navigate to page 2 paragraph 5 line 31
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_8,0,VoiceOnly,319084893,EndMission,2021-05-12 09:01:56,,Navigate to page 2 paragraph 5 line 31,795,Pass
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_9,0,VoiceOnly,319084893,StartMission,2021-05-12 09:01:56,,Replace "garden "" to "balcony""  page 2 paragraph 5 line 31
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_9,0,VoiceOnly,319084893,EndMission,2021-05-12 09:01:57,,Replace "garden "" to "balcony""  page 2 paragraph 5 line 31,796,Fail
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_10,0,VoiceOnly,319084893,StartMission,2021-05-12 09:01:57,,Navigate to page 1 paragrpah 2 line 13
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_10,0,VoiceOnly,319084893,EndMission,2021-05-12 09:01:58,,Navigate to page 1 paragrpah 2 line 13,796,Pass
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_11,0,VoiceOnly,319084893,StartMission,2021-05-12 09:01:58,,fix "slueg"" to "slug"" page 1 paragrpah 2 line 13
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_11,0,VoiceOnly,319084893,EndMission,2021-05-12 09:01:58,,fix "slueg"" to "slug"" page 1 paragrpah 2 line 13,796,Fail
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_12,0,VoiceOnly,319084893,StartMission,2021-05-12 09:01:59,,Navigate to page 2 paragraph 4 line 22-23
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_12,0,VoiceOnly,319084893,EndMission,2021-05-12 09:01:59,,Navigate to page 2 paragraph 4 line 22-23,796,Pass
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_13,0,VoiceOnly,319084893,StartMission,2021-05-12 09:01:59,,Delete from "Water ""  to "mud"" page 2 paragraph 4 line 22-23
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_13,0,VoiceOnly,319084893,EndMission,2021-05-12 09:02:01,,Delete from "Water ""  to "mud"" page 2 paragraph 4 line 22-23,798,Fail
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_0,0,VoiceOnly,319084893,StartMission,2021-05-12 09:08:48,,Navigate to page 1 paragraph 1 line 1
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_0,0,VoiceOnly,319084893,EndMission,2021-05-12 09:08:54,,Navigate to page 1 paragraph 1 line 1,1250,Pass
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_1,0,VoiceOnly,319084893,StartMission,2021-05-12 09:08:54,,fix "batery"" to "battery"" page 1 paragraph 1 line 1 
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_1,0,VoiceOnly,319084893,EndMission,2021-05-12 09:08:56,,fix "batery"" to "battery"" page 1 paragraph 1 line 1 ,1245,Fail
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_2,0,VoiceOnly,319084893,StartMission,2021-05-12 09:08:57,,Navigate to page 1 paragraph 2 line 9 
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_2,0,VoiceOnly,319084893,EndMission,2021-05-12 09:08:57,,Navigate to page 1 paragraph 2 line 9 ,1232,Pass
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_3,0,VoiceOnly,319084893,StartMission,2021-05-12 09:08:57,,Add "great"" after "first "" page 1 paragraph 2 line 9 
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_3,0,VoiceOnly,319084893,EndMission,2021-05-12 09:08:59,,Add "great"" after "first "" page 1 paragraph 2 line 9 ,1221,Fail
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_4,0,VoiceOnly,319084893,StartMission,2021-05-12 09:08:59,,Navigate to page 1 paragraph 3 line 19
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_4,0,VoiceOnly,319084893,EndMission,2021-05-12 09:09:00,,Navigate to page 1 paragraph 3 line 19,1221,Pass
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_5,0,VoiceOnly,319084893,StartMission,2021-05-12 09:09:00,,Copy from "down ""  to "sand"" page 1 paragraph 3 line 19
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_5,0,VoiceOnly,319084893,EndMission,2021-05-12 09:09:00,,Copy from "down ""  to "sand"" page 1 paragraph 3 line 19,1221,Fail
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_6,0,VoiceOnly,319084893,StartMission,2021-05-12 09:09:00,,Navigate to page 1 paragraph 3 line 20
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_6,0,VoiceOnly,319084893,EndMission,2021-05-12 09:09:01,,Navigate to page 1 paragraph 3 line 20,1221,Pass
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_7,0,VoiceOnly,319084893,StartMission,2021-05-12 09:09:01,,Paste after "ring"" page 1 paragraph 3 line 20
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_7,0,VoiceOnly,319084893,EndMission,2021-05-12 09:09:02,,Paste after "ring"" page 1 paragraph 3 line 20,1222,Fail
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_8,0,VoiceOnly,319084893,StartMission,2021-05-12 09:09:02,,Navigate to page 2 paragraph 5 line 31
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_8,0,VoiceOnly,319084893,EndMission,2021-05-12 09:09:02,,Navigate to page 2 paragraph 5 line 31,1221,Pass
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_9,0,VoiceOnly,319084893,StartMission,2021-05-12 09:09:02,,Replace "garden "" to "balcony""  page 2 paragraph 5 line 31
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_9,0,VoiceOnly,319084893,EndMission,2021-05-12 09:09:03,,Replace "garden "" to "balcony""  page 2 paragraph 5 line 31,1222,Fail
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_10,0,VoiceOnly,319084893,StartMission,2021-05-12 09:09:03,,Navigate to page 1 paragrpah 2 line 13
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_10,0,VoiceOnly,319084893,EndMission,2021-05-12 09:09:03,,Navigate to page 1 paragrpah 2 line 13,1221,Pass
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_11,0,VoiceOnly,319084893,StartMission,2021-05-12 09:09:03,,fix "slueg"" to "slug"" page 1 paragrpah 2 line 13
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_11,0,VoiceOnly,319084893,EndMission,2021-05-12 09:09:04,,fix "slueg"" to "slug"" page 1 paragrpah 2 line 13,1222,Fail
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_12,0,VoiceOnly,319084893,StartMission,2021-05-12 09:09:04,,Navigate to page 2 paragraph 4 line 22-23
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_12,0,VoiceOnly,319084893,EndMission,2021-05-12 09:09:04,,Navigate to page 2 paragraph 4 line 22-23,1221,Pass
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_13,0,VoiceOnly,319084893,StartMission,2021-05-12 09:09:04,,Delete from "Water ""  to "mud"" page 2 paragraph 4 line 22-23
+0_VoiceOnly_319084893_12-05-2021,VoiceOnly_#0_13,0,VoiceOnly,319084893,EndMission,2021-05-12 09:09:06,,Delete from "Water ""  to "mud"" page 2 paragraph 4 line 22-23,1223,Fail
+1_VoiceMouse_319084893_12-05-2021,VoiceMouse_#1_0,1,VoiceMouse,319084893,StartMission,2021-05-12 09:09:22,,Navigate to page 1 paragraph 1 line 2
+1_VoiceMouse_319084893_12-05-2021,VoiceMouse_#1_0,1,VoiceMouse,319084893,EndMission,2021-05-12 09:09:31,,Navigate to page 1 paragraph 1 line 2,9,Pass
+1_VoiceMouse_319084893_12-05-2021,VoiceMouse_#1_1,1,VoiceMouse,319084893,StartMission,2021-05-12 09:09:31,,Fix "alwys" to "always" page 1 paragraph 1 line 2
+1_VoiceMouse_319084893_12-05-2021,VoiceMouse_#1_1,1,VoiceMouse,319084893,EndMission,2021-05-12 09:09:32,,Fix "alwys" to "always" page 1 paragraph 1 line 2,1,Fail
+1_VoiceMouse_319084893_12-05-2021,VoiceMouse_#1_2,1,VoiceMouse,319084893,StartMission,2021-05-12 09:09:32,,Navigate to page 1 paragraph 2 line 5
+1_VoiceMouse_319084893_12-05-2021,VoiceMouse_#1_2,1,VoiceMouse,319084893,EndMission,2021-05-12 09:09:33,,Navigate to page 1 paragraph 2 line 5,1,Pass
+1_VoiceMouse_319084893_12-05-2021,VoiceMouse_#1_3,1,VoiceMouse,319084893,StartMission,2021-05-12 09:09:33,,Replace "back" to "front" page 1 paragraph 2 line 5
+1_VoiceMouse_319084893_12-05-2021,VoiceMouse_#1_3,1,VoiceMouse,319084893,EndMission,2021-05-12 09:09:34,,Replace "back" to "front" page 1 paragraph 2 line 5,1,Fail
+1_VoiceMouse_319084893_12-05-2021,VoiceMouse_#1_4,1,VoiceMouse,319084893,StartMission,2021-05-12 09:09:34,,Navigate to page 1 paragraph 3 line 13
+1_VoiceMouse_319084893_12-05-2021,VoiceMouse_#1_4,1,VoiceMouse,319084893,EndMission,2021-05-12 09:09:34,,Navigate to page 1 paragraph 3 line 13,0,Pass
+1_VoiceMouse_319084893_12-05-2021,VoiceMouse_#1_5,1,VoiceMouse,319084893,StartMission,2021-05-12 09:09:34,,Add "time" after "the" page 1 paragraph 3 line 13
+1_VoiceMouse_319084893_12-05-2021,VoiceMouse_#1_5,1,VoiceMouse,319084893,EndMission,2021-05-12 09:09:35,,Add "time" after "the" page 1 paragraph 3 line 13,1,Fail
+1_VoiceMouse_319084893_12-05-2021,VoiceMouse_#1_6,1,VoiceMouse,319084893,StartMission,2021-05-12 09:09:35,,Navigate to page 2 paragraph 4 line 19
+1_VoiceMouse_319084893_12-05-2021,VoiceMouse_#1_6,1,VoiceMouse,319084893,EndMission,2021-05-12 09:09:35,,Navigate to page 2 paragraph 4 line 19,0,Pass
+1_VoiceMouse_319084893_12-05-2021,VoiceMouse_#1_7,1,VoiceMouse,319084893,StartMission,2021-05-12 09:09:35,,Fix "est" to "east" page 2 paragraph 4 line 19
+1_VoiceMouse_319084893_12-05-2021,VoiceMouse_#1_7,1,VoiceMouse,319084893,EndMission,2021-05-12 09:09:36,,Fix "est" to "east" page 2 paragraph 4 line 19,1,Fail
+1_VoiceMouse_319084893_12-05-2021,VoiceMouse_#1_8,1,VoiceMouse,319084893,StartMission,2021-05-12 09:09:36,,Navigate to page 2 paragraph 5 line 22
+1_VoiceMouse_319084893_12-05-2021,VoiceMouse_#1_8,1,VoiceMouse,319084893,EndMission,2021-05-12 09:09:36,,Navigate to page 2 paragraph 5 line 22,0,Pass
+1_VoiceMouse_319084893_12-05-2021,VoiceMouse_#1_9,1,VoiceMouse,319084893,StartMission,2021-05-12 09:09:36,,Copy from "it" to "not" page 2 paragraph 5 line 22
+1_VoiceMouse_319084893_12-05-2021,VoiceMouse_#1_9,1,VoiceMouse,319084893,EndMission,2021-05-12 09:09:37,,Copy from "it" to "not" page 2 paragraph 5 line 22,1,Fail
+1_VoiceMouse_319084893_12-05-2021,VoiceMouse_#1_10,1,VoiceMouse,319084893,StartMission,2021-05-12 09:09:37,,Navigate to page 2 paragraph 6 line 29
+1_VoiceMouse_319084893_12-05-2021,VoiceMouse_#1_10,1,VoiceMouse,319084893,EndMission,2021-05-12 09:09:37,,Navigate to page 2 paragraph 6 line 29,0,Pass
+1_VoiceMouse_319084893_12-05-2021,VoiceMouse_#1_11,1,VoiceMouse,319084893,StartMission,2021-05-12 09:09:37,,Paste after "and" page 2 paragraph 6 line 29
+1_VoiceMouse_319084893_12-05-2021,VoiceMouse_#1_11,1,VoiceMouse,319084893,EndMission,2021-05-12 09:09:38,,Paste after "and" page 2 paragraph 6 line 29,1,Fail
+1_VoiceMouse_319084893_12-05-2021,VoiceMouse_#1_12,1,VoiceMouse,319084893,StartMission,2021-05-12 09:09:38,,Navigate to page 2 paragraph 7 line 33
+1_VoiceMouse_319084893_12-05-2021,VoiceMouse_#1_12,1,VoiceMouse,319084893,EndMission,2021-05-12 09:09:38,,Navigate to page 2 paragraph 7 line 33,0,Pass
+1_VoiceMouse_319084893_12-05-2021,VoiceMouse_#1_13,1,VoiceMouse,319084893,StartMission,2021-05-12 09:09:38,,Delete from "Outside" to "from" page 2 paragraph 7 line 33
+1_VoiceMouse_319084893_12-05-2021,VoiceMouse_#1_13,1,VoiceMouse,319084893,EndMission,2021-05-12 09:09:39,,Delete from "Outside" to "from" page 2 paragraph 7 line 33,1,Fail
+2_VoiceMouse_319084893_12-05-2021,VoiceMouse_#2_0,2,VoiceMouse,319084893,StartMission,2021-05-12 09:10:00,,Navigate to page 1 paragraph 1 line 2
+2_VoiceMouse_319084893_12-05-2021,VoiceMouse_#2_0,2,VoiceMouse,319084893,EndMission,2021-05-12 09:10:18,,Navigate to page 1 paragraph 1 line 2,18,Pass
+2_VoiceMouse_319084893_12-05-2021,VoiceMouse_#2_1,2,VoiceMouse,319084893,StartMission,2021-05-12 09:10:18,,Delete from "and" to "young" page 1 paragraph 1 line 2
+2_VoiceMouse_319084893_12-05-2021,VoiceMouse_#2_1,2,VoiceMouse,319084893,EndMission,2021-05-12 09:10:20,,Delete from "and" to "young" page 1 paragraph 1 line 2,2,Fail
+2_VoiceMouse_319084893_12-05-2021,VoiceMouse_#2_2,2,VoiceMouse,319084893,StartMission,2021-05-12 09:10:20,,Navigate to page 1 paragraph 2 line 5
+2_VoiceMouse_319084893_12-05-2021,VoiceMouse_#2_2,2,VoiceMouse,319084893,EndMission,2021-05-12 09:10:20,,Navigate to page 1 paragraph 2 line 5,0,Pass
+2_VoiceMouse_319084893_12-05-2021,VoiceMouse_#2_3,2,VoiceMouse,319084893,StartMission,2021-05-12 09:10:20,,Replace "woman" to "zebra" page 1 paragraph 2 line 5
+2_VoiceMouse_319084893_12-05-2021,VoiceMouse_#2_3,2,VoiceMouse,319084893,EndMission,2021-05-12 09:10:21,,Replace "woman" to "zebra" page 1 paragraph 2 line 5,1,Fail
+2_VoiceMouse_319084893_12-05-2021,VoiceMouse_#2_4,2,VoiceMouse,319084893,StartMission,2021-05-12 09:10:21,,Navigate to page 1 paragraph 3 line 8
+2_VoiceMouse_319084893_12-05-2021,VoiceMouse_#2_4,2,VoiceMouse,319084893,EndMission,2021-05-12 09:10:21,,Navigate to page 1 paragraph 3 line 8,0,Pass
+2_VoiceMouse_319084893_12-05-2021,VoiceMouse_#2_5,2,VoiceMouse,319084893,StartMission,2021-05-12 09:10:21,,Fix "trown" to "town" page 1 paragraph 3 line 8
+2_VoiceMouse_319084893_12-05-2021,VoiceMouse_#2_5,2,VoiceMouse,319084893,EndMission,2021-05-12 09:10:22,,Fix "trown" to "town" page 1 paragraph 3 line 8,1,Fail
+2_VoiceMouse_319084893_12-05-2021,VoiceMouse_#2_6,2,VoiceMouse,319084893,StartMission,2021-05-12 09:10:22,,Navigate to page 2 paragraph 4 line 12
+2_VoiceMouse_319084893_12-05-2021,VoiceMouse_#2_6,2,VoiceMouse,319084893,EndMission,2021-05-12 09:10:22,,Navigate to page 2 paragraph 4 line 12,0,Pass
+2_VoiceMouse_319084893_12-05-2021,VoiceMouse_#2_7,2,VoiceMouse,319084893,StartMission,2021-05-12 09:10:22,,Add "small" after "my" page 2 paragraph 4 line 12
+2_VoiceMouse_319084893_12-05-2021,VoiceMouse_#2_7,2,VoiceMouse,319084893,EndMission,2021-05-12 09:10:23,,Add "small" after "my" page 2 paragraph 4 line 12,1,Fail
+2_VoiceMouse_319084893_12-05-2021,VoiceMouse_#2_8,2,VoiceMouse,319084893,StartMission,2021-05-12 09:10:23,,Navigate to page 2 paragraph 5 line 16
+2_VoiceMouse_319084893_12-05-2021,VoiceMouse_#2_8,2,VoiceMouse,319084893,EndMission,2021-05-12 09:10:24,,Navigate to page 2 paragraph 5 line 16,1,Pass
+2_VoiceMouse_319084893_12-05-2021,VoiceMouse_#2_9,2,VoiceMouse,319084893,StartMission,2021-05-12 09:10:24,,Copy from "like" to "wife" page 2 paragraph 5 line 16
+2_VoiceMouse_319084893_12-05-2021,VoiceMouse_#2_9,2,VoiceMouse,319084893,EndMission,2021-05-12 09:10:24,,Copy from "like" to "wife" page 2 paragraph 5 line 16,0,Fail
+2_VoiceMouse_319084893_12-05-2021,VoiceMouse_#2_10,2,VoiceMouse,319084893,StartMission,2021-05-12 09:10:24,,Navigate to page 2 paragraph 7 line 29
+2_VoiceMouse_319084893_12-05-2021,VoiceMouse_#2_10,2,VoiceMouse,319084893,EndMission,2021-05-12 09:10:25,,Navigate to page 2 paragraph 7 line 29,1,Pass
+2_VoiceMouse_319084893_12-05-2021,VoiceMouse_#2_11,2,VoiceMouse,319084893,StartMission,2021-05-12 09:10:25,,Paste before "Little" page 2 paragraph 7 line 29
+2_VoiceMouse_319084893_12-05-2021,VoiceMouse_#2_11,2,VoiceMouse,319084893,EndMission,2021-05-12 09:10:25,,Paste before "Little" page 2 paragraph 7 line 29,0,Fail
+2_VoiceMouse_319084893_12-05-2021,VoiceMouse_#2_12,2,VoiceMouse,319084893,StartMission,2021-05-12 09:10:25,,Navigate to page 2 paragraph 8 line 33
+2_VoiceMouse_319084893_12-05-2021,VoiceMouse_#2_12,2,VoiceMouse,319084893,EndMission,2021-05-12 09:10:26,,Navigate to page 2 paragraph 8 line 33,1,Pass
+2_VoiceMouse_319084893_12-05-2021,VoiceMouse_#2_13,2,VoiceMouse,319084893,StartMission,2021-05-12 09:10:26,,Fix "understtand" to "understand" page 2 paragraph 8 line 33
+2_VoiceMouse_319084893_12-05-2021,VoiceMouse_#2_13,2,VoiceMouse,319084893,EndMission,2021-05-12 09:10:26,,Fix "understtand" to "understand" page 2 paragraph 8 line 33,0,Fail

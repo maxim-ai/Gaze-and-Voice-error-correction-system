@@ -1,5 +1,4 @@
-﻿using Experiment;
-using EyeGaze;
+﻿using EyeGaze;
 using EyeGaze.Engine;
 using System;
 using System.Collections.Generic;
@@ -11,16 +10,19 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Experiment;
 
 namespace EyeGaze
 {
     public delegate void EndExperiment();
-
     public partial class ExperimentForm : Form
     {
         private EndExperiment _end;
+        private Form _popUp;
         private int _expNum;
+        private string _systemName;
         Controller controller;
+
         public ExperimentForm(Controller c)
         {
             InitializeComponent();
@@ -45,11 +47,11 @@ namespace EyeGaze
         }
         private void ChangeBackColorEnter(object sender, EventArgs e)
         {
-            ((Button)sender).BackColor = System.Drawing.Color.CadetBlue;
+            ((Button)sender).BackColor = Color.CadetBlue;
         }
         private void ChangeBackColorLeave(object sender, EventArgs e)
         {
-            ((Button)sender).BackColor = System.Drawing.Color.Transparent;
+            ((Button)sender).BackColor = Color.Transparent;
         }
 
         private void finishBtn_Click(object sender, EventArgs e)
@@ -68,43 +70,52 @@ namespace EyeGaze
         {
             //Check Valid ID
             string id = this.IdTxtBox.Text;
-            bool validID = CheckID(id);
-            if (true)
+            string username = this.UserameTxb.Text;
+            bool valid = CheckInput(id,9) && CheckInput(username, -1);
+            if (valid)
             {
                 this.IdTxtBox.Visible = false;
-                this.IdBtn.Visible = false;
                 this.ID_LBL.Visible = false;
 
+                this.UserameTxb.Visible = false;
+                this.usernameLbl.Visible = false;
+
+                this.IdBtn.Visible = false;
+
+                //Init App System
 
                 //pilot visible
+                this.EnableAll.Visible = true;
                 this.pilotBtn.Visible = true;
                 this.Pilot_LBL.Visible = true;
             }
             else
             {
-                // Alert message and try again
+                MessageBox.Show("Invalid ID Numebr", "Error", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
         }
 
-        private bool CheckID(string id)
+        private bool CheckInput(string inp, int numbers)
         {
-            return true;
+            if(numbers == -1)
+            {
+                return inp.All(char.IsLetter);
+            }
+            else if(inp.Length == numbers)
+            {
+                return inp.All(char.IsDigit);
+            }
+            return false;
         }
 
         private void pilotBtn_Click(object sender, EventArgs e)
         {
             this.pilotBtn.Enabled = false;
-            this.pilotBtn.Visible = false;
-            this.Pilot_LBL.Visible = false;
+
+
             //Start Pilot
             _expNum = 0;
             RunAppSystem(0);
-
-            this.exp1Btn.Visible = true;
-            this.Exp1_LBL.Visible = true;
-            this.exp2Btn.Visible = true;
-            this.Exp2_LBL.Visible = true;
-            this.exp2Btn.Enabled = false;
         }
 
         private void exp1Btn_Click(object sender, EventArgs e)
@@ -113,8 +124,7 @@ namespace EyeGaze
             //Start Exp1
             _expNum = 1;
             RunAppSystem(1);
-            this.exp2Btn.Enabled = true;
-
+            
         }
 
         private void exp2Btn_Click(object sender, EventArgs e)
@@ -124,49 +134,58 @@ namespace EyeGaze
             _expNum = 2;
             RunAppSystem(2);
             // Add Link BTN releas
-
+            
         }
 
         private void RunAppSystem(int expNumber)
         {
-            //expNumber++;
+            End();
 
             if (expNumber != 0) { this.controller.engineMain.End(); }
 
-            string systemName = "";
-            if (expNumber == 0) { 
-                systemName = "VoiceOnly";
+            string tempSystemName = "";
+            if (expNumber == 0)
+            {
+                tempSystemName = "VoiceOnly";
             }
-            else systemName = "VoiceGaze";
-            
+            else tempSystemName = _systemName;
+
 
             MainClass mainExpreriment = controller.engineMain.mainExperiment;
-            String path = mainExpreriment.GetPath(this.IdTxtBox.Text, systemName, expNumber);
+            String path = mainExpreriment.GetPath(this.IdTxtBox.Text, tempSystemName, expNumber);
 
             controller.path = path;
-            controller.StartProgram("EyeGaze.SpellChecker.WordSpell", controller.speechToText);
+            controller.StartProgram("EyeGaze.SpellChecker.WordSpell", controller.speechToText, _systemName);
             Thread.Sleep(5000);
 
             mainExpreriment.StartExperiment(DateTime.Now);
+
         }
 
         private void End()
         {
-            if(_expNum == 0)
+            Invoke((MethodInvoker)delegate
             {
-                this.FinishPilot();
-            }
-            else if(_expNum == 1)
-            {
-                this.FinishExp1();
-            }
-            else if(_expNum == 2)
-            {
-                this.FinishExp2();
-            }
+                if (_expNum == 0)
+                {
+                    this.FinishPilot();
+                }
+                else if (_expNum == 1)
+                {
+                    this.FinishExp1();
+                }
+                else if (_expNum == 2)
+                {
+                    this.FinishExp2();
+                }
+                else if (_expNum == 3)
+                {
+                    this.FinishExp3();
+                }
+            });
         }
 
-        //private void GetMessageFromApp(UIMessageEvent uime)
+        //public void GetMessageFromApp(UIMessageEvent uime)
         //{
         //    Console.WriteLine(uime.ToString());
         //    string content = "";
@@ -175,29 +194,34 @@ namespace EyeGaze
         //        Console.WriteLine("Command UI");
         //        content = $"{uime._command} {string.Join(" ", uime._content)}";
         //    }
+        //    else if (uime._type == UIMessageType.ContinueCommandDispaly)
+        //    {
+        //        Console.WriteLine("Continue Command UI");
+        //        content = $"{string.Join(" ", uime._content)}";
+        //    }
         //    else
         //    {
         //        Console.WriteLine("Option UI");
         //        if (uime._content.Count > 0)
         //        {
-        //            content += $"1. {uime._content[0]}\r\n";
+        //            content += $"1. {uime._content[0]}\r\n\n";
         //            if (uime._content.Count > 1)
         //            {
-        //                content += $"2. {uime._content[1]}\r\n";
+        //                content += $"2. {uime._content[1]}\r\n\n";
         //                if (uime._content.Count > 2)
         //                {
-        //                    content += $"3. {uime._content[2]}\r\n";
+        //                    content += $"3. {uime._content[2]}\r\n\n";
         //                }
         //            }
         //        }
         //    }
         //    Invoke((MethodInvoker)delegate
         //    {
-        //        this.ShowPopUp(content);
+        //        this.ShowPopUp(content, uime._type);
         //    });
         //    return;
         //}
-        //private void ShowPopUp(string content)
+        //private void ShowPopUp(string content, UIMessageType type)
         //{
         //    try
         //    {
@@ -205,16 +229,41 @@ namespace EyeGaze
         //        {
         //            _popUp.Close();
         //        }
-        //        _popUp = new PopUpOptionForm();
-        //        _popUp.SetValues(content);
+        //        if (type == UIMessageType.OptionDisplay)
+        //        {
+        //            _popUp = new PopUpOptionForm();
+        //            ((PopUpOptionForm)_popUp).SetValues(content);
+        //            Console.WriteLine("PopUpOptionForm");
+        //        }
+        //        else
+        //        {
+        //            _popUp = new PopUpForm();
+        //            ((PopUpForm)_popUp).SetValues(content);
+        //            Console.WriteLine("PopUpForm");
+        //        }
         //        _popUp.TopMost = true;
         //        _popUp.Show();
+        //
         //    }
         //    catch (Exception e)
         //    {
         //        Console.WriteLine($"Exception in Show POPUP : {e.Message}");
         //    }
         //}
+
+        private void StartExperiments()
+        {
+            this.mouse_key.Visible = false;
+            this.voice_only.Visible = false;
+
+            this.IdBtn.Visible = true;
+            this.ID_LBL.Visible = true;
+            this.IdTxtBox.Visible = true;
+
+            this.UserameTxb.Visible = true;
+            this.usernameLbl.Visible = true;
+        }
+
         private void FinishPilot()
         {
             this.pilotBtn.Visible = false;
@@ -223,10 +272,13 @@ namespace EyeGaze
             //Experimentsss
             this.Exp1_LBL.Visible = true;
             this.Exp2_LBL.Visible = true;
+            this.Exp3_LBL.Visible = true;
             this.exp1Btn.Visible = true;
             this.exp2Btn.Visible = true;
+            this.exp3Btn.Visible = true;
 
             this.exp2Btn.Enabled = false;
+            this.exp3Btn.Enabled = false;
         }
         private void FinishExp1()
         {
@@ -234,19 +286,11 @@ namespace EyeGaze
         }
         private void FinishExp2()
         {
-            this.Exp1_LBL.Visible = false;
-            this.Exp2_LBL.Visible = false;
-            this.exp1Btn.Visible = false;
-            this.exp2Btn.Visible = false;
-
-            this.SUSbtn.Visible = true;
-            this.SUSlbl.Visible = true;
-            
+            this.exp3Btn.Enabled = true;
         }
 
         private void hepButton_Click(object sender, EventArgs e)
         {
-            // TODO - Create page for all the commands For The Experiment - Generic to all system
             ExperimentHelpForm help = new ExperimentHelpForm();
             help.Show();
         }
@@ -255,19 +299,64 @@ namespace EyeGaze
         {
             this.SUSbtn.Visible = false;
             this.SUSlbl.Visible = false;
+            System.Diagnostics.Process.Start("https://qfreeaccountssjc1.az1.qualtrics.com/jfe/form/SV_cAe1TEXWig4aH3M");
             this.finishBtn.Visible = true;
         }
 
         private void videoBtn_Click(object sender, EventArgs e)
         {
-
+            if(_systemName== "VoiceGaze")
+                System.Diagnostics.Process.Start("https://drive.google.com/file/d/1G16J5cNrpBv9QmDkYJPYxsAdBhTJQwtw/view?usp=sharing");
+            else if (_systemName == "VoiceMouse")
+                System.Diagnostics.Process.Start("https://drive.google.com/file/d/1Ep8s-pknOIA_Pmouv-W0hPc3IeEm5aju/view?usp=sharing");
         }
-        private void showPopUp(string message)
+
+        private void voice_only_Click(object sender, EventArgs e)
         {
-            PopUp popup = new PopUp();
-            popup.changeLabel(message);
-            popup.TopMost = true;
-            popup.Show();
+            _systemName = "VoiceGaze";
+            this.StartExperiments();
+        }
+
+        private void mouse_key_Click(object sender, EventArgs e)
+        {
+            _systemName = "VoiceMouse";
+            this.StartExperiments();
+        }
+
+        private void EnableAll_Click(object sender, EventArgs e)
+        {
+            this.pilotBtn.Visible = true;
+            this.Pilot_LBL.Visible = true;
+            this.Exp1_LBL.Visible = true;
+            this.Exp2_LBL.Visible = true;
+            this.Exp3_LBL.Visible = true;
+            this.exp1Btn.Visible = true;
+            this.exp2Btn.Visible = true;
+            this.exp3Btn.Visible = true;
+            this.SUSbtn.Visible = true;
+            this.SUSlbl.Visible = true;
+        }
+
+        private void exp3Btn_Click(object sender, EventArgs e)
+        {
+            this.exp3Btn.Enabled = false;
+            //Start Exp1
+            _expNum = 3;
+            RunAppSystem(3);
+            // Add Link BTN releas
+        }
+        private void FinishExp3()
+        {
+            this.Exp1_LBL.Visible = false;
+            this.Exp2_LBL.Visible = false;
+            this.Exp3_LBL.Visible = false;
+            this.exp1Btn.Visible = false;
+            this.exp2Btn.Visible = false;
+            this.exp3Btn.Visible = false;
+
+            this.SUSbtn.Visible = true;
+            this.SUSlbl.Visible = true;
+
         }
 
         public void handlerMessageFromEngine(object sender, MessageEvent e)
@@ -279,7 +368,7 @@ namespace EyeGaze
                     if (e.type == MessageEvent.messageType.WrongAuthentication)
                     {
                         this.TopMost = true;
-                        showPopUp(e.message);
+                        //showPopUp(e.message);
                         //if (this.thread != null)
                         //    this.thread.Abort();
                     }
@@ -289,10 +378,10 @@ namespace EyeGaze
                     }
                     if (e.type == MessageEvent.messageType.TriggerWord)
                     {
-                        string[] actions = new string[] { "fix","fix to", "change", "add", "move", "replace", "options","delete", "copy from","copy to" ,"paste before","paste after","cancel","1", "2", "3", "4", "5" };
+                        string[] actions = new string[] { "fix", "fix to", "change", "add", "move", "replace", "options", "delete", "copy from", "copy to", "paste before", "paste after", "cancel", "1", "2", "3", "4", "5" };
                         Dictionary<String, int> distances = new Dictionary<string, int>();
                         String contains = "";
-                        foreach(String word in actions)
+                        foreach (String word in actions)
                         {
                             distances.Add(word, controller.engineMain.LevenshteinDistance(e.message.ToLower(), word));
                             if (e.message.ToLower().Contains(word)) contains = word;
@@ -300,11 +389,11 @@ namespace EyeGaze
 
                         PopTimer pt = null;
                         var chosen = distances.OrderBy(kvp => kvp.Value).First();
-                        if(contains!="")
+                        if (contains != "")
                             pt = new PopTimer(contains);
-                        else if (chosen.Value<3)
+                        else if (chosen.Value < 3)
                             pt = new PopTimer(distances.OrderBy(kvp => kvp.Value).First().Key);
-                       
+
                     }
                     if (e.type == MessageEvent.messageType.closeFile)
                     {

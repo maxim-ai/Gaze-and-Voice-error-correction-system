@@ -296,16 +296,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller.cs" />
-    <Compile Include="Experiment\ExperimentForm.cs">
+    <Compile Include="ExperimentNew\ExperimentForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Experiment\ExperimentForm.Designer.cs">
+    <Compile Include="ExperimentNew\ExperimentForm.designer.cs">
       <DependentUpon>ExperimentForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Experiment\ExperimentHelpForm.cs">
+    <Compile Include="ExperimentNew\ExperimentHelpForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Experiment\ExperimentHelpForm.Designer.cs">
+    <Compile Include="ExperimentNew\ExperimentHelpForm.designer.cs">
       <DependentUpon>ExperimentHelpForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Expr\Class1.cs" />
@@ -390,12 +390,12 @@
     <Compile Include="Model\SpellChecker\NHunspellSpellChecker.cs" />
     <Compile Include="Model\TextEditor\AbstractTextEditor.cs" />
     <Compile Include="Model\TextEditor\WordTextEditor.cs" />
-    <Content Include="Experiment\close_l.png" />
-    <Content Include="Experiment\ebg.PNG" />
-    <Content Include="Experiment\globe.png" />
-    <Content Include="Experiment\hde2.PNG" />
-    <Content Include="Experiment\play.png" />
-    <Content Include="Experiment\video.png" />
+    <Content Include="ExperimentNew\close_l.png" />
+    <Content Include="ExperimentNew\ebg.PNG" />
+    <Content Include="ExperimentNew\globe.png" />
+    <Content Include="ExperimentNew\hde2.PNG" />
+    <Content Include="ExperimentNew\play.png" />
+    <Content Include="ExperimentNew\video.png" />
     <Content Include="Expr\content\Core\Compression\Snappy\lib\win\snappy32.dll" />
     <Content Include="Expr\content\Core\Compression\Snappy\lib\win\snappy64.dll" />
     <Content Include="Expr\content\Core\Compression\Zstandard\lib\win\libzstd.dll" />
@@ -408,10 +408,10 @@
     <Content Include="Expr\Core\Compression\Zstandard\lib\win\libzstd.dll" />
     <Content Include="Expr\lib\net461\ExperimentSystem.exe" />
     <Content Include="Expr\Resources\old\commands.txt" />
-    <EmbeddedResource Include="Experiment\ExperimentForm.resx">
+    <EmbeddedResource Include="ExperimentNew\ExperimentForm.resx">
       <DependentUpon>ExperimentForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Experiment\ExperimentHelpForm.resx">
+    <EmbeddedResource Include="ExperimentNew\ExperimentHelpForm.resx">
       <DependentUpon>ExperimentHelpForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Expr\Guide.resx">
@@ -537,7 +537,9 @@
     <None Include="icons\WhatsApp Image 2020-05-27 at 16.06.46.jpeg" />
     <None Include="icons\logo4.PNG" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="NewFolder1\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.CognitiveServices.Speech.1.9.0\build\net461\Microsoft.CognitiveServices.Speech.targets" Condition="Exists('..\packages\Microsoft.CognitiveServices.Speech.1.9.0\build\net461\Microsoft.CognitiveServices.Speech.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -1,0 +1,3 @@
+ExperimentID,SystemName,TextNumber,UserID,Event,Timestamp
+0_VoiceOnly_123_12-05-2021,VoiceOnly,0,123,NewExperiment,2021-05-12 00:18:43
+0_VoiceOnly_123_12-05-2021,VoiceOnly,0,123,EndExperiment,2021-05-12 00:21:19

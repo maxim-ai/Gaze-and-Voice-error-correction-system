@@ -36,10 +36,11 @@ namespace EyeGaze
             labels = new List<Label>();
 
             int formLength = 30;
-            for (int i = 0; i < suggestions.Count; i++)
+            for (int i = 0; i < Math.Min(suggestions.Count,5); i++)
             {
                 Label l = new Label();
-                
+                l.Font = new Font("Arial", 18, FontStyle.Bold);
+
                 if (i == 0)
                 {
                     l.Location = new Point(16,12);
@@ -53,12 +54,16 @@ namespace EyeGaze
                     l.Location = new Point(prevLabel.Location.X + (int)prevWidth+50, prevLabel.Location.Y);
                     l.Text = (i + 1) + ") " + suggestions[i];
                 }
-                l.Font = new Font(l.Font, FontStyle.Bold);
+                Size textSize = TextRenderer.MeasureText(l.Text, l.Font);
+                l.Width = textSize.Width;
+                l.Size = textSize;
+                //formLength += textSize.Width;
                 formLength += l.Size.Width;
-                
+
+
 
                 l.Click+= new EventHandler(LB_Click);
-                l.Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, l.Width, l.Height, 10, 10));
+                l.Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, l.Width+50, l.Height, 10, 10));
                 l.TextAlign = ContentAlignment.MiddleCenter;
                 l.Refresh();
 
