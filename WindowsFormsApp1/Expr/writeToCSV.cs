@@ -11,8 +11,10 @@ namespace Experiment
 
     public class writeToCSV : Experiment.DBWriterInterface
     {
+        private string timestampStartMission;
         public writeToCSV()
         {
+            
         }
         public void initTables(string userID, string userName, string date)
         {
@@ -153,6 +155,7 @@ namespace Experiment
                                     systemName, user_id, "StartMission", timestamp,
                                    currState, missionText);
             csv.AppendLine(newLine);
+            this.timestampStartMission = timestamp;
             File.AppendAllText("./Tables/" + date + "_" + user_id + "/missionsEvent.csv", csv.ToString());
 
         }
@@ -182,54 +185,23 @@ namespace Experiment
         }
 
         private double calcTotalTime(string experimentID, string missionID, string timestamp, string userID, string date)
-        {
-            var missionEventData = File.ReadAllLines(@"./Tables/" + date + "_" + userID + "/missionsEvent.csv");
-            string myExtractionStartTime = "";
-            foreach (string line in missionEventData)
-            {
-                var delimitedLine = line.Split(new string[] { "," }, StringSplitOptions.None);//set ur separator, in this case tab
-                if (delimitedLine[0].Equals(experimentID) && delimitedLine[1].Equals(missionID))
-                {
-                    myExtractionStartTime = delimitedLine[6];
-                    DateTime dateTime1 = DateTime.ParseExact(myExtractionStartTime, "yyyy-MM-dd HH:mm:ss", System.Globalization.CultureInfo.InvariantCulture);
-                    DateTime dateTime2 = DateTime.ParseExact(timestamp, "yyyy-MM-dd HH:mm:ss", System.Globalization.CultureInfo.InvariantCulture);
-                    var diffInSeconds = (dateTime2 - dateTime1).TotalSeconds;
-                    return diffInSeconds;
-                }
-                    
-            }
-            return 0;
-           
+        {            
+            DateTime dateTime1 = DateTime.ParseExact(this.timestampStartMission, "yyyy-MM-dd HH:mm:ss", System.Globalization.CultureInfo.InvariantCulture);
+            DateTime dateTime2 = DateTime.ParseExact(timestamp, "yyyy-MM-dd HH:mm:ss", System.Globalization.CultureInfo.InvariantCulture);
+            var diffInSeconds = (dateTime2 - dateTime1).TotalSeconds;
+            return diffInSeconds;
         }
         private string compare(string missionID, string currState)
         {
             string expectedState = readWord(missionID);
+            Regex rgx = new Regex("[^a-zA-Z]");
+            currState = rgx.Replace(currState, "");
+            Console.WriteLine(currState);
+            expectedState = rgx.Replace(expectedState, "");
             if (currState.ToLower().Equals(expectedState.ToLower()))
                 return "Pass";
             else
                 return "Fail";
-            /*string path = string.Format("{0}Resources\\missions.csv", Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\")));
-            using (var reader = new StreamReader(path))
-            {
-
-                var columnsNames = reader.ReadLine();
-
-                while (!reader.EndOfStream)
-                {
-                    var line = reader.ReadLine();
-                    var values = line.Split(new string[] { ",\"" }, StringSplitOptions.None);
-                    string startMissionID = values[0].Replace(",", "_");
-                    if (startMissionID.Equals(missionID))
-                    {
-                        string expected = values[3].Remove(values[3].Length - 1);
-                        expected = removePunctuation(expected);
-                        if (currState.Equals(expected))
-                            return "Pass";
-                        else
-                            return "Fail";
-                    }
-                }
-            }*/
         }
         private string removePunctuation(string str)
         {

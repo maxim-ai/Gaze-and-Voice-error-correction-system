@@ -82,7 +82,7 @@ namespace Experiment
                     {
                         var line = reader.ReadLine();
                         var values = line.Split(new string[] { ",\"" }, StringSplitOptions.None);
-                        string newMission = values[1].Remove(values[1].Length - 1);
+                        string newMission = values[1].Remove(values[1].Length - 3);
                         newMission = newMission.Replace("\\\"", "");
                         //Console.WriteLine(newMission);
                         this.textPathAndMissions[values[0].Split(',')[0]].Add(newMission);

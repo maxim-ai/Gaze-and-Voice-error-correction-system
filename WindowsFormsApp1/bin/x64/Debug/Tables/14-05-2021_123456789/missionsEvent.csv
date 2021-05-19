@@ -1,8 +1,0 @@
-ExperimentID,MissionID,TextNumber,SystemName,UserID,Event,Timestamp,ActualResult,MissionText,TotalTime,Verdict
-1_VoiceMouse_123456789_14-05-2021,VoiceMouse_#1_0,1,VoiceMouse,123456789,StartMission,2021-05-14 14:16:41,,Navigate to page 1 paragraph 1 line 2
-1_VoiceMouse_123456789_14-05-2021,VoiceMouse_#1_0,1,VoiceMouse,123456789,EndMission,2021-05-14 14:16:42,,Navigate to page 1 paragraph 1 line 2,1,Pass
-1_VoiceMouse_123456789_14-05-2021,VoiceMouse_#1_1,1,VoiceMouse,123456789,StartMission,2021-05-14 14:16:42,,Fix "alwys" to "always" page 1 paragraph 1 line 2
-1_VoiceMouse_123456789_14-05-2021,VoiceMouse_#1_1,1,VoiceMouse,123456789,EndMission,2021-05-14 14:16:44,,Fix "alwys" to "always" page 1 paragraph 1 line 2,2,Fail
-1_VoiceMouse_123456789_14-05-2021,VoiceMouse_#1_2,1,VoiceMouse,123456789,StartMission,2021-05-14 14:16:45,,Navigate to page 1 paragraph 2 line 5
-1_VoiceMouse_123456789_14-05-2021,VoiceMouse_#1_2,1,VoiceMouse,123456789,EndMission,2021-05-14 14:17:07,,Navigate to page 1 paragraph 2 line 5,22,Pass
-1_VoiceMouse_123456789_14-05-2021,VoiceMouse_#1_3,1,VoiceMouse,123456789,StartMission,2021-05-14 14:17:07,,Replace "back" to "front" page 1 paragraph 2 line 5

@@ -27385,3 +27385,442 @@
 2021-05-19 17:08:19,001 INFO EventLog: Microsoft cloud found : 
 2021-05-19 17:08:25,030 INFO EventLog: Microsoft cloud found : 
 2021-05-19 17:08:31,065 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:31:51,535 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-19 23:32:05,669 INFO EventLog: Starting initialization of the system
+2021-05-19 23:32:09,405 INFO EventLog: Trying to open documtent
+2021-05-19 23:32:09,868 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-19 23:32:10,061 INFO EventLog: Connect to Microsoft cloud
+2021-05-19 23:32:15,991 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:32:21,100 INFO EventLog: Microsoft cloud found : Fix
+2021-05-19 23:32:21,163 INFO EventLog: Trigger word Fix
+2021-05-19 23:32:21,548 INFO EventLog: Changed batery to battery in point x=917 y=457 range start=44 end=51
+2021-05-19 23:32:27,593 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:32:31,730 INFO EventLog: Microsoft cloud found : At firs
+2021-05-19 23:32:33,957 INFO EventLog: Microsoft cloud found : Right after first
+2021-05-19 23:32:37,991 INFO EventLog: Microsoft cloud found : Add great after first
+2021-05-19 23:32:38,037 INFO EventLog: Trigger word add
+2021-05-19 23:32:38,353 INFO EventLog: Changed first to first great in point x=640 y=602 range start=607 end=618
+2021-05-19 23:32:44,285 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:32:50,725 INFO EventLog: Microsoft cloud found : Copy from down
+2021-05-19 23:32:50,748 INFO EventLog: Trigger word Copy From
+2021-05-19 23:32:54,071 INFO EventLog: Microsoft cloud found : To send
+2021-05-19 23:32:54,073 INFO EventLog: Trigger word Copy From To
+2021-05-19 23:32:54,349 INFO EventLog: Changed down to  in point x=641 y=712 range start=1387 end=1403
+2021-05-19 23:33:00,282 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:33:05,310 INFO EventLog: Microsoft cloud found : Based after ring
+2021-05-19 23:33:05,362 INFO EventLog: Trigger word Paste
+2021-05-19 23:33:11,524 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:33:17,839 INFO EventLog: Microsoft cloud found : Replace garden two balcony
+2021-05-19 23:33:17,904 INFO EventLog: Trigger word Replace
+2021-05-19 23:33:18,202 INFO EventLog: Changed garden to balcony in point x=744 y=693 range start=2318 end=2325
+2021-05-19 23:33:24,216 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:33:30,314 INFO EventLog: Microsoft cloud found : Fix
+2021-05-19 23:33:30,326 INFO EventLog: Trigger word Fix
+2021-05-19 23:33:30,698 INFO EventLog: Changed slueg to slug in point x=1209 y=473 range start=980 end=984
+2021-05-19 23:33:36,616 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:33:42,468 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:33:44,301 INFO EventLog: Microsoft cloud found : From water
+2021-05-19 23:33:47,456 INFO EventLog: Microsoft cloud found : Delete from water
+2021-05-19 23:33:47,506 INFO EventLog: Trigger word Delete From
+2021-05-19 23:33:50,889 INFO EventLog: Microsoft cloud found : Two mad
+2021-05-19 23:33:50,901 INFO EventLog: Trigger word Delete From To
+2021-05-19 23:33:54,472 INFO EventLog: Changed Water to  in point x=1142 y=626 range start=1666 end=1666
+2021-05-19 23:34:00,345 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:34:00,509 INFO EventLog: Disconnect from Microsoft cloud
+2021-05-19 23:34:00,590 INFO EventLog: Spell checker closed successfully
+2021-05-19 23:36:49,233 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-19 23:37:07,903 INFO EventLog: Starting initialization of the system
+2021-05-19 23:37:11,547 INFO EventLog: Trying to open documtent
+2021-05-19 23:37:12,042 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-19 23:37:12,154 INFO EventLog: Connect to Microsoft cloud
+2021-05-19 23:37:18,214 INFO EventLog: Microsoft cloud found : Fix
+2021-05-19 23:37:18,244 INFO EventLog: Trigger word Fix
+2021-05-19 23:37:18,645 INFO EventLog: Changed batery to battery in point x=917 y=457 range start=44 end=51
+2021-05-19 23:37:24,661 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:37:28,724 INFO EventLog: Microsoft cloud found : Ed Grade after first
+2021-05-19 23:37:28,761 INFO EventLog: Trigger word add
+2021-05-19 23:37:29,043 INFO EventLog: Changed first to first grade in point x=640 y=662 range start=607 end=618
+2021-05-19 23:37:31,959 INFO EventLog: Microsoft cloud found : Cancel
+2021-05-19 23:37:31,992 INFO EventLog: Changed first grade to first in point x=640 y=662 range start=607 end=612
+2021-05-19 23:37:35,847 INFO EventLog: Microsoft cloud found : Add great after first
+2021-05-19 23:37:35,858 INFO EventLog: Trigger word add
+2021-05-19 23:37:36,121 INFO EventLog: Changed first to first great in point x=640 y=662 range start=607 end=618
+2021-05-19 23:37:41,956 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:37:45,972 INFO EventLog: Microsoft cloud found : Copy from down
+2021-05-19 23:37:45,984 INFO EventLog: Trigger word Copy From
+2021-05-19 23:37:49,303 INFO EventLog: Microsoft cloud found : Two send
+2021-05-19 23:37:49,307 INFO EventLog: Trigger word Copy From To
+2021-05-19 23:37:49,631 INFO EventLog: Changed down to  in point x=641 y=712 range start=1387 end=1403
+2021-05-19 23:37:55,578 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:38:01,321 INFO EventLog: Microsoft cloud found : Based off the ring
+2021-05-19 23:38:05,183 INFO EventLog: Microsoft cloud found : Based after ring
+2021-05-19 23:38:05,206 INFO EventLog: Trigger word Paste
+2021-05-19 23:38:11,386 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:38:15,327 INFO EventLog: Microsoft cloud found : Replace garden to balcony
+2021-05-19 23:38:15,339 INFO EventLog: Trigger word Replace
+2021-05-19 23:38:15,650 INFO EventLog: Changed garden to balcony in point x=744 y=513 range start=2318 end=2325
+2021-05-19 23:38:21,592 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:38:25,318 INFO EventLog: Microsoft cloud found : Fix
+2021-05-19 23:38:25,368 INFO EventLog: Trigger word Fix
+2021-05-19 23:38:25,775 INFO EventLog: Changed slueg to slug in point x=1209 y=353 range start=980 end=984
+2021-05-19 23:38:31,696 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:38:36,233 INFO EventLog: Microsoft cloud found : Delete from water
+2021-05-19 23:38:36,246 INFO EventLog: Trigger word Delete From
+2021-05-19 23:38:40,919 INFO EventLog: Microsoft cloud found : Do mud
+2021-05-19 23:38:40,933 INFO EventLog: Trigger word Delete From To
+2021-05-19 23:38:44,263 INFO EventLog: Changed Water to  in point x=1142 y=566 range start=1666 end=1666
+2021-05-19 23:38:50,285 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:38:56,288 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:40:36,520 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-19 23:40:48,348 INFO EventLog: Starting initialization of the system
+2021-05-19 23:40:52,060 INFO EventLog: Trying to open documtent
+2021-05-19 23:40:52,514 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-19 23:40:52,638 INFO EventLog: Connect to Microsoft cloud
+2021-05-19 23:40:58,570 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:41:01,804 INFO EventLog: Microsoft cloud found : Fix
+2021-05-19 23:41:01,833 INFO EventLog: Trigger word Fix
+2021-05-19 23:41:02,239 INFO EventLog: Changed batery to battery in point x=917 y=457 range start=44 end=51
+2021-05-19 23:41:08,226 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:41:11,661 INFO EventLog: Microsoft cloud found : Add great after first
+2021-05-19 23:41:11,681 INFO EventLog: Trigger word add
+2021-05-19 23:41:11,963 INFO EventLog: Changed first to first great in point x=640 y=602 range start=607 end=618
+2021-05-19 23:41:17,380 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:41:22,088 INFO EventLog: Microsoft cloud found : Copy from down
+2021-05-19 23:41:22,102 INFO EventLog: Trigger word Copy From
+2021-05-19 23:41:25,444 INFO EventLog: Microsoft cloud found : Two send
+2021-05-19 23:41:25,447 INFO EventLog: Trigger word Copy From To
+2021-05-19 23:41:25,765 INFO EventLog: Changed down to  in point x=641 y=712 range start=1387 end=1403
+2021-05-19 23:41:31,811 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:41:34,553 INFO EventLog: Microsoft cloud found : Based after ring
+2021-05-19 23:41:34,617 INFO EventLog: Trigger word Paste
+2021-05-19 23:41:40,443 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:41:45,780 INFO EventLog: Microsoft cloud found : Replace garden to balcony
+2021-05-19 23:41:45,794 INFO EventLog: Trigger word Replace
+2021-05-19 23:41:46,111 INFO EventLog: Changed garden to balcony in point x=744 y=693 range start=2318 end=2325
+2021-05-19 23:41:52,040 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:41:55,761 INFO EventLog: Microsoft cloud found : Fix
+2021-05-19 23:41:55,773 INFO EventLog: Trigger word Fix
+2021-05-19 23:41:56,150 INFO EventLog: Changed slueg to slug in point x=1209 y=473 range start=980 end=984
+2021-05-19 23:42:02,174 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:42:06,306 INFO EventLog: Microsoft cloud found : Delete from water
+2021-05-19 23:42:06,355 INFO EventLog: Trigger word Delete From
+2021-05-19 23:42:09,737 INFO EventLog: Microsoft cloud found : 2 mud
+2021-05-19 23:42:09,750 INFO EventLog: Trigger word Delete From To
+2021-05-19 23:42:13,075 INFO EventLog: Changed Water to  in point x=1142 y=626 range start=1666 end=1666
+2021-05-19 23:42:19,027 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:42:24,450 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:42:29,868 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:42:35,318 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:42:40,733 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:42:46,144 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:42:46,157 INFO EventLog: Disconnect from Microsoft cloud
+2021-05-19 23:42:46,241 INFO EventLog: Spell checker closed successfully
+2021-05-19 23:42:46,310 INFO EventLog: Disconnect from Microsoft cloud
+2021-05-19 23:42:46,400 INFO EventLog: Starting initialization of the system
+2021-05-19 23:42:50,080 INFO EventLog: Trying to open documtent
+2021-05-19 23:42:50,472 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-19 23:42:50,530 INFO EventLog: Connect to Microsoft cloud
+2021-05-19 23:42:55,982 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:42:57,430 INFO EventLog: Microsoft cloud found : Thanks
+2021-05-19 23:43:00,566 INFO EventLog: Microsoft cloud found : Fix
+2021-05-19 23:43:00,598 INFO EventLog: Trigger word Fix
+2021-05-19 23:43:01,004 INFO EventLog: Changed alwys to always in point x=974 y=527 range start=113 end=119
+2021-05-19 23:43:07,003 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:43:08,929 INFO EventLog: Microsoft cloud found : Back to front
+2021-05-19 23:43:12,994 INFO EventLog: Microsoft cloud found : Replace back to front
+2021-05-19 23:43:13,035 INFO EventLog: Trigger word Replace
+2021-05-19 23:43:13,346 INFO EventLog: Changed back to front in point x=913 y=606 range start=258 end=263
+2021-05-19 23:43:19,303 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:43:23,621 INFO EventLog: Microsoft cloud found : Ed time after there
+2021-05-19 23:43:23,636 INFO EventLog: Trigger word add
+2021-05-19 23:43:23,914 INFO EventLog: Changed the to the time in point x=974 y=646 range start=795 end=803
+2021-05-19 23:43:29,869 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:43:33,009 INFO EventLog: Microsoft cloud found : Fix
+2021-05-19 23:43:33,031 INFO EventLog: Trigger word Fix
+2021-05-19 23:43:33,519 INFO EventLog: Changed est to Est in point x=862 y=583 range start=1175 end=1178
+2021-05-19 23:43:36,352 INFO EventLog: Microsoft cloud found : Options
+2021-05-19 23:43:39,244 INFO EventLog: Microsoft cloud found : Do
+2021-05-19 23:43:41,584 INFO EventLog: Microsoft cloud found : Do
+2021-05-19 23:43:45,548 INFO EventLog: Microsoft cloud found : Options
+2021-05-19 23:43:48,321 INFO EventLog: Microsoft cloud found : 2
+2021-05-19 23:43:48,356 INFO EventLog: Changed est to east in point x=862 y=583 range start=1175 end=1179
+2021-05-19 23:43:54,420 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:43:57,725 INFO EventLog: Microsoft cloud found : Copy from it
+2021-05-19 23:43:57,738 INFO EventLog: Trigger word Copy From
+2021-05-19 23:44:01,210 INFO EventLog: Microsoft cloud found : Do note
+2021-05-19 23:44:01,212 INFO EventLog: Trigger word Copy From To
+2021-05-19 23:44:01,477 INFO EventLog: Changed It to  in point x=937 y=542 range start=1359 end=1369
+2021-05-19 23:44:07,494 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:44:12,903 INFO EventLog: Microsoft cloud found : Based after end
+2021-05-19 23:44:12,928 INFO EventLog: Trigger word Paste
+2021-05-19 23:44:19,310 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:44:24,252 INFO EventLog: Microsoft cloud found : Delete from outside
+2021-05-19 23:44:24,263 INFO EventLog: Trigger word Delete From
+2021-05-19 23:44:28,412 INFO EventLog: Microsoft cloud found : 2 fro
+2021-05-19 23:44:28,429 INFO EventLog: Trigger word Delete From To
+2021-05-19 23:44:31,714 INFO EventLog: Changed Outside to  in point x=665 y=720 range start=1960 end=1960
+2021-05-19 23:44:37,770 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:46:54,707 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-19 23:47:02,758 INFO EventLog: Starting initialization of the system
+2021-05-19 23:47:06,455 INFO EventLog: Trying to open documtent
+2021-05-19 23:47:06,824 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-19 23:47:06,944 INFO EventLog: Connect to Microsoft cloud
+2021-05-19 23:47:12,387 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:47:17,069 INFO EventLog: Microsoft cloud found : Fix
+2021-05-19 23:47:17,097 INFO EventLog: Trigger word Fix
+2021-05-19 23:47:17,545 INFO EventLog: Changed batery to battery in point x=917 y=397 range start=44 end=51
+2021-05-19 23:47:23,573 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:47:27,204 INFO EventLog: Microsoft cloud found : Add great after first
+2021-05-19 23:47:27,261 INFO EventLog: Trigger word add
+2021-05-19 23:47:27,549 INFO EventLog: Changed first to first great in point x=640 y=542 range start=607 end=618
+2021-05-19 23:47:33,473 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:47:35,705 INFO EventLog: Microsoft cloud found : Copy from down
+2021-05-19 23:47:35,751 INFO EventLog: Trigger word Copy From
+2021-05-19 23:47:38,610 INFO EventLog: Microsoft cloud found : Two send
+2021-05-19 23:47:38,618 INFO EventLog: Trigger word Copy From To
+2021-05-19 23:47:39,015 INFO EventLog: Changed down to  in point x=641 y=652 range start=1387 end=1403
+2021-05-19 23:47:44,967 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:47:46,902 INFO EventLog: Microsoft cloud found : After ring
+2021-05-19 23:47:50,235 INFO EventLog: Microsoft cloud found : Based after ring
+2021-05-19 23:47:50,302 INFO EventLog: Trigger word Paste
+2021-05-19 23:47:56,788 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:48:00,111 INFO EventLog: Microsoft cloud found : Replace garden to balcony
+2021-05-19 23:48:00,129 INFO EventLog: Trigger word Replace
+2021-05-19 23:48:00,432 INFO EventLog: Changed garden to balcony in point x=744 y=513 range start=2318 end=2325
+2021-05-19 23:48:06,457 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:48:09,191 INFO EventLog: Microsoft cloud found : Fix
+2021-05-19 23:48:09,202 INFO EventLog: Trigger word Fix
+2021-05-19 23:48:09,578 INFO EventLog: Changed slueg to slug in point x=1209 y=413 range start=980 end=984
+2021-05-19 23:48:15,509 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:48:20,823 INFO EventLog: Microsoft cloud found : Delete from water
+2021-05-19 23:48:20,836 INFO EventLog: Trigger word Delete From
+2021-05-19 23:48:24,691 INFO EventLog: Microsoft cloud found : Do mud
+2021-05-19 23:48:24,706 INFO EventLog: Trigger word Delete From To
+2021-05-19 23:48:28,046 INFO EventLog: Changed Water to  in point x=1142 y=506 range start=1666 end=1666
+2021-05-19 23:48:34,015 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:48:39,429 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:49:03,836 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-19 23:49:16,820 INFO EventLog: Starting initialization of the system
+2021-05-19 23:49:20,521 INFO EventLog: Trying to open documtent
+2021-05-19 23:49:20,998 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-19 23:49:21,117 INFO EventLog: Connect to Microsoft cloud
+2021-05-19 23:49:27,151 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:49:33,154 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:49:33,384 INFO EventLog: Disconnect from Microsoft cloud
+2021-05-19 23:49:33,456 INFO EventLog: Spell checker closed successfully
+2021-05-19 23:49:33,752 INFO EventLog: Disconnect from Microsoft cloud
+2021-05-19 23:49:33,839 INFO EventLog: Starting initialization of the system
+2021-05-19 23:49:37,463 INFO EventLog: Trying to open documtent
+2021-05-19 23:49:37,856 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-19 23:49:37,915 INFO EventLog: Connect to Microsoft cloud
+2021-05-19 23:49:43,835 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:49:49,838 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:49:53,097 INFO EventLog: Microsoft cloud found : Fix
+2021-05-19 23:49:53,165 INFO EventLog: Trigger word Fix
+2021-05-19 23:49:53,522 INFO EventLog: Changed alwys to always in point x=974 y=467 range start=113 end=119
+2021-05-19 23:49:59,569 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:50:04,917 INFO EventLog: Microsoft cloud found : Replace back to front
+2021-05-19 23:50:04,980 INFO EventLog: Trigger word Replace
+2021-05-19 23:50:05,281 INFO EventLog: Changed back to front in point x=913 y=546 range start=258 end=263
+2021-05-19 23:50:11,207 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:50:17,640 INFO EventLog: Microsoft cloud found : Add time after that
+2021-05-19 23:50:17,686 INFO EventLog: Trigger word add
+2021-05-19 23:50:17,983 INFO EventLog: Changed that to that time in point x=883 y=686 range start=850 end=859
+2021-05-19 23:50:22,035 INFO EventLog: Microsoft cloud found : Cancer
+2021-05-19 23:50:27,467 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:50:29,408 INFO EventLog: Microsoft cloud found : Cancel
+2021-05-19 23:50:29,442 INFO EventLog: Changed that time to that in point x=883 y=686 range start=850 end=854
+2021-05-19 23:50:34,294 INFO EventLog: Microsoft cloud found : Ed time after the
+2021-05-19 23:50:34,339 INFO EventLog: Trigger word add
+2021-05-19 23:50:34,626 INFO EventLog: Changed the to the time in point x=974 y=646 range start=795 end=803
+2021-05-19 23:50:40,574 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:50:44,703 INFO EventLog: Microsoft cloud found : Fix
+2021-05-19 23:50:44,716 INFO EventLog: Trigger word Fix
+2021-05-19 23:50:45,035 INFO EventLog: Changed est to Est in point x=862 y=643 range start=1175 end=1178
+2021-05-19 23:50:47,254 INFO EventLog: Microsoft cloud found : Options
+2021-05-19 23:50:49,505 INFO EventLog: Microsoft cloud found : 2
+2021-05-19 23:50:49,534 INFO EventLog: Changed est to east in point x=862 y=643 range start=1175 end=1179
+2021-05-19 23:50:55,586 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:50:57,721 INFO EventLog: Microsoft cloud found : Copy from it
+2021-05-19 23:50:57,785 INFO EventLog: Trigger word Copy From
+2021-05-19 23:51:00,846 INFO EventLog: Microsoft cloud found : Do not
+2021-05-19 23:51:00,854 INFO EventLog: Trigger word Copy From To
+2021-05-19 23:51:01,141 INFO EventLog: Changed It to  in point x=937 y=602 range start=1359 end=1369
+2021-05-19 23:51:07,025 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:51:11,662 INFO EventLog: Microsoft cloud found : Based after end
+2021-05-19 23:51:11,693 INFO EventLog: Trigger word Paste
+2021-05-19 23:51:18,105 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:51:21,210 INFO EventLog: Microsoft cloud found : Delete from outside
+2021-05-19 23:51:21,271 INFO EventLog: Trigger word Delete From
+2021-05-19 23:51:24,980 INFO EventLog: Microsoft cloud found : 2 fro
+2021-05-19 23:51:25,036 INFO EventLog: Trigger word Delete From To
+2021-05-19 23:51:28,317 INFO EventLog: Changed Outside to  in point x=665 y=720 range start=1960 end=1960
+2021-05-19 23:51:34,261 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:53:29,403 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-19 23:53:43,272 INFO EventLog: Starting initialization of the system
+2021-05-19 23:53:47,003 INFO EventLog: Trying to open documtent
+2021-05-19 23:53:47,485 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-19 23:53:47,600 INFO EventLog: Connect to Microsoft cloud
+2021-05-19 23:53:53,634 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:53:59,627 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:53:59,631 INFO EventLog: Disconnect from Microsoft cloud
+2021-05-19 23:53:59,685 INFO EventLog: Spell checker closed successfully
+2021-05-19 23:53:59,812 INFO EventLog: Disconnect from Microsoft cloud
+2021-05-19 23:53:59,903 INFO EventLog: Starting initialization of the system
+2021-05-19 23:54:03,519 INFO EventLog: Trying to open documtent
+2021-05-19 23:54:04,046 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-19 23:54:04,104 INFO EventLog: Connect to Microsoft cloud
+2021-05-19 23:54:10,044 INFO EventLog: Microsoft cloud found : Fix
+2021-05-19 23:54:10,095 INFO EventLog: Trigger word Fix
+2021-05-19 23:54:10,447 INFO EventLog: Changed alwys to always in point x=974 y=527 range start=113 end=119
+2021-05-19 23:54:16,469 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:54:18,029 INFO EventLog: Microsoft cloud found : Trump
+2021-05-19 23:54:21,711 INFO EventLog: Microsoft cloud found : Replaced back to front
+2021-05-19 23:54:27,295 INFO EventLog: Microsoft cloud found : Replace back to front
+2021-05-19 23:54:27,352 INFO EventLog: Trigger word Replace
+2021-05-19 23:54:27,682 INFO EventLog: Changed back to front in point x=913 y=606 range start=258 end=263
+2021-05-19 23:54:33,792 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:54:37,820 INFO EventLog: Microsoft cloud found : It time after the
+2021-05-19 23:54:42,742 INFO EventLog: Microsoft cloud found : Add time after the
+2021-05-19 23:54:42,793 INFO EventLog: Trigger word add
+2021-05-19 23:54:43,110 INFO EventLog: Changed the to the time in point x=974 y=646 range start=795 end=803
+2021-05-19 23:54:49,164 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:54:50,544 INFO EventLog: Disconnect from Microsoft cloud
+2021-05-19 23:54:50,544 INFO EventLog: connect to system lib speech to text
+2021-05-19 23:54:50,561 INFO EventLog: connect to system lib
+2021-05-19 23:54:51,024 INFO EventLog: disconnect from system lib
+2021-05-19 23:54:51,913 INFO EventLog: Connect to Microsoft cloud
+2021-05-19 23:54:54,978 INFO EventLog: Microsoft cloud found : Fix
+2021-05-19 23:54:54,992 INFO EventLog: Trigger word Fix
+2021-05-19 23:54:55,330 INFO EventLog: Changed est to Est in point x=862 y=643 range start=1175 end=1178
+2021-05-19 23:54:58,164 INFO EventLog: Microsoft cloud found : Options
+2021-05-19 23:55:00,608 INFO EventLog: Microsoft cloud found : 2
+2021-05-19 23:55:00,638 INFO EventLog: Changed est to east in point x=862 y=643 range start=1175 end=1179
+2021-05-19 23:55:06,683 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:55:09,493 INFO EventLog: Microsoft cloud found : Copy from it
+2021-05-19 23:55:09,508 INFO EventLog: Trigger word Copy From
+2021-05-19 23:55:12,640 INFO EventLog: Microsoft cloud found : Do not
+2021-05-19 23:55:12,643 INFO EventLog: Trigger word Copy From To
+2021-05-19 23:55:12,921 INFO EventLog: Changed It to  in point x=937 y=662 range start=1359 end=1369
+2021-05-19 23:55:18,799 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:55:22,743 INFO EventLog: Microsoft cloud found : Based after end
+2021-05-19 23:55:22,757 INFO EventLog: Trigger word Paste
+2021-05-19 23:55:29,118 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:55:31,737 INFO EventLog: Microsoft cloud found : Delete from outside
+2021-05-19 23:55:31,749 INFO EventLog: Trigger word Delete From
+2021-05-19 23:55:35,199 INFO EventLog: Microsoft cloud found : 2 fro
+2021-05-19 23:55:35,212 INFO EventLog: Trigger word Delete From To
+2021-05-19 23:55:38,587 INFO EventLog: Changed Outside to  in point x=665 y=660 range start=1960 end=1960
+2021-05-19 23:58:30,058 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-19 23:58:43,304 INFO EventLog: Starting initialization of the system
+2021-05-19 23:58:46,956 INFO EventLog: Trying to open documtent
+2021-05-19 23:58:47,322 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-19 23:58:47,438 INFO EventLog: Connect to Microsoft cloud
+2021-05-19 23:58:53,480 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:58:59,489 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:59:04,903 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:59:05,088 INFO EventLog: Disconnect from Microsoft cloud
+2021-05-19 23:59:05,142 INFO EventLog: Spell checker closed successfully
+2021-05-19 23:59:05,450 INFO EventLog: Disconnect from Microsoft cloud
+2021-05-19 23:59:05,539 INFO EventLog: Starting initialization of the system
+2021-05-19 23:59:09,200 INFO EventLog: Trying to open documtent
+2021-05-19 23:59:09,671 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-19 23:59:09,728 INFO EventLog: Connect to Microsoft cloud
+2021-05-19 23:59:15,655 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:59:18,870 INFO EventLog: Microsoft cloud found : Fix
+2021-05-19 23:59:18,899 INFO EventLog: Trigger word Fix
+2021-05-19 23:59:19,384 INFO EventLog: Changed alwys to always in point x=974 y=527 range start=113 end=119
+2021-05-19 23:59:25,509 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:59:27,443 INFO EventLog: Microsoft cloud found : Back to front
+2021-05-19 23:59:31,270 INFO EventLog: Microsoft cloud found : Replace back to front
+2021-05-19 23:59:31,316 INFO EventLog: Trigger word Replace
+2021-05-19 23:59:31,656 INFO EventLog: Changed back to front in point x=913 y=546 range start=258 end=263
+2021-05-19 23:59:37,599 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:59:44,150 INFO EventLog: Microsoft cloud found : Ed time after there
+2021-05-19 23:59:44,211 INFO EventLog: Trigger word add
+2021-05-19 23:59:44,510 INFO EventLog: Changed the to the time in point x=974 y=706 range start=795 end=803
+2021-05-19 23:59:50,471 INFO EventLog: Microsoft cloud found : 
+2021-05-19 23:59:52,798 INFO EventLog: Microsoft cloud found : Fix
+2021-05-19 23:59:52,837 INFO EventLog: Trigger word Fix
+2021-05-19 23:59:53,200 INFO EventLog: Changed est to Est in point x=862 y=643 range start=1175 end=1178
+2021-05-19 23:59:55,651 INFO EventLog: Microsoft cloud found : Options
+2021-05-19 23:59:57,823 INFO EventLog: Microsoft cloud found : 2
+2021-05-19 23:59:57,918 INFO EventLog: Changed est to east in point x=862 y=643 range start=1175 end=1179
+2021-05-20 00:01:38,811 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-20 00:01:53,089 INFO EventLog: Starting initialization of the system
+2021-05-20 00:01:56,739 INFO EventLog: Trying to open documtent
+2021-05-20 00:01:57,144 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-20 00:01:57,267 INFO EventLog: Connect to Microsoft cloud
+2021-05-20 00:02:02,716 INFO EventLog: Microsoft cloud found : 
+2021-05-20 00:02:08,731 INFO EventLog: Microsoft cloud found : 
+2021-05-20 00:02:14,741 INFO EventLog: Microsoft cloud found : 
+2021-05-20 00:02:14,752 INFO EventLog: Disconnect from Microsoft cloud
+2021-05-20 00:02:14,848 INFO EventLog: Spell checker closed successfully
+2021-05-20 00:02:53,333 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-20 00:03:07,211 INFO EventLog: Starting initialization of the system
+2021-05-20 00:03:10,855 INFO EventLog: Trying to open documtent
+2021-05-20 00:03:11,399 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-20 00:03:11,521 INFO EventLog: Connect to Microsoft cloud
+2021-05-20 00:03:16,378 INFO EventLog: Microsoft cloud found : Fix
+2021-05-20 00:03:16,407 INFO EventLog: Trigger word Fix
+2021-05-20 00:03:16,743 INFO EventLog: Changed alwys to always in point x=974 y=527 range start=113 end=119
+2021-05-20 00:04:42,373 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-20 00:04:53,099 INFO EventLog: Starting initialization of the system
+2021-05-20 00:04:56,815 INFO EventLog: Trying to open documtent
+2021-05-20 00:04:57,332 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-20 00:04:57,457 INFO EventLog: Connect to Microsoft cloud
+2021-05-20 00:05:02,921 INFO EventLog: Microsoft cloud found : 
+2021-05-20 00:05:26,446 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-20 00:05:34,457 INFO EventLog: Starting initialization of the system
+2021-05-20 00:05:38,209 INFO EventLog: Trying to open documtent
+2021-05-20 00:05:38,648 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-20 00:05:38,774 INFO EventLog: Connect to Microsoft cloud
+2021-05-20 00:05:57,788 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-20 00:06:07,838 INFO EventLog: Starting initialization of the system
+2021-05-20 00:06:11,619 INFO EventLog: Trying to open documtent
+2021-05-20 00:06:12,062 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-20 00:06:12,182 INFO EventLog: Connect to Microsoft cloud
+2021-05-20 00:06:17,624 INFO EventLog: Microsoft cloud found : 
+2021-05-20 00:06:38,305 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-20 00:06:51,887 INFO EventLog: Starting initialization of the system
+2021-05-20 00:06:55,684 INFO EventLog: Trying to open documtent
+2021-05-20 00:06:56,255 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-20 00:06:56,367 INFO EventLog: Connect to Microsoft cloud
+2021-05-20 00:07:02,331 INFO EventLog: Microsoft cloud found : 
+2021-05-20 00:07:34,895 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-20 00:07:47,635 INFO EventLog: Starting initialization of the system
+2021-05-20 00:07:51,416 INFO EventLog: Trying to open documtent
+2021-05-20 00:07:51,963 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-20 00:07:52,073 INFO EventLog: Connect to Microsoft cloud
+2021-05-20 00:07:58,142 INFO EventLog: Microsoft cloud found : Fix
+2021-05-20 00:07:58,189 INFO EventLog: Trigger word Fix
+2021-05-20 00:07:58,570 INFO EventLog: Changed batery to battery in point x=917 y=457 range start=44 end=51
+2021-05-20 00:08:04,641 INFO EventLog: Microsoft cloud found : 
+2021-05-20 00:08:07,287 INFO EventLog: Microsoft cloud found : Had great after first
+2021-05-20 00:08:07,343 INFO EventLog: Trigger word add
+2021-05-20 00:08:07,630 INFO EventLog: Changed first to first great in point x=640 y=542 range start=607 end=618
+2021-05-20 00:08:13,564 INFO EventLog: Microsoft cloud found : 
+2021-05-20 00:08:15,297 INFO EventLog: Microsoft cloud found : Come down
+2021-05-20 00:08:18,546 INFO EventLog: Microsoft cloud found : Copy from down
+2021-05-20 00:08:18,598 INFO EventLog: Trigger word Copy From
+2021-05-20 00:08:22,017 INFO EventLog: Microsoft cloud found : Two send
+2021-05-20 00:08:22,021 INFO EventLog: Trigger word Copy From To
+2021-05-20 00:08:22,716 INFO EventLog: Changed down to  in point x=641 y=652 range start=1387 end=1403
+2021-05-20 00:08:28,597 INFO EventLog: Microsoft cloud found : 
+2021-05-20 00:08:30,516 INFO EventLog: Microsoft cloud found : After ring
+2021-05-20 00:08:33,886 INFO EventLog: Microsoft cloud found : Based after ring
+2021-05-20 00:08:33,936 INFO EventLog: Trigger word Paste
+2021-05-20 00:08:40,491 INFO EventLog: Microsoft cloud found : 
+2021-05-20 00:08:43,335 INFO EventLog: Microsoft cloud found : Replace garden to balcony
+2021-05-20 00:08:43,385 INFO EventLog: Trigger word Replace
+2021-05-20 00:08:43,679 INFO EventLog: Changed garden to balcony in point x=744 y=693 range start=2318 end=2325
+2021-05-20 00:08:49,706 INFO EventLog: Microsoft cloud found : 
+2021-05-20 00:08:52,457 INFO EventLog: Microsoft cloud found : Fix
+2021-05-20 00:08:52,520 INFO EventLog: Trigger word Fix
+2021-05-20 00:08:52,902 INFO EventLog: Changed slueg to slug in point x=1209 y=413 range start=980 end=984
+2021-05-20 00:08:58,868 INFO EventLog: Microsoft cloud found : 
+2021-05-20 00:09:01,609 INFO EventLog: Microsoft cloud found : Delete from water
+2021-05-20 00:09:01,675 INFO EventLog: Trigger word Delete From
+2021-05-20 00:09:04,865 INFO EventLog: Microsoft cloud found : 2 mud
+2021-05-20 00:09:04,923 INFO EventLog: Trigger word Delete From To
+2021-05-20 00:09:08,299 INFO EventLog: Changed Water to  in point x=1142 y=566 range start=1666 end=1666
