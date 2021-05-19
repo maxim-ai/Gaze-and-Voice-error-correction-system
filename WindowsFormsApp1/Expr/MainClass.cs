@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
-using CsvExample;
+//using CsvExample;
 
 namespace Experiment
 {
@@ -22,6 +22,7 @@ namespace Experiment
         //foreach Experiment
         private string experimentID;
         private string userID;
+        private string userName;
         private string systemName;
         private string currentTextPath;
         private int currentTextNumber;
@@ -60,26 +61,30 @@ namespace Experiment
             * gets an event to pop up the mission 
             * and pop up the mission when event accure
          */
-  
+
 
         /// This function return the correct Text path according to systemname 
         /// insert to db - experiment ID, timeStamp, userId, system name
         /// return path to text file
+        /// <param name="user_name">user name string , contains characters </param>
         /// <param name="user_id">user id string , contains 9 numbers </param>
         /// <param name="systemName"> string VoiceOnly, VoiceGaze, VoiceMouse, MouseAndKeyboard</param>
         /// <param name="number">0=pilot, 1=text number 1, 2= text number 2 </param>
         /// <returns>string - path of word documen</returns>
-        public string GetPath(string user_id, string systemName, int number)
+        public string GetPath(string user_id, string user_name, string systemName, int number)
         {
-            this.csvWriter.initTables(user_id, DateTime.Now.ToString("dd-MM-yyyy"));
+            this.csvWriter.initTables(user_id, user_name, DateTime.Now.ToString("dd-MM-yyyy"));
+            this.csvWriter.writeUser(user_id, user_name, DateTime.Now.ToString("dd-MM-yyyy"));
             //get path to text file from TextAndMissions
             try
             {
                 string textPath = textAndMissions.getTextPath(systemName, number);
+                this.userName = user_name;
                 this.userID = user_id;
                 this.currentTextPath = textPath;
                 this.currentTextNumber = number;
                 this.systemName = systemName;
+               
                 //  this.currentMissionIndex = 0;
                 return textPath;
             }
@@ -291,7 +296,7 @@ namespace Experiment
         //{
         //    //TextAndMissions tx = new TextAndMissions();
         //    MainClass mc = new MainClass();
-        //    //*******************************startExp_0 * *****************************//*
+        //    //*******************************startExp_0 * ****************************
         //    string path = mc.GetPath("3333", "VoiceOnly", 1);
         //    Console.WriteLine(path);
         //    mc.StartExperiment(DateTime.Now);

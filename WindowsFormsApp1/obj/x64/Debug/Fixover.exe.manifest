@@ -90,14 +90,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fixover.exe" size="751072">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fixover.exe" size="751584">
       <assemblyIdentity name="Fixover" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>4354fUn/65p0bROC6pA//1p4nB5k7H1cGLCzaabpOYs=</dsig:DigestValue>
+        <dsig:DigestValue>n0A2UZOqGuFtKUmEo8kJRakCWQYK7On75yU1Mwxmxh8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -806,13 +806,13 @@
       <dsig:DigestValue>ntXmxC03A64mXWV0wFaZAfpu8zBYUX0dxqZObj/Be+g=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Expr\Resources\old\commands.txt" size="6204">
+  <file name="Expr\Resources\old\commands.txt" size="6117">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Qy12vkARK6x49c4Y0O4EsNB7r/kfpZWhCTdOZaxUwWM=</dsig:DigestValue>
+      <dsig:DigestValue>TazWNBb/c5/xi9iWk8zH7NoK4poHUdbHOS0OTY0Hza0=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Fixover.exe.config" size="1020">

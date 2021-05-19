@@ -396,18 +396,6 @@
     <Content Include="ExperimentNew\hde2.PNG" />
     <Content Include="ExperimentNew\play.png" />
     <Content Include="ExperimentNew\video.png" />
-    <Content Include="Expr\content\Core\Compression\Snappy\lib\win\snappy32.dll" />
-    <Content Include="Expr\content\Core\Compression\Snappy\lib\win\snappy64.dll" />
-    <Content Include="Expr\content\Core\Compression\Zstandard\lib\win\libzstd.dll" />
-    <Content Include="Expr\content\libzstd.dll" />
-    <Content Include="Expr\content\mongocrypt.dll" />
-    <Content Include="Expr\content\snappy32.dll" />
-    <Content Include="Expr\content\snappy64.dll" />
-    <Content Include="Expr\Core\Compression\Snappy\lib\win\snappy32.dll" />
-    <Content Include="Expr\Core\Compression\Snappy\lib\win\snappy64.dll" />
-    <Content Include="Expr\Core\Compression\Zstandard\lib\win\libzstd.dll" />
-    <Content Include="Expr\lib\net461\ExperimentSystem.exe" />
-    <Content Include="Expr\Resources\old\commands.txt" />
     <EmbeddedResource Include="ExperimentNew\ExperimentForm.resx">
       <DependentUpon>ExperimentForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -435,6 +423,7 @@
     <EmbeddedResource Include="View\suggestionPopup.resx">
       <DependentUpon>suggestionPopup.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="bin\Resources\missions.csv" />
     <None Include="Expr\app.config" />
     <None Include="Expr\Experiment.csproj" />
     <None Include="Expr\Experiment.nuspec" />
@@ -457,6 +446,13 @@
     <None Include="Expr\Resources\old\text_8.docx" />
     <None Include="Expr\Resources\old\text_9.docx" />
     <None Include="Expr\Resources\pilot.docx" />
+    <None Include="Expr\Resources\VoiceOnly_#0_1.docx" />
+    <None Include="Expr\Resources\VoiceOnly_#0_11.docx" />
+    <None Include="Expr\Resources\VoiceOnly_#0_13.docx" />
+    <None Include="Expr\Resources\VoiceOnly_#0_3.docx" />
+    <None Include="Expr\Resources\VoiceOnly_#0_5.docx" />
+    <None Include="Expr\Resources\VoiceOnly_#0_7.docx" />
+    <None Include="Expr\Resources\VoiceOnly_#0_9.docx" />
     <None Include="Expr\Resources\VoiceOnly_#1_1.docx" />
     <None Include="Expr\Resources\VoiceOnly_#1_11.docx" />
     <None Include="Expr\Resources\VoiceOnly_#1_13.docx" />
@@ -474,6 +470,18 @@
     <None Include="Expr\_rels\.rels" />
     <None Include="icons\question.jpeg" />
     <None Include="icons\question2.png" />
+    <Content Include="Expr\content\Core\Compression\Snappy\lib\win\snappy32.dll" />
+    <Content Include="Expr\content\Core\Compression\Snappy\lib\win\snappy64.dll" />
+    <Content Include="Expr\content\Core\Compression\Zstandard\lib\win\libzstd.dll" />
+    <Content Include="Expr\content\libzstd.dll" />
+    <Content Include="Expr\content\mongocrypt.dll" />
+    <Content Include="Expr\content\snappy32.dll" />
+    <Content Include="Expr\content\snappy64.dll" />
+    <Content Include="Expr\Core\Compression\Snappy\lib\win\snappy32.dll" />
+    <Content Include="Expr\Core\Compression\Snappy\lib\win\snappy64.dll" />
+    <Content Include="Expr\Core\Compression\Zstandard\lib\win\libzstd.dll" />
+    <Content Include="Expr\lib\net461\ExperimentSystem.exe" />
+    <Content Include="Expr\Resources\old\commands.txt" />
     <Content Include="Hunspellx64.dll" />
     <Content Include="Hunspellx86.dll" />
     <None Include="icons\file.png" />

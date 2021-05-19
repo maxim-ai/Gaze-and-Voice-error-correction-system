@@ -143,16 +143,16 @@ namespace EyeGaze
 
             if (expNumber != 0) { this.controller.engineMain.End(); }
 
-            string tempSystemName = "";
-            if (expNumber == 0)
-            {
-                tempSystemName = "VoiceOnly";
-            }
-            else tempSystemName = _systemName;
+            //string tempSystemName = "";
+            //if (expNumber == 0)
+            //{
+            //    tempSystemName = "VoiceOnly";
+            //}
+            string tempSystemName = _systemName;
 
 
             MainClass mainExpreriment = controller.engineMain.mainExperiment;
-            String path = mainExpreriment.GetPath(this.IdTxtBox.Text, tempSystemName, expNumber);
+            String path = mainExpreriment.GetPath(this.IdTxtBox.Text, this.UserameTxb.Text, tempSystemName, expNumber);
 
             controller.path = path;
             controller.StartProgram("EyeGaze.SpellChecker.WordSpell", controller.speechToText, _systemName);

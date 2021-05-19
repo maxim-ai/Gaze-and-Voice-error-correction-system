@@ -18,9 +18,9 @@ namespace Experiment
         public Dictionary<string, string> systemNameAndTextPath =
             new Dictionary<string, string>(){
                 {"VoiceOnly_#0", string.Format("{0}Resources\\VoiceOnly_#0.docx", Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\")))},
-                {"VoiceOnly_#1", string.Format("{0}Resources\\exp1.docx", Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\")))},
+                {"VoiceOnly_#1", string.Format("{0}Resources\\VoiceOnly_#1.docx", Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\")))},
                 {"VoiceOnly_#2", string.Format("{0}Resources\\VoiceOnly_#2.docx", Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\")))},
-                {"VoiceOnly_#3", string.Format("{0}Resources\\exp3.docx", Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\")))},
+                {"VoiceOnly_#3", string.Format("{0}Resources\\VoiceOnly_#3.docx", Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\")))},
                 {"VoiceGaze_#0", string.Format("{0}Resources\\VoiceGaze_#0.docx", Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\")))},
                 {"VoiceGaze_#1", string.Format("{0}Resources\\VoiceGaze_#1.docx", Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\")))},
                 {"VoiceGaze_#2", string.Format("{0}Resources\\VoiceGaze_#2.docx", Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\")))},
@@ -41,7 +41,6 @@ namespace Experiment
         {
             this.readMissionsFromCsv(); 
         }
-
 
         private void readMissionsFromCsv()
         {
@@ -70,24 +69,30 @@ namespace Experiment
 
             };
             string path = string.Format("{0}Resources\\missions.csv", Path.GetFullPath(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\")));
-            using (var reader = new StreamReader(path))
+            try
             {
-                //List<string> missionsVoiceMouse__0 = new List<string>();
-                //List<string> listB = new List<string>();
-
-                var columnsNames = reader.ReadLine();
-
-                while (!reader.EndOfStream)
+                using (var reader = new StreamReader(path))
                 {
-                    var line = reader.ReadLine();
-                    var values = line.Split(new string[] { ",\"" }, StringSplitOptions.None);
-                    string newMission = values[1].Remove(values[1].Length - 1);
-                    newMission = newMission.Replace("\\\"", "");
-                    //Console.WriteLine(newMission);
-                    this.textPathAndMissions[values[0].Split(',')[0]].Add(newMission);
+                    //List<string> missionsVoiceMouse__0 = new List<string>();
+                    //List<string> listB = new List<string>();
+
+                    var columnsNames = reader.ReadLine();
+
+                    while (!reader.EndOfStream)
+                    {
+                        var line = reader.ReadLine();
+                        var values = line.Split(new string[] { ",\"" }, StringSplitOptions.None);
+                        string newMission = values[1].Remove(values[1].Length - 1);
+                        newMission = newMission.Replace("\\\"", "");
+                        //Console.WriteLine(newMission);
+                        this.textPathAndMissions[values[0].Split(',')[0]].Add(newMission);
+                    }
                 }
             }
-
+            catch (System.IO.IOException)
+            {
+                Console.WriteLine("Error: The file missions.csv in use with another program or perhaps not exist in path: " + path + ".");
+            }
 
         }
         public string getTextPath(string systemName, int number)
@@ -119,17 +124,7 @@ namespace Experiment
             mission = listOfMissions[missionIndex];
             return mission;
         }
-        public List<string> getAllMissions(string systemName, int number)
-        {
-            List<string> listOfMissions;
-            string key = systemName + "_#" + number;
-            if (!textPathAndMissions.TryGetValue(key, out listOfMissions))
-            {
-                // the key isn't in the dictionary.
-                throw new Exception("textPathAndMissions not conains the given text path as a key: " + key);
-            }
-            return listOfMissions;
-        }
+
         public int getSizeOfMissionList(string systemName, int number)
         {
             List<string> listOfMissions;
@@ -142,15 +137,5 @@ namespace Experiment
             return listOfMissions.Count;
         }
 
-        /*public string getPilotPath(string systemName)
-{
-    string pilotPath;
-    if (!systemNameAndPilotTextPath.TryGetValue(systemName, out pilotPath))
-    {
-        // the key isn't in the dictionary.
-        throw new Exception("textPathAndMissions not conains the given text path as a key: " + pilotPath);
-    }
-    return pilotPath;
-}*/
     }
 }

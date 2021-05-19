@@ -1,44 +1,38 @@
 ﻿using System;
 using System.IO;
 using System.Text;
-using LumenWorks.Framework.IO.Csv;
-using CsvHelper;
 using System.Data;
 using System.Text.RegularExpressions;
 using System.Linq;
-//using GemBox.Document;
 using Spire.Doc;
 
-namespace CsvExample
+namespace Experiment
 {
 
     public class writeToCSV : Experiment.DBWriterInterface
     {
         public writeToCSV()
         {
-            //this.initTables();
         }
-        public void initTables(string userID, string date)
+        public void initTables(string userID, string userName, string date)
         {
             // create tables directory
             Directory.CreateDirectory("./Tables");
             Directory.CreateDirectory("./Tables/"+date+"_"+userID);
             /***********************************************************************************/
-            /***********************************Experiments*************************************/
+            /**************************************Users****************************************/
             /***********************************************************************************/
-            /*if (!File.Exists("./Tables/" + date + "_" + userID+"/experiments.csv"))
+            if (!File.Exists("./Tables/users.csv"))
             {
                 var csv = new StringBuilder();
                 var newLine = string.Format(
-                                        "{0},{1},{2},{3},{4}",
-                                        "ExperimentID", "SystemName", "UserID",
-                                        "TextPath", "TimeStamp"
+                                        "{0},{1},{2}",
+                                        "UserID","UserName", "Timestamp"
                                         );
                 csv.AppendLine(newLine);
 
-
-                File.WriteAllText("./Tables/" + date + "_" + userID + "/experiments.csv", csv.ToString());
-            }*/
+                File.WriteAllText("./Tables/users.csv", csv.ToString());
+            }
 
             /***********************************************************************************/
             /********************************ExperimentsEvents**********************************/
@@ -90,14 +84,12 @@ namespace CsvExample
             }
         }
 
-
-
         // textAfterChange and textBeforeChange are the document before the command and after the command , if there is no change they will be the same 
         // textAfterChange and textBeforeChange are the document before the command and after the command , if there is no change they will be the same 
         public void writeCommandEvent(string CID, string experimentID, string systemName, string userID,
                         string commandName, string baseCommandName, string baseCommandID, string missionID,
                         string argsOfCommand, string textBeforeChange, string textAfterChange, string timeStamp, string date)
-
+            
         {
             var csv = new StringBuilder();
             textBeforeChange = Regex.Unescape(textBeforeChange);
@@ -113,7 +105,17 @@ namespace CsvExample
             csv.AppendLine(newLine);
             File.AppendAllText("./Tables/" + date + "_" + userID + "/commandsEvents.csv", csv.ToString());
         }
+        public void writeUser(string userID, string userName, string timestamp)
+        {
+            var csv = new StringBuilder();
+            var newLine = string.Format(
+                                        "{0},{1},{2}",
+                                        userID, userName, timestamp
+                                        );
+            csv.AppendLine(newLine);
+            File.AppendAllText("./Tables/users.csv", csv.ToString());
 
+        }
         public void writeNewExperimentEvent(string experimentID, string systemName, int textNumber, string user_id, string timestamp, string date)
         {
             var csv = new StringBuilder();
@@ -154,7 +156,6 @@ namespace CsvExample
             File.AppendAllText("./Tables/" + date + "_" + user_id + "/missionsEvent.csv", csv.ToString());
 
         }
-
 
         public void writeEndMissionEvent(string experimentID, string missionID, int textNumber, string systemName,
                         string user_id, string timestamp, string currState, string missionText, string date)
@@ -203,7 +204,7 @@ namespace CsvExample
         private string compare(string missionID, string currState)
         {
             string expectedState = readWord(missionID);
-            if (currState.Equals(expectedState))
+            if (currState.ToLower().Equals(expectedState.ToLower()))
                 return "Pass";
             else
                 return "Fail";
