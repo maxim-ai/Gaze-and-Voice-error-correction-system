@@ -1,0 +1,5 @@
+ExperimentID,SystemName,TextNumber,UserID,Event,Timestamp
+0_VoiceMouse_317649606_21-05-2021,VoiceMouse,0,317649606,NewExperiment,2021-05-21 16:30:41
+0_VoiceMouse_317649606_21-05-2021,VoiceMouse,0,317649606,EndExperiment,2021-05-21 16:30:52
+1_VoiceMouse_317649606_21-05-2021,VoiceMouse,1,317649606,NewExperiment,2021-05-21 16:31:21
+1_VoiceMouse_317649606_21-05-2021,VoiceMouse,1,317649606,EndExperiment,2021-05-21 16:31:30

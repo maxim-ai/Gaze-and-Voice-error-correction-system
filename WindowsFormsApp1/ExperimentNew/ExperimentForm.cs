@@ -64,6 +64,7 @@ namespace EyeGaze
         {
             this._end();
             this.Dispose();
+            Environment.Exit(0);
         }
 
         private void IdBtn_Click(object sender, EventArgs e)
