@@ -97,7 +97,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>CI3cp+wxzYItYx8xeAZSM1U8fOyWSnDOooO6VTFoQec=</dsig:DigestValue>
+        <dsig:DigestValue>v2UwSKzbz0LTD4VZPKcXN2roDWrMpyxEAjtZsgRKhCw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -546,14 +546,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="stdole.dll" size="25480">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="stdole.dll" size="25464">
       <assemblyIdentity name="stdole" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>0EgKT/paYFTiLbpeZ8jQ55eyeuyDJfBW1GanbCTeUpY=</dsig:DigestValue>
+        <dsig:DigestValue>w+WKWN8hrnAPMBVWrF/2DJ15GS7h6GEY4Dbbbs02KsQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -824,24 +824,6 @@
       <dsig:DigestValue>kzK6TeeuQK9tO77u7eC4k4rjhTl8qM/Y/MezzfHNCo8=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="grpc_csharp_ext.x64.dll" size="8084464">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>TDhvVvg2od3y5PIad/ndVoTX1XKiIRlMHwN/o6GfKsk=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="grpc_csharp_ext.x86.dll" size="6204912">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>jdmlKUS6pJHdq0kEiN2LKchSs8Sk1irZZsoqAd6mqtU=</dsig:DigestValue>
-    </hash>
-  </file>
   <file name="Hunspellx64.dll" size="524288">
     <hash>
       <dsig:Transforms>
@@ -860,51 +842,6 @@
       <dsig:DigestValue>5G5PdoLVJfkoPeKyVPPLhtBtJLXRqR7F1sPlIB8WG9U=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="libgrpc_csharp_ext.x64.dylib" size="6944632">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>w2wuuKFg/jiwiz3dTw3St0PvqvYfVxzT/cvUFGnPPiQ=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="libgrpc_csharp_ext.x64.so" size="82018840">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>9ntwBC0tC0KuGsVRkivo3nxnme/DtFMEaySASq+Aqpc=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="libgrpc_csharp_ext.x86.dylib" size="6333976">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Snoj1kYOCZGjbiiHoJXNVhMBne1r/4dnLC4oaIi67vk=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="libgrpc_csharp_ext.x86.so" size="68798956">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>3WZib0c/zw3is6UZ+RJa3FJP9gtESdDGqNbHBhquA04=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="libzstd.dll" size="1020311">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>sJi5wzuQkmscSQy50TJ0vSWG9XsnlkZihnhN8O1E66k=</dsig:DigestValue>
-    </hash>
-  </file>
   <file name="Microsoft.CognitiveServices.Speech.core.dll" size="2649960">
     <hash>
       <dsig:Transforms>
@@ -912,69 +849,6 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>RamqR8zGTTWn8R0aYcA7bvkTEepTGF47hAfxx78reQ4=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="mongocrypt.dll" size="332800">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Q8dkey4BJWd+Z0y3BJPjq8Za6k8l8wTMkV9bYwt7+04=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="nunit.engine.api.dll" size="18944">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>mPedgRFRAvGfE0WqTb0ycge++PwM8znXlZY4eqvAsE8=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="nunit.engine.dll" size="130560">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>jZRSZ0RuwB1thMZ8fDENCYNRlZZmDcudXxpj13UHC7k=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="NUnit3.TestAdapter.dll" size="357888">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>6CPQzi/vOupEuXKI3tRQjNPbQMjbm5CjMFnFqcbXmAc=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="NUnit3.TestAdapter.pdb" size="22676">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>JR6NW0dvy+D6TE8pDsRUfiw0lBk4e2vCWhXyXbAYkYo=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="snappy32.dll" size="231936">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>k8M9VIrDS4lxsB4/uY+4galTD5z27rRC2jn04d4RQCI=</dsig:DigestValue>
-    </hash>
-  </file>
-  <file name="snappy64.dll" size="270336">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>oL/RbhCr43mqI21RsiQr7FRhZMzg1Rsog+YkF/UIAVs=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
