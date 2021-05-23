@@ -90,14 +90,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fixover.exe" size="751072">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fixover.exe" size="751584">
       <assemblyIdentity name="Fixover" version="1.0.0.0" language="neutral" processorArchitecture="amd64" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ivqHy5ATyEzcD/S/3WNxWztPhVJCyb7SEP0w5966+n0=</dsig:DigestValue>
+        <dsig:DigestValue>CI3cp+wxzYItYx8xeAZSM1U8fOyWSnDOooO6VTFoQec=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -546,14 +546,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="stdole.dll" size="25464">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="stdole.dll" size="25480">
       <assemblyIdentity name="stdole" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>w+WKWN8hrnAPMBVWrF/2DJ15GS7h6GEY4Dbbbs02KsQ=</dsig:DigestValue>
+        <dsig:DigestValue>0EgKT/paYFTiLbpeZ8jQ55eyeuyDJfBW1GanbCTeUpY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

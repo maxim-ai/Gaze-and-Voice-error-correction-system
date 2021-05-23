@@ -2184,3 +2184,110 @@
 2021-05-21 16:34:15,781 INFO ErrorLog: The RPC server is unavailable. (חריג מ-  HRESULT: 0x800706BA)
 2021-05-21 16:34:28,992 INFO ErrorLog: The RPC server is unavailable. (חריג מ-  HRESULT: 0x800706BA)
 2021-05-21 16:34:44,280 INFO ErrorLog: The RPC server is unavailable. (חריג מ-  HRESULT: 0x800706BA)
+2021-05-23 12:42:18,461 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-23 12:42:57,520 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-23 12:43:13,012 ERROR ErrorLog: Word text editor did not open successfully Sorry, we couldn't find your file. Was it moved, renamed, or deleted? (C:\Users\seanav\...\VoiceGaze_#0.docx)
+2021-05-23 12:44:20,671 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-23 12:44:36,895 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 12:44:45,510 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 12:44:57,652 ERROR ErrorLog: Unable to cast COM object of type 'Microsoft.Office.Interop.Word.DocumentClass' to interface type 'Microsoft.Office.Interop.Word._Document'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{0002096B-0000-0000-C000-000000000046}' failed due to the following error: The application called an interface that was marshalled for a different thread. (Exception from HRESULT: 0x8001010E (RPC_E_WRONG_THREAD)).
+2021-05-23 12:44:58,403 ERROR ErrorLog: The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2021-05-23 12:45:25,039 ERROR ErrorLog: Unable to cast COM object of type 'Microsoft.Office.Interop.Word.DocumentClass' to interface type 'Microsoft.Office.Interop.Word._Document'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{0002096B-0000-0000-C000-000000000046}' failed due to the following error: The application called an interface that was marshalled for a different thread. (Exception from HRESULT: 0x8001010E (RPC_E_WRONG_THREAD)).
+2021-05-23 12:46:53,454 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-23 12:47:32,578 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 12:47:44,280 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 12:47:48,814 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 12:49:04,854 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 12:49:25,661 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 12:49:43,781 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 12:50:37,087 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-23 12:51:24,779 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 12:52:57,732 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 12:53:25,362 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 12:55:00,741 ERROR ErrorLog: The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2021-05-23 12:55:00,953 ERROR ErrorLog: Unable to cast COM object of type 'Microsoft.Office.Interop.Word.DocumentClass' to interface type 'Microsoft.Office.Interop.Word._Document'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{0002096B-0000-0000-C000-000000000046}' failed due to the following error: The application called an interface that was marshalled for a different thread. (Exception from HRESULT: 0x8001010E (RPC_E_WRONG_THREAD)).
+2021-05-23 12:57:09,195 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 12:57:34,164 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 12:59:17,253 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 13:01:47,780 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 13:02:08,747 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 13:02:11,512 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 13:02:20,835 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 13:02:32,828 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 13:03:49,052 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 13:04:28,013 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 13:04:36,060 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 13:04:52,402 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-23 13:07:25,751 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 13:07:32,207 ERROR ErrorLog: Unable to cast COM object of type 'Microsoft.Office.Interop.Word.DocumentClass' to interface type 'Microsoft.Office.Interop.Word._Document'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{0002096B-0000-0000-C000-000000000046}' failed due to the following error: The application called an interface that was marshalled for a different thread. (Exception from HRESULT: 0x8001010E (RPC_E_WRONG_THREAD)).
+2021-05-23 13:07:32,807 ERROR ErrorLog: The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2021-05-23 13:09:30,339 ERROR ErrorLog: The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2021-05-23 13:09:30,545 ERROR ErrorLog: Unable to cast COM object of type 'Microsoft.Office.Interop.Word.DocumentClass' to interface type 'Microsoft.Office.Interop.Word._Document'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{0002096B-0000-0000-C000-000000000046}' failed due to the following error: The application called an interface that was marshalled for a different thread. (Exception from HRESULT: 0x8001010E (RPC_E_WRONG_THREAD)).
+2021-05-23 13:11:35,729 ERROR ErrorLog: The object invoked has disconnected from its clients. (Exception from HRESULT: 0x80010108 (RPC_E_DISCONNECTED))
+2021-05-23 13:11:35,762 ERROR ErrorLog: The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2021-05-23 13:11:35,957 ERROR ErrorLog: Unable to cast COM object of type 'Microsoft.Office.Interop.Word.DocumentClass' to interface type 'Microsoft.Office.Interop.Word._Document'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{0002096B-0000-0000-C000-000000000046}' failed due to the following error: The application called an interface that was marshalled for a different thread. (Exception from HRESULT: 0x8001010E (RPC_E_WRONG_THREAD)).
+2021-05-23 13:12:46,662 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 13:15:57,508 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-23 13:20:01,285 ERROR ErrorLog: Error in parse resultArray dimensions exceeded supported range.
+2021-05-23 13:20:54,833 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 13:21:19,316 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 13:22:03,683 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-23 13:23:49,400 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-23 13:24:35,037 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-23 13:28:02,813 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-23 13:28:35,396 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 13:31:54,565 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 13:32:02,348 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 13:32:07,502 ERROR ErrorLog: Unable to cast COM object of type 'Microsoft.Office.Interop.Word.DocumentClass' to interface type 'Microsoft.Office.Interop.Word._Document'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{0002096B-0000-0000-C000-000000000046}' failed due to the following error: The application called an interface that was marshalled for a different thread. (Exception from HRESULT: 0x8001010E (RPC_E_WRONG_THREAD)).
+2021-05-23 13:32:08,101 ERROR ErrorLog: The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2021-05-23 13:32:29,465 INFO ErrorLog: The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2021-05-23 13:34:30,686 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 13:34:48,552 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 13:35:24,947 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 13:35:35,304 ERROR ErrorLog: The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2021-05-23 13:35:35,508 ERROR ErrorLog: Unable to cast COM object of type 'Microsoft.Office.Interop.Word.DocumentClass' to interface type 'Microsoft.Office.Interop.Word._Document'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{0002096B-0000-0000-C000-000000000046}' failed due to the following error: The application called an interface that was marshalled for a different thread. (Exception from HRESULT: 0x8001010E (RPC_E_WRONG_THREAD)).
+2021-05-23 13:37:31,303 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 13:37:40,063 ERROR ErrorLog: The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2021-05-23 13:37:40,135 ERROR ErrorLog: Unable to cast COM object of type 'Microsoft.Office.Interop.Word.DocumentClass' to interface type 'Microsoft.Office.Interop.Word._Document'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{0002096B-0000-0000-C000-000000000046}' failed due to the following error: The application called an interface that was marshalled for a different thread. (Exception from HRESULT: 0x8001010E (RPC_E_WRONG_THREAD)).
+2021-05-23 13:39:21,468 ERROR ErrorLog: The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2021-05-23 13:39:21,662 ERROR ErrorLog: Unable to cast COM object of type 'Microsoft.Office.Interop.Word.DocumentClass' to interface type 'Microsoft.Office.Interop.Word._Document'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{0002096B-0000-0000-C000-000000000046}' failed due to the following error: The application called an interface that was marshalled for a different thread. (Exception from HRESULT: 0x8001010E (RPC_E_WRONG_THREAD)).
+2021-05-23 13:40:01,508 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-23 13:40:45,483 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 13:40:55,586 INFO ErrorLog: Index was outside the bounds of the array.
+2021-05-23 13:41:39,139 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 13:42:18,477 INFO ErrorLog: The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2021-05-23 13:55:48,566 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-23 13:56:18,028 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 13:56:32,873 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 13:58:01,192 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-23 13:58:51,454 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 14:00:19,781 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 14:00:34,326 ERROR ErrorLog: The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2021-05-23 14:00:34,533 ERROR ErrorLog: Unable to cast COM object of type 'Microsoft.Office.Interop.Word.DocumentClass' to interface type 'Microsoft.Office.Interop.Word._Document'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{0002096B-0000-0000-C000-000000000046}' failed due to the following error: The application called an interface that was marshalled for a different thread. (Exception from HRESULT: 0x8001010E (RPC_E_WRONG_THREAD)).
+2021-05-23 14:01:24,026 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 14:03:50,286 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 14:03:53,481 INFO ErrorLog: The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2021-05-23 14:31:51,120 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-23 14:33:27,699 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-23 14:35:02,893 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-23 14:35:58,211 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-23 14:37:23,846 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-23 14:37:56,308 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 14:38:02,080 INFO ErrorLog: Sequence contains no elements
+2021-05-23 14:39:31,999 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 14:40:07,371 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 14:41:58,642 ERROR ErrorLog: The object invoked has disconnected from its clients. (Exception from HRESULT: 0x80010108 (RPC_E_DISCONNECTED))
+2021-05-23 14:41:58,803 ERROR ErrorLog: The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2021-05-23 14:41:58,935 ERROR ErrorLog: Unable to cast COM object of type 'Microsoft.Office.Interop.Word.DocumentClass' to interface type 'Microsoft.Office.Interop.Word._Document'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{0002096B-0000-0000-C000-000000000046}' failed due to the following error: The application called an interface that was marshalled for a different thread. (Exception from HRESULT: 0x8001010E (RPC_E_WRONG_THREAD)).
+2021-05-23 14:43:53,671 ERROR ErrorLog: Error in parse resultArray dimensions exceeded supported range.
+2021-05-23 14:44:07,520 ERROR ErrorLog: The object invoked has disconnected from its clients. (Exception from HRESULT: 0x80010108 (RPC_E_DISCONNECTED))
+2021-05-23 14:44:07,593 ERROR ErrorLog: The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2021-05-23 14:44:07,759 ERROR ErrorLog: Unable to cast COM object of type 'Microsoft.Office.Interop.Word.DocumentClass' to interface type 'Microsoft.Office.Interop.Word._Document'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{0002096B-0000-0000-C000-000000000046}' failed due to the following error: The application called an interface that was marshalled for a different thread. (Exception from HRESULT: 0x8001010E (RPC_E_WRONG_THREAD)).
+2021-05-23 14:44:24,693 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 14:45:21,086 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 14:45:52,534 ERROR ErrorLog: The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2021-05-23 14:45:53,237 ERROR ErrorLog: Unable to cast COM object of type 'Microsoft.Office.Interop.Word.DocumentClass' to interface type 'Microsoft.Office.Interop.Word._Document'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{0002096B-0000-0000-C000-000000000046}' failed due to the following error: The application called an interface that was marshalled for a different thread. (Exception from HRESULT: 0x8001010E (RPC_E_WRONG_THREAD)).
+2021-05-23 14:45:53,430 ERROR ErrorLog: Unable to cast COM object of type 'Microsoft.Office.Interop.Word.DocumentClass' to interface type 'Microsoft.Office.Interop.Word._Document'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{0002096B-0000-0000-C000-000000000046}' failed due to the following error: The application called an interface that was marshalled for a different thread. (Exception from HRESULT: 0x8001010E (RPC_E_WRONG_THREAD)).
+2021-05-23 14:48:54,856 ERROR ErrorLog: Error in parse resultIndex was outside the bounds of the array.
+2021-05-23 14:48:55,162 ERROR ErrorLog: The RPC server is unavailable. (Exception from HRESULT: 0x800706BA)
+2021-05-23 14:48:55,251 ERROR ErrorLog: Unable to cast COM object of type 'Microsoft.Office.Interop.Word.DocumentClass' to interface type 'Microsoft.Office.Interop.Word._Document'. This operation failed because the QueryInterface call on the COM component for the interface with IID '{0002096B-0000-0000-C000-000000000046}' failed due to the following error: The application called an interface that was marshalled for a different thread. (Exception from HRESULT: 0x8001010E (RPC_E_WRONG_THREAD)).

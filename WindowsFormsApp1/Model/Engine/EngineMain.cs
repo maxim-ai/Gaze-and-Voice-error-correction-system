@@ -82,9 +82,9 @@ namespace EyeGaze.Engine
         {
             this.spellChecker = spellChecker;
         }
-        public void Start(string textEditorPath, string speechToTextNamespace, string key, string keyInfo, string eyeGazeNamespace, string spellChecker)
+        public void Start(string textEditorPath, string speechToTextNamespace, string key, string keyInfo, string eyeGazeNamespace, string spellChecker, int expnum=0)
         {
-            if(eyeGazeNamespace== "EyeGaze.EyeTracking.GazePoint")
+            if(eyeGazeNamespace== "EyeGaze.EyeTracking.GazePoint" && expnum == 0)
             {
                 GazeTracker.GazeTracker GT = GazeTracker.GazeTracker.getInstance();
                 GT.connect();
@@ -254,13 +254,20 @@ namespace EyeGaze.Engine
 
         private void Cancel()
         {
-            if (lastOperation.trigger == "fix" || lastOperation.trigger == "fixTo" || lastOperation.trigger == "change"
-                || lastOperation.trigger == "replace" || lastOperation.trigger == "add" || lastOperation.trigger == "delete"||lastOperation.trigger=="paste")
+            try
             {
-                string textBeforeChange = textEditor.getDoc().Content.Text;
-                CoordinateRange newCoords = new CoordinateRange(lastOperation.prevCoord.X, lastOperation.prevCoord.Y, lastOperation.prevCoord.range, lastOperation.changed);
-                textEditor.ReplaceWord(newCoords, lastOperation.prevCoord.word);
-                mainExperiment.EventCommand("cancel", "cancel", textBeforeChange, textEditor.getDoc().Content.Text, false,DateTime.Now);
+                if (lastOperation.trigger == "fix" || lastOperation.trigger == "fixTo" || lastOperation.trigger == "change"
+                    || lastOperation.trigger == "replace" || lastOperation.trigger == "add" || lastOperation.trigger == "delete"||lastOperation.trigger=="paste")
+                {
+                    string textBeforeChange = textEditor.getDoc().Content.Text;
+                    CoordinateRange newCoords = new CoordinateRange(lastOperation.prevCoord.X, lastOperation.prevCoord.Y, lastOperation.prevCoord.range, lastOperation.changed);
+                    textEditor.ReplaceWord(newCoords, lastOperation.prevCoord.word);
+                    mainExperiment.EventCommand("cancel", "cancel", textBeforeChange, textEditor.getDoc().Content.Text, false,DateTime.Now);
+                }
+            }
+            catch (Exception e)
+            {
+                SystemLogger.getErrorLog().Info(e.Message);
             }
         }
 
@@ -299,9 +306,9 @@ namespace EyeGaze.Engine
                     {
                         CoordinateRange wordToReplaceCoordinateRange = getLevDistanceClosest(sortedPoints, wordToDelete.ToLower());
 
-                        //if (LevenshteinDistance(wordToReplaceCoordinateRange.word.ToLower(), wordToDelete.ToLower()) <= 2)
+
                         //if (wordToReplaceCoordinateRange.word.ToLower().Equals(wordToDelete.ToLower()))
-                        if(true)
+                        if (LevenshteinDistance(wordToReplaceCoordinateRange.word.ToLower(), wordToDelete.ToLower()) <= 2)
                         {
                             textEditor.HighlightWordForSpecificTime(wordToReplaceCoordinateRange, 3000);
                             Thread.Sleep(3000);
@@ -313,6 +320,7 @@ namespace EyeGaze.Engine
                             mainExperiment.EventCommand("delete", "delete " + deletedWord, textBeforeChange, textEditor.getDoc().Content.Text, true, DateTime.Now);
                             return;
                         }
+                        return;
                         sortedPoints.RemoveAt(0);
                     }
                 }
@@ -425,8 +433,7 @@ namespace EyeGaze.Engine
                         CoordinateRange wordToReplaceCoordinateRange = getLevDistanceClosest(sortedPoints, wordToReplace.ToLower());
 
                         //if (wordToReplaceCoordinateRange.word.ToLower().Equals(wordToReplace.ToLower()))
-                        //if (LevenshteinDistance(wordToReplaceCoordinateRange.word.ToLower(), wordToReplace.ToLower()) <= 2)
-                        if(true)
+                        if (LevenshteinDistance(wordToReplaceCoordinateRange.word.ToLower(), wordToReplace.ToLower()) <= 2)
                         {
                             textEditor.ReplaceWord(wordToReplaceCoordinateRange, replaceToWord);
 
@@ -436,6 +443,7 @@ namespace EyeGaze.Engine
                                 true, DateTime.Now);
                             return;
                         }
+                        return;
                         sortedPoints.RemoveAt(0);
                     }
                 }
@@ -461,9 +469,9 @@ namespace EyeGaze.Engine
                     {
                         CoordinateRange wordToReplaceCoordinateRange = getLevDistanceClosest(sortedPoints, startWord.ToLower());
 
-                        //if (LevenshteinDistance(wordToReplaceCoordinateRange.word.ToLower(), startWord.ToLower()) <= 2)
+                        
                         //if (wordToReplaceCoordinateRange.word.ToLower().Equals(startWord.ToLower()))
-                        if (true)
+                        if (LevenshteinDistance(wordToReplaceCoordinateRange.word.ToLower(), startWord.ToLower()) <= 2)
                         {
                             deleteLastCoordinate = wordToReplaceCoordinateRange;
                             int timeHighlighted = 2000;
@@ -471,6 +479,7 @@ namespace EyeGaze.Engine
                             //Thread.Sleep(timeHighlighted);
                             return;
                         }
+                        return;
                         sortedPoints.RemoveAt(0);
                     }
                 }
@@ -499,9 +508,9 @@ namespace EyeGaze.Engine
                         CoordinateRange wordToReplaceCoordinateRange = getLevDistanceClosest(sortedPoints, stopWord.ToLower());
 
 
-                        //if (LevenshteinDistance(wordToReplaceCoordinateRange.word.ToLower(), stopWord.ToLower()) <= 2)
+                        
                         //if (wordToReplaceCoordinateRange.word.ToLower().Equals(stopWord.ToLower()))
-                        if (true)
+                        if (LevenshteinDistance(wordToReplaceCoordinateRange.word.ToLower(), stopWord.ToLower()) <= 2)
                         {
 
                             deleteLastCoordinate.range.End = wordToReplaceCoordinateRange.range.End;
@@ -519,6 +528,7 @@ namespace EyeGaze.Engine
                                 textBeforeChange, textEditor.getDoc().Content.Text, true, DateTime.Now);
                             return;
                         }
+                        return;
                         sortedPoints.RemoveAt(0);
                     }
                 }
@@ -546,9 +556,9 @@ namespace EyeGaze.Engine
                         CoordinateRange wordToReplaceCoordinateRange = getLevDistanceClosest(sortedPoints, startWord.ToLower());
 
 
-                        //if (LevenshteinDistance(wordToReplaceCoordinateRange.word.ToLower(), startWord.ToLower()) <= 2)
+                        
                         //if (wordToReplaceCoordinateRange.word.ToLower().Equals(startWord.ToLower()))
-                        if(true)
+                        if(LevenshteinDistance(wordToReplaceCoordinateRange.word.ToLower(), startWord.ToLower()) <= 2)
                         {
                             if (((WordTextEditor)this.textEditor).isSentenceHighlighted)
                                 ((WordTextEditor)this.textEditor).StopHightlightLastCopiedSentece();
@@ -558,6 +568,7 @@ namespace EyeGaze.Engine
                             //Thread.Sleep(timeHighlighted);
                             return;
                         }
+                        return;
                         sortedPoints.RemoveAt(0);
                     }
                 }
@@ -586,9 +597,9 @@ namespace EyeGaze.Engine
                     {
                         CoordinateRange wordToReplaceCoordinateRange = getLevDistanceClosest(sortedPoints, stopWord.ToLower());
 
-                        //if (LevenshteinDistance(wordToReplaceCoordinateRange.word.ToLower(), stopWord.ToLower()) <= 2)
+                        
                         //if (wordToReplaceCoordinateRange.word.ToLower().Equals(stopWord.ToLower()))
-                        if(true)
+                        if(LevenshteinDistance(wordToReplaceCoordinateRange.word.ToLower(), stopWord.ToLower()) <= 2)
                         {
                             CoordinateRange copied = textEditor.SaveSentence(copyLastCoordinate, wordToReplaceCoordinateRange);
                             textEditor.HighlightLastCopiedSentence(copied);
@@ -596,6 +607,7 @@ namespace EyeGaze.Engine
                                 textBeforeChange, textEditor.getDoc().Content.Text, true,DateTime.Now);
                             return;
                         }
+                        return;
                         sortedPoints.RemoveAt(0);
                     }
                 }
@@ -623,9 +635,9 @@ namespace EyeGaze.Engine
                     {
                         CoordinateRange wordToReplaceCoordinateRange = getLevDistanceClosest(sortedPoints, stopWord.ToLower());
 
-                        //if (LevenshteinDistance(wordToReplaceCoordinateRange.word.ToLower(), stopWord.ToLower()) <= 2)
+                        
                         //if (wordToReplaceCoordinateRange.word.ToLower().Equals(stopWord.ToLower()))
-                        if(true)
+                        if(LevenshteinDistance(wordToReplaceCoordinateRange.word.ToLower(), stopWord.ToLower()) <= 2)
                         {
                             //textEditor.HighlightWordForSpecificTime(wordToReplaceCoordinateRange, 1000);
                             //textEditor.SaveSentence(copyLastCoordinate, wordToReplaceCoordinateRange);
@@ -641,6 +653,7 @@ namespace EyeGaze.Engine
 
                             return;
                         }
+                        return;
                         sortedPoints.RemoveAt(0);
                     }
                 }
@@ -963,6 +976,7 @@ namespace EyeGaze.Engine
                 if (levDistance == 0) return pair.Key;
                 disDict.Add(pair.Key, levDistance);
             }
+
 
             return disDict.Aggregate((l, r) => l.Value < r.Value ? l : r).Key;
         }

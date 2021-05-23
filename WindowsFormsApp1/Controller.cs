@@ -27,7 +27,9 @@ namespace EyeGaze
 
         public Controller(EngineMain engineMain)
         {
-            this.key = "69a12462814f4df1a7b1d38c67963adf";
+            this.key = "eb53b1f73f4140fa8e54cf5f240f657b";
+            //this.key = "69a12462814f4df1a7b1d38c67963adf";
+            //this.key = "5c4a338c7aae4b8aba155d9ab9f0883f";
             this.region = "westeaurope";
             this.engineMain = engineMain;
             this.frontend = new ExperimentForm(this);
@@ -59,14 +61,14 @@ namespace EyeGaze
             return spellChecker;
         }
 
-        public void StartProgram(string spellChecker, string speechToText,string systemName)
+        public void StartProgram(string spellChecker, string speechToText,string systemName,int expnum = 0)
         {
             string eyeSystem = "";
             if (systemName == "VoiceGaze") eyeSystem = "EyeGaze.EyeTracking.GazePoint";
             else if (systemName == "VoiceMouse") eyeSystem = "EyeGaze.EyeTracking.MousePoint";
 
             this.thread = new Thread(() =>
-                this.engineMain.Start(path, speechToText, key, region, eyeSystem, spellChecker));
+                this.engineMain.Start(path, speechToText, key, region, eyeSystem, spellChecker,expnum));
             this.thread.Start();
         }
 

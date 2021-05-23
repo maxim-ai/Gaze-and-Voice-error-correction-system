@@ -72,7 +72,8 @@ namespace EyeGaze
             //Check Valid ID
             string id = this.IdTxtBox.Text;
             string username = this.UserameTxb.Text;
-            bool valid = CheckInput(id,9) && CheckInput(username, -1);
+            bool valid = CheckInput(id, 9);
+
             if (valid)
             {
                 this.IdTxtBox.Visible = false;
@@ -156,7 +157,7 @@ namespace EyeGaze
             String path = mainExpreriment.GetPath(this.IdTxtBox.Text, this.UserameTxb.Text, tempSystemName, expNumber);
 
             controller.path = path;
-            controller.StartProgram("EyeGaze.SpellChecker.WordSpell", controller.speechToText, _systemName);
+            controller.StartProgram("EyeGaze.SpellChecker.WordSpell", controller.speechToText, _systemName,expNumber);
             Thread.Sleep(5000);
 
             mainExpreriment.StartExperiment(DateTime.Now);
