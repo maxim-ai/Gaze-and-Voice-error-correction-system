@@ -29848,3 +29848,18 @@
 2021-05-23 19:14:26,178 INFO EventLog: Microsoft cloud found : 
 2021-05-23 19:14:32,205 INFO EventLog: Microsoft cloud found : 
 2021-05-23 19:14:38,168 INFO EventLog: Microsoft cloud found : 
+2021-05-28 18:24:40,886 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-28 18:24:52,863 INFO EventLog: Starting initialization of the system
+2021-05-28 18:24:56,842 INFO EventLog: Trying to open documtent
+2021-05-28 18:24:57,485 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-28 18:26:50,919 INFO EventLog: ----------------------Starting System-------------------------
+2021-05-28 18:27:00,352 INFO EventLog: Starting initialization of the system
+2021-05-28 18:27:04,029 INFO EventLog: Trying to open documtent
+2021-05-28 18:27:04,401 INFO EventLog: Word text editor has been initialized and document is open
+2021-05-28 18:27:04,728 INFO EventLog: Connect to Microsoft cloud
+2021-05-28 18:27:10,205 INFO EventLog: Microsoft cloud found : 
+2021-05-28 18:27:15,614 INFO EventLog: Microsoft cloud found : 
+2021-05-28 18:27:21,032 INFO EventLog: Microsoft cloud found : 
+2021-05-28 18:27:21,208 INFO EventLog: Disconnect from Microsoft cloud
+2021-05-28 18:27:21,270 INFO EventLog: Spell checker closed successfully
+2021-05-28 18:27:21,330 INFO EventLog: Disconnect from Microsoft cloud

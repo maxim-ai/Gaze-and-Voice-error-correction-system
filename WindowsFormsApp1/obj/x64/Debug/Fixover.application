@@ -7,14 +7,14 @@
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Fixover.exe.manifest" size="47129">
+    <dependentAssembly dependencyType="install" codebase="Fixover.exe.manifest" size="52737">
       <assemblyIdentity name="Fixover.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="amd64" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>zS3kN/wvEPEiwgIvOXwL3/gwm2dvoEymROhRasHGmJs=</dsig:DigestValue>
+        <dsig:DigestValue>Jr4p+Y2ugUr/CuG0xG3YeEvNKvRZz93HIcRo9O2VXWc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
