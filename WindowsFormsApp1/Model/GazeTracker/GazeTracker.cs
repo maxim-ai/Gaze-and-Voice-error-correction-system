@@ -38,6 +38,7 @@ namespace EyeGaze.GazeTracker
         NetworkStream data_feed;
         StreamWriter data_write;    
         String incoming_data = "";
+        public Boolean initialized = false;
 
         public GazeTracker()
         {
@@ -59,6 +60,7 @@ namespace EyeGaze.GazeTracker
                 Console.WriteLine("Failed to connect with error: {0}", e);
                 return;
             }
+            initialized = true;
 
         }
 

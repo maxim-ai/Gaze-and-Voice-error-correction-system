@@ -84,9 +84,9 @@ namespace EyeGaze.Engine
         }
         public void Start(string textEditorPath, string speechToTextNamespace, string key, string keyInfo, string eyeGazeNamespace, string spellChecker, int expnum=0)
         {
-            if(eyeGazeNamespace== "EyeGaze.EyeTracking.GazePoint" && expnum == 0)
+            GazeTracker.GazeTracker GT = GazeTracker.GazeTracker.getInstance();
+            if(eyeGazeNamespace== "EyeGaze.EyeTracking.GazePoint" && !GT.initialized)
             {
-                GazeTracker.GazeTracker GT = GazeTracker.GazeTracker.getInstance();
                 GT.connect();
                 GT.listen();
             }

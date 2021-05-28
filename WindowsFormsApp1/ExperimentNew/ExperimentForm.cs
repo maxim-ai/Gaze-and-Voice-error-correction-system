@@ -145,11 +145,6 @@ namespace EyeGaze
 
             if (expNumber != 0) { this.controller.engineMain.End(); }
 
-            //string tempSystemName = "";
-            //if (expNumber == 0)
-            //{
-            //    tempSystemName = "VoiceOnly";
-            //}
             string tempSystemName = _systemName;
 
 
