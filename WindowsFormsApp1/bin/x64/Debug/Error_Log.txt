@@ -2319,3 +2319,5 @@
 2021-05-28 18:26:50,929 INFO ErrorLog: ----------------------Starting System-------------------------
 2021-05-28 18:27:21,286 ERROR ErrorLog: The RPC server is unavailable. (חריג מ-  HRESULT: 0x800706BA)
 2021-05-28 18:27:21,421 ERROR ErrorLog: לא ניתן לבצע cast של אובייקט COM מסוג 'Microsoft.Office.Interop.Word.DocumentClass' לסוג ממשק 'Microsoft.Office.Interop.Word._Document'. פעולה זו נכשלה מכיוון שקריאת ה- QueryInterface לרכיב ה- COM עבור הממשק עם IID ‏'{0002096B-0000-0000-C000-000000000046}' נכשלה עקב השגיאה הבאה: The application called an interface that was marshalled for a different thread. (חריג מ-  HRESULT: 0x8001010E (RPC_E_WRONG_THREAD)).
+2021-05-28 18:28:45,962 INFO ErrorLog: ----------------------Starting System-------------------------
+2021-05-28 18:29:52,710 INFO ErrorLog: ----------------------Starting System-------------------------
