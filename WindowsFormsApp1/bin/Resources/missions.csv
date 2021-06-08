@@ -24,7 +24,7 @@ VoiceGaze_#0,7,"Paste after \""ring\"". (page 1, paragraph 3, line 20)",0
 VoiceGaze_#0,8,"Navigate to page 2, paragraph 5, line 31.",0
 VoiceGaze_#0,9,"Replace \""garden\"" to \""balcony\"" . (page 2, paragraph 5, line 31)",0
 VoiceGaze_#0,10,"Navigate to page 1, paragrpah 2, line 13.",0
-VoiceGaze_#0,11,"fix \""slueg\"" to \""slue\"". (page 1, paragrpah 2, line 13)",0
+VoiceGaze_#0,11,"fix \""slueg\"" to \""slug\"". (page 1, paragrpah 2, line 13)",0
 VoiceGaze_#0,12,"Navigate to page 2, paragraph 4, line 22-23.",0
 VoiceGaze_#0,13,"Delete from \""Water\"" to \""beginning\"". (page 2, paragraph 4, line 22-23)",0
 VoiceMouse_#0,0,"Navigate to page 1, paragraph 1, line 1.",0
@@ -38,7 +38,7 @@ VoiceMouse_#0,7,"Paste after \""ring\"". (page 1, paragraph 3, line 20)",0
 VoiceMouse_#0,8,"Navigate to page 2, paragraph 5, line 31.",0
 VoiceMouse_#0,9,"Replace \""garden\"" to \""balcony\"" . (page 2, paragraph 5, line 31)",0
 VoiceMouse_#0,10,"Navigate to page 1, paragrpah 2, line 13.",0
-VoiceMouse_#0,11,"fix \""slueg\"" to \""slue\"". (page 1, paragrpah 2, line 13)",0
+VoiceMouse_#0,11,"fix \""slueg\"" to \""slug\"". (page 1, paragrpah 2, line 13)",0
 VoiceMouse_#0,12,"Navigate to page 2, paragraph 4, line 22-23.",0
 VoiceMouse_#0,13,"Delete from \""Water\"" to \""beginning\"". (page 2, paragraph 4, line 22-23)",0
 MouseAndKeyboard_#0,0,"Navigate to page 1, paragraph 1, line 1.",0
@@ -189,12 +189,12 @@ VoiceGaze_#3,4,"Navigate to page 1, paragraph 3, line 13-14",0
 VoiceGaze_#3,5,"Copy from \""History\"" to \""volumes\"". (page 1, paragraph 3, line 13-14)",1
 VoiceGaze_#3,6,"Navigate to page 1, paragraph 4, line 16",0
 VoiceGaze_#3,7,"Paste after \""between\"". (page 1, paragraph 4, line 16)",1
-VoiceGaze_#3,8,"Navigate to page 2, paragraph 5, line 23",0
-VoiceGaze_#3,9,"Replace \""wet\"" to \""dry\"". (page 2, paragraph 5, line 23)",1
-VoiceGaze_#3,10,"Navigate to page 2, paragraph 7, line 33",0
-VoiceGaze_#3,11,"Delete from \""make\"" to \""love\"". (page 2, paragraph 7, line 33)",1
-VoiceGaze_#3,12,"Navigate to page 2, paragraph 8, line 35",0
-VoiceGaze_#3,13,"Add \""boy\"" after \""my\"". (page 2, paragraph 8, line 35)",1
+VoiceGaze_#3,8,"Navigate to page 2, paragraph 5, line 22",0
+VoiceGaze_#3,9,"Replace \""wet\"" to \""dry\"". (page 2, paragraph 5, line 22)",1
+VoiceGaze_#3,10,"Navigate to page 2, paragraph 7, line 32",0
+VoiceGaze_#3,11,"Delete from \""make\"" to \""love\"". (page 2, paragraph 7, line 32)",1
+VoiceGaze_#3,12,"Navigate to page 2, paragraph 8, line 34",0
+VoiceGaze_#3,13,"Add \""boy\"" after \""my\"". (page 2, paragraph 8, line 34)",1
 VoiceMouse_#3,0,"Navigate to page 1, paragraph 1, line 2",0
 VoiceMouse_#3,1,"Copy from \""front\"" to \""office\"". (page 1, paragraph 1, line 2)",1
 VoiceMouse_#3,2,"Navigate to page 1, paragraph 2, line 8",0
